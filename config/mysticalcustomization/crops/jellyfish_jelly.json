@@ -1,0 +1,13 @@
+{
+    "name": "Jellyfish Jelly",
+    "type": "resource",
+    "tier": "mysticalagriculture:2",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "color": "fa96e7",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_gem"
+    }
+  }

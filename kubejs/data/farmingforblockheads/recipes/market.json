@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "AAAAAAA",
+    "BCBBBCB",
+    " CDDDC ",
+    "EEEFEEE",
+    " GGFGG ",
+    " GGFGG ",
+    " GGGGG "],
+  "key": {
+    "A": {"item": "immersiveengineering:slab_sheetmetal_steel"},
+    "B": {"item": "engineersdecor:halfslab_sheetmetal_steel"},
+    "C": {"item": "minecraft:dark_oak_fence"},
+    "D": {"item": "farlanders:endumium_crystal"},
+    "E": {"item": "minecraft:spruce_planks"},
+    "F": {"item": "thermal:red_rockwool"},
+    "G": {"item": "minecraft:spruce_wood"}
+  },
+  "result": {"item": "farmingforblockheads:market","count": 1}
+}

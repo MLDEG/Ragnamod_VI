@@ -1,0 +1,27 @@
+{
+    "flower": "minecraft:clay",
+    "hasHoneycomb": true,
+    "maxTimeInHive": 600, 
+    "baseLayerTexture": "clay_bee",
+    "ColorData": {
+        "isBeeColored": false,
+        "honeycombColor": "#9fa5af"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "minecraft:clay_ball",
+      "mainOutputCount": 4
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "minecraft:clay_ball"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:swamp"
+    },
+    "TraitData": {}
+    }

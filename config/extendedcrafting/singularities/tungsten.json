@@ -1,0 +1,11 @@
+{
+  "name": "Tungsten",
+  "colors": [
+    "282828",
+    "191919"
+  ],
+  "ingredient": {
+    "item": "kubejs:tungsten_ingot"
+  },
+  "inUltimateSingularity": true
+}

@@ -1,0 +1,24 @@
+{
+	"type": "cagedmobs:additional_loot_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:strider",
+	"results": [
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "dropthemeat:raw_strider"
+				},
+				"output_cooked": {
+					"item": "dropthemeat:cooked_strider"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		}
+	]
+
+}

@@ -1,0 +1,2028 @@
+{
+	id: "000000000000050C"
+	group: ""
+	order_index: 8
+	filename: "enigmatic_legacy"
+	title: "Environmental Tech"
+	icon: {
+		id: "envirotech:litherite_void_miner_ccu"
+		Count: 1b
+		tag: {
+			colors: { }
+		}
+	}
+	subtitle: ["It's good for the environment, or not."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -6.5d
+			y: 1.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/tier1.png"
+			hover: ["Tier 1"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/tier2.png"
+			hover: ["Tier 2"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/tier3.png"
+			hover: ["Tier 3"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/tier4.png"
+			hover: ["Tier 4"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/tier6.png"
+			hover: ["Tier 6"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/tier7.png"
+			hover: ["Tier 7"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -4.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/tier8.png"
+			hover: ["Tier 8"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/tier5.png"
+			hover: ["Tier 5"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			width: 4.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/lens.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -7.5d
+			y: -0.5d
+			description: ["Craft a stack of Litherite Crystal."]
+			dependencies: ["0000000000000508"]
+			id: "09067279A5093167"
+			tasks: [{
+				id: "63A735C6D98B3531"
+				type: "item"
+				item: "envirocore:litherite_crystal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6EB43BF168BB08A5"
+				type: "item"
+				item: "envirocore:litherite_wafer"
+				count: 9
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			description: ["Collect a stack of Erodium Crystal."]
+			dependencies: ["7AD570AEA280D9F3"]
+			id: "6D2C92274B5BE4CE"
+			tasks: [{
+				id: "6B8F91587C1CCA45"
+				type: "item"
+				item: "envirocore:erodium_crystal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "24E625BEDEB28973"
+				type: "item"
+				item: "envirocore:erodium_wafer"
+				count: 9
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: ["Collect a stack of Kyronite Crystal."]
+			dependencies: ["46EB25D161AB2EAD"]
+			id: "64FC7A12FDCC015F"
+			tasks: [{
+				id: "20676AFA37B9FDCC"
+				type: "item"
+				item: "envirocore:kyronite_crystal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "3FF6EC29536D82D1"
+				type: "item"
+				item: "envirocore:kyronite_wafer"
+				count: 9
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: ["Collect a stack of Pladium Crystal."]
+			dependencies: ["1ECBCC73FAE6BFA4"]
+			id: "37C4D2787BC7CBB4"
+			tasks: [{
+				id: "533D026A03A121AA"
+				type: "item"
+				item: "envirocore:pladium_crystal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "7DC002090785E012"
+				type: "item"
+				item: "envirocore:pladium_wafer"
+				count: 9
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			description: ["Collect a stack of Ionite Crystal."]
+			dependencies: ["3C8F7CCD7C46F62C"]
+			id: "07D4A9D5744D470B"
+			tasks: [{
+				id: "4663AEFF2C895D16"
+				type: "item"
+				item: "envirocore:ionite_crystal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6E11A17A1C6E9C7F"
+				type: "item"
+				item: "envirocore:ionite_wafer"
+				count: 9
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			description: ["Collect a stack of Aethium Crystal."]
+			dependencies: ["340712555C2B13F6"]
+			id: "05D5AE98E5773642"
+			tasks: [{
+				id: "068E27175F971970"
+				type: "item"
+				item: "envirocore:aethium_crystal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "3F20A095F210105F"
+				type: "item"
+				item: "envirocore:aethium_wafer"
+				count: 9
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			description: ["Collect a stack of Nanorite Crystal from the End."]
+			dependencies: ["1727D405F58B7316"]
+			id: "2ECBEBF5C571970B"
+			tasks: [{
+				id: "17B13D4317EF96EE"
+				type: "item"
+				item: "envirocore:nanorite_crystal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "3BB0C6E32BD0F5A7"
+				type: "item"
+				item: "envirocore:nanorite_wafer"
+				count: 9
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			description: ["Collect a stack of Xerothium Crystal from the End."]
+			dependencies: ["40C33DBEAD439818"]
+			id: "3FDA9E97BDC5BA35"
+			tasks: [{
+				id: "286B18D00A04F77B"
+				type: "item"
+				item: "envirocore:xerothium_crystal"
+				count: 64L
+			}]
+			rewards: [{
+				id: "3B46E8F175DDD535"
+				type: "item"
+				item: "envirocore:xerothium_wafer"
+				count: 9
+			}]
+		}
+		{
+			icon: {
+				id: "envirotech:litherite_void_miner_ccu"
+				Count: 1b
+				tag: {
+					colors: {
+						1: -1
+						2: -8853249
+					}
+				}
+			}
+			x: -5.5d
+			y: -0.5d
+			description: ["Height:4 Width:7"]
+			dependencies: ["09067279A5093167"]
+			id: "7AD570AEA280D9F3"
+			tasks: [
+				{
+					id: "2195EF21C3B5B976"
+					type: "item"
+					item: {
+						id: "envirotech:litherite_void_miner_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "5A6DDF79A4970702"
+					type: "item"
+					item: {
+						id: "envirocore:litherite_frame"
+						Count: 1b
+						tag: {
+							colors: {
+								1: -1
+							}
+						}
+					}
+					count: 22L
+				}
+				{
+					id: "55BDB9E173E01696"
+					type: "item"
+					item: {
+						id: "envirocore:structure_panel"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 18L
+				}
+				{
+					id: "258E80A9AA6A069D"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "79F958C3256FA8FB"
+					type: "item"
+					item: {
+						id: "envirocore:laser_lens_holder"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "31E5FDDA8C6FBBD1"
+					type: "item"
+					item: {
+						id: "envirocore:laser_core"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "1A51731A5C51B396"
+					type: "item"
+					item: {
+						id: "envirocore:fe_input"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "3240836EEBBEB022"
+					type: "item"
+					item: {
+						id: "envirocore:item_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "69715F529B5D0349"
+				type: "item"
+				item: "envirocore:litherite_interconnect"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "enviroenergy:litherite_solar_ccu"
+				Count: 1b
+				tag: {
+					colors: {
+						1: -1
+						2: -14109464
+					}
+				}
+			}
+			x: -6.5d
+			y: -1.0d
+			description: [
+				"Width:5"
+				"Can produce 344 RF/t"
+			]
+			dependencies: ["09067279A5093167"]
+			id: "0133E89973F1A988"
+			tasks: [
+				{
+					id: "709983DDDE37E009"
+					type: "item"
+					item: {
+						id: "enviroenergy:litherite_solar_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "3E257EDE63EC41C0"
+					type: "item"
+					item: {
+						id: "envirocore:litherite_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 19L
+				}
+				{
+					id: "0A26F4BBF6A734D7"
+					type: "item"
+					item: {
+						id: "enviroenergy:litherite_solar_cell"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 9L
+				}
+				{
+					id: "5FDEE132EA159D46"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "65744497D1EE962C"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "446036400906D0B0"
+				type: "item"
+				item: "envirocore:litherite_boule"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "envirotech:erodium_void_miner_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: -2.0d
+			y: -0.5d
+			description: ["Height:5 Width:7"]
+			dependencies: ["6D2C92274B5BE4CE"]
+			id: "46EB25D161AB2EAD"
+			tasks: [
+				{
+					id: "2CC081A058B26A2D"
+					type: "item"
+					item: {
+						id: "envirotech:erodium_void_miner_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "2053D2F39DB3C22F"
+					type: "item"
+					item: {
+						id: "envirocore:erodium_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 30L
+				}
+				{
+					id: "413DE18DF6A623F8"
+					type: "item"
+					item: {
+						id: "envirocore:structure_panel"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "314525657674D714"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "573326C8E6A210C7"
+					type: "item"
+					item: {
+						id: "envirocore:laser_lens_holder"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "7F74F4B83F29E796"
+					type: "item"
+					item: {
+						id: "envirocore:laser_core"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "58C0B2B218FF20E4"
+					type: "item"
+					item: {
+						id: "envirocore:fe_input"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "4BD11BB4A259CCE3"
+					type: "item"
+					item: {
+						id: "envirocore:item_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0083F5F21178DD22"
+				type: "item"
+				item: "envirocore:erodium_interconnect"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "enviroenergy:erodium_solar_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: -3.0d
+			y: -1.0d
+			description: [
+				"Width:7"
+				"Can produce 2 942 RF/t"
+			]
+			dependencies: [
+				"6D2C92274B5BE4CE"
+				"0133E89973F1A988"
+			]
+			id: "5EC500C3B90CFA3E"
+			tasks: [
+				{
+					id: "228A4E5673F9D911"
+					type: "item"
+					item: {
+						id: "enviroenergy:erodium_solar_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "60119C05B3A33FCC"
+					type: "item"
+					item: {
+						id: "envirocore:erodium_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 27L
+				}
+				{
+					id: "1C4633DAE1AC5EB2"
+					type: "item"
+					item: {
+						id: "enviroenergy:erodium_solar_cell"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 25L
+				}
+				{
+					id: "2497387151D1C4D0"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "11A20BA2BA59F157"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1922C2CCA09A939D"
+				type: "item"
+				item: "envirocore:erodium_boule"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "envirotech:kyronite_void_miner_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: 1.5d
+			y: -0.5d
+			description: ["Height:6 Width:9"]
+			dependencies: ["64FC7A12FDCC015F"]
+			id: "1ECBCC73FAE6BFA4"
+			tasks: [
+				{
+					id: "129258AAA202EDD6"
+					type: "item"
+					item: {
+						id: "envirotech:kyronite_void_miner_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "79CC5E67039DC0DE"
+					type: "item"
+					item: {
+						id: "envirocore:kyronite_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 46L
+				}
+				{
+					id: "0CE84274AFD427E8"
+					type: "item"
+					item: {
+						id: "envirocore:structure_panel"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 36L
+				}
+				{
+					id: "3030DEEB9C803C52"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "3085999D384CFE47"
+					type: "item"
+					item: {
+						id: "envirocore:laser_lens_holder"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "7BB9F8BB490F962C"
+					type: "item"
+					item: {
+						id: "envirocore:laser_core"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "10A78FB33EA0273F"
+					type: "item"
+					item: {
+						id: "envirocore:fe_input"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "7DC5E4C8E71D4A3D"
+					type: "item"
+					item: {
+						id: "envirocore:item_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0DD559A439D4AEBA"
+				type: "item"
+				item: "envirocore:kyronite_interconnect"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "enviroenergy:kyronite_solar_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: 0.5d
+			y: -1.0d
+			description: [
+				"Width:9"
+				"Can produce 15 052 RF/t"
+			]
+			dependencies: [
+				"64FC7A12FDCC015F"
+				"5EC500C3B90CFA3E"
+			]
+			id: "531B15CF3B167705"
+			tasks: [
+				{
+					id: "3FF803406030ED85"
+					type: "item"
+					item: {
+						id: "enviroenergy:kyronite_solar_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "67976CDD6D8ACC9C"
+					type: "item"
+					item: {
+						id: "envirocore:kyronite_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 35L
+				}
+				{
+					id: "6CB05A268DCBC09B"
+					type: "item"
+					item: {
+						id: "enviroenergy:kyronite_solar_cell"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 49L
+				}
+				{
+					id: "2434547931855706"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "668A8903D21516BA"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "042A7BEA2D212A46"
+				type: "item"
+				item: "envirocore:kyronite_boule"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "envirotech:pladium_void_miner_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: 5.0d
+			y: -0.5d
+			description: ["Height:7 Width:11"]
+			dependencies: ["37C4D2787BC7CBB4"]
+			id: "3C8F7CCD7C46F62C"
+			tasks: [
+				{
+					id: "7EBC7FC424504FBE"
+					type: "item"
+					item: {
+						id: "envirotech:pladium_void_miner_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "24B8A3D1B9717247"
+					type: "item"
+					item: {
+						id: "envirocore:pladium_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 54L
+				}
+				{
+					id: "40DF4C832A5FA198"
+					type: "item"
+					item: {
+						id: "envirocore:structure_panel"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 56L
+				}
+				{
+					id: "0CF41AEA3573B15D"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 12L
+				}
+				{
+					id: "4DCD50DB0B2F5C39"
+					type: "item"
+					item: {
+						id: "envirocore:laser_lens_holder"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "0AAD80667187A42A"
+					type: "item"
+					item: {
+						id: "envirocore:laser_core"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 5L
+				}
+				{
+					id: "1B169FD824189641"
+					type: "item"
+					item: {
+						id: "envirocore:fe_input"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "7BBC87DD392AFD84"
+					type: "item"
+					item: {
+						id: "envirocore:item_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "70FE0869CCAD2DA1"
+				type: "item"
+				item: "envirocore:pladium_interconnect"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "enviroenergy:pladium_solar_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: 4.0d
+			y: -1.0d
+			description: [
+				"Width:11"
+				"Can produce 74 649 RF/t"
+			]
+			dependencies: [
+				"37C4D2787BC7CBB4"
+				"531B15CF3B167705"
+			]
+			id: "6F2A7CB3811853C6"
+			tasks: [
+				{
+					id: "63BE61061002EFC1"
+					type: "item"
+					item: {
+						id: "enviroenergy:pladium_solar_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "01D4240848FE0883"
+					type: "item"
+					item: {
+						id: "envirocore:pladium_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 43L
+				}
+				{
+					id: "3CF1AFCD66B039A7"
+					type: "item"
+					item: {
+						id: "enviroenergy:pladium_solar_cell"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 81L
+				}
+				{
+					id: "1F39BE0F9BAABDD6"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "2D5BEE238DE06DE7"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "42D65636D9DEA3C5"
+				type: "item"
+				item: "envirocore:pladium_boule"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "envirotech:ionite_void_miner_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: 3.0d
+			y: -2.5d
+			description: ["Height:8 Width:11"]
+			dependencies: ["07D4A9D5744D470B"]
+			id: "340712555C2B13F6"
+			tasks: [
+				{
+					id: "335EDE51649788F9"
+					type: "item"
+					item: {
+						id: "envirotech:ionite_void_miner_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "11F4F6EAE021F010"
+					type: "item"
+					item: {
+						id: "envirocore:ionite_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 70L
+				}
+				{
+					id: "31CF38E776CBF964"
+					type: "item"
+					item: {
+						id: "envirocore:structure_panel"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 36L
+				}
+				{
+					id: "04DE187C2A04E553"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "06588E9C1F3594BD"
+					type: "item"
+					item: {
+						id: "envirocore:laser_lens_holder"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "25CBEAE5B84BCAD7"
+					type: "item"
+					item: {
+						id: "envirocore:laser_core"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 6L
+				}
+				{
+					id: "6D94A188EE3AA57F"
+					type: "item"
+					item: {
+						id: "envirocore:fe_input"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "238982FA173D05B7"
+					type: "item"
+					item: {
+						id: "envirocore:item_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "55892A2B8DBAF79D"
+				type: "item"
+				item: "envirocore:ionite_interconnect"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "enviroenergy:ionite_solar_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: 4.0d
+			y: -2.0d
+			description: [
+				"Width:13"
+				"Can produce 292 094 RF/t"
+			]
+			dependencies: [
+				"07D4A9D5744D470B"
+				"6F2A7CB3811853C6"
+			]
+			id: "116BEED7944D0E9B"
+			tasks: [
+				{
+					id: "0DD11C5801BAA518"
+					type: "item"
+					item: {
+						id: "enviroenergy:ionite_solar_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "509B4BACE3E55FD4"
+					type: "item"
+					item: {
+						id: "envirocore:ionite_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 51L
+				}
+				{
+					id: "6B7E27890085CAF1"
+					type: "item"
+					item: {
+						id: "enviroenergy:ionite_solar_cell"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 121L
+				}
+				{
+					id: "1D920407483D1087"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 12L
+				}
+				{
+					id: "5CCC77267AFF6144"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5BC781635C2F1B53"
+				type: "item"
+				item: "envirocore:ionite_boule"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "envirotech:aethium_void_miner_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: -0.5d
+			y: -2.5d
+			description: ["Height:8 Width:13"]
+			dependencies: ["05D5AE98E5773642"]
+			id: "1727D405F58B7316"
+			tasks: [
+				{
+					id: "11E610965CDA024A"
+					type: "item"
+					item: {
+						id: "envirotech:aethium_void_miner_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "7E3EC95BEBD8C758"
+					type: "item"
+					item: {
+						id: "envirocore:aethium_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 90L
+				}
+				{
+					id: "41A6BEB7B98267AF"
+					type: "item"
+					item: {
+						id: "envirocore:structure_panel"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 56L
+				}
+				{
+					id: "6EBE6F8011267F8E"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 20L
+				}
+				{
+					id: "760A276B28DE0175"
+					type: "item"
+					item: {
+						id: "envirocore:laser_lens_holder"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "2C0A5FB0944FB16B"
+					type: "item"
+					item: {
+						id: "envirocore:laser_core"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 6L
+				}
+				{
+					id: "20181B7281381406"
+					type: "item"
+					item: {
+						id: "envirocore:fe_input"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "233EE59004043679"
+					type: "item"
+					item: {
+						id: "envirocore:item_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5271ED8BEF3219E0"
+				type: "item"
+				item: "envirocore:aethium_interconnect"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "enviroenergy:aethium_solar_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: 0.5d
+			y: -2.0d
+			description: [
+				"Width:15"
+				"Can produce 992 891 RF/t"
+			]
+			dependencies: [
+				"05D5AE98E5773642"
+				"116BEED7944D0E9B"
+			]
+			id: "08625CD29256DD45"
+			tasks: [
+				{
+					id: "03FD1B577A704FB4"
+					type: "item"
+					item: {
+						id: "enviroenergy:aethium_solar_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "03B5800C8CA12A0F"
+					type: "item"
+					item: {
+						id: "envirocore:aethium_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 59L
+				}
+				{
+					id: "225E52535BBED6F7"
+					type: "item"
+					item: {
+						id: "enviroenergy:aethium_solar_cell"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 169L
+				}
+				{
+					id: "5B9A298C10B9D40B"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 12L
+				}
+				{
+					id: "58258486C90EB498"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "75B0D30D52D15AC1"
+				type: "item"
+				item: "envirocore:aethium_boule"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "envirotech:nanorite_void_miner_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: -4.0d
+			y: -2.5d
+			description: ["Height:9 Width:13"]
+			dependencies: ["2ECBEBF5C571970B"]
+			id: "40C33DBEAD439818"
+			tasks: [
+				{
+					id: "78C86CF22F60AB19"
+					type: "item"
+					item: {
+						id: "envirotech:nanorite_void_miner_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "184BD359DEFADB88"
+					type: "item"
+					item: {
+						id: "envirocore:nanorite_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 94L
+				}
+				{
+					id: "68182F395C1DBDAD"
+					type: "item"
+					item: {
+						id: "envirocore:structure_panel"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 56L
+				}
+				{
+					id: "056739F8AE425DB6"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 20L
+				}
+				{
+					id: "5B9FD42634E02F51"
+					type: "item"
+					item: {
+						id: "envirocore:laser_lens_holder"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "36590E94E0C4FDE2"
+					type: "item"
+					item: {
+						id: "envirocore:laser_core"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 7L
+				}
+				{
+					id: "2C1EDA08FF6D837E"
+					type: "item"
+					item: {
+						id: "envirocore:fe_input"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "1D01B8A9E04D7063"
+					type: "item"
+					item: {
+						id: "envirocore:item_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "12554DC2E337C487"
+				type: "item"
+				item: "envirocore:nanorite_interconnect"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "enviroenergy:nanorite_solar_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: -3.0d
+			y: -2.0d
+			description: [
+				"Width:17"
+				"Can produce 3 124 216 RF/t"
+			]
+			dependencies: [
+				"2ECBEBF5C571970B"
+				"08625CD29256DD45"
+			]
+			id: "0A22A77DD4F2F563"
+			tasks: [
+				{
+					id: "5DF878AF26914C18"
+					type: "item"
+					item: {
+						id: "enviroenergy:nanorite_solar_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "32999A62F280152A"
+					type: "item"
+					item: {
+						id: "envirocore:nanorite_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 67L
+				}
+				{
+					id: "4E09670CBEFFD2EA"
+					type: "item"
+					item: {
+						id: "enviroenergy:nanorite_solar_cell"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 225L
+				}
+				{
+					id: "2B1B7545DE211565"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "3B799137661E0E32"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "33DD0F73CABEFA55"
+				type: "item"
+				item: "envirocore:nanorite_boule"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "envirotech:xerothium_void_miner_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: -7.5d
+			y: -2.5d
+			description: ["Height:9 Width:15"]
+			dependencies: ["3FDA9E97BDC5BA35"]
+			id: "0DF550250566310B"
+			tasks: [
+				{
+					id: "6D3817BC661387D2"
+					type: "item"
+					item: {
+						id: "envirotech:xerothium_void_miner_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "1C94464B98AA0D81"
+					type: "item"
+					item: {
+						id: "envirocore:xerothium_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 102L
+				}
+				{
+					id: "4DB69FB02F8EA3E7"
+					type: "item"
+					item: {
+						id: "envirocore:structure_panel"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 88L
+				}
+				{
+					id: "1CC4D177490947A9"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 20L
+				}
+				{
+					id: "19C3B1205ED27D01"
+					type: "item"
+					item: {
+						id: "envirocore:laser_lens_holder"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "501B31E94B8D5AD7"
+					type: "item"
+					item: {
+						id: "envirocore:laser_core"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 7L
+				}
+				{
+					id: "17FB20811EC014F0"
+					type: "item"
+					item: {
+						id: "envirocore:fe_input"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "668653C2D7915D61"
+					type: "item"
+					item: {
+						id: "envirocore:item_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "37E477E099BD3961"
+				type: "item"
+				item: "envirocore:xerothium_interconnect"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "enviroenergy:xerothium_solar_ccu"
+				Count: 1b
+				tag: {
+					colors: { }
+				}
+			}
+			x: -6.5d
+			y: -2.0d
+			description: [
+				"Width:19"
+				"Can produce 9 211 008 RF/t"
+			]
+			dependencies: [
+				"3FDA9E97BDC5BA35"
+				"0A22A77DD4F2F563"
+			]
+			id: "7F941B27A9BA7B16"
+			tasks: [
+				{
+					id: "0846351890C22A5A"
+					type: "item"
+					item: {
+						id: "enviroenergy:xerothium_solar_ccu"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+				{
+					id: "413604B9A7B7C02C"
+					type: "item"
+					item: {
+						id: "envirocore:xerothium_frame"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 75L
+				}
+				{
+					id: "6544ED0A0BB5ACAF"
+					type: "item"
+					item: {
+						id: "enviroenergy:xerothium_solar_cell"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+					count: 289L
+				}
+				{
+					id: "7641117C31FB0878"
+					type: "item"
+					item: {
+						id: "envirocore:null_modifier"
+						Count: 1b
+						tag: {
+							attributes: { }
+							colors: { }
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "18F0EB9D48E5CBD7"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: {
+							colors: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "295D9B6412C6B1F9"
+				type: "item"
+				item: "envirocore:xerothium_boule"
+				count: 3
+			}]
+		}
+		{
+			icon: "envirocore:lens_grinder"
+			x: -9.0d
+			y: -3.0d
+			description: ["The Lens Grinder is used to choose the color of lens you want."]
+			dependencies: ["0000000000000508"]
+			id: "62656E19EC420D3D"
+			tasks: [
+				{
+					id: "51573A19B810A6E2"
+					type: "item"
+					item: {
+						id: "envirocore:lens_grinder"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5A2670725EE07548"
+					type: "item"
+					item: {
+						id: "envirocore:lens"
+						Count: 1b
+						tag: {
+							config: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3288ADC1FAB8D85E"
+				type: "item"
+				item: "envirocore:lens"
+				count: 8
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.0d
+			description: ["The Assembler is a machine used to craft the Interconnect part for upgrading your blocks, like Modifier, Structure Frame or Solar Cell."]
+			dependencies: ["0000000000000508"]
+			id: "0823D7E05F35EF70"
+			tasks: [{
+				id: "375DFC21FDB2F88F"
+				type: "item"
+				item: {
+					id: "envirocore:assembler"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "66F7AA1A8150BD69"
+				type: "item"
+				item: "envirocore:assembler"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			description: ["The Memory Programmer is used to program a Flash Memory to choose what you want to mine."]
+			dependencies: ["0000000000000508"]
+			id: "5EDFD3B9ADA2CD5D"
+			tasks: [{
+				id: "2038C1A8E193C205"
+				type: "item"
+				item: {
+					id: "envirocore:memory_programmer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2A93AD12FCAC395E"
+				type: "item"
+				item: "envirocore:flash_memory"
+				count: 4
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			description: ["The RGB Controller allows you to change the color and the light level of each block in your multiblock structure."]
+			dependencies: ["0000000000000508"]
+			id: "5910C2B577CC5FC7"
+			tasks: [{
+				id: "386D4F3FF6D2DC4B"
+				type: "item"
+				item: {
+					id: "envirocore:rgb_controller"
+					Count: 1b
+					tag: {
+						colors: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E2D5CA43DC438C8"
+				type: "item"
+				item: "pamhc2foodextended:rainbowcurryitem"
+				count: 8
+			}]
+		}
+		{
+			title: "How do I begin with Environmental Tech ?"
+			icon: "create:brass_hand"
+			x: -10.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"To begin with Environmental Tech you need to make Litherite Block in a Casting Basin with Tinker Construct."
+				"{image:kubejs:textures/ftbquests/begin/environmental_tech.png width:150 height:100 align:1}"
+				"Simply pour Molten Queen Slime on a Uraninite Block to get a Litherite Block."
+			]
+			dependencies: ["0000000000000508"]
+			id: "74F0D66F8E94245F"
+			tasks: [{
+				id: "77C052AE1779DBD4"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "391569853E175AC5"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

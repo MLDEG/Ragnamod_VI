@@ -1,0 +1,27 @@
+{
+  "flower": "eidolon:arcane_gold_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/arcanegold_bee",
+  "ColorData": {
+      "isBeeColored": false,
+    "honeycombColor": "#e8ae2e"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "eidolon:arcane_gold_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gold",
+    "parent2": "redstone",
+    "feedItem": "eidolon:arcane_gold_ingot"
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,42 @@
+{"type": "compactcrafting:miniaturization","recipeSize": 9,"layers":[
+    {"type": "compactcrafting:mixed", 
+    "pattern": [
+        ["B", "B", "A", "B", "B"],
+        ["B", "B", "A", "B", "B"],
+        ["A", "A", "A", "A", "A"],
+        ["B", "B", "A", "B", "B"],
+        ["B", "B", "A", "B", "B"]]},
+    {"type": "compactcrafting:mixed",
+    "pattern": [
+        ["B", "B", "A", "B", "B"],
+        ["B", "X", "X", "X", "B"],
+        ["A", "X", "X", "X", "A"],
+        ["B", "X", "X", "X", "B"],
+        ["B", "B", "A", "B", "B"]]},
+    {"type": "compactcrafting:mixed",
+    "pattern": [
+        ["B", "B", "A", "B", "B"],
+        ["B", "X", "X", "X", "B"],
+        ["A", "X", "X", "X", "A"],
+        ["B", "X", "X", "X", "B"],
+        ["B", "B", "A", "B", "B"]]},
+    {"type": "compactcrafting:mixed",
+    "pattern": [
+        ["B", "B", "A", "B", "B"],
+        ["B", "X", "X", "X", "B"],
+        ["A", "X", "X", "X", "A"],
+        ["B", "X", "X", "X", "B"],
+        ["B", "B", "A", "B", "B"]]},
+    {"type": "compactcrafting:mixed",
+    "pattern": [
+        ["A", "A", "A", "A", "A"],
+        ["A", "A", "A", "A", "A"],
+        ["A", "A", "A", "A", "A"],
+        ["A", "A", "A", "A", "A"],
+        ["A", "A", "A", "A", "A"]]}],
+    "catalyst": {"id": "minecraft:ender_pearl","Count": 1},
+    "components": {
+        "A": {"type": "compactcrafting:block","block": "dustrial_decor:industrial_iron_block"}, 
+        "B": {"type": "compactcrafting:block","block": "betterendforge:thallasium_bars"}, 
+        "X": {"type": "compactcrafting:block","block": "minecraft:air"}},
+    "outputs": [{"id": "cagedmobs:mobcage","Count": 1}]}

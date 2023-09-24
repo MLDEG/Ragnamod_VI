@@ -1,0 +1,18 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 1,
+  "duration": 100,
+  "starlight": 200,
+  "pattern": ["A___A","_BCB_","_DED_","_DDD_","A___A"],
+  "key": {
+    "A": {"item": "astralsorcery:resonating_gem"},
+    "B": {"item": "eidolon:arcane_gold_ingot"},
+    "C": {"item": "ars_nouveau:glyph_extend_time"},
+    "D": {"item": "glassential:glass_ethereal"},
+    "E": {"item": "botania:ender_air_bottle"}
+  },
+  "output": [
+    {"item": "tiab:timeinabottle","count": 1}
+  ],
+  "effects": ["astralsorcery:built_in_effect_discovery_central_beam"]
+}

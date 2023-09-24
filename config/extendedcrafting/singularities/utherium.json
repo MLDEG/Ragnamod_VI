@@ -1,0 +1,11 @@
+{
+  "name": "Utherium",
+  "colors": [
+    "bf6d5c",
+    "a04535"
+  ],
+  "ingredient": {
+    "item": "undergarden:utherium_ingot"
+  },
+  "inUltimateSingularity": true
+}

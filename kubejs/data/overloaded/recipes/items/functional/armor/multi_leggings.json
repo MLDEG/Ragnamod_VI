@@ -1,0 +1,20 @@
+{
+      "type": "extendedcrafting:combination",
+      "powerCost": 1000000000,
+      "powerRate": 1000000,
+      "input": { "item": "overloaded:creative_generator" },
+      "ingredients": [
+        { "item": "mysticaladaptations:insanium_leggings" },
+        { "item": "gobber2:gobber2_leggings_dragon" },
+        { "item": "mekanism:mekasuit_pants" },
+        { "item": "mythicbotany:alfsteel_leggings" },
+        { "item": "forbidden_arcanus:mortem_leggings" },
+        { "item": "psi:psimetal_exosuit_leggings" },
+        { "item": "enigmaticlegacy:etherium_leggings" },
+        { "item": "projecte:gem_leggings" },
+        { "item": "iceandfire:dragonsteel_ice_leggings" },
+        { "item": "iceandfire:dragonsteel_fire_leggings" },
+        { "item": "iceandfire:dragonsteel_lightning_leggings" }
+      ],
+      "result": { "item": "overloaded:multi_leggings", "count": 1 }
+    }

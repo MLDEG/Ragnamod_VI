@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {"item": "pamhc2crops:whitemushroomitem"},
+	"result": "pamhc2crops:roastedmushroomitem",
+	"experience": 0.35,
+	"cookingtime": 200
+
+}

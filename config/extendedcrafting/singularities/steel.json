@@ -1,0 +1,11 @@
+{
+  "name": "Steel",
+  "colors": [
+    "565656",
+    "565656"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/steel"
+  },
+  "inUltimateSingularity": true
+}

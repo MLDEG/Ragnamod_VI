@@ -1,0 +1,6 @@
+{
+    "type": "mekanism:combining",
+    "mainInput": { "amount": 1, "ingredient": { "item": "thermal:machine_frame" } },
+    "extraInput": { "ingredient": { "item": "mekanism:block_steel" } },
+    "output": { "item": "mekanism:steel_casing" }
+  }

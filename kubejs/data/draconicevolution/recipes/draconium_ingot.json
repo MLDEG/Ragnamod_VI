@@ -1,0 +1,21 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"tag": "forge:ingots/manyullyn"},
+  "transitionalItem": {"item": "tconstruct:manyullyn_ingot"},
+  "sequence": [
+    {"type": "create:deploying",
+     "ingredients": [{"item": "tconstruct:manyullyn_ingot"},{"item": "draconicevolution:draconium_dust"}],
+     "results": [{"item": "kubejs:incomplete_draconium"}]},
+    {"type": "create:deploying",
+     "ingredients": [{"item": "tconstruct:manyullyn_ingot"},{"item": "mysticalagradditions:creative_essence"}],
+     "results": [{"item": "kubejs:incomplete_draconium"}]},
+    {"type": "create:deploying",
+     "ingredients": [{"item": "tconstruct:manyullyn_ingot"},{"item": "envirocore:nanorite_crystal"}],
+     "results": [{"item": "kubejs:incomplete_draconium"}]}],
+     "results": [{"item": "draconicevolution:draconium_ingot","chance": 80.0},
+              {"item": "mysticalagradditions:creative_essence","chance": 15.0},
+              {"item": "tconstruct:manyullyn_ingot","chance": 1.0},
+              {"item": "draconicevolution:draconium_dust","chance": 1.0},
+              {"item": "envirocore:nanorite_crystal","chance": 1.0},
+              {"item": "draconicevolution:draconium_nugget","chance": 1.0},
+              {"item": "tconstruct:manyullyn_nugget","chance": 1.0}],"loops": 4}

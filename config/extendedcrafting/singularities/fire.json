@@ -1,0 +1,11 @@
+{
+  "name": "Fire",
+  "colors": [
+    "ab3c3c",
+    "8d3232"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:fire_agglomeratio"
+  },
+  "inUltimateSingularity": true
+}

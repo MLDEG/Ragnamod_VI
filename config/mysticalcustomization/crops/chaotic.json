@@ -1,0 +1,14 @@
+{
+    "name": "Chaotic",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "color": "171717",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "crux": "kubejs:chaotic_crux"
+  }

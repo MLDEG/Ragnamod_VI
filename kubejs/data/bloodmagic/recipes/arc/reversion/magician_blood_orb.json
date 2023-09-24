@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "item": "bloodmagic:magicianbloodorb"
+  },
+  "tool": {
+    "tag": "bloodmagic:arc/reverter"
+  },
+  "output": {
+    "item": "aquaculture:neptunium_ingot"
+  },
+  "consumeingredient": true
+}

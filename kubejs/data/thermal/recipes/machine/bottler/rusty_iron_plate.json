@@ -1,0 +1,1 @@
+{"type": "thermal:bottler","ingredient": [{"item": "quark:iron_plate"},{"fluid": "minecraft:water","amount": 125}],"result": [{"item": "quark:rusty_iron_plate"}]}

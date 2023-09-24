@@ -1,0 +1,26 @@
+{
+  "controllerId": "emcmaker",
+  "name": "EMC Maker",
+  "textureOverride": "forbidden_arcanus:block/arcane_polished_darkstone",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "forbidden_arcanus:block/arcane_polished_darkstone",
+      "name": "Item",
+      "id": "emc_item",
+      "data": {
+        "rows": 1,
+        "columns": 1
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "textureOverride": "forbidden_arcanus:block/arcane_polished_darkstone",
+      "name": "Energy",
+      "id": "emc_energy",
+      "data": {
+        "capacity": 1215752192
+      }
+    }
+  ]
+}

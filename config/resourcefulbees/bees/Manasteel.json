@@ -1,0 +1,27 @@
+{
+  "flower": "botania:manasteel_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/manasteel_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#3287fc"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "botania:manasteel_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "steel",
+    "parent2": "lapis",
+    "feedItem": "botania:manasteel_ingot"
+  },
+  "TraitData": {}
+}

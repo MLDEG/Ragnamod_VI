@@ -1,0 +1,29 @@
+{
+  "type": "extendedcrafting:combination",
+  "powerCost": 100000000,
+  "powerRate": 100000,
+  "input": { "type": "forge:nbt", "item": "extendedcrafting:singularity", "count": 1, "nbt": "{Id:\"extendedcrafting:endumium\"}" },
+  "ingredients": [
+    { "item": "kubejs:antimatter_silicon" },
+    { "item": "mysticalagradditions:insanium_gemstone_block" },
+    { "item": "xreliquary:salamander_eye" },
+    { "item": "rftoolsdim:legendary_essence" },
+    { "item": "mysticalagriculture:fertilized_essence" },
+    { "item": "kubejs:antimatter_silicon" },
+    { "item": "mysticalagradditions:insanium_gemstone_block" },
+    { "item": "xreliquary:salamander_eye" },
+    { "item": "rftoolsdim:legendary_essence" },
+    { "item": "mysticalagriculture:fertilized_essence" },
+    { "item": "kubejs:antimatter_silicon" },
+    { "item": "mysticalagradditions:insanium_gemstone_block" },
+    { "item": "xreliquary:salamander_eye" },
+    { "item": "rftoolsdim:legendary_essence" },
+    { "item": "mysticalagriculture:fertilized_essence" },
+    { "item": "kubejs:antimatter_silicon" },
+    { "item": "mysticalagradditions:insanium_gemstone_block" },
+    { "item": "xreliquary:salamander_eye" },
+    { "item": "rftoolsdim:legendary_essence" },
+    { "item": "mysticalagriculture:fertilized_essence" }
+  ],
+  "result": {"item": "mysticalagradditions:creative_essence" }
+}

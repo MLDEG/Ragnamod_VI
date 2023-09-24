@@ -1,0 +1,28 @@
+{
+  "flower": "mekanism:block_uranium",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/uranium_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#a4f1a5",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_uranium"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rock",
+    "feedItem": "mekanism:ingot_uranium"
+  },
+  "TraitData": {}
+}

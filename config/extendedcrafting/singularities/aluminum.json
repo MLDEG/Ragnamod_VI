@@ -1,0 +1,11 @@
+{
+  "name": "Aluminum",
+  "colors": [
+    "e7eaec",
+    "b8bbbd"
+  ],
+  "ingredient": {
+    "item": "janoeo:aluminium_ingot"
+  },
+  "inUltimateSingularity": true
+}

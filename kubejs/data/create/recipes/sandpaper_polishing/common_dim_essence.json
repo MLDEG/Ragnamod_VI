@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "rftoolsdim:common_lost_knowledge"
+    }
+  ],
+  "results": [
+    {
+      "item": "rftoolsdim:common_essence"
+    }
+  ]
+}

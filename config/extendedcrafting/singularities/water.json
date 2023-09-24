@@ -1,0 +1,11 @@
+{
+  "name": "Water",
+  "colors": [
+    "3c63ab",
+    "32528d"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:water_agglomeratio"
+  },
+  "inUltimateSingularity": true
+}

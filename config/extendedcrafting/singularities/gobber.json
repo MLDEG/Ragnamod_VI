@@ -1,0 +1,11 @@
+{
+  "name": "Gobber",
+  "colors": [
+    "538cc6",
+    "4c6799"
+  ],
+  "ingredient": {
+    "item": "gobber2:gobber2_ingot"
+  },
+  "inUltimateSingularity": true
+}

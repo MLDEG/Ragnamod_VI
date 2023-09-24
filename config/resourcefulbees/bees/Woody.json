@@ -1,0 +1,26 @@
+{
+    "flower": "tag:minecraft:leaves",
+    "hasHoneycomb": true,
+    "maxTimeInHive": 600, 
+    "baseLayerTexture": "woody_bee",
+    "ColorData": {
+        "isBeeColored": false,
+        "honeycombColor": "#634d2d"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+        "hasCentrifugeOutput": false
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "tag:minecraft:logs"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:forest",
+        "biomeBlacklist": "tag:nether"
+    },
+    "TraitData": {}
+    }

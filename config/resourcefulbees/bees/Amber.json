@@ -1,0 +1,28 @@
+{
+  "flower": "betterendforge:amber_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/amber_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#e28704",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "betterendforge:raw_amber"
+  },
+  "SpawnData": {
+      "canSpawnInWorld": false
+  },
+  "BreedData": {
+      "isBreedable": true,
+      "parent1": "end",
+      "parent2": "blaze",
+      "feedItem": "betterendforge:raw_amber"
+  },
+  "TraitData": {}
+}

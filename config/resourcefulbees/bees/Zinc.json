@@ -1,0 +1,28 @@
+{
+  "flower": "create:zinc_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/zinc_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#f3f3e4",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "janoeo:zinc_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "copper",
+    "parent2": "silver",
+    "feedItem": "janoeo:zinc_ingot"
+  },
+  "TraitData": {}
+}

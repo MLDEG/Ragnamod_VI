@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BAB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+        "item": "minecraft:light_blue_wool"
+    },
+    "B": {
+        "item": "minecraft:yellow_wool"
+    }
+  },
+    "result": {
+        "count": 9,
+        "item": "rats:pied_wool"
+    }
+}

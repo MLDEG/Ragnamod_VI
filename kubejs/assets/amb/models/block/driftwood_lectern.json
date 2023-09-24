@@ -1,0 +1,1 @@
+{"parent": "block/lectern", "textures": {"particle": "minecraft:block/lectern_sides", "bottom": "minecraft:block/oak_planks", "base": "minecraft:block/lectern_base", "front": "minecraft:block/lectern_front", "sides": "minecraft:block/lectern_sides", "top": "minecraft:block/lectern_top"}}

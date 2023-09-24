@@ -1,0 +1,15 @@
+{
+        "type": "cagedmobs:mob_data",
+        "entity": "farlanders:titan",
+        "samplerTier": 3,
+        "environments": ["end"],
+        "growTicks": 1800,
+        "results": [
+            {
+                "chance": 0.75,
+                "output": {
+                    "item": "farlanders:titan_hide"
+                },
+                "minAmount": 1,
+                "maxAmount": 3
+}]}

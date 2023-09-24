@@ -1,0 +1,28 @@
+{
+  "flower": "draconicevolution:draconium_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/draconium_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#663e89",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "draconicevolution:draconium_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "manyullyn",
+    "parent2": "dragon",
+    "feedItem": "draconicevolution:draconium_ingot"
+  },
+  "TraitData": {}
+}

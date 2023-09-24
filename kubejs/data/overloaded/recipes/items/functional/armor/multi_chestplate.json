@@ -1,0 +1,20 @@
+{
+      "type": "extendedcrafting:combination",
+      "powerCost": 1000000000,
+      "powerRate": 1000000,
+      "input": { "item": "overloaded:creative_generator" },
+      "ingredients": [
+        { "item": "mysticaladaptations:insanium_chestplate" },
+        { "item": "gobber2:gobber2_chestplate_dragon" },
+        { "item": "mekanism:mekasuit_bodyarmor" },
+        { "item": "mythicbotany:alfsteel_chestplate" },
+        { "item": "forbidden_arcanus:mortem_chestplate" },
+        { "item": "psi:psimetal_exosuit_chestplate" },
+        { "item": "enigmaticlegacy:etherium_chestplate" },
+        { "item": "projecte:gem_chestplate" },
+        { "item": "iceandfire:dragonsteel_ice_chestplate" },
+        { "item": "iceandfire:dragonsteel_fire_chestplate" },
+        { "item": "iceandfire:dragonsteel_lightning_chestplate" }
+      ],
+      "result": { "item": "overloaded:multi_chestplate", "count": 1 }
+    }

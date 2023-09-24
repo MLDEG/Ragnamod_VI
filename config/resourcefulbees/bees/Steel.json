@@ -1,0 +1,27 @@
+{
+  "flower": "mekanism:block_steel",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/steel_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#9d9d9d"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_steel"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "iron",
+    "parent2": "coal",
+    "feedItem": "mekanism:ingot_steel"
+  },
+  "TraitData": {}
+}

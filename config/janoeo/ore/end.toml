@@ -1,0 +1,18 @@
+
+#End Ore config for janoeo
+[janoeo]
+	#End coal ore generation: disable / enable
+	endCoalOreGen = true
+	#End diamond ore generation: disable / enable
+	endDiamondOreGen = true
+	#End emerald ore generation: disable / enable
+	endEmeraldOreGen = true
+	#End gold ore generation: disable / enable
+	endGoldOreGen = true
+	#End iron ore generation: disable / enable
+	endIronOreGen = true
+	#End lapis ore generation: disable / enable
+	endLapisOreGen = true
+	#End redstone ore generation: disable / enable
+	endRedstoneOreGen = true
+

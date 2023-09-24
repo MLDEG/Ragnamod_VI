@@ -1,0 +1,27 @@
+{
+  "flower": "powah:spirited_crystal_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "spiritedcrystal_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#81c22c"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "powah:crystal_spirited"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "nioticcrystal",
+    "parent2": "emerald",
+    "feedItem": "powah:crystal_spirited"
+  },
+  "TraitData": {}
+}

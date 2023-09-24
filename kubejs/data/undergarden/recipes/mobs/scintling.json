@@ -1,0 +1,16 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "undergarden:scintling",
+    "samplerTier": 2,
+    "environments": ["undergarden"],
+    "growTicks": 1200,
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "undergarden:goo_ball"
+            },
+            "minAmount": 1,
+            "maxAmount": 2
+        }
+]}

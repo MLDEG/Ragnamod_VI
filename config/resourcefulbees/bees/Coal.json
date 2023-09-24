@@ -1,0 +1,29 @@
+{
+  "flower": "minecraft:coal_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/coal/coal_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#303030",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:coal",
+    "mainOutputCount": 16
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rock",
+    "feedItem": "minecraft:coal"
+  },
+  "TraitData": {}
+}

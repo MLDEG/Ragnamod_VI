@@ -1,0 +1,626 @@
+{
+	id: "0000000000000842"
+	group: ""
+	order_index: 23
+	filename: "mahou_tsukai"
+	title: "Mahou Tsukai"
+	icon: {
+		id: "mahoutsukai:morgan"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+		ForgeCaps: {
+			Parent: {
+				MAHOUTSUKAI_ATTACK_CAP: 0.0d
+				MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+			}
+		}
+	}
+	subtitle: ["Magical and powerful power."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 1.0d
+			description: [
+				"To obtain the Clarent you need first to get the Scroll of Strengthening."
+				""
+				"On a Mahoujin on a Spell Cloth, put in the order, two Powdered diamond and a Powdered Iron."
+				"At a cost of 50 mana you get the scroll."
+				""
+				"Then put a diamond sword in your inventory and old right click with the scroll to put the Strengthening on your sword (It get Unbreakable too)"
+				""
+				"Now that you have your special diamond sword, go fight the dragon and right-click in his dragon breath to obtain the Clarent Sword."
+			]
+			dependencies: ["0000000000000855"]
+			id: "0000000000000843"
+			tasks: [{
+				id: "0000000000000844"
+				type: "item"
+				item: {
+					id: "mahoutsukai:clarent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "337FDBB780E3A049"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: [
+				"To obtain the Morgan it's very simple."
+				"Just kill your dog with Caliburn."
+				""
+				"Then, every villager you kill you get permanent damage on your Morgan."
+				"You must have mana with you, otherwise you don't get the damage bonus."
+			]
+			dependencies: ["0000000000000857"]
+			id: "0000000000000845"
+			tasks: [{
+				id: "0000000000000846"
+				type: "item"
+				item: {
+					id: "mahoutsukai:morgan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F5D33C88C986F2A"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_emerald"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 5000
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 5000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["The Mortar and Pestle is used to grind stuff to get powder, to use in your spell."]
+			dependencies: ["0000000000000855"]
+			id: "0000000000000847"
+			tasks: [{
+				id: "0000000000000848"
+				type: "item"
+				item: "mahoutsukai:mortar_and_pestle"
+			}]
+			rewards: [
+				{
+					id: "11254B5E2CDB26D7"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+				}
+				{
+					id: "74BD1983C5393CF6"
+					type: "item"
+					item: "mahoutsukai:powdered_emerald"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: [
+				"The staff uses 200 mana when used on an entity."
+				"Uses 20 mana/t when used in AOE mode."
+				""
+				"Basically, this staff make entities fly in space !"
+			]
+			dependencies: ["5E2029CE02EDB62D"]
+			id: "0000000000000849"
+			tasks: [{
+				id: "000000000000084A"
+				type: "item"
+				item: {
+					id: "mahoutsukai:spatial_disorientation_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C9B45DFCB3F4D78"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_reality_marble"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: [
+				"The staff uses 5000 mana for the large explosion."
+				"Uses 600 mana when using the AOE explosion mode."
+				"Uses 500 mana/t when using the Beam mode."
+				""
+				"Basically, this staff make huge holes."
+			]
+			dependencies: ["44C771D5E4BFDD21"]
+			id: "000000000000084B"
+			tasks: [{
+				id: "000000000000084C"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "10921D5187A659C2"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_boundary_raise_enclosure"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: [
+				"The Mahoujin Projector is a decorative block, which simply displayed runes and a magic circle."
+				""
+				"Right-clicking on the block allows you to configure the size, angle, color, speed, etc..."
+				""
+				"You can also right-click with an armor on the Mahoujin Projector to display the projector on your piece of armor."
+			]
+			dependencies: ["0000000000000847"]
+			id: "000000000000084D"
+			tasks: [{
+				id: "000000000000084E"
+				type: "item"
+				item: "mahoutsukai:mahoujin_projector"
+			}]
+			rewards: [{
+				id: "1ED6CC3C57E0A851"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			description: [
+				"The Attuned Diamond is used to store your mana."
+				"Just right-click with it to store your mana."
+				""
+				"You can use the mana store to cast spells."
+			]
+			dependencies: ["0000000000000855"]
+			id: "000000000000084F"
+			tasks: [{
+				id: "0000000000000850"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_diamond"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FED7F55F4F0D5B8"
+				type: "item"
+				item: {
+					id: "mahoutsukai:attuned_diamond"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_GEM_STORED_MANA: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["The Mystic Code - First Sorcery is used to store, up to three, scroll, and it gives you the possibility to use those spell without using the scroll."]
+			dependencies: ["4C8BE3044E0548AE"]
+			id: "0000000000000851"
+			tasks: [{
+				id: "0000000000000852"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_code_first_sorcery"
+					Count: 1b
+					tag: {
+						capability: {
+							Size: 3
+							Items: [ ]
+						}
+						slot3: "SLOT EMPTY"
+						slot2: "SLOT EMPTY"
+						slot1: "SLOT EMPTY"
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: [ ]
+					}
+				}
+			}]
+			rewards: [{
+				id: "77E74B48CE2C7A4C"
+				type: "item"
+				item: "mahoutsukai:faecake"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: ["The Spell Cloth is used to cast some specifics spells."]
+			dependencies: ["0000000000000855"]
+			id: "0000000000000853"
+			tasks: [{
+				id: "0000000000000854"
+				type: "item"
+				item: "mahoutsukai:spell_cloth"
+			}]
+			rewards: [{
+				id: "4E63953C30818374"
+				type: "item"
+				item: "mahoutsukai:faecake"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"The Dagger is here to hurt you."
+				""
+				"Right click with it to get hurt and then, with the appropriate key bind, you can draw a mahoujin on a floor or on a Spell Cloth."
+			]
+			dependencies: ["000000000000083E"]
+			size: 2.0d
+			id: "0000000000000855"
+			tasks: [{
+				id: "0000000000000856"
+				type: "item"
+				item: "mahoutsukai:dagger"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"To obtain the Caliburn you have to follow certain steps."
+				""
+				"First you need to do the Power Consolidation spell, draw a mahoujin and put, in the order, two Powdered Diamond and a Powdered Emerald, but you need to have at least 500 mana on you (Attuned Diamond or Emerald works)"
+				"A lac will form (19x19 size) and a thick fog will appear."
+				"{image:kubejs:textures/ftbquests/begin/lac.png width:150 height:100 align:1}"
+				"Then you need to throw an enchanted sword with 5000 mana on you."
+				"This will transform your sword into a Caliburn."
+				"{image:kubejs:textures/ftbquests/begin/caliburn.png width:150 height:100 align:1}"
+				"Tips: You can throw any kind of enchanted sword, the better sword you throw, the better sword you can get in the default damage."
+				"By default the Innate Cap is 10k Damage."
+				"If you throw a nether star before your enchanted sword you multiply this Innate Cap by 5."
+				"2 Nether Star by 50"
+				"3 Nether Star by 100"
+				"4 Nether Star by 500, and this is the Max."
+			]
+			dependencies: ["0000000000000855"]
+			id: "0000000000000857"
+			tasks: [{
+				id: "0000000000000858"
+				type: "item"
+				item: {
+					id: "mahoutsukai:caliburn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "56346B77C45204E2"
+				type: "item"
+				item: "mahoutsukai:murky_bucket"
+			}]
+		}
+		{
+			title: "How do I begin Mahou Tsukai ?"
+			icon: "create:brass_hand"
+			x: 0.0d
+			y: -2.5d
+			shape: "circle"
+			description: [
+				"To begin with Mahou Tsukai you need to bleed yourself with a dagger and draw Mahoujin."
+				"After that, you obtain 100 points of mana Mahou."
+				"{image:kubejs:textures/ftbquests/begin/mahou.png width:150 height:100 align:1}"
+				"There is a LOT of spells you can make and very powerful weapon, like Morgan."
+				"I recommend you to read closely the Mahou Tsukai Knowledge Compendium because I can't explain shortly what you can do, but the book can."
+			]
+			dependencies: ["000000000000083E"]
+			id: "634839847029B486"
+			tasks: [{
+				id: "4D137FF808B22FE9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3C6CB26C6ACFF05C"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"To get a Fae Essence, simply kill a Fae."
+				"You can see it like the picture below."
+				"{image:kubejs:textures/ftbquests/begin/fay.png width:150 height:100 align:1}"
+				"At the center of the Fae Lines, every once in a while you are going to have a Fae going around you."
+			]
+			dependencies: ["4FF0AE570F246700"]
+			id: "4C8BE3044E0548AE"
+			tasks: [{
+				id: "2AFE944DADB4767C"
+				type: "item"
+				item: "mahoutsukai:fae_essence"
+			}]
+			rewards: [{
+				id: "29427906EDB01BBB"
+				type: "item"
+				item: "mahoutsukai:fae_essence"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"This scroll allows you to see the Fae lines, to see the center of those lines and to see Fae."
+				"{image:kubejs:textures/ftbquests/begin/faysight.png width:150 height:100 align:1}"
+			]
+			dependencies: ["0000000000000855"]
+			id: "4FF0AE570F246700"
+			tasks: [{
+				id: "63B631B47D2703F4"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_fay_sight"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1EB3F59F99C61AFD"
+					type: "item"
+					item: "mahoutsukai:powdered_eye"
+					count: 3
+				}
+				{
+					id: "60DD311429CE19EF"
+					type: "item"
+					item: "mahoutsukai:spell_cloth"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: [
+				"To get the Mystic Staff of Explosive Mana Condensation you have to get this scroll."
+				"It uses 100 mana to get the staff."
+			]
+			dependencies: ["0000000000000855"]
+			id: "44C771D5E4BFDD21"
+			tasks: [{
+				id: "0B6A342D134A2001"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_mystic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5FD6BCE18E849990"
+					type: "item"
+					item: "mahoutsukai:powdered_gold"
+				}
+				{
+					id: "79C0BAD6630039B5"
+					type: "item"
+					item: "mahoutsukai:powdered_gold"
+				}
+				{
+					id: "297E6F9961AECBE4"
+					type: "item"
+					item: "mahoutsukai:powdered_diamond"
+				}
+				{
+					id: "13417C1983F8E3F9"
+					type: "item"
+					item: "mahoutsukai:spell_cloth"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"To get the Mystic Staff of Spatial Disorientation you have to get this scroll."
+				"It uses 100 mana to get the staff."
+			]
+			dependencies: ["0000000000000855"]
+			id: "5E2029CE02EDB62D"
+			tasks: [{
+				id: "12AD54DE9AC26634"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_spatial_disorientation"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "391E17CBB5961E4C"
+					type: "item"
+					item: "mahoutsukai:powdered_gold"
+				}
+				{
+					id: "1EDC09121A71CD43"
+					type: "item"
+					item: "mahoutsukai:powdered_gold"
+				}
+				{
+					id: "71840C8C4E5284D0"
+					type: "item"
+					item: "mahoutsukai:powdered_ender"
+				}
+				{
+					id: "0355C96D86B76A04"
+					type: "item"
+					item: "mahoutsukai:spell_cloth"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			description: [
+				"The Fog Projector is a decorative block which can be used to display and control two types of fog, particle and camera-based."
+				""
+				"Really cool to make an ambience in your base."
+			]
+			dependencies: ["0000000000000847"]
+			id: "762E94709C52CD8A"
+			tasks: [{
+				id: "43D9D4EE9EF57455"
+				type: "item"
+				item: "mahoutsukai:fog_projector"
+			}]
+			rewards: [{
+				id: "30A438AD49698A85"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 4
+			}]
+		}
+		{
+			title: "Tips to get mana automatically."
+			icon: "mahoutsukai:guidebook"
+			x: 1.5d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"The tips here is to use the spell Boundary of Drain Life with a mob farm."
+				""
+				"You need to use constantly your mana to get more mana in your network, so using this spell uses 5 mana per second and give you back the mana when a mob is dead."
+				""
+				"Put many as you want, the more = the fastest, to use your mana quickly and also kill mob quickly."
+				""
+				"Really great with a mob farm using the Dreadful Dirt from Mob Grinding Utils."
+				"{image:kubejs:textures/ftbquests/begin/boundary.png width:150 height:100 align:1}"
+				"Of course, you need to deal with mobs drop and xp drop."
+			]
+			dependencies: ["0000000000000847"]
+			id: "5F61A293EE7172EC"
+			tasks: [
+				{
+					id: "60EB8CB42896A1A6"
+					type: "item"
+					item: "mahoutsukai:powdered_iron"
+					count: 2L
+				}
+				{
+					id: "0F302F4C7EAB412D"
+					type: "item"
+					item: "mahoutsukai:powdered_emerald"
+				}
+			]
+			rewards: [{
+				id: "44215B1124EF0B57"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_boundary_drain_life"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+		}
+	]
+}

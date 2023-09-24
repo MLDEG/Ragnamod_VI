@@ -1,0 +1,11 @@
+{
+  "name": "Ender",
+  "colors": [
+    "1b7a6a",
+    "074339"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:ender_ingot"
+  },
+  "inUltimateSingularity": true
+}

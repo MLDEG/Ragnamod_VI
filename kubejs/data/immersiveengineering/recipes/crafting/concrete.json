@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:turn_and_copy","group":"ie_concrete","pattern":["scs","gbg","scs"],"key":{"s":{"tag":"forge:sand"},"c":{"item":"minecraft:clay_ball"},"g":{"tag":"forge:gravel"},"b":{"tag":"minecraft:water","amount":1000,"type":"immersiveengineering:fluid"}},"result":{"item":"immersiveengineering:concrete","count":8},"quarter_turn":true}

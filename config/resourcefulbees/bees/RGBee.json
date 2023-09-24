@@ -1,0 +1,25 @@
+{
+  "flower": "earthmobsmod:rainbow_wool",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#ffffff",
+    "isRainbowBee": true,
+    "isGlowing": true
+  },
+  "MutationData": {},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "tag:forge:dyes"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:overworld",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "TraitData": {}
+}

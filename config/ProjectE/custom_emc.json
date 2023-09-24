@@ -1,0 +1,272 @@
+{
+  "entries": [
+    {
+      "item": "janoeo:zinc_ingot",
+      "emc": 512
+    },
+    {
+      "item": "pneumaticcraft:glycerol",
+      "emc": 512
+    },
+    {
+      "item": "bigreactors:yellorium_ingot",
+      "emc": 4096
+    },
+    {
+      "item": "undergarden:froststeel_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "undergarden:cloggrum_ingot",
+      "emc": 256
+    },
+    {
+      "item": "undergarden:regalium_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "undergarden:utherium_ingot",
+      "emc": 8192
+    },
+    {
+      "item": "tconstruct:cobalt_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "tconstruct:hepatizon_ingot",
+      "emc": 2368
+    },
+    {
+      "item": "tconstruct:manyullyn_ingot",
+      "emc": 18432
+    },
+    {
+      "item": "tconstruct:pig_iron_ingot",
+      "emc": 432
+    },
+    {
+      "item": "botania:manasteel_ingot",
+      "emc": 549
+    },
+    {
+      "item": "botania:terrasteel_ingot",
+      "emc": 71361
+    },
+    {
+      "item": "botania:elementium_ingot",
+      "emc": 1098
+    },
+    {
+      "item": "astralsorcery:starmetal_ingot",
+      "emc": 512
+    },
+    {
+      "item": "mysticalagriculture:fertilized_essence",
+      "emc": 96
+    },
+    {
+      "item": "kubejs:tungsten_ingot",
+      "emc": 512
+    },
+    {
+      "item": "kubejs:platinum_ingot",
+      "emc": 4096
+    },
+    {
+      "item": "extendedcrafting:ender_ingot",
+      "emc": 1269
+    },
+    {
+      "item": "powah:steel_energized",
+      "emc": 2304
+    },
+    {
+      "item": "tconstruct:slimesteel_ingot",
+      "emc": 290
+    },
+    {
+      "item": "tconstruct:rose_gold_ingot",
+      "emc": 2432
+    },
+    {
+      "item": "tconstruct:queens_slime_ingot",
+      "emc": 3872
+    },
+    {
+      "item": "eidolon:arcane_gold_ingot",
+      "emc": 4224
+    },
+    {
+      "item": "mythicbotany:alfsteel_ingot",
+      "emc": 71361
+    },
+    {
+      "item": "betterendforge:amber_gem",
+      "emc": 2048
+    },
+    {
+      "item": "thermal:apatite",
+      "emc": 2048
+    },
+    {
+      "item": "quark:biotite",
+      "emc": 864
+    },
+    {
+      "item": "powah:crystal_blazing",
+      "emc": 3072
+    },
+    {
+      "item": "twilightforest:carminite",
+      "emc": 2048
+    },
+    {
+      "item": "cyclic:gem_amber",
+      "emc": 2944
+    },
+    {
+      "item": "farlanders:endumium_crystal",
+      "emc": 1024
+    },
+    {
+      "item": "twilightforest:fiery_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "gobber2:gobber2_ingot",
+      "emc": 10496
+    },
+    {
+      "item": "twilightforest:ironwood_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "jellyfishing:jellyfish_jelly",
+      "emc": 256
+    },
+    {
+      "item": "twilightforest:knightmetal_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "ars_nouveau:mana_gem",
+      "emc": 1024
+    },
+    {
+      "item": "powah:crystal_niotic",
+      "emc": 16384
+    },
+    {
+      "item": "powah:crystal_spirited",
+      "emc": 32768
+    },
+    {
+      "item": "twilightforest:steeleaf_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "powah:uraninite",
+      "emc": 4096
+    },
+    {
+      "item": "thermal:constantan_ingot",
+      "emc": 1152
+    },
+    {
+      "item": "thermal:electrum_ingot",
+      "emc": 2560
+    },
+    {
+      "item": "thermal:enderium_ingot",
+      "emc": 11776
+    },
+    {
+      "item": "thermal:invar_ingot",
+      "emc": 1536
+    },
+    {
+      "item": "thermal:lumium_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "thermal:signalum_ingot",
+      "emc": 1152
+    },
+    {
+      "item": "projecte:alchemical_coal",
+      "emc": 175104
+    },
+    {
+      "item": "projecte:mobius_fuel",
+      "emc": 700416
+    },
+    {
+      "item": "projecte:aeternalis_fuel",
+      "emc": 2801664
+    },
+    {
+      "item": "tconstruct:tinkers_bronze_ingot",
+      "emc": 385
+    },
+    {
+      "item": "refinedstorage:quartz_enriched_iron",
+      "emc": 1024
+    },
+    {
+      "item": "mekanism:pellet_antimatter",
+      "emc": 26880000000
+    },
+    {
+      "item": "ctiers:centrifuge_casing_tier_3",
+      "emc": 53815315
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 5282488701
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 395219979773
+    },
+    {
+      "item": "solarflux:mirror",
+      "emc": 256
+    },
+    {
+      "item": "solarflux:sp_3",
+      "emc": 16688
+    },
+    {
+      "item": "solarflux:sp_4",
+      "emc": 42195
+    },
+    {
+      "item": "solarflux:sp_5",
+      "emc": 108572
+    },
+    {
+      "item": "solarflux:sp_6",
+      "emc": 261422
+    },
+    {
+      "item": "solarflux:sp_7",
+      "emc": 960808
+    },
+    {
+      "item": "solarflux:sp_8",
+      "emc": 1711242
+    },
+    {
+      "item": "kubejs:emc1",
+      "emc": 23756822100
+    },
+    {
+      "item": "powah:crystal_nitro",
+      "emc": 42016
+    },
+    {
+      "item": "minecraft:furnace",
+      "emc": 8
+    }
+  ]
+}

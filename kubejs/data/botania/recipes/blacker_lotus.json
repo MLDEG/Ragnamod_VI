@@ -1,0 +1,15 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "input": { "item": "mythicbotany:midgard_rune" },
+  "ingredients": [
+    { "item": "botania:black_lotus" },
+    { "item": "powah:charged_snowball" },
+    { "item": "botania:black_lotus" },
+    { "item": "powah:charged_snowball" },
+    { "item": "botania:black_lotus" },
+    { "item": "powah:charged_snowball" },
+    { "item": "botania:black_lotus" },
+    { "item": "powah:charged_snowball" }
+  ],
+  "result": { "item": "botania:blacker_lotus", "count": 1 }
+}

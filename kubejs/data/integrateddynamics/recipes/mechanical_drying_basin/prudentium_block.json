@@ -1,0 +1,11 @@
+{
+    "type": "integrateddynamics:mechanical_drying_basin",
+    "fluid": {
+        "fluid": "mysticalagradditions:molten_prudentium",
+        "amount": 1296
+    },
+    "duration": 40,
+    "result": {
+        "item": "mysticalagriculture:prudentium_ingot_block"
+    }
+}

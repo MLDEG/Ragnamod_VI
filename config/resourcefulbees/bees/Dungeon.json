@@ -1,0 +1,51 @@
+{
+  "flower": "minecraft:spawner",
+  "hasHoneycomb": false,
+  "traits": [],
+  "maxTimeInHive": 1200,
+  "baseLayerTexture": "dungeon/dungeon_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#2A4455",
+    "modelType": "MUSHROOM"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationCount": 5,
+    "mutations": [
+      {
+        "type": "BLOCK_TO_BLOCK",
+        "inputID": "minecraft:cobblestone",
+        "outputs": [
+          {
+            "outputID": "minecraft:mossy_cobblestone",
+            "weight": 99
+          },
+          {
+            "outputID": "minecraft:chest",
+            "weight": 1,
+            "nbtData": {
+              "LootTable": "iceandfire:chest/fire_dragon_male_cave"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "diamond",
+    "parent2": "zombie",
+    "feedItem": "minecraft:mossy_cobblestone",
+    "feedAmount": 4
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Pig Iron",
+  "colors": [
+    "eda6a2",
+    "ad656b"
+  ],
+  "ingredient": {
+    "item": "tconstruct:pig_iron_ingot"
+  },
+  "inUltimateSingularity": true
+}

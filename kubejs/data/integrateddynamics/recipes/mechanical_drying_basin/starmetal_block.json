@@ -1,0 +1,11 @@
+{
+    "type": "integrateddynamics:mechanical_drying_basin",
+    "fluid": {
+        "fluid": "materialis:molten_starmetal",
+        "amount": 1296
+    },
+    "duration": 40,
+    "result": {
+        "item": "astralsorcery:starmetal"
+    }
+}

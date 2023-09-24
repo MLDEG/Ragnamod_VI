@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key":{
+        "A":{"tag":"forge:glass"},
+        "B":{"item":"metalbarrels:diamond_barrel"}
+    },
+    "result":{"item":"metalbarrels:crystal_barrel"}
+}

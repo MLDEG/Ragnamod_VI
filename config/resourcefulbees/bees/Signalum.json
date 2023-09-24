@@ -1,0 +1,27 @@
+{
+  "flower": "thermal:signalum_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/signalum_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#fa631a"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:signalum_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "silver",
+    "parent2": "redstone",
+    "feedItem": "thermal:signalum_ingot"
+  },
+  "TraitData": {}
+}

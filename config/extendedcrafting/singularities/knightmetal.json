@@ -1,0 +1,11 @@
+{
+  "name": "Knightmetal",
+  "colors": [
+    "c2d3ac",
+    "7f867c"
+  ],
+  "ingredient": {
+    "item": "twilightforest:knightmetal_ingot"
+  },
+  "inUltimateSingularity": true
+}

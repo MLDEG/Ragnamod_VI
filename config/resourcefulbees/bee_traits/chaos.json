@@ -1,0 +1,54 @@
+{
+    "potionDamageEffects": [
+        {
+            "effectID": "minecraft:wither",
+            "strength": 10
+        },
+        {
+            "effectID": "minecraft:blindness",
+            "strength": 10
+        },
+        {
+            "effectID": "minecraft:slowness",
+            "strength": 10
+        },
+        {
+            "effectID": "minecraft:nausea",
+            "strength": 10
+        },
+        {
+            "effectID": "minecraft:instant_damage",
+            "strength": 5
+        }
+    ],
+    "damageImmunities": [
+        "inFire",
+        "lightningBolt",
+        "onFire",
+        "lava",
+        "hotFloor",
+        "inWall",
+        "cramming",
+        "drown",
+        "starve",
+        "cactus",
+        "fall",
+        "flyIntoWall",
+        "generic",
+        "magic",
+        "wither",
+        "anvil",
+        "fallingBlock",
+        "dragonBreath",
+        "dryout"
+    ],
+    "potionImmunities": [
+        "minecraft:poison",
+        "minecraft:wither"
+    ],
+    "damageTypes": [],
+    "specialAbilities": [
+        "teleport"
+    ],
+    "particleName": "minecraft:dragon_breath"
+}

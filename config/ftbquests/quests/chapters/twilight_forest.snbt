@@ -1,0 +1,669 @@
+{
+	id: "2460DB8DDEB167BE"
+	group: ""
+	order_index: 25
+	filename: "twilight_forest"
+	title: "Twilight Forest"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	subtitle: ["On quest to the real final boss!"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Give all 16 color of wool to the Questing Ram to get his trophy."]
+			dependencies: ["044717B20F69F9CA"]
+			id: "68D5E874C3465B00"
+			tasks: [{
+				id: "4D668E57301A2878"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+			rewards: [{
+				id: "0B39B6F310511C87"
+				type: "item"
+				item: "twilightforest:quest_ram_trophy"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["Defeat the Naga."]
+			dependencies: ["116CF2A04508EE65"]
+			id: "34795F1FA667C798"
+			tasks: [{
+				id: "05673C6D49568CA1"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [{
+				id: "18BF6E25EAECB718"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["Defeat the Lich."]
+			dependencies: ["34795F1FA667C798"]
+			id: "752096CCB84E8889"
+			tasks: [{
+				id: "0E28D6BA947DBA6F"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [{
+				id: "495B17026014B692"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["Defeat the Minoshroom."]
+			dependencies: ["752096CCB84E8889"]
+			id: "7CFDD57D5E733BC3"
+			tasks: [{
+				id: "0215F94B10217439"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+			rewards: [{
+				id: "76A288C0550F0C9F"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["Defeat the Hydra."]
+			dependencies: ["7CFDD57D5E733BC3"]
+			id: "65C7AAEC5E1FCD04"
+			tasks: [{
+				id: "297CA109A633401A"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+			rewards: [{
+				id: "14BD734C2D969DAD"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["Defeat the Knight Phantom."]
+			dependencies: ["65C7AAEC5E1FCD04"]
+			id: "7DEAB2078C4950D5"
+			tasks: [{
+				id: "06594B1448255D9B"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+			rewards: [{
+				id: "51C27ACEA87F3E49"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: ["Defeat the Ur-Ghast."]
+			dependencies: ["7DEAB2078C4950D5"]
+			id: "7B779C23229B644F"
+			tasks: [{
+				id: "1696C6EF6DE246EF"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+			rewards: [{
+				id: "72E64609CAAAFCF9"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["Defeat the Alpha Yeti."]
+			dependencies: ["7B779C23229B644F"]
+			id: "578DB079209EB883"
+			tasks: [{
+				id: "1101A70809218964"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+			rewards: [{
+				id: "37980E0A97D2D671"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			description: ["Defeat the Snow Queen."]
+			dependencies: ["578DB079209EB883"]
+			id: "1758E60CB3304A85"
+			tasks: [{
+				id: "562166AA09CC1A2A"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+			rewards: [{
+				id: "32BA4192D5CBFDD3"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["The Cruble Horn is obtained with the Questing Ram trophy and can transform stone to cobble, cobble to gravel, grass to dirt and sandstone into sand."]
+			dependencies: ["68D5E874C3465B00"]
+			id: "67D07042D5E40B9E"
+			tasks: [{
+				id: "46EB679B876E6E3A"
+				type: "item"
+				item: {
+					id: "twilightforest:crumble_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "15B36073306DF0C4"
+				type: "item"
+				item: "twilightforest:ironwood_raw"
+				count: 16
+			}]
+		}
+		{
+			icon: "twilightforest:naga_scale"
+			x: 1.5d
+			y: -1.0d
+			description: ["With some Naga Scale, dropped by the Naga, craft a tunic out of it!"]
+			dependencies: ["34795F1FA667C798"]
+			id: "0FB6A7C28BEE9614"
+			tasks: [
+				{
+					id: "6243B4C17C85C8FE"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:fire_protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "2BD62A89F6BAE6CE"
+					type: "item"
+					item: {
+						id: "twilightforest:naga_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "24E9E637F983206A"
+					type: "item"
+					item: {
+						id: "twilightforest:moonworm_queen"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0027B5A91FB77905"
+					type: "item"
+					item: "twilightforest:torchberries"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Scepter"
+			x: 2.5d
+			y: 1.0d
+			description: ["All four Scepters are looted by the Twilight Lich."]
+			dependencies: ["752096CCB84E8889"]
+			id: "6260B7F475FF7835"
+			tasks: [
+				{
+					id: "5A570EFF558F35FC"
+					type: "item"
+					item: {
+						id: "twilightforest:shield_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "039944390A883B70"
+					type: "item"
+					item: {
+						id: "twilightforest:twilight_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B56E52ABAD202D8"
+					type: "item"
+					item: {
+						id: "twilightforest:lifedrain_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "39B8F2FBCB968632"
+					type: "item"
+					item: {
+						id: "twilightforest:zombie_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0AB35219E5F7F672"
+				type: "item"
+				item: {
+					id: "twilightforest:peacock_fan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["The Mazebreaker is a special pickaxe that is found in a secret room in the Labyrinth."]
+			dependencies: ["7CFDD57D5E733BC3"]
+			id: "6E372CFD25ADB26A"
+			tasks: [{
+				id: "4555A25A33F2E5F5"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0DB390AB26686BA1"
+					type: "item"
+					item: "twilightforest:charm_of_life_2"
+				}
+				{
+					id: "52F861337546B637"
+					type: "item"
+					item: "twilightforest:charm_of_keeping_3"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["The Fiery Ingot is obtained by combining Iron and Fiery Blood or Fiery Tears."]
+			dependencies: ["65C7AAEC5E1FCD04"]
+			id: "438863FD4A38BC3A"
+			tasks: [{
+				id: "422B8CF837B249FE"
+				type: "item"
+				item: "twilightforest:fiery_ingot"
+			}]
+			rewards: [{
+				id: "0247A4FCE146DBF0"
+				type: "item"
+				item: "twilightforest:fiery_blood"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["The Knightmetal Ingot is obtained by smelting Armor Shard."]
+			dependencies: ["7DEAB2078C4950D5"]
+			id: "1C9769B6FDCE6995"
+			tasks: [{
+				id: "2AD58EAE167705E9"
+				type: "item"
+				item: "twilightforest:knightmetal_ingot"
+			}]
+			rewards: [{
+				id: "230F8119D9584314"
+				type: "item"
+				item: {
+					id: "twilightforest:block_and_chain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: ["The Experiment 115 can be found in Dark Tower loot chests."]
+			dependencies: ["7B779C23229B644F"]
+			id: "16581BA7A2F63B58"
+			tasks: [{
+				id: "47BC6CB55D3AD4DE"
+				type: "item"
+				item: "twilightforest:experiment_115"
+			}]
+			rewards: [{
+				id: "3BC3F3B8196A9C4D"
+				type: "item"
+				item: "twilightforest:carminite"
+				count: 16
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: ["The Ice Bomb is drop from the Alpha Yeti."]
+			dependencies: ["578DB079209EB883"]
+			id: "068EE09DB6D93AC0"
+			tasks: [{
+				id: "42F7A0AF137C74F3"
+				type: "item"
+				item: "twilightforest:ice_bomb"
+			}]
+			rewards: [{
+				id: "66560AC5959B7EDB"
+				type: "item"
+				item: {
+					id: "twilightforest:ice_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Twilight Bow"
+			x: 8.5d
+			y: 1.0d
+			description: ["The Seeker Bow has a 50% chance to drop when the Snow Queen is slain, otherwise, the Tri-bow will be dropped."]
+			dependencies: ["1758E60CB3304A85"]
+			id: "3C764999E3451587"
+			tasks: [
+				{
+					id: "0A6490ADC3BA67C8"
+					type: "item"
+					item: {
+						id: "twilightforest:seeker_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-597681243
+								826493361
+								-1917670745
+								876601677
+							]
+						}
+					}
+				}
+				{
+					id: "284BDA1357D95FC6"
+					type: "item"
+					item: {
+						id: "twilightforest:triple_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2123EF440B7DDDE8"
+				type: "item"
+				item: "twilightforest:aurora_block"
+				count: 64
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			description: ["Defeat a Giant."]
+			dependencies: ["752CED77D3E58765"]
+			id: "541A35E5A81C7DBA"
+			tasks: [{
+				id: "7CA2A65D6DFA4D8D"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "09E9D8E1E9013466"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			description: ["Magic Beans are dropped rarely by Cave Trolls, they can be used on Uberous Soil to grow a beanstalk up to the Cloud Cottage."]
+			dependencies: ["1758E60CB3304A85"]
+			id: "752CED77D3E58765"
+			tasks: [{
+				id: "4FA5B17951472421"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+			rewards: [
+				{
+					id: "7F6D755C638D8A5D"
+					type: "item"
+					item: "twilightforest:uberous_soil"
+					count: 16
+				}
+				{
+					id: "694DE2F0BD2F1B56"
+					type: "item"
+					item: "twilightforest:huge_stalk"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			description: [
+				"The Lamp of Cinders is obtained from the Giant Obsidian Vault in the Mushroom Vault of a Troll Cave, below the Cloud Cottage, near the Thornlands."
+				""
+				"It allows you to access the Thornlands, by burning Thorns into Burnt Thorns."
+			]
+			dependencies: ["541A35E5A81C7DBA"]
+			id: "299BA4D00D811433"
+			tasks: [{
+				id: "1150095917BD3BB9"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0065B02B1C9DC059"
+					type: "item"
+					item: "twilightforest:brown_thorns"
+					count: 64
+				}
+				{
+					id: "15D8445CDB34B15B"
+					type: "item"
+					item: "twilightforest:thorn_rose"
+					count: 64
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: [
+				"You need a Magic Map Focus to craft a Blank Magic Map."
+				"This map is useful to find structures all over the Twilight Forest."
+			]
+			dependencies: ["116CF2A04508EE65"]
+			id: "044717B20F69F9CA"
+			tasks: [
+				{
+					id: "213C47D8F571F0C8"
+					type: "item"
+					item: "twilightforest:magic_map_focus"
+				}
+				{
+					id: "5F9B83DE5830A97E"
+					type: "item"
+					item: "twilightforest:magic_map_empty"
+				}
+			]
+			rewards: [{
+				id: "031BD7D7614CEA24"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+		}
+		{
+			title: "Miniature Twilight Portal"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"The Miniature Twilight Portal is a proof that you have complete and conquer the dimension !"
+				"And it's useful to craft the Quarkotron Controller."
+			]
+			dependencies: [
+				"578DB079209EB883"
+				"65C7AAEC5E1FCD04"
+				"7DEAB2078C4950D5"
+				"752096CCB84E8889"
+				"7CFDD57D5E733BC3"
+				"34795F1FA667C798"
+				"1758E60CB3304A85"
+				"7B779C23229B644F"
+				"68D5E874C3465B00"
+			]
+			size: 2.0d
+			id: "31B7D924845F50DE"
+			tasks: [{
+				id: "42C1B8732D9094F1"
+				type: "item"
+				item: "twilightforest:twilight_portal_miniature_structure"
+			}]
+			rewards: [
+				{
+					id: "0B86FD898B0363A6"
+					type: "item"
+					item: "twilightforest:naga_courtyard_miniature_structure"
+				}
+				{
+					id: "7EC6C9D899908895"
+					type: "item"
+					item: "twilightforest:lich_tower_miniature_structure"
+				}
+				{
+					id: "4C434EF177A82BF5"
+					type: "item"
+					item: "twilightforest:twilight_portal_miniature_structure"
+				}
+			]
+		}
+		{
+			title: "How do I begin Twilight Forest ?"
+			icon: "create:brass_hand"
+			x: 0.0d
+			y: -2.0d
+			shape: "circle"
+			description: [
+				"In this pack you can't go in the Twilight normally."
+				"You need to open the portal in Ratlantis and toss a Psionic Rat Brain in the pool of water."
+				"{image:kubejs:textures/ftbquests/begin/twilight.png width:150 height:100 align:1}"
+			]
+			dependencies: ["116CF2A04508EE65"]
+			id: "433DEDE2CE191FF2"
+			tasks: [{
+				id: "364054FDF73CE3CD"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "79123EC766109B43"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

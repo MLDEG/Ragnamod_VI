@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "resourcefulbees:starry_honey",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "resourcefulbees:starry_honey_bottle"
+    }
+  ]
+}

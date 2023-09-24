@@ -1,0 +1,11 @@
+{
+  "name": "Cobalt",
+  "colors": [
+    "0752b6",
+    "00286c"
+  ],
+  "ingredient": {
+    "item": "tconstruct:cobalt_ingot"
+  },
+  "inUltimateSingularity": true
+}

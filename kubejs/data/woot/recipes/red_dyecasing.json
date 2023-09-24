@@ -1,0 +1,10 @@
+{
+  "type":"immersiveengineering:metal_press",
+  "mold":
+  {"item":"woot:dye_die"},
+  "result":
+  {"item": "woot:red_dyecasing","count": 16},
+  "input":
+  {"base_ingredient":{"tag": "forge:dyes/red"}},
+  "energy":2400
+}

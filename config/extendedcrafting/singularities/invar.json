@@ -1,0 +1,11 @@
+{
+  "name": "Invar",
+  "colors": [
+    "c8cfc7",
+    "b8c0b6"
+  ],
+  "ingredient": {
+    "item": "thermal:invar_ingot"
+  },
+  "inUltimateSingularity": true
+}

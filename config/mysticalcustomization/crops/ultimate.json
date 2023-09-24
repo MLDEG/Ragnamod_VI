@@ -1,0 +1,13 @@
+{
+    "name": "Ultimate",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "color": "fcbc00",
+    "textures": {
+      "flower": "kubejs:block/ultimate_flower",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    }
+  }

@@ -1,0 +1,44 @@
+{
+	id: "5725A337487D1288"
+	order_index: 0
+	title: "Food"
+	loot_size: 1
+	rewards: [
+		{ item: "pamhc2foodextended:peppermintitem", count: 8 }
+		{ item: "pamhc2foodextended:tacoitem", count: 8 }
+		{ item: "pamhc2foodextended:cookoutmealitem", count: 8 }
+		{ item: "pamhc2foodcore:epicbaconitem", count: 8 }
+		{ item: "pamhc2foodextended:holidaycakeitem", count: 8 }
+		{ item: "pamhc2foodextended:friedfeastitem", count: 8 }
+		{ item: "pamhc2foodextended:roastpotatoesitem", count: 8 }
+		{ item: "pamhc2foodextended:sweetandsourchickenitem", count: 8 }
+		{ item: "pamhc2foodextended:sundayroastitem", count: 8 }
+		{ item: "pamhc2foodcore:bakedvegetablemedlyitem", count: 8 }
+		{ item: "pamhc2foodextended:theatreboxitem", count: 8 }
+		{ item: "pamhc2foodextended:onionringsitem", count: 8 }
+		{ item: "pamhc2foodextended:scallionbakedpotatoitem", count: 8 }
+		{ item: "pamhc2foodextended:poutineitem", count: 8 }
+		{ item: "pamhc2foodextended:honeysoyribsitem", count: 8 }
+		{ item: "pamhc2foodextended:deluxechickencurryitem", count: 8 }
+		{ item: "pamhc2foodextended:cinnamonbreaditem", count: 8 }
+		{ item: "pamhc2foodextended:fruitcakeitem", count: 8 }
+		{ item: "neapolitan:strawberry_cake" }
+		{ item: "neapolitan:banana_cake" }
+		{ item: "neapolitan:vanilla_cake" }
+		{ item: "neapolitan:adzuki_cake" }
+		{ item: "neapolitan:mint_cake" }
+		{ item: "neapolitan:adzuki_bun", count: 8 }
+		{ item: "neapolitan:banana_bread", count: 8 }
+		{ item: "neapolitan:vanilla_fudge", count: 8 }
+		{ item: "neapolitan:vanilla_milkshake", count: 8 }
+		{ item: "pamhc2foodextended:bentoboxitem", count: 8 }
+		{ item: "pamhc2foodextended:sushiitem", count: 8 }
+		{ item: "upgrade_aquatic:mulberry_pie", count: 8 }
+		{ item: "undergarden:gloomgourd_pie", count: 8 }
+		{ item: "pamhc2foodextended:steakandchipsitem", count: 8 }
+		{ item: "pamhc2foodextended:steakfajitaitem", count: 8 }
+		{ item: "buzzier_bees:honey_bread", count: 8 }
+		{ item: "create:sweet_roll", count: 8 }
+		{ item: "neapolitan:chocolate_cake" }
+	]
+}

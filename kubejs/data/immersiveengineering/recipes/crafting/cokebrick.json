@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["csc","sms","csc"],"key":{"c":{"item":"minecraft:clay_ball"},"s":{"tag":"forge:ingots/brick"},"m":{"item":"minecraft:sandstone"}},"result":{"item":"immersiveengineering:cokebrick","count":3}}

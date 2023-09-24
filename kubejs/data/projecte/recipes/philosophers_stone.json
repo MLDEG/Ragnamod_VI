@@ -1,0 +1,13 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": ["   A A   "," A AAA A "," AABBBAA ","AACDDDCAA","ABDEEEDBA","ABDEFEDBA","ABDEEEDBA"," ACDDDCA ","   BBB   "],
+  "key": {
+    "A": {"item": "botania:dragonstone"},
+    "B": {"item": "create:polished_rose_quartz"},
+    "C": {"item": "forbidden_arcanus:rune"},
+    "D": {"item": "iceandfire:dragonsteel_fire_ingot"},
+    "E": {"item": "farlanders:endumium_block"},
+    "F": {"item": "kubejs:sphere"}
+  },
+  "result": {"item": "projecte:philosophers_stone","count": 1}
+}

@@ -1,0 +1,28 @@
+{
+  "flower": "architects_palette:ender_pearl_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "mobs/ender_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#339786"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:ender_pearl"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:ender_pearl"
+  },
+  "SpawnData": {
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "tag:end"
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

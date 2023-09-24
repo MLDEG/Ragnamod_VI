@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "SLS",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "botania:mana_string"
+    },
+    "L": {
+      "item": "rftoolscontrol:cpu_core_500"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:processor_binding",
+    "count": 8
+  }
+}

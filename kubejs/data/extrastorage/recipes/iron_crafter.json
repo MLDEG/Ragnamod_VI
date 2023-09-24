@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aca",
+    " b ",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "tag": "refinedstorage:crafter"
+    },
+    "c": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "extrastorage:iron_crafter"
+  }
+}

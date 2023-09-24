@@ -1,0 +1,10 @@
+{
+  "type":"immersiveengineering:metal_press",
+  "mold":
+  {"item":"woot:plate_die"},
+  "result":
+  {"item":"woot:si_plate"},
+  "input":
+  {"base_ingredient":{"item":"woot:si_ingot"}},
+  "energy":2400
+}

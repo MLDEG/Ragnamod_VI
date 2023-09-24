@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "CFC",
+    " T "
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:workbench"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "F": {
+      "item": "rftoolsbase:machine_frame"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:crafter1"
+  }
+}

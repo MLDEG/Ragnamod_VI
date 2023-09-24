@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "rats:string_cheese"
+  },
+  "output": {
+    "item": "botania:mana_string"
+  },
+  "mana": 5000
+}

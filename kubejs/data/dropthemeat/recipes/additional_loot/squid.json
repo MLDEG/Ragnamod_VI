@@ -1,0 +1,24 @@
+{
+	"type": "cagedmobs:additional_loot_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:squid",
+	"results": [
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "dropthemeat:raw_squid"
+				},
+				"output_cooked": {
+					"item": "dropthemeat:cooked_squid"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		}
+	]
+
+}

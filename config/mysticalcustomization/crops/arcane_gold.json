@@ -1,0 +1,13 @@
+{
+    "name": "Arcane Gold",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "color": "e98a52",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    }
+  }

@@ -1,0 +1,11 @@
+{
+  "name": "Steeleaf",
+  "colors": [
+    "518539",
+    "103015"
+  ],
+  "ingredient": {
+    "item": "twilightforest:steeleaf_ingot"
+  },
+  "inUltimateSingularity": true
+}

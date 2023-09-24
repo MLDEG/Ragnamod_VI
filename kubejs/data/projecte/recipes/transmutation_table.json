@@ -1,0 +1,13 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": ["AAAAAAAAA","ABBCDCBBA","ABCECDCBA","ACDDEDECA","ADCEFECDA","ACEDEDDCA","ABCDCECBA","ABBCDCBBA","AAAAAAAAA"],
+  "key": {
+    "A": {"item": "xreliquary:alkahestry_altar"},
+    "B": {"item": "iceandfire:dragonforge_lightning_core_disabled"},
+    "C": {"item": "twilightforest:fluffy_cloud"},
+    "D": {"item": "mysticalagradditions:creative_essence"},
+    "E": {"item": "tconstruct:pig_iron_block"},
+    "F": {"item": "projecte:philosophers_stone"}
+  },
+  "result": {"item": "projecte:transmutation_table","count": 1}
+}

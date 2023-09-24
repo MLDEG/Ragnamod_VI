@@ -1,0 +1,28 @@
+{
+  "flower": "immersiveengineering:storage_aluminum",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/aluminum_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#bdc5cf",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "janoeo:aluminium_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rock",
+    "feedItem": "janoeo:aluminium_ingot"
+  },
+  "TraitData": {}
+}

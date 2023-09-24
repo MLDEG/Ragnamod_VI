@@ -1,0 +1,440 @@
+[
+  {
+    "type": "digit",
+    "key": "0",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "digit",
+    "key": "1",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "digit",
+    "key": "2",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "digit",
+    "key": "3",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "digit",
+    "key": "4",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "digit",
+    "key": "5",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "digit",
+    "key": "6",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "digit",
+    "key": "7",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "digit",
+    "key": "8",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "digit",
+    "key": "9",
+    "rarity": "common",
+    "create": 0,
+    "maintain": 0,
+    "ticks": 0,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "time",
+    "key": "normal",
+    "rarity": "uncommon",
+    "create": 30,
+    "maintain": 20,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:redstone"
+    }
+  },
+  {
+    "type": "time",
+    "key": "night",
+    "rarity": "rare",
+    "create": 300,
+    "maintain": 100,
+    "ticks": 100,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  {
+    "type": "time",
+    "key": "day",
+    "rarity": "rare",
+    "create": 300,
+    "maintain": 500,
+    "ticks": 100,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  {
+    "type": "attribute",
+    "key": "default",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:paper"
+    }
+  },
+  {
+    "type": "attribute",
+    "key": "nooceans",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:sponge"
+    }
+  },
+  {
+    "type": "attribute",
+    "key": "nobedrock",
+    "rarity": "uncommon",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "type": "attribute",
+    "key": "noblobs",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "rftoolsdim:common_essence"
+    }
+  },
+  {
+    "type": "attribute",
+    "key": "nobiomesurface",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:dirt"
+    }
+  },
+  {
+    "type": "attribute",
+    "key": "flatter",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:stone_pressure_plate"
+    }
+  },
+  {
+    "type": "attribute",
+    "key": "elevated",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  {
+    "type": "terrain",
+    "key": "void",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  {
+    "type": "terrain",
+    "key": "islands",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:feather"
+    }
+  },
+  {
+    "type": "terrain",
+    "key": "flat",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 20,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:paper"
+    }
+  },
+  {
+    "type": "terrain",
+    "key": "waves",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 20,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  {
+    "type": "terrain",
+    "key": "normal",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:dirt"
+    }
+  },
+  {
+    "type": "biome_controller",
+    "key": "default",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:dirt"
+    }
+  },
+  {
+    "type": "biome_controller",
+    "key": "checker",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:stone"
+    }
+  },
+  {
+    "type": "biome_controller",
+    "key": "single",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:redstone"
+    }
+  },
+  {
+    "type": "feature",
+    "key": "none",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:redstone"
+    }
+  },
+  {
+    "type": "feature",
+    "key": "tendrils",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:string"
+    }
+  },
+  {
+    "type": "feature",
+    "key": "spheres",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  {
+    "type": "feature",
+    "key": "hollow_spheres",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  {
+    "type": "feature",
+    "key": "liquid_spheres",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:snowball"
+    }
+  },
+  {
+    "type": "feature",
+    "key": "cubes",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:stone"
+    }
+  },
+  {
+    "type": "feature",
+    "key": "hollow_cubes",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:glass"
+    }
+  },
+  {
+    "type": "feature",
+    "key": "liquid_cubes",
+    "rarity": "common",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 1,
+    "worldgen": true,
+    "dimlet": true,
+    "essence": {
+      "item": "minecraft:ice"
+    }
+  }
+]

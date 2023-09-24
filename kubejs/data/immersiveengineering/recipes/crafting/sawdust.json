@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+        "item": "thermal:sawdust"
+    }
+  },
+    "result": {
+        "count": 6,
+        "item": "immersiveengineering:sawdust"
+    }
+}

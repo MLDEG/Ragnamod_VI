@@ -1,0 +1,11 @@
+{
+  "name": "Fertilized Essence",
+  "colors": [
+    "e2badc",
+    "e263d1"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:fertilized_essence"
+  },
+  "inUltimateSingularity": true
+}

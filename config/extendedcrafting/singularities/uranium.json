@@ -1,0 +1,11 @@
+{
+  "name": "Uranium",
+  "colors": [
+    "a2f2a0",
+    "82cc82"
+  ],
+  "ingredient": {
+    "item": "mekanism:ingot_uranium"
+  },
+  "inUltimateSingularity": true
+}

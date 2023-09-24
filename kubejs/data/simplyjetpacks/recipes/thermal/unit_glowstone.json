@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": { "item": "minecraft:glowstone_dust" },
+    "B": { "item": "simplyjetpacks:unit_glowstone_empty" }
+  },
+  "result": {
+    "item": "simplyjetpacks:unit_glowstone",
+    "count": 1
+  }
+}

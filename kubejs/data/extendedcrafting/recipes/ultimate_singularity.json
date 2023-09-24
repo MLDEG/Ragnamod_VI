@@ -1,0 +1,415 @@
+{
+  "type": "extendedcrafting:shapeless_table",
+  "tier": 4,
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:carminite\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:redstone\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:fire\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:utherium\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:glycerol\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:copper\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:crystalized_amber\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:amber\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:signalum\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:bronze\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:blazing_crystal\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:arcane_gold\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:alfsteel\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:regalium\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:glowstone\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:tinkers_bronze\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:constantan\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:air\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:cheese\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:gold\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:electrum\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:yellorium\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:refined_glowstone\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:lumium\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:nickel\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:phantom_membrane\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:knightmetal\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:uranium\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:emerald\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:terrasteel\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:spirited_crystal\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:scute\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:earth\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:steeleaf\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:uraninite\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:queens_slime\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:ender\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:enderium\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:starmetal\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:cobalt\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:water\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:lapis_lazuli\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:manasteel\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:gobber\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:froststeel\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:lead\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:niotic_crystal\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:apatite\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:platinum\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:diamond\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:slimesteel\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:dimensional_shard\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:tin\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:silver\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:osmium\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:quartz_enriched_iron\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:zinc\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:invar\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:hdpe\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:aluminum\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:iron\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:energized_steel\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:rose_gold\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:pig_iron\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:stygian\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:fertilized_essence\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:jelly\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:elementium\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:endumium\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:managem\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:manyullyn\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:refined_obsidian\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:hepatizon\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:ironwood\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:cloggrum\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:netherite\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:steel\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:coal\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:tungsten\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:biotite\"}"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "extendedcrafting:singularity",
+      "nbt": "{Id:\"extendedcrafting:fiery\"}"
+    }
+  ],
+  "result": {
+    "item": "extendedcrafting:ultimate_singularity",
+    "count": 1
+  }
+}

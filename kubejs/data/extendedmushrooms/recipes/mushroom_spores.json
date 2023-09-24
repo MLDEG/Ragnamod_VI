@@ -1,0 +1,1 @@
+{"type": "thermal:pulverizer","ingredient": {"tag": "forge:mushrooms"},"result": [{"item": "extendedmushrooms:mushroom_spores","chance": 2.0},{"item": "extendedmushrooms:mushroom_spores","chance": 0.1},{"item": "minecraft:gravel","chance": 0.2}],"experience": 0.2}

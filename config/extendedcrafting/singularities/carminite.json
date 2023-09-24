@@ -1,0 +1,11 @@
+{
+  "name": "Carminite",
+  "colors": [
+    "980000",
+    "530414"
+  ],
+  "ingredient": {
+    "item": "twilightforest:carminite"
+  },
+  "inUltimateSingularity": true
+}

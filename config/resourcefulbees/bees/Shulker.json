@@ -1,0 +1,28 @@
+{
+  "flower": "amb:smooth_purpur_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "mobs/shulker_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#a982a8",
+      "modelType": "GELATINOUS"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:shulker_shell"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "end",
+    "parent2": "dragon",
+    "feedItem": "minecraft:shulker_shell"
+  },
+  "TraitData": {}
+  }

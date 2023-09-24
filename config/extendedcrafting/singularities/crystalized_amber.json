@@ -1,0 +1,11 @@
+{
+  "name": "Crystalized Amber",
+  "colors": [
+    "fc9f32",
+    "f06802"
+  ],
+  "ingredient": {
+    "item": "cyclic:gem_amber"
+  },
+  "inUltimateSingularity": true
+}

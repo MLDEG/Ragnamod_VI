@@ -1,0 +1,28 @@
+{
+  "flower": "thermal:lead_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/lead_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#7a89b4",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:lead_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rock",
+    "feedItem": "thermal:lead_ingot"
+  },
+  "TraitData": {}
+}

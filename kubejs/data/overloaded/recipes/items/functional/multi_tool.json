@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "overloaded:multi_tool"
+  },
+  "pattern": [
+    "ED ",
+    "DCB",
+    " BA"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "compressium:iron_9"
+    },
+    "B": {
+      "item": "extendedcrafting:nether_star_block"
+    },
+    "C": {
+      "item": "overloaded:energy_core"
+    },
+    "D": {
+      "item": "extendedcrafting:ender_star"
+    },
+    "E": {
+      "item": "forbidden_arcanus:dark_nether_star"
+    }
+  }
+}

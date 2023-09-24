@@ -1,0 +1,1018 @@
+{
+	id: "34EFAA5154A8A0F0"
+	group: ""
+	order_index: 28
+	filename: "woot"
+	title: "Woot"
+	icon: "woot:hammer"
+	subtitle: ["Farm your mobs without the mobs. This isn't beautiful ?"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "woot:enchsqueezer"
+			x: -4.5d
+			y: 2.0d
+			description: ["The Enchant Liquifier is used to create Liquid Enchant."]
+			dependencies: ["6B3DF11F566563EF"]
+			id: "622660C47E878F20"
+			tasks: [
+				{
+					id: "665296411A9573D3"
+					type: "item"
+					item: "woot:enchsqueezer"
+				}
+				{
+					id: "33BF2719262CA206"
+					type: "item"
+					item: "woot:enchant_fluid_bucket"
+				}
+			]
+			rewards: [{
+				id: "65C929DD0B508F6A"
+				type: "item"
+				item: "woot:enchant_fluid_bucket"
+			}]
+		}
+		{
+			icon: "woot:fluidconvertor"
+			x: -5.0d
+			y: 1.0d
+			description: ["The Fluid Vat is used to create Conatus Fluid."]
+			dependencies: ["6B3DF11F566563EF"]
+			id: "7534D70B5B523FC6"
+			tasks: [
+				{
+					id: "67A22390C1CF1D41"
+					type: "item"
+					item: "woot:fluidconvertor"
+				}
+				{
+					id: "2C827A491C4751B0"
+					type: "item"
+					item: "woot:mob_essence_fluid_bucket"
+				}
+				{
+					id: "59D201835A74CA21"
+					type: "item"
+					item: "woot:conatus_fluid_bucket"
+				}
+			]
+			rewards: [{
+				id: "0A10718DF3B8BC1F"
+				type: "item"
+				item: "woot:conatus_fluid_bucket"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: ["The Heart is, well, the heart of your Factory."]
+			dependencies: ["6B3DF11F566563EF"]
+			id: "54E5D043DB406BA7"
+			tasks: [{
+				id: "0206916CD5BAE865"
+				type: "item"
+				item: "woot:heart"
+			}]
+			rewards: [{
+				id: "534BBF99F5D2865A"
+				type: "item"
+				item: "woot:machine_casing"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["The Theorius Cap Block is used from the Tier 2 Factory."]
+			dependencies: ["66F3B4D818D8A6D5"]
+			id: "706804D69EC189B4"
+			tasks: [{
+				id: "033DAE9637072E7B"
+				type: "item"
+				item: "woot:cap_a"
+			}]
+			rewards: [{
+				id: "4CDA3557F38729E9"
+				type: "item"
+				item: "woot:cap_a"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["The Practicus Cap Block is used from the Tier 3 Factory."]
+			dependencies: ["66F3B4D818D8A6D5"]
+			id: "2A32C9E628D3E8F0"
+			tasks: [{
+				id: "301695B799302AB3"
+				type: "item"
+				item: "woot:cap_b"
+			}]
+			rewards: [{
+				id: "29DF367F331612DD"
+				type: "item"
+				item: "woot:cap_b"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["The Exemptus Cap Block is used from the Tier 4 Factory."]
+			dependencies: ["66F3B4D818D8A6D5"]
+			id: "65063A2F3AF46805"
+			tasks: [{
+				id: "126D2F33CCCC2FA3"
+				type: "item"
+				item: "woot:cap_c"
+			}]
+			rewards: [{
+				id: "65E11DF9E8CF8737"
+				type: "item"
+				item: "woot:cap_c"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["The Magister Cap Block is used for the Tier 5 Factory."]
+			dependencies: ["66F3B4D818D8A6D5"]
+			id: "5FE0E2C5D4079419"
+			tasks: [{
+				id: "74047D9725275E1E"
+				type: "item"
+				item: "woot:cap_d"
+			}]
+			rewards: [{
+				id: "268CD19F2B0D1625"
+				type: "item"
+				item: "woot:cap_d"
+			}]
+		}
+		{
+			title: "Mob Controller"
+			x: -3.5d
+			y: -1.5d
+			description: [
+				"The Mob Controller is the blocks that register the mob you want to farm."
+				"To do that you need to craft a Mob Shard, punch the desired mob with it and then kill five of them to get a register Mob Shard."
+				"With it, you can now craft a Mob Controller on the Stygian Anvil."
+			]
+			dependencies: ["6B3DF11F566563EF"]
+			id: "43562F30BE517334"
+			tasks: [
+				{
+					id: "6EC2B391B54C1F8C"
+					type: "item"
+					item: "woot:prism"
+				}
+				{
+					id: "2A0ABA135AD8DEEB"
+					type: "item"
+					item: {
+						id: "woot:mobshard"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1B28FD3CCF910F5B"
+					type: "item"
+					item: "woot:controller"
+				}
+			]
+			rewards: [{
+				id: "0E4F7EF74C4C6A97"
+				type: "item"
+				item: "woot:prism"
+				count: 4
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			description: [
+				"The Layout Guide will show you where the blocks need to be placed for a factory."
+				"It can be placed on top of an existing Factory Heart or on its own."
+			]
+			dependencies: ["6B3DF11F566563EF"]
+			id: "37C6D341D36B3336"
+			tasks: [{
+				id: "1E557E1531CCBC5A"
+				type: "item"
+				item: "woot:layout"
+			}]
+			rewards: [{
+				id: "229C634B75AFF8AA"
+				type: "item"
+				item: "woot:si_plate"
+			}]
+		}
+		{
+			title: "Stygian Iron Ingot"
+			x: -6.0d
+			y: 0.0d
+			description: ["The Stygian Iron Ingot is the base materials you have to need to build any kind of blocks for Woot."]
+			dependencies: ["21B72619D489E6B6"]
+			size: 1.5d
+			id: "27E600D783D7CDC2"
+			tasks: [{
+				id: "2B62C5CB171B3CFF"
+				type: "item"
+				item: "woot:si_ingot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "10F93BD4B06FEE51"
+				type: "item"
+				item: "woot:si_ingot"
+				count: 64
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: ["The Basic Conatus Cell can store 10,000mB"]
+			dependencies: ["6B3DF11F566563EF"]
+			id: "24EFB3EFC003281B"
+			tasks: [{
+				id: "17583558467A8B20"
+				type: "item"
+				item: "woot:cell_1"
+			}]
+			rewards: [{
+				id: "03355811902692EC"
+				type: "item"
+				item: "woot:machine_casing"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			description: ["The Advanced Conatus Cell can store 50,000mB"]
+			dependencies: [
+				"24EFB3EFC003281B"
+				"133378725BAF2BCB"
+			]
+			id: "77E34DEC0C881A14"
+			tasks: [{
+				id: "704CCFFFFDB087EC"
+				type: "item"
+				item: "woot:cell_2"
+			}]
+			rewards: [{
+				id: "1A30A19A99CF718B"
+				type: "item"
+				item: "woot:ench_plate_1"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			description: ["The Premium Conatus Cell can store 100,000mB"]
+			dependencies: [
+				"77E34DEC0C881A14"
+				"3928F355D81C57A8"
+			]
+			id: "0B175FEF4513727F"
+			tasks: [{
+				id: "650D296BF36868C4"
+				type: "item"
+				item: "woot:cell_3"
+			}]
+			rewards: [{
+				id: "45B384A687122189"
+				type: "item"
+				item: "woot:ench_plate_2"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			description: ["The Ultimate Conatus Cell can store 1,000,000mB"]
+			dependencies: [
+				"0B175FEF4513727F"
+				"0D4B24CF24380502"
+			]
+			id: "7E3BE27E69672C86"
+			tasks: [{
+				id: "3EE6C8E8FDC0ED44"
+				type: "item"
+				item: "woot:cell_4"
+			}]
+			rewards: [{
+				id: "173AB377A1AB72C9"
+				type: "item"
+				item: "woot:ench_plate_3"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			description: ["The Neophyte Plate is used to craft the Advanced Conatus Cell and every Tier 1 Perk."]
+			dependencies: ["774D0C77A720C566"]
+			id: "133378725BAF2BCB"
+			tasks: [{
+				id: "21E8E5E56009EFD2"
+				type: "item"
+				item: "woot:ench_plate_1"
+			}]
+			rewards: [{
+				id: "134BF5CE4C96A31E"
+				type: "item"
+				item: "woot:ench_plate_1"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			description: ["The Adeptus Plate is used to craft the Premium Conatus Cell and every Tier 2 Perk."]
+			dependencies: ["774D0C77A720C566"]
+			id: "3928F355D81C57A8"
+			tasks: [{
+				id: "553D5563BBC88935"
+				type: "item"
+				item: "woot:ench_plate_2"
+			}]
+			rewards: [{
+				id: "5912C38541078C9C"
+				type: "item"
+				item: "woot:ench_plate_2"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			description: ["The Magnus Plate is used to craft the Ultimate Conatus Cell and every Tier 3 Perk."]
+			dependencies: ["774D0C77A720C566"]
+			id: "0D4B24CF24380502"
+			tasks: [{
+				id: "06E61B35DEF9538F"
+				type: "item"
+				item: "woot:ench_plate_3"
+			}]
+			rewards: [{
+				id: "52317AE2F0265B73"
+				type: "item"
+				item: "woot:ench_plate_3"
+			}]
+		}
+		{
+			title: "Loot I/O"
+			x: -5.0d
+			y: -1.0d
+			description: [
+				"The Loot Exporter is used to export the loot from your Factory."
+				"The Loot Importer is used to import the loot needed to spawn certain mod for your Factory (like Wither Boss or Ender Dragon)."
+			]
+			dependencies: ["6B3DF11F566563EF"]
+			id: "624DA3DC18F1008B"
+			tasks: [
+				{
+					id: "53FF8D62EBC7ABCB"
+					type: "item"
+					item: "woot:export"
+				}
+				{
+					id: "72E1B8003D6771D0"
+					type: "item"
+					item: "woot:import"
+				}
+			]
+			rewards: [{
+				id: "0D33E0E646A02116"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Plate"
+			x: -3.75d
+			y: 0.0d
+			description: ["Craft these three Die using the Stygian Anvil."]
+			dependencies: ["0825EC81E2D9A730"]
+			size: 1.5d
+			id: "6B3DF11F566563EF"
+			tasks: [
+				{
+					id: "279AAF890D779E3D"
+					type: "item"
+					item: "woot:plate_die"
+				}
+				{
+					id: "16B9873761AD39C4"
+					type: "item"
+					item: "woot:shard_die"
+				}
+				{
+					id: "759A7D463B50B2D7"
+					type: "item"
+					item: "woot:dye_die"
+				}
+			]
+			rewards: [{
+				id: "427C0EB805E539D2"
+				type: "item"
+				item: "woot:si_plate"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			description: ["The Stygian Anvil is used to craft the Dies and every Mob Controller you want."]
+			dependencies: ["27E600D783D7CDC2"]
+			id: "0825EC81E2D9A730"
+			tasks: [
+				{
+					id: "74BFBC5D9AC6E49D"
+					type: "item"
+					item: "woot:anvil"
+				}
+				{
+					id: "64F550EFA21F68C2"
+					type: "item"
+					item: "woot:hammer"
+				}
+			]
+			rewards: [{
+				id: "0A87D51258603F36"
+				type: "item"
+				item: "minecraft:magma_block"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			description: [
+				"The Intern is used to place automatically blocks for building your multiblock Woot."
+				"Shift right-click to cycle the Tier you want, then just right-click on the Heart."
+			]
+			dependencies: ["6B3DF11F566563EF"]
+			id: "03C2035CBBD5FFD6"
+			tasks: [{
+				id: "048166381F6D9C85"
+				type: "item"
+				item: {
+					id: "woot:intern"
+					Count: 1b
+					tag: {
+						mode: "BUILD_5"
+					}
+				}
+			}]
+			rewards: [{
+				id: "608922838FC7ADF0"
+				type: "item"
+				item: "woot:si_ingot"
+			}]
+		}
+		{
+			title: "Secondary Base"
+			x: -2.5d
+			y: -2.0d
+			description: ["The Secondary Base is used from the tier 2 factory, and you can place other Mob Controller on top to farm multiple mobs in your factory."]
+			dependencies: ["774D0C77A720C566"]
+			id: "61014FE4D90FF9DA"
+			tasks: [{
+				id: "138CB0A223DF7C2E"
+				type: "item"
+				item: "woot:factory_ctr_base_sec"
+			}]
+			rewards: [{
+				id: "22B9DBFEE6944A8C"
+				type: "item"
+				item: "woot:factory_ctr_base_sec"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			description: ["The Primary Base is used in a Factory, and it MUST be placed for the factory to form."]
+			dependencies: ["774D0C77A720C566"]
+			id: "40795E92D2C2F028"
+			tasks: [{
+				id: "4C665F3A51F993DD"
+				type: "item"
+				item: "woot:factory_ctr_base_pri"
+			}]
+			rewards: [{
+				id: "3CA298B5BDEF825F"
+				type: "item"
+				item: "woot:factory_ctr_base_pri"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["The Factory Block is used in all tier factory."]
+			dependencies: ["66F3B4D818D8A6D5"]
+			id: "3EBE8FDCF6EFF83F"
+			tasks: [{
+				id: "7D9F848288C1244D"
+				type: "item"
+				item: "woot:factory_connect"
+			}]
+			rewards: [{
+				id: "2111F2A44E94E905"
+				type: "item"
+				item: "woot:factory_connect"
+			}]
+		}
+		{
+			title: "Byzantium Blocks"
+			x: 1.5d
+			y: 1.5d
+			description: [
+				"The Byzantium Block is used for the Tier 5 Factory."
+				""
+				"To get the Byzantium Essence, used in the Byzantium Blocks craft, you need to first use a factory with the upgrade Scale The Summit."
+			]
+			dependencies: ["132604F05A3A9827"]
+			id: "5AEB38F2634F6887"
+			tasks: [{
+				id: "4F3EB383ADD50397"
+				type: "item"
+				item: "woot:factory_e"
+				count: 8L
+			}]
+			rewards: [{
+				id: "03A093B2D3E8F166"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Cerulean Blocks"
+			x: 0.5d
+			y: 1.5d
+			description: [
+				"The Cerulean Block is used from the Tier 4 Factory."
+				""
+				"To get the Cerulean Essence, used in the Cerulean Blocks craft, you need to first use a factory with the upgrade Scale The Summit."
+			]
+			dependencies: ["61CBFA85564BBFFB"]
+			id: "132604F05A3A9827"
+			tasks: [{
+				id: "5262EA9F443FE0F7"
+				type: "item"
+				item: "woot:factory_d"
+				count: 8L
+			}]
+			rewards: [{
+				id: "72EC22452C984FB3"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Celadon Blocks"
+			x: -0.5d
+			y: 1.5d
+			description: [
+				"The Celadon Block is used from the Tier 3 Factory."
+				""
+				"To get the Celadon Essence, used in the Celadon Blocks craft, you need to first use a Tier 2 factory with the upgrade Scale The Summit."
+			]
+			dependencies: ["7ABF2A595E519243"]
+			id: "61CBFA85564BBFFB"
+			tasks: [{
+				id: "4C6C3F32C80D796C"
+				type: "item"
+				item: "woot:factory_c"
+				count: 24L
+			}]
+			rewards: [{
+				id: "2E0EF70DE7163E81"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Amber Blocks"
+			x: -1.5d
+			y: 1.5d
+			description: ["The Amber Block is used from the Tier 2 Factory."]
+			dependencies: ["09FE89DFA577EFAB"]
+			id: "7ABF2A595E519243"
+			tasks: [{
+				id: "6BC295F61BD68D12"
+				type: "item"
+				item: "woot:factory_b"
+				count: 17L
+			}]
+			rewards: [{
+				id: "5B8E1AC24A7D69D2"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Amaranth Blocks"
+			x: -2.5d
+			y: 1.0d
+			description: ["The Amaranth Block is used in all tier factory."]
+			dependencies: ["774D0C77A720C566"]
+			id: "09FE89DFA577EFAB"
+			tasks: [{
+				id: "07B504EE2743D843"
+				type: "item"
+				item: "woot:factory_a"
+				count: 10L
+			}]
+			rewards: [{
+				id: "1B842E3227CC42A9"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["The Perk Slot is used to install perks on it to farm more things or use less Conatus, etc..."]
+			dependencies: ["774D0C77A720C566"]
+			size: 1.5d
+			id: "66F3B4D818D8A6D5"
+			tasks: [{
+				id: "3EC66DD59C441AD1"
+				type: "item"
+				item: "woot:factory_upgrade"
+				count: 4L
+			}]
+			rewards: [{
+				id: "6637EA733B0747E9"
+				type: "item"
+				item: "woot:factory_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["The Injection Press is used primarily to craft Dye Plates and the Upgrade Plates."]
+			dependencies: ["6B3DF11F566563EF"]
+			id: "774D0C77A720C566"
+			tasks: [{
+				id: "45C58FDF7C457ED4"
+				type: "item"
+				item: "woot:infuser"
+			}]
+			rewards: [{
+				id: "732C2EC398DADDF2"
+				type: "item"
+				item: "woot:si_plate"
+			}]
+		}
+		{
+			title: "Use less Conatus"
+			x: -1.0d
+			y: -1.0d
+			description: ["The Stoke The Boiler Perk use less Conatus fluid per operation."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "6E339E2330CEE1D7"
+			tasks: [
+				{
+					id: "6EB027BF77CF0799"
+					type: "item"
+					item: "woot:efficiency_1"
+				}
+				{
+					id: "1403EEC43D87187B"
+					type: "item"
+					item: "woot:efficiency_2"
+				}
+				{
+					id: "7D8FF1A59C96E9F8"
+					type: "item"
+					item: "woot:efficiency_3"
+				}
+			]
+			rewards: [{
+				id: "550A3DC5714CC08B"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Looting Effect"
+			x: 3.5d
+			y: -2.0d
+			description: ["The Treasure Island Perk is used to change the looting level."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "1FF4DAFC4D9E5AA7"
+			tasks: [
+				{
+					id: "46C8E9F1B5FD781B"
+					type: "item"
+					item: "woot:looting_1"
+				}
+				{
+					id: "485DBB964AB9566C"
+					type: "item"
+					item: "woot:looting_2"
+				}
+				{
+					id: "7824E033D7FC958A"
+					type: "item"
+					item: "woot:looting_3"
+				}
+			]
+			rewards: [{
+				id: "3D6BB3F1A946BE4C"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "More Mobs"
+			x: 2.0d
+			y: -1.0d
+			description: ["The Rampage Perk is used to increases the number of mobs."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "0DD870C5C172FDD3"
+			tasks: [
+				{
+					id: "6060FFFB3AB2FF5B"
+					type: "item"
+					item: "woot:mass_1"
+				}
+				{
+					id: "40D420E69526A298"
+					type: "item"
+					item: "woot:mass_2"
+				}
+				{
+					id: "51AE861032049D66"
+					type: "item"
+					item: "woot:mass_3"
+				}
+			]
+			rewards: [{
+				id: "49EF5F9C499A6D7C"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Speed"
+			x: 1.0d
+			y: -1.0d
+			description: ["The Feeding Frenzy Perk is used to speeds up the spawn time."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "18498B08B68CF9A7"
+			tasks: [
+				{
+					id: "0F5001B1FC39B811"
+					type: "item"
+					item: "woot:rate_1"
+				}
+				{
+					id: "72C0C37AB3D935F7"
+					type: "item"
+					item: "woot:rate_2"
+				}
+				{
+					id: "4F484C61D26C213B"
+					type: "item"
+					item: "woot:rate_3"
+				}
+			]
+			rewards: [{
+				id: "5F982C25E10651B2"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Generate Essence to upgrade the Factory"
+			x: 2.5d
+			y: -2.0d
+			description: ["The Scale The Summit Perk is used to generate essence to upgrade the factory."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "34E92006D77398EF"
+			tasks: [
+				{
+					id: "351A2EB26D1D28AC"
+					type: "item"
+					item: "woot:tier_shard_1"
+				}
+				{
+					id: "30C5F3479ACDCFF1"
+					type: "item"
+					item: "woot:tier_shard_2"
+				}
+				{
+					id: "433D748607FB94F3"
+					type: "item"
+					item: "woot:tier_shard_3"
+				}
+			]
+			rewards: [{
+				id: "7ECD0DC844376379"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Experience"
+			x: -1.5d
+			y: -2.0d
+			description: ["The Wisdom Perk generates Experience Shard and Splinters in your factory."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "5242D354D322CA27"
+			tasks: [
+				{
+					id: "6587EC379514642F"
+					type: "item"
+					item: "woot:xp_1"
+				}
+				{
+					id: "562FBFF29BA250CA"
+					type: "item"
+					item: "woot:xp_2"
+				}
+				{
+					id: "0FFBCB49ABA665B4"
+					type: "item"
+					item: "woot:xp_3"
+				}
+			]
+			rewards: [{
+				id: "7BBBD93D81B775A2"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Beheading"
+			x: 3.0d
+			y: -1.0d
+			description: ["The Head Start Perk is used to generate skulls."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "0F516354822F1E67"
+			tasks: [
+				{
+					id: "34B097D409A9172A"
+					type: "item"
+					item: "woot:headless_1"
+				}
+				{
+					id: "716A70376FE21CF4"
+					type: "item"
+					item: "woot:headless_2"
+				}
+				{
+					id: "470E6C1957519CA5"
+					type: "item"
+					item: "woot:headless_3"
+				}
+			]
+			rewards: [{
+				id: "241FE782EB2DF036"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Liquid Meat + Pink Slime"
+			x: 0.0d
+			y: -1.0d
+			description: ["The Tumbling Doll Of Flesh Perk generates Industrial Foregoing Pink Slime and Liquid Meat."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "1373EA4F1986158C"
+			tasks: [
+				{
+					id: "3497F0DEC55A66E2"
+					type: "item"
+					item: "woot:slaughter_1"
+				}
+				{
+					id: "4823702961921AF9"
+					type: "item"
+					item: "woot:slaughter_2"
+				}
+				{
+					id: "07EACE0B65BA3401"
+					type: "item"
+					item: "woot:slaughter_3"
+				}
+			]
+			rewards: [{
+				id: "60460B31F550DC42"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Mob Essence"
+			x: 1.5d
+			y: -2.0d
+			description: ["The Pressing Engagement Perk is used to generate Essence from Industrial Foregoing."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "6EF48A28CC874DE7"
+			tasks: [
+				{
+					id: "10D2026D53DD804E"
+					type: "item"
+					item: "woot:crusher_1"
+				}
+				{
+					id: "4147D832D91EA5B8"
+					type: "item"
+					item: "woot:crusher_2"
+				}
+				{
+					id: "62A24C69FA5C7405"
+					type: "item"
+					item: "woot:crusher_3"
+				}
+			]
+			rewards: [{
+				id: "59472E7F69955926"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Ether Gas Production"
+			x: -0.5d
+			y: -2.0d
+			description: ["The Frickin Laser Beams Perk generates industrial foregoing ether gas from Withers."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "1D8FBA2A96FD0B83"
+			tasks: [
+				{
+					id: "76430485CEE739BF"
+					type: "item"
+					item: "woot:laser_1"
+				}
+				{
+					id: "7C40877B8834A6CE"
+					type: "item"
+					item: "woot:laser_2"
+				}
+				{
+					id: "416A357B6F7EC41C"
+					type: "item"
+					item: "woot:laser_3"
+				}
+			]
+			rewards: [{
+				id: "06184C81598FF437"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: ["The Flayed Perk allows mobs to be subjected to the Ritual Of The Martyr."]
+			dependencies: ["3EC66DD59C441AD1"]
+			id: "1E07E497A0710781"
+			tasks: [
+				{
+					id: "361149CC0CFC5EEA"
+					type: "item"
+					item: "woot:flayed_1"
+				}
+				{
+					id: "1CE4BC5D3AC207DF"
+					type: "item"
+					item: "woot:flayed_2"
+				}
+				{
+					id: "5CB03A16129186B4"
+					type: "item"
+					item: "woot:flayed_3"
+				}
+			]
+			rewards: [{
+				id: "139E5EB5E5174FFE"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "How do I begin Woot ?"
+			icon: "create:brass_hand"
+			x: -6.0d
+			y: -1.5d
+			shape: "circle"
+			description: [
+				"Woot is a mod that provide you mobs loot without mobs. You need to construct a multiblock structure, provide it with Conatus and place a Mob Controller with a mob you have programmed in a Mob Shard."
+				""
+				"To construct your multiblock, use a Layout Guide."
+			]
+			dependencies: ["21B72619D489E6B6"]
+			id: "6C865114619ED204"
+			tasks: [{
+				id: "54F3F96EF80A4705"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0E4E0F3E57A4C759"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "undergarden:rotbeast",
+    "samplerTier": 3,
+    "environments": ["undergarden"],
+    "growTicks": 1800,
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "undergarden:utheric_shard"
+            },
+            "minAmount": 2,
+            "maxAmount": 8
+        }
+]}

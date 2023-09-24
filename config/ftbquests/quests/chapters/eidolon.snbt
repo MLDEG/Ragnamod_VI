@@ -1,0 +1,824 @@
+{
+	id: "0000000000000556"
+	group: ""
+	order_index: 20
+	filename: "eidolon"
+	title: "Eidolon"
+	icon: "eidolon:unholy_symbol"
+	subtitle: ["Necromancy, alchemy, theurgy, dark magic."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -6.0d
+			description: ["The Straw Effigy is used on top of an altar to heard your prayers."]
+			dependencies: ["0000000000000552"]
+			id: "0000000000000557"
+			tasks: [{
+				id: "0000000000000558"
+				type: "item"
+				item: "eidolon:straw_effigy"
+			}]
+			rewards: [{
+				id: "7B83E3204A342B7C"
+				type: "item"
+				item: "chipped:hay_block_2"
+				count: 6
+			}]
+		}
+		{
+			x: -7.0d
+			y: -5.0d
+			description: ["The Magic Workbench is just a special crafting table for Eidolon."]
+			dependencies: ["0000000000000567"]
+			size: 2.0d
+			id: "0000000000000559"
+			tasks: [{
+				id: "000000000000055A"
+				type: "item"
+				item: "eidolon:worktable"
+			}]
+			rewards: [{
+				id: "08F55EDA498BD49E"
+				type: "item"
+				item: "quark:red_quilted_wool"
+				count: 9
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			description: [
+				"The Apothecary Stand is basically a brewing stand who doesn't need blaze powder to run."
+				"Instead, you need to put it on top of a boiling crucible."
+			]
+			dependencies: ["0000000000000567"]
+			id: "000000000000055B"
+			tasks: [{
+				id: "000000000000055C"
+				type: "item"
+				item: "eidolon:wooden_brewing_stand"
+			}]
+			rewards: [{
+				id: "0FF7773ED8C646E6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			description: ["The Necrotic Focus is used to perform rituals with the Brazier."]
+			dependencies: ["0000000000000567"]
+			id: "000000000000055D"
+			tasks: [{
+				id: "000000000000055E"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+			rewards: [{
+				id: "4874982117AA8B1A"
+				type: "item"
+				item: "eidolon:pewter_blend"
+				count: 32
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			description: [
+				"The Crucible is used to craft items through mixing other items."
+				"You have to follow correctly the step explain in JEI or in the Book."
+				"Like the example below for making the Shadow Gem."
+				"{image:kubejs:textures/ftbquests/begin/eidolon.png width:150 height:100 align:1}"
+				"I. When the water is boiling, toss a piece of coal."
+				""
+				"II. When the color has changed, then toss a ghast tear, an Essence of Death and finally stir one time."
+				""
+				"III. When the color has changed, again, then toss two Soul Shards, an Essence of Death and finally stir one time."
+				""
+				"IV. When the color has changed, again, toss a diamond and wait until the shadow gem pop out of the crucible."
+			]
+			dependencies: ["0000000000000567"]
+			size: 2.0d
+			id: "000000000000055F"
+			tasks: [{
+				id: "0000000000000560"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+			rewards: [{
+				id: "58073026F06E5D82"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			icon: "eidolon:brazier"
+			x: -6.0d
+			y: -2.0d
+			description: [
+				"The Brazier is used to perform ritual by putting stuff on Stone Hands and the Brazier itself."
+				"You need to light the item on top of the Brazier with a flint and steel to activate the ritual."
+			]
+			dependencies: ["0000000000000567"]
+			size: 2.0d
+			id: "0000000000000561"
+			tasks: [
+				{
+					id: "0000000000000562"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "0000000000000569"
+					type: "item"
+					item: "eidolon:stone_hand"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "148FA90CAA5BC7EC"
+				type: "item"
+				item: "eidolon:stone_hand"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: ["The Plinth is just a decorative stone used to put underneath Stone Hands."]
+			dependencies: ["0000000000000552"]
+			id: "0000000000000563"
+			tasks: [{
+				id: "0000000000000564"
+				type: "item"
+				item: "eidolon:plinth"
+			}]
+			rewards: [{
+				id: "3A5ED5C418D6408E"
+				type: "item"
+				item: "eidolon:plinth"
+				count: 8
+			}]
+		}
+		{
+			title: "Lead Ingot Eidolon"
+			x: -7.5d
+			y: -2.0d
+			description: [
+				"There is a different kind of lead in Eidolon."
+				"To get those, just use a regular Lead and an enchanted ash."
+			]
+			dependencies: ["0000000000000552"]
+			id: "0000000000000565"
+			tasks: [{
+				id: "0000000000000566"
+				type: "item"
+				item: "eidolon:lead_ingot"
+				count: 32L
+			}]
+			rewards: [{
+				id: "059376B96518462A"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Pewter Ingot"
+			x: -6.0d
+			y: -3.5d
+			description: ["Pewter is an alloy of Lead and Iron."]
+			dependencies: ["0000000000000552"]
+			id: "0000000000000567"
+			tasks: [{
+				id: "0000000000000568"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+				count: 32L
+			}]
+			rewards: [{
+				id: "6913793222EF40D7"
+				type: "item"
+				item: "eidolon:pewter_block"
+				count: 4
+			}]
+		}
+		{
+			x: -8.0d
+			y: -7.0d
+			description: ["The Warded Mail defends you from magic attacks."]
+			dependencies: ["0000000000000559"]
+			id: "000000000000056A"
+			tasks: [{
+				id: "000000000000056B"
+				type: "item"
+				item: "eidolon:warded_mail"
+			}]
+			rewards: [{
+				id: "266AF7498D190FBB"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.0d
+			description: [
+				"The Soulfire Wand can burn enemies."
+				""
+				"The Bonechill Wand can chill enemies."
+			]
+			dependencies: ["0000000000000559"]
+			id: "000000000000056C"
+			tasks: [{
+				id: "000000000000056D"
+				type: "item"
+				item: {
+					id: "eidolon:soulfire_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "10C051E2E9B1E390"
+				type: "item"
+				item: {
+					id: "eidolon:bonechill_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -8.5d
+			description: ["The Cleaving Axe may occasionally drop mobs head."]
+			dependencies: ["0000000000000572"]
+			id: "000000000000056E"
+			tasks: [{
+				id: "000000000000056F"
+				type: "item"
+				item: {
+					id: "eidolon:cleaving_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "488AAAF552E0452C"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: -8.5d
+			description: ["The Reaper's Scythe help you harvest soul shards when killing an undead mob."]
+			dependencies: ["0000000000000572"]
+			id: "0000000000000570"
+			tasks: [{
+				id: "0000000000000571"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4AD3374607CA6BEC"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: -10.0d
+			description: [
+				"To get an Unholy Symbol you need to use the Touch of Darkness chant on a single Pewter Inlay."
+				""
+				"And to unlock the Touch of Darkness chant you need to perform the chant Sacrifice Animal with a goblet full of blood on an altar."
+			]
+			dependencies: [
+				"0000000000000552"
+				"52E50E34618930B3"
+			]
+			size: 2.0d
+			id: "0000000000000572"
+			tasks: [{
+				id: "0000000000000573"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "1CF9F3A80B1D466B"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+		}
+		{
+			title: "Soul Shard"
+			x: -5.0d
+			y: -1.0d
+			description: [
+				"Soul Shard is Eidolon's most needed resource."
+				"To get them, you have to put redstone powder on two stone hands and light bone meal on a brazier, with undead around."
+				""
+				"The undead will be transformed into Soul Shard."
+			]
+			dependencies: ["0000000000000561"]
+			id: "0000000000000574"
+			tasks: [{
+				id: "0000000000000575"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 16L
+			}]
+			rewards: [{
+				id: "6FFAA7AD47E6CFFF"
+				type: "item"
+				item: "eidolon:soul_shard"
+				count: 16
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			description: ["The Shadow Gem is made in the Crucible, and it's used to make Wicked Weave or the Master Blood Orb from Blood Magic."]
+			dependencies: ["000000000000055F"]
+			id: "0000000000000576"
+			tasks: [{
+				id: "0000000000000577"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+			rewards: [{
+				id: "023EB19675C192E5"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			description: ["The Pickaxe of Inversion doesn't work like a normal pickaxe, the more resistant the block is, the fastest it can break, the slowest the block is, the longest it can break."]
+			dependencies: ["0000000000000559"]
+			id: "0000000000000578"
+			tasks: [{
+				id: "0000000000000579"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "28A6259D84648560"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.0d
+			description: ["The Void Amulet absorbs projectiles occasionally."]
+			dependencies: ["0000000000000559"]
+			id: "000000000000057A"
+			tasks: [{
+				id: "000000000000057B"
+				type: "item"
+				item: "eidolon:void_amulet"
+			}]
+			rewards: [{
+				id: "2F17CB7DC0269138"
+				type: "item"
+				item: "eidolon:pewter_inlay"
+				count: 2
+			}]
+		}
+		{
+			title: "Enchanted Ash"
+			x: -7.0d
+			y: -6.5d
+			description: ["Enchanted Ash is made with some bone in a furnace."]
+			dependencies: ["0000000000000552"]
+			id: "000000000000057C"
+			tasks: [{
+				id: "000000000000057D"
+				type: "item"
+				item: "eidolon:enchanted_ash"
+				count: 16L
+			}]
+			rewards: [{
+				id: "60432159196CF926"
+				type: "item"
+				item: "minecraft:bone_block"
+				count: 16
+			}]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			description: ["The Mind-Shielding Plate protect you against nausea effect."]
+			dependencies: ["0000000000000559"]
+			id: "000000000000057E"
+			tasks: [{
+				id: "000000000000057F"
+				type: "item"
+				item: "eidolon:mind_shielding_plate"
+			}]
+			rewards: [{
+				id: "0D000AD040D25914"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			description: ["The Elder Statue is more powerful than the Straw Effigy. You need, first, to get an Unholy Symbol."]
+			dependencies: [
+				"0000000000000559"
+				"0000000000000573"
+			]
+			id: "0000000000000580"
+			tasks: [{
+				id: "0000000000000581"
+				type: "item"
+				item: "eidolon:unholy_effigy"
+			}]
+			rewards: [{
+				id: "5447804A287A165F"
+				type: "item"
+				item: "eidolon:arcane_gold_block"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -6.0d
+			description: ["With the Glass Hand, you can deal double damage, but you take 5x more damage."]
+			dependencies: ["0000000000000559"]
+			id: "0000000000000582"
+			tasks: [{
+				id: "0000000000000583"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+			rewards: [{
+				id: "230CCE56DE6E9076"
+				type: "item"
+				item: "eidolon:gravity_belt"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.0d
+			description: [
+				"The Soul Enchanter doesn't need Lapis or Bookshelf, but need Soul Shard to enchant your items."
+				"You can enchant items already enchanted, but you can enchant only on level 1."
+			]
+			dependencies: ["0000000000000559"]
+			id: "0000000000000584"
+			tasks: [{
+				id: "0000000000000585"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+			rewards: [{
+				id: "3BC5851ABB07318B"
+				type: "item"
+				item: "eidolon:resolute_belt"
+			}]
+		}
+		{
+			title: "Warlock Outfit"
+			x: -6.0d
+			y: -7.0d
+			description: [
+				"With the Boots, you are immune to slowness."
+				""
+				"With the Cloak, you get half of the magic and wither damage."
+				""
+				"With the Hat, you get an additional 50% damage you can make with wither or magic damage."
+			]
+			dependencies: ["000000000000058D"]
+			id: "0000000000000586"
+			tasks: [
+				{
+					id: "0000000000000588"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000589"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000058A"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6D51808949112BC2"
+				type: "item"
+				item: "eidolon:wicked_weave"
+				count: 20
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			description: [
+				"You can fill the goblet with blood by killing an animal non-far away of it."
+				""
+				"It's used on top of an altar to increase its capacity by two."
+			]
+			dependencies: ["000000000000055F"]
+			id: "000000000000058B"
+			tasks: [{
+				id: "000000000000058C"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+			rewards: [{
+				id: "00F2438CACBFA040"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+		}
+		{
+			title: "Wicked Weave"
+			x: -6.0d
+			y: -6.0d
+			description: ["The Wicked Weave is made with the Unholy Symbol, and it's used to craft the Warlock Outfit."]
+			dependencies: [
+				"0000000000000576"
+				"0000000000000559"
+			]
+			id: "000000000000058D"
+			tasks: [{
+				id: "000000000000058E"
+				type: "item"
+				item: "eidolon:wicked_weave"
+				count: 8L
+			}]
+			rewards: [{
+				id: "76AA763CC519F0CD"
+				type: "item"
+				item: "eidolon:wicked_weave"
+				count: 8
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			description: ["Collect a Zombie Heart from a Zombie Brute."]
+			dependencies: ["0000000000000552"]
+			id: "000000000000058F"
+			tasks: [{
+				id: "0000000000000590"
+				type: "item"
+				item: "eidolon:zombie_heart"
+			}]
+			rewards: [{
+				id: "3034A8B6F01D235B"
+				type: "item"
+				item: "eidolon:zombie_heart"
+				count: 8
+			}]
+		}
+		{
+			title: "Wraith loot"
+			x: -4.0d
+			y: -7.0d
+			description: ["Collect some loot from the Wraith."]
+			dependencies: ["0000000000000552"]
+			id: "0000000000000592"
+			tasks: [
+				{
+					id: "0000000000000593"
+					type: "item"
+					item: "eidolon:tattered_cloth"
+				}
+				{
+					id: "0000000000000594"
+					type: "item"
+					item: "eidolon:wraith_heart"
+				}
+			]
+			rewards: [
+				{
+					id: "52BD06BC48105338"
+					type: "item"
+					item: "eidolon:wraith_heart"
+					count: 8
+				}
+				{
+					id: "5F2312DE292FBDE2"
+					type: "item"
+					item: "eidolon:tattered_cloth"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			description: ["The Candlestick is used on top of an altar to increase its capacity by two."]
+			dependencies: ["000000000000055F"]
+			id: "0000000000000595"
+			tasks: [{
+				id: "0000000000000596"
+				type: "item"
+				item: "eidolon:candlestick"
+			}]
+			rewards: [{
+				id: "71D3BBD430163299"
+				type: "item"
+				item: "eidolon:candlestick"
+				count: 8
+			}]
+		}
+		{
+			title: "Stone Altar"
+			x: -7.0d
+			y: -7.5d
+			description: [
+				"The Stone Altar is used to make an Altar for your prayer."
+				"It's made with 6 tables in a 2x3 size."
+			]
+			dependencies: ["0000000000000559"]
+			id: "0000000000000597"
+			tasks: [{
+				id: "0000000000000598"
+				type: "item"
+				item: "eidolon:stone_altar"
+				count: 6L
+			}]
+			rewards: [{
+				id: "33441D2EEDEDB3CC"
+				type: "item"
+				item: "chipped:cobblestone_11"
+				count: 32
+			}]
+		}
+		{
+			title: "Wooden Altar"
+			x: -5.0d
+			y: -7.5d
+			description: [
+				"The Wooden Altar is used to make an Altar for your prayer."
+				"It's made with 6 tables in a 2x3 size."
+			]
+			dependencies: ["0000000000000552"]
+			id: "4A0E1B16AA456211"
+			tasks: [{
+				id: "7FB177E6744D7CB9"
+				type: "item"
+				item: "eidolon:wooden_altar"
+				count: 6L
+			}]
+			rewards: [{
+				id: "44E4EEE208C3207A"
+				type: "item"
+				item: "eidolon:polished_planks"
+				count: 32
+			}]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			description: ["To get the Sword of Sapping you need to perform a ritual under the \"Sanguine Items\" section in the Ars Ecclesia (Eidolon book)."]
+			dependencies: ["0000000000000561"]
+			id: "5BC2FDB4CFCA4FA1"
+			tasks: [{
+				id: "3DE43E0D1697A335"
+				type: "item"
+				item: {
+					id: "eidolon:sapping_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C2A6D93151164A2"
+				type: "item"
+				item: "eidolon:sanguine_amulet"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.5d
+			description: ["Craft a Pewter Inlay using Pewter Ingot."]
+			dependencies: ["0000000000000567"]
+			id: "52E50E34618930B3"
+			tasks: [{
+				id: "334B5DFBD5338626"
+				type: "item"
+				item: "eidolon:pewter_inlay"
+			}]
+			rewards: [{
+				id: "128FE81D01056A72"
+				type: "item"
+				item: "eidolon:pewter_inlay"
+			}]
+		}
+		{
+			title: "Powder"
+			x: -4.0d
+			y: -4.0d
+			description: ["Makes some powders in the crucible."]
+			dependencies: ["000000000000055F"]
+			id: "55DBF426FF043E83"
+			tasks: [
+				{
+					id: "67B20FE8B9BB9BBF"
+					type: "item"
+					item: "eidolon:death_essence"
+				}
+				{
+					id: "0F8ED5DB42C9FF24"
+					type: "item"
+					item: "eidolon:crimson_essence"
+				}
+				{
+					id: "628255B215256C96"
+					type: "item"
+					item: "eidolon:fungus_sprouts"
+				}
+				{
+					id: "538E2DBDD52D0D9E"
+					type: "item"
+					item: "eidolon:warped_sprouts"
+				}
+			]
+			rewards: [{
+				id: "5D9C77AB8EF38D29"
+				type: "item"
+				item: "eidolon:ender_calx"
+				count: 32
+			}]
+		}
+		{
+			title: "How do I begin Eidolon ?"
+			icon: "create:brass_hand"
+			x: -6.0d
+			y: -11.5d
+			shape: "circle"
+			description: [
+				"Eidolon is a magic mod with interesting interaction with undead mobs."
+				""
+				"To begin this mod, you need, first, toss your book on a witch to learn the Wicked Sign, for dark prayer."
+				"{image:kubejs:textures/ftbquests/begin/eidolonbegin.png width:150 height:100 align:1}"
+			]
+			dependencies: ["0000000000000552"]
+			id: "06ABDF531443AAE1"
+			tasks: [{
+				id: "282CE90A38269FB3"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1D2D6FEF10566F0E"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

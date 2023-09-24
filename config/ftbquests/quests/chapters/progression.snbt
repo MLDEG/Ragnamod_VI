@@ -1,0 +1,1338 @@
+{
+	id: "000000000000008D"
+	group: ""
+	order_index: 1
+	filename: "progression"
+	title: "Progression"
+	icon: {
+		id: "enigmaticlegacy:etherium_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["Where do I start ?"]
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 8.0d
+			y: -2.0d
+			width: 7.0d
+			height: 8.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/begin/flowchartquests.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/begin/legendflowchart.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Bees Quests"
+			icon: "minecraft:honeycomb"
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "000000000000008E"
+			tasks: [{
+				id: "00000000000002F7"
+				type: "checkmark"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000002F8"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Bees Quests"
+			icon: "thermal:lock"
+			x: -1.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000002"
+				"000000000000008E"
+			]
+			id: "00000000000000B6"
+			tasks: [{
+				id: "4DB9AAFB12890950"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "63BAF44FD33F36A8"
+				type: "item"
+				item: "kubejs:resourcefulbees_trophy"
+			}]
+		}
+		{
+			title: "Refined Storage Quests"
+			icon: "refinedstorage:controller"
+			x: 4.5d
+			y: -4.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"68BFEB24DC925A5C"
+				"5E95238C21F33FD8"
+				"00000000000003F9"
+			]
+			id: "0000000000000129"
+			tasks: [{
+				id: "1E7DB6CCD571092E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4ABBEA359B64637B"
+				type: "item"
+				item: "refinedstorage:wrench"
+			}]
+		}
+		{
+			title: "End of Refined Storage Quests"
+			icon: "thermal:lock"
+			x: 4.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"00000000000000B8"
+				"0000000000000129"
+			]
+			id: "000000000000012B"
+			tasks: [{
+				id: "4782193202421EB5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "78417C4A15F42519"
+				type: "item"
+				item: "kubejs:refined_trophy"
+			}]
+		}
+		{
+			title: "Mystical Agriculture Quests"
+			icon: "mysticalagriculture:inferium_essence"
+			x: -2.5d
+			y: -2.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"1C0EE50619DE24B2"
+			]
+			id: "000000000000012D"
+			tasks: [{
+				id: "00000000000002F5"
+				type: "checkmark"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000002F6"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "mysticalagriculture:guide"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Mystical Agriculture Quests"
+			icon: "thermal:lock"
+			x: -2.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"000000000000012D"
+				"0000000000000131"
+			]
+			id: "000000000000012F"
+			tasks: [{
+				id: "0F830C6DA5189785"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "30471E9A2E0A445C"
+				type: "item"
+				item: "kubejs:mysticalagriculture_trophy"
+			}]
+		}
+		{
+			title: "Astral Sorcery Quests"
+			icon: "astralsorcery:starmetal_ingot"
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "00000000000002B0"
+			tasks: [{
+				id: "077C9F37695DEB8B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4E9871B985A99A37"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			title: "End of Astral Sorcery Quests"
+			icon: "thermal:lock"
+			x: -0.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"00000000000002B0"
+				"00000000000002B4"
+			]
+			id: "00000000000002B2"
+			tasks: [{
+				id: "7BE2C7225C4CF924"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "49D2D0E5065B9CC3"
+				type: "item"
+				item: "kubejs:astralsorcery_trophy"
+			}]
+		}
+		{
+			title: "Blood Magic Quests"
+			icon: "bloodmagic:weakbloodorb"
+			x: 1.5d
+			y: -2.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"00000000000003F7"
+			]
+			id: "00000000000002F1"
+			tasks: [{
+				id: "00000000000002F9"
+				type: "checkmark"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000002FA"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Blood Magic Quests"
+			icon: "thermal:lock"
+			x: 1.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"00000000000002F1"
+				"00000000000002FD"
+			]
+			id: "00000000000002FB"
+			tasks: [{
+				id: "66F824A495CFDE9C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7B970E35B9C2A8D8"
+				type: "item"
+				item: "kubejs:bloodmagic_trophy"
+			}]
+		}
+		{
+			title: "Botania Quests"
+			icon: "botania:natura_pylon"
+			x: 0.5d
+			y: -2.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"5B83DDDBFDC5E30F"
+				"00000000000002C7"
+			]
+			id: "000000000000036D"
+			tasks: [{
+				id: "6331F56323A53BAB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "74F76330B2626526"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+		}
+		{
+			title: "End of Botania Quests"
+			icon: "thermal:lock"
+			x: 0.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"000000000000036D"
+				"0000000000000371"
+			]
+			id: "000000000000036F"
+			tasks: [{
+				id: "58BA528613CFAA16"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3EAC5564A256A7DC"
+				type: "item"
+				item: "kubejs:botania_trophy"
+			}]
+		}
+		{
+			title: "Create Quests"
+			icon: "create:crushing_wheel"
+			x: -3.5d
+			y: -4.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "00000000000004AE"
+			tasks: [{
+				id: "57E4C256CCEFA2D8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "306B16535CDDC046"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 64
+			}]
+		}
+		{
+			title: "End of Create Quests"
+			icon: "thermal:lock"
+			x: -3.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"00000000000004AE"
+				"000000000000044D"
+			]
+			id: "00000000000004B0"
+			tasks: [{
+				id: "2D906766D8BC6C5F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5FE24B6936FE5C09"
+				type: "item"
+				item: "kubejs:create_trophy"
+			}]
+		}
+		{
+			title: "Environmental Tech Quests"
+			icon: "envirotech:litherite_void_miner_ccu"
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "0000000000000508"
+			tasks: [{
+				id: "3E049942A973541C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "End of Environmental Tech Quests"
+			icon: "thermal:lock"
+			x: 1.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000508"
+				"000000000000050C"
+			]
+			id: "000000000000050A"
+			tasks: [{
+				id: "191BA17C7FDDC2BF"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1EA3C6ECFB7EFC6E"
+				type: "item"
+				item: "kubejs:envirotech_trophy"
+			}]
+		}
+		{
+			title: "Eidolon Quests"
+			icon: "eidolon:unholy_symbol"
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "0000000000000552"
+			tasks: [{
+				id: "40BEEAD73BBC29EE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6888631E7A623FBE"
+				type: "item"
+				item: "eidolon:codex"
+			}]
+		}
+		{
+			title: "End of Eidolon Quests"
+			icon: "thermal:lock"
+			x: 2.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000552"
+				"0000000000000556"
+			]
+			id: "0000000000000554"
+			tasks: [{
+				id: "2D15D8B5FF70DF6B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4CD07F13815EEB6F"
+				type: "item"
+				item: "kubejs:eidolon_trophy"
+			}]
+		}
+		{
+			icon: "solarflux:sp_1"
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "00000000000005CA"
+			tasks: [{
+				id: "00000000000005CB"
+				type: "checkmark"
+				title: "Power Generation Quests"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000005CC"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Power Generation Quests"
+			icon: "thermal:lock"
+			x: -3.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"000000000000059D"
+				"00000000000005CA"
+			]
+			id: "00000000000005CD"
+			tasks: [{
+				id: "0D55E387B3281222"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "29F73D3EB9BC7DDF"
+				type: "item"
+				item: "kubejs:powergen_trophy"
+			}]
+		}
+		{
+			title: "Forbidden and Arcanus Quests"
+			icon: "forbidden_arcanus:dark_soul"
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "00000000000005DA"
+			tasks: [{
+				id: "00000000000005DB"
+				type: "checkmark"
+				title: "Forbidden and Arcanus Quests"
+				icon: "forbidden_arcanus:forbiddenmicon"
+			}]
+		}
+		{
+			title: "End of Forbidden and Arcanus Quests"
+			icon: "thermal:lock"
+			x: 3.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"00000000000005DE"
+				"00000000000005DA"
+			]
+			id: "00000000000005DC"
+			tasks: [{
+				id: "02B26F1CF6258518"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "509F10BFD5B194E8"
+				type: "item"
+				item: "kubejs:forbidden_arcanus_trophy"
+			}]
+		}
+		{
+			title: "Gobber Quests"
+			icon: "gobber2:dragon_star"
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "0000000000000618"
+			tasks: [{
+				id: "6689A5B9A103707F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "End of Gobber Quests"
+			icon: "thermal:lock"
+			x: 4.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"000000000000061A"
+				"0000000000000618"
+			]
+			id: "000000000000061B"
+			tasks: [{
+				id: "72B80D0B7CC4042B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2BCBB256E9C65167"
+				type: "item"
+				item: "kubejs:gobber2_trophy"
+			}]
+		}
+		{
+			title: "Immersive Engineering Quests"
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: -4.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "0000000000000692"
+			tasks: [{
+				id: "6DB8939AAE2B1367"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0A96970B959DE5F2"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			title: "End of Immersive Engineering Quests"
+			icon: "thermal:lock"
+			x: -2.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000691"
+				"0000000000000692"
+			]
+			id: "0000000000000694"
+			tasks: [{
+				id: "137E1FD4C5864017"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "549A1B502473F398"
+				type: "item"
+				item: "kubejs:immersiveengineering_trophy"
+			}]
+		}
+		{
+			icon: "industrialforegoing:mob_imprisonment_tool"
+			x: -1.5d
+			y: -4.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"000000000000045A"
+			]
+			id: "00000000000007CF"
+			tasks: [{
+				id: "00000000000007D0"
+				type: "checkmark"
+				title: "Industrial Foregoing Quests"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00000000000007D1"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Industrial Foregoing Quests"
+			icon: "thermal:lock"
+			x: -1.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000794"
+				"00000000000007CF"
+			]
+			id: "00000000000007D2"
+			tasks: [{
+				id: "5A1FD93DFAD7F115"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5AC5A5A14A914523"
+				type: "item"
+				item: "kubejs:industrialforegoing_trophy"
+			}]
+		}
+		{
+			title: "Jellyfishing Quests"
+			icon: "jellyfishing:jellyfish"
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "00000000000007FC"
+			tasks: [{
+				id: "0DE3599C2B11BC9E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6FB11EBCCE338126"
+				type: "item"
+				item: "jellyfishing:jellyfish_jelly"
+			}]
+		}
+		{
+			title: "End of Jellyfishing Quests"
+			icon: "thermal:lock"
+			x: -3.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"00000000000007FC"
+				"0000000000000800"
+			]
+			id: "00000000000007FE"
+			tasks: [{
+				id: "24BD8F22A6238F53"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "53E3E77215210CCA"
+				type: "item"
+				item: "kubejs:jellyfishing_trophy"
+			}]
+		}
+		{
+			title: "Mahou Tsukai Quests"
+			icon: {
+				id: "mahoutsukai:morgan"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+						MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+					}
+				}
+			}
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "000000000000083E"
+			tasks: [{
+				id: "4C046268C619A962"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0093D33F02E8B847"
+				type: "item"
+				item: "mahoutsukai:guidebook"
+			}]
+		}
+		{
+			title: "End of Mahou Tsukai Quests"
+			icon: "thermal:lock"
+			x: -4.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000842"
+				"000000000000083E"
+			]
+			id: "0000000000000840"
+			tasks: [{
+				id: "60CA6F241F36C07D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1C2A499987EBD1D8"
+				type: "item"
+				item: "kubejs:mahoutsukai_trophy"
+			}]
+		}
+		{
+			title: "Mekanism Quests"
+			icon: "mekanism:quantum_entangloporter"
+			x: -0.5d
+			y: -4.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"00000000000007B9"
+			]
+			id: "000000000000085A"
+			tasks: [{
+				id: "5D1BC46B4F38C74F"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "End of Mekanism Quests"
+			icon: "thermal:lock"
+			x: -0.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000859"
+				"000000000000085A"
+			]
+			id: "000000000000085C"
+			tasks: [{
+				id: "26A96223AC7225DA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3E988398F928BC6A"
+				type: "item"
+				item: "kubejs:mekanism_trophy"
+			}]
+		}
+		{
+			title: "PneumaticCraft Quests"
+			icon: "pneumaticcraft:advanced_pcb"
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "0000000000000950"
+			tasks: [{
+				id: "5FA29805B206F140"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7466F4AD3808CC5F"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Pneumaticcraft Quests"
+			icon: "thermal:lock"
+			x: 2.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000950"
+				"0000000000000955"
+			]
+			id: "0000000000000953"
+			tasks: [{
+				id: "06A3A70FB68C6738"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "768AFF3CC906FD21"
+				type: "item"
+				item: "kubejs:pneumaticcraft_trophy"
+			}]
+		}
+		{
+			title: "Powah Quests"
+			icon: "powah:energy_cell_nitro"
+			x: -4.5d
+			y: -2.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"00000000000003F9"
+				"0000000000000A82"
+			]
+			id: "00000000000009BD"
+			tasks: [{
+				id: "4D8721460A768B13"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "13A1D45ECE6C73AE"
+				type: "item"
+				item: "powah:book"
+			}]
+		}
+		{
+			title: "End of Powah Quests"
+			icon: "thermal:lock"
+			x: -4.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: [
+				"00000000000009BC"
+				"00000000000009BD"
+			]
+			id: "00000000000009BF"
+			tasks: [{
+				id: "33EF91B2A9181A2C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "18062DF6677DC9B5"
+				type: "item"
+				item: "kubejs:powah_trophy"
+			}]
+		}
+		{
+			title: "PSI Quests"
+			icon: "psi:cad_assembly_psimetal"
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "0000000000000A78"
+			tasks: [{
+				id: "2306497195CD554B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "194737D8181EA013"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "psi:encyclopaedia_psionica"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of PSI Quests"
+			icon: "thermal:lock"
+			x: 0.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000A78"
+				"0000000000000A7D"
+			]
+			id: "0000000000000A7B"
+			tasks: [{
+				id: "54D59AB93CC83B04"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "37959D5AB8B51EC5"
+				type: "item"
+				item: "kubejs:psi_trophy"
+			}]
+		}
+		{
+			title: "RFTools Quests"
+			icon: "rftoolsbase:dimensionalshard"
+			x: 3.5d
+			y: -4.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "0000000000000AC5"
+			tasks: [{
+				id: "04023F6F3A7C6277"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3C8FD903327FFA18"
+				type: "item"
+				item: "rftoolsbase:manual"
+			}]
+		}
+		{
+			title: "End of RFTools Quests"
+			icon: "thermal:lock"
+			x: 3.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"0000000000000AC7"
+				"0000000000000AC5"
+			]
+			id: "0000000000000AC8"
+			tasks: [{
+				id: "6D1FF041566560DE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3E97A70350B7B2A0"
+				type: "item"
+				item: "kubejs:rftools_trophy"
+			}]
+		}
+		{
+			title: "Rats Quests"
+			icon: "rats:cheese"
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "242A94EA0FE20741"
+			tasks: [{
+				id: "710104C08B21B6B7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "017B7C7C2F24C1EF"
+				type: "item"
+				item: "rats:cauldron_milk"
+			}]
+		}
+		{
+			title: "End of Rats Quests"
+			icon: "thermal:lock"
+			x: -2.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"2E6F230CBBDFCC64"
+				"242A94EA0FE20741"
+			]
+			id: "3BC984CF807FC3E1"
+			tasks: [{
+				id: "57FE7F37A47C7964"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1DF89C0C659A0D7E"
+				type: "item"
+				item: "kubejs:rats_trophy"
+			}]
+		}
+		{
+			title: "Thermal Quests"
+			icon: "thermal:wrench"
+			x: 0.5d
+			y: -4.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"0D78FF79D69B3596"
+			]
+			id: "48C5B2DDCFAEBA37"
+			tasks: [{
+				id: "24848457913EFF54"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "273A1C8C210F7764"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Thermal Quests"
+			icon: "thermal:lock"
+			x: 0.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"75BCA105246FEFD5"
+				"48C5B2DDCFAEBA37"
+			]
+			id: "79E4F302613B3FFF"
+			tasks: [{
+				id: "6CDEC175DE1476AF"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7FD3F09A1CCD75A2"
+				type: "item"
+				item: "kubejs:thermal_trophy"
+			}]
+		}
+		{
+			icon: "woot:hammer"
+			x: 1.5d
+			y: -0.5d
+			description: [""]
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "21B72619D489E6B6"
+			tasks: [{
+				id: "65E6FDD7563547B1"
+				type: "checkmark"
+				title: "Woot Quests"
+				icon: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "woot:wootguide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "57726ADD64F947B0"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "woot:wootguide"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Woot Quests"
+			icon: "thermal:lock"
+			x: 1.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"34EFAA5154A8A0F0"
+				"21B72619D489E6B6"
+			]
+			id: "125E78DDE4703293"
+			tasks: [{
+				id: "76FC79E8D41E60E4"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "6003E92490CBF179"
+				type: "item"
+				item: "kubejs:woot_trophy"
+			}]
+		}
+		{
+			title: "Project E Quests"
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["09556A9AE232B5F9"]
+			id: "1103820B58A2C2F0"
+			tasks: [{
+				id: "0F21CC20564DE7FE"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Project E Quests"
+			icon: "thermal:lock"
+			x: 3.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"1103820B58A2C2F0"
+				"3D7606CCC3AA3984"
+			]
+			id: "6BD3F31408282D6B"
+			tasks: [{
+				id: "451734E9B1E632BE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "487B12FD9637939E"
+				type: "item"
+				item: "kubejs:projecte_trophy"
+			}]
+		}
+		{
+			title: "Extended Crafting Quests"
+			icon: "extendedcrafting:ultimate_table"
+			x: 4.5d
+			y: -0.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"64FC7A12FDCC015F"
+				"0000000000000567"
+			]
+			id: "28FAE67AF30700C8"
+			tasks: [{
+				id: "19D25BBB48B21AF6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "46FF0E6871750E2E"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "extendedcrafting:guide"
+					}
+				}
+			}]
+		}
+		{
+			title: "End of Extended Crafting Quests"
+			icon: "thermal:lock"
+			x: 4.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"5F1828D807F8D85C"
+				"28FAE67AF30700C8"
+			]
+			id: "7163100ACB6A47E0"
+			tasks: [{
+				id: "18E40CEBB681BD27"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "47FBF92433EB63BF"
+				type: "item"
+				item: "kubejs:extendedcrafting_trophy"
+			}]
+		}
+		{
+			title: "Miscellaneous Quests"
+			icon: "ftbquests:book"
+			x: -4.5d
+			y: -4.5d
+			description: ["Unlock the page for Miscellaneous."]
+			dependencies: ["18A6A629A0AB1CEB"]
+			id: "1F534501B689CBB4"
+			tasks: [{
+				id: "19A2C91D09E1D58A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "End of Miscellaneous Quests"
+			icon: "thermal:lock"
+			x: -4.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: [
+				"0163EF4A5A6A1C7B"
+				"1F534501B689CBB4"
+			]
+			id: "2A8A7D0DD43BE45E"
+			tasks: [{
+				id: "3B40DF1C26407B70"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7B474274BCEB3B59"
+				type: "item"
+				item: "kubejs:miscellaneous_trophy"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			description: ["To enter the twilight forest dimension you have to throw the psionic rat brain into a pool of water in Ratlantis"]
+			dependencies: ["5812EA1B2C12B448"]
+			id: "116CF2A04508EE65"
+			tasks: [{
+				id: "266F7C91DFCA49A5"
+				type: "checkmark"
+				title: "Twilight Forest Quests"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+			}]
+		}
+		{
+			title: "End of Twilight Forest Quests"
+			icon: "thermal:lock"
+			x: -1.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"2460DB8DDEB167BE"
+				"116CF2A04508EE65"
+			]
+			id: "4FE66B6C99AA6A9D"
+			tasks: [{
+				id: "7A884DF8EC48E574"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0F1A184B65FC6C8A"
+				type: "item"
+				item: "kubejs:twilightforest_trophy"
+			}]
+		}
+		{
+			icon: "sonicraft:classic_sonic_plushie"
+			x: -0.5d
+			y: -0.5d
+			dependencies: [
+				"18A6A629A0AB1CEB"
+				"31B7D924845F50DE"
+			]
+			id: "6554ECBA503F69C5"
+			tasks: [{
+				id: "164FED9D5740A40B"
+				type: "checkmark"
+				title: "SoniCraft Quests"
+			}]
+		}
+		{
+			title: "End of SoniCraft Quests"
+			icon: "thermal:lock"
+			x: -0.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"6554ECBA503F69C5"
+				"40FD784801A8EBA6"
+			]
+			id: "3CA8304E230FF307"
+			tasks: [{
+				id: "16C0B39F04E7E6EA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "02B07043F7541256"
+				type: "item"
+				item: "kubejs:sonicraft_trophy"
+			}]
+		}
+		{
+			icon: {
+				id: "draconicevolution:chaotic_staff"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: {
+						module_host: {
+							provider_id: [I;
+								-207003058
+								143081544
+								-1494308063
+								-811494425
+							]
+							modules: [ ]
+							properties: {
+								mining_speed: {
+									hud: 1b
+									value: 1.0d
+								}
+							}
+						}
+						energy: {
+							energy: 0L
+						}
+					}
+				}
+			}
+			x: 2.5d
+			y: -0.5d
+			dependencies: [
+				"2B04C39F8061A391"
+				"2ECBEBF5C571970B"
+				"6B724B21BEC259E8"
+			]
+			id: "1AB445A949FEB6D5"
+			tasks: [{
+				id: "58495B1917809E51"
+				type: "checkmark"
+				title: "Draconic Evolution Quests"
+			}]
+		}
+		{
+			title: "End of Draconic Evolution Quests"
+			icon: "thermal:lock"
+			x: 2.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: [
+				"1AB445A949FEB6D5"
+				"25A119813F55D28B"
+			]
+			id: "7BD9E76459AD0B32"
+			tasks: [{
+				id: "7759921AC23CA8CE"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "31E704BCA3C77051"
+				type: "item"
+				item: "kubejs:draconicevolution_trophy"
+			}]
+		}
+	]
+}

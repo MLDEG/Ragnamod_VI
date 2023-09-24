@@ -1,0 +1,28 @@
+{
+  "flower": "thermal:nickel_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/nickel_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#aea384",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:nickel_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "iron",
+    "parent2": "copper",
+    "feedItem": "thermal:nickel_ingot"
+  },
+  "TraitData": {}
+}

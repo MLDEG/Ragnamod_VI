@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#zy",
+    "axa",
+    "aca"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:workbench"
+    },
+    "y": {
+      "item": "minecraft:iron_ingot"
+    },
+    "a": {
+      "tag": "minecraft:logs"
+    },
+    "z": {
+      "item": "minecraft:blast_furnace"
+    },
+    "c": {
+      "item": "minecraft:bricks"
+    },
+    "#": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "chipped:glassblower",
+    "count": 1
+  }
+}

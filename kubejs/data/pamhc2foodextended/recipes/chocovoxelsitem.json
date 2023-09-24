@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "item": "minecraft:bowl"
+    },
+	{	
+      "tag": "forge:milk"
+    },
+	{	
+      "item": "minecraft:cookie"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:chocovoxelsitem",
+	"count": 1}
+	
+}

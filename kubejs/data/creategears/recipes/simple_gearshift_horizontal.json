@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wcw"
+  ],
+  "key": {
+    "c": {
+      "item": "create:andesite_casing"
+    },
+    "w": {
+      "tag": "forge:cogwheels"
+    }
+  },
+  "result": {
+    "item": "creategears:simple_gearshift"
+  }
+}

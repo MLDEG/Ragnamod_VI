@@ -1,0 +1,28 @@
+{
+  "flower": "thermal:silver_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/silver_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#ddd8ca",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:silver_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "aluminum",
+    "feedItem": "thermal:silver_ingot"
+  },
+  "TraitData": {}
+}

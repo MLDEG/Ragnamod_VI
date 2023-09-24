@@ -1,0 +1,83 @@
+
+[spawning]
+
+	[spawning.skeleton_sheep]
+		#List of biome categories in which this entity is allowed to spawn
+		#To allow spawning in all biomes except those blacklisted, use "*"
+		#All biomes have one of the following categories: none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, the_end, beach, forest, ocean, desert, river, swamp, mushroom, nether
+		biome_categories = ["nether"]
+		#List of biome IDs in which this entity not allowed to spawn
+		#To blacklist all biomes from a single mod, use "modid:*"
+		biome_blacklist = []
+		#The likelihood that this entity spawns (compared to other entities that can spawn in the same biome)
+		#Set to 0 to prevent this entity from spawning
+		#Range: > 0
+		weight = 50
+		#The minimum amount of entities to spawn when this entity spawns
+		#(The actual amount of spawned entities in a group can be lower, not every attempt at spawning an entity succeeds)
+		#Range: > 0
+		min_rolls = 2
+		#The maximum amount of entities to spawn when this entity spawns
+		#Range: 0 ~ 12
+		max_rolls = 4
+
+	[spawning.skeleton_pig]
+		#List of biome categories in which this entity is allowed to spawn
+		#To allow spawning in all biomes except those blacklisted, use "*"
+		#All biomes have one of the following categories: none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, the_end, beach, forest, ocean, desert, river, swamp, mushroom, nether
+		biome_categories = ["nether"]
+		#List of biome IDs in which this entity not allowed to spawn
+		#To blacklist all biomes from a single mod, use "modid:*"
+		biome_blacklist = []
+		#The likelihood that this entity spawns (compared to other entities that can spawn in the same biome)
+		#Set to 0 to prevent this entity from spawning
+		#Range: > 0
+		weight = 50
+		#The minimum amount of entities to spawn when this entity spawns
+		#(The actual amount of spawned entities in a group can be lower, not every attempt at spawning an entity succeeds)
+		#Range: > 0
+		min_rolls = 2
+		#The maximum amount of entities to spawn when this entity spawns
+		#Range: 0 ~ 12
+		max_rolls = 4
+
+	[spawning.skeleton_cow]
+		#List of biome categories in which this entity is allowed to spawn
+		#To allow spawning in all biomes except those blacklisted, use "*"
+		#All biomes have one of the following categories: none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, the_end, beach, forest, ocean, desert, river, swamp, mushroom, nether
+		biome_categories = ["nether"]
+		#List of biome IDs in which this entity not allowed to spawn
+		#To blacklist all biomes from a single mod, use "modid:*"
+		biome_blacklist = []
+		#The likelihood that this entity spawns (compared to other entities that can spawn in the same biome)
+		#Set to 0 to prevent this entity from spawning
+		#Range: > 0
+		weight = 50
+		#The minimum amount of entities to spawn when this entity spawns
+		#(The actual amount of spawned entities in a group can be lower, not every attempt at spawning an entity succeeds)
+		#Range: > 0
+		min_rolls = 2
+		#The maximum amount of entities to spawn when this entity spawns
+		#Range: 0 ~ 12
+		max_rolls = 4
+
+	[spawning.skeleton_chicken]
+		#List of biome categories in which this entity is allowed to spawn
+		#To allow spawning in all biomes except those blacklisted, use "*"
+		#All biomes have one of the following categories: none, taiga, extreme_hills, jungle, mesa, plains, savanna, icy, the_end, beach, forest, ocean, desert, river, swamp, mushroom, nether
+		biome_categories = ["nether"]
+		#List of biome IDs in which this entity not allowed to spawn
+		#To blacklist all biomes from a single mod, use "modid:*"
+		biome_blacklist = []
+		#The likelihood that this entity spawns (compared to other entities that can spawn in the same biome)
+		#Set to 0 to prevent this entity from spawning
+		#Range: > 0
+		weight = 50
+		#The minimum amount of entities to spawn when this entity spawns
+		#(The actual amount of spawned entities in a group can be lower, not every attempt at spawning an entity succeeds)
+		#Range: > 0
+		min_rolls = 2
+		#The maximum amount of entities to spawn when this entity spawns
+		#Range: 0 ~ 12
+		max_rolls = 4
+

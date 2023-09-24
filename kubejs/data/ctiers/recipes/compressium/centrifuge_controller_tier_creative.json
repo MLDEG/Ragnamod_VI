@@ -1,0 +1,15 @@
+{
+    "type": "mysticalagriculture:infusion",
+    "input": { "item": "ctiers:centrifuge_controller_tier_5" },
+    "ingredients": [
+      { "item": "mysticalagradditions:creative_essence" },
+      { "item": "mysticalagradditions:creative_essence" },
+      { "item": "mysticalagradditions:creative_essence" },
+      { "item": "mysticalagradditions:creative_essence" },
+      { "item": "mysticalagradditions:creative_essence" },
+      { "item": "mysticalagradditions:creative_essence" },
+      { "item": "mysticalagradditions:creative_essence" },
+      { "item": "mysticalagradditions:creative_essence" }
+    ],
+    "result": { "item": "ctiers:centrifuge_controller_tier_creative", "count": 1 }
+  }

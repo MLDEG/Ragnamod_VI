@@ -1,0 +1,28 @@
+{
+  "flower": "jellyfishing:jelly_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "mobs/jellyfish_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#fcb7ec",
+      "modelType": "GELATINOUS"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "jellyfishing:jellyfish_jelly"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "slimy",
+    "parent2": "kitten",
+    "feedItem": "jellyfishing:jellyfish_jelly"
+  },
+  "TraitData": {}
+}

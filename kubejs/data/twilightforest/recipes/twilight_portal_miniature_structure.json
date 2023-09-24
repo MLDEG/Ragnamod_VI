@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "D E",
+    "FGH"
+  ],
+  "key": {
+    "A": {
+      "item": "twilightforest:naga_trophy"
+    },
+    "B": {
+      "item": "twilightforest:lich_trophy"
+    },
+    "C": {
+      "item": "twilightforest:minoshroom_trophy"
+    },
+    "D": {
+      "item": "twilightforest:hydra_trophy"
+    },
+    "E": {
+      "item": "twilightforest:knight_phantom_trophy"
+    },
+    "F": {
+      "item": "twilightforest:ur_ghast_trophy"
+    },
+    "G": {
+      "item": "twilightforest:yeti_trophy"
+    },
+    "H": {
+      "item": "twilightforest:snow_queen_trophy"
+    }
+  },
+  "result": {
+    "item": "twilightforest:twilight_portal_miniature_structure",
+    "count": 1
+  }
+}

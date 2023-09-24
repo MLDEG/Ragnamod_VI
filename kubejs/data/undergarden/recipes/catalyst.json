@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:plates/electrum"
+    },
+    "B": {
+      "tag": "forge:plates/iron"
+    },
+    "C": {
+      "item": "thermal:enderium_coin"
+    }
+  },
+  "result": {
+    "item": "undergarden:catalyst"
+  }
+}

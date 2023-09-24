@@ -1,0 +1,14 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "ABA",
+        "BCB",
+        "ABA"
+    ],
+    "key":{
+        "A":{"item":"minecraft:iron_ingot"},
+        "B":{"tag":"forge:glass"},
+        "C":{"item":"metalbarrels:copper_barrel"}
+    },
+    "result":{"item":"metalbarrels:iron_barrel"}
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "BCB",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "cyclic:workbench"
+    },
+    "B": {
+      "item": "kubejs:tungsten_ingot"
+    },
+    "C": {
+      "item": "eidolon:pewter_ingot"
+    }
+  },
+  "result": {
+    "item": "psi:cad_assembler"
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"type": "cagedmobs:env_data",
+	"input": {
+		"item": "rftoolsdim:dimensional_blank_block"
+	},
+	"render": "rftoolsdim:dimensional_blank_block",
+	"growModifier": 1.0,
+	"categories": ["rftool"]
+}

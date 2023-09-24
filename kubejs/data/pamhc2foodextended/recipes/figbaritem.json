@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_bakeware"
+    },
+	{	
+      "tag": "forge:crops/fig"
+    },
+	{	
+      "tag": "forge:sugar"
+    },
+	{	
+      "item": "pamhc2foodextended:biscuititem"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:figbaritem",
+	"count": 1}
+	
+}

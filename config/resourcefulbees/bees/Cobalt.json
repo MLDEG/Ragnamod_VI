@@ -1,0 +1,28 @@
+{
+  "flower": "tconstruct:cobalt_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "ores/cobalt_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#2375da",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "tconstruct:cobalt_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "nether",
+    "parent2": "diamond",
+    "feedItem": "tconstruct:cobalt_ingot"
+  },
+  "TraitData": {}
+}

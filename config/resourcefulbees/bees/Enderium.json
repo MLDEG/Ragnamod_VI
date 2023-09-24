@@ -1,0 +1,27 @@
+{
+  "flower": "thermal:enderium_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/enderium_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#2ba6ad"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:enderium_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "ender",
+    "parent2": "platinum",
+    "feedItem": "thermal:enderium_ingot"
+  },
+  "TraitData": {}
+}

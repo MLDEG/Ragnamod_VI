@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "overloaded:railgun"
+  },
+  "pattern": [
+    "AAB",
+    " AA"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "extendedcrafting:nether_star_block"
+    },
+    "B": {
+      "item": "overloaded:energy_core"
+    }
+  }
+}

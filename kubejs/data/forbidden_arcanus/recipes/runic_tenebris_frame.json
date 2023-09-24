@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "#X#",
+        "XDX",
+        "#X#"
+    ],
+    
+    "key":
+    {
+        "#":
+        {
+            "item": "eidolon:arcane_gold_ingot"
+        },
+        
+        "X":
+        {
+            "item": "forbidden_arcanus:runic_chiseled_polished_darkstone"
+        },
+        
+        "D":
+        {
+            "item": "forbidden_arcanus:dark_matter"
+        }
+        
+    },
+    
+    "result":
+    {
+        "item": "forbidden_arcanus:runic_tenebris_frame"
+    }
+}

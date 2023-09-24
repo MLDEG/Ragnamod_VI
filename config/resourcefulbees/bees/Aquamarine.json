@@ -1,0 +1,28 @@
+{
+  "flower": "kubejs:aquamarine_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/aquamarine_bee",
+  "ColorData": {
+      "isBeeColored": false,
+    "honeycombColor": "#006ebf",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "astralsorcery:aquamarine"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "sandy",
+    "parent2": "lapis",
+    "feedItem": "astralsorcery:aquamarine"
+  },
+  "TraitData": {}
+}

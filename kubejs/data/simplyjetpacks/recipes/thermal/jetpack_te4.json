@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ACA",
+    "ABA",
+    "D D"
+  ],
+  "key": {
+    "A": { "item": "thermal:enderium_ingot" },
+    "B": { "item": "simplyjetpacks:jetpack_te3" },
+    "C": { "item": "thermal:upgrade_augment_3" },
+    "D": { "item": "simplyjetpacks:thruster_te4" }
+  },
+  "result": {
+    "item": "simplyjetpacks:jetpack_te4",
+    "count": 1
+  }
+}

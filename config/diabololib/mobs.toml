@@ -1,0 +1,14 @@
+
+#DiaboloLib Mobs Utils Options.
+[mobs]
+	#Zombified piglin anger on nether ore harvest
+	zombifiedPiglinAnger = true
+	#Zombified piglin anger range on nether ore harvest
+	#Range: 0 ~ 64
+	zombifiedPiglinAngerRange = 10
+	#Enderman anger on end ore harvest
+	endermanAnger = true
+	#Enderman anger range on end ore harvest
+	#Range: 0 ~ 64
+	endermanAngerRange = 10
+

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "key": {
+    "A": { "item": "kubejs:brass_plate" },
+    "B": { "item": "simplyjetpacks:unit_cryotheum" },
+    "C": { "item": "simplyjetpacks:unit_glowstone" },
+    "D": { "item": "thermal:energy_cell" },
+    "E": { "item": "eidolon:arcane_gold_ingot" },
+    "F": { "item": "thermal:redstone_servo" }
+  },
+  "result": {
+    "item": "simplyjetpacks:thruster_te5",
+    "count": 1
+  }
+}

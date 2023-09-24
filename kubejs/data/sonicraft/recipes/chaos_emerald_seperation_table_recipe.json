@@ -1,0 +1,42 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:lime_stained_glass"
+    },
+    "1": {
+      "item": "sonicraft:gold_ring"
+    },
+    "2": {
+      "item": "minecraft:lime_stained_glass"
+    },
+    "3": {
+      "item": "minecraft:redstone"
+    },
+    "4": {
+      "tag": "forge:workbench"
+    },
+    "5": {
+      "item": "minecraft:redstone"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+    "8": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "sonicraft:chaos_emerald_seperation_table",
+    "count": 1
+  }
+}

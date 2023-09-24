@@ -1,0 +1,13 @@
+{
+    "name": "Arcane Crystal",
+    "type": "resource",
+    "tier": "mysticalagriculture:3",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "color": "c8b2e4",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_quartz"
+    }
+  }

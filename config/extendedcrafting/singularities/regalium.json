@@ -1,0 +1,11 @@
+{
+  "name": "Regalium",
+  "colors": [
+    "c9a23a",
+    "bd8434"
+  ],
+  "ingredient": {
+    "item": "undergarden:regalium_ingot"
+  },
+  "inUltimateSingularity": true
+}

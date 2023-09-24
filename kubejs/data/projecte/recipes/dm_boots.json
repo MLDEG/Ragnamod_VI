@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MAM",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "projecte:dark_matter"
+    },
+    "A": {
+      "item": "byg:ametrine_boots"
+    }
+  },
+  "result": {
+    "item": "projecte:dm_boots"
+  }
+}

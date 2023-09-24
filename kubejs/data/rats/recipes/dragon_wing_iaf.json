@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "LLB",
+    "  L"
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:bones/dragon"
+    },
+    "L": {
+      "tag": "forge:scales/fire_dragon"
+    }
+  },
+  "result": {
+    "item": "rats:dragon_wing"
+  }
+}

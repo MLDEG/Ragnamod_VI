@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DED",
+    "CBA"
+  ],
+  "key": {
+    "A": {
+      "item": "pipez:item_pipe"
+    },
+    "B": {
+      "item": "pipez:energy_pipe"
+    },
+    "C": {
+      "item": "pipez:fluid_pipe"
+    },
+    "D": {
+      "item": "pipez:gas_pipe"
+    },
+    "E": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "pipez:universal_pipe",
+    "count": 8
+  }
+}

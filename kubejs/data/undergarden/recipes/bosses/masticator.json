@@ -1,0 +1,16 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "undergarden:masticator",
+    "samplerTier": 3,
+    "environments": ["undergarden"],
+    "growTicks": 1800,
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "undergarden:masticator_scales"
+            },
+            "minAmount": 4,
+            "maxAmount": 8
+        }
+]}

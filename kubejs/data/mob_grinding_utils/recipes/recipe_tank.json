@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "GGG",
+    "IGI"
+  ],
+  "key": {
+    "I": {
+      "item": "mekanism:basic_fluid_tank"
+    },
+    "G": {
+      "tag": "forge:glass"
+    }
+  },
+  "result": {
+    "item": "mob_grinding_utils:tank"
+  }
+}

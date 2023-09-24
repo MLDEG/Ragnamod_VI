@@ -1,0 +1,11 @@
+{
+  "name": "Cheese",
+  "colors": [
+    "fade51",
+    "cf9500"
+  ],
+  "ingredient": {
+    "item": "rats:cheese"
+  },
+  "inUltimateSingularity": true
+}

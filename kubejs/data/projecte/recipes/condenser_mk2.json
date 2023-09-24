@@ -1,0 +1,13 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": ["AAAAAAAAA","ABCBBCBBA","ABCFCFCCA","ACFCDCFBA","ABCDEDCBA","ABFCDCFCA","ACCFCFCBA","ABBCBBCBA","AAAAAAAAA"],
+  "key": {
+    "A": {"item": "thermal:tar_block"},
+    "B": {"item": "projectex:blue_matter"},
+    "C": {"item": "extendedcrafting:nether_star_block"},
+    "D": {"item": "projecte:klein_star_omega"},
+    "E": {"item": "projecte:condenser_mk1"},
+    "F": {"item": "mysticalagradditions:creative_essence"}
+  },
+  "result": {"item": "projecte:condenser_mk2","count": 1}
+}

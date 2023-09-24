@@ -1,0 +1,22 @@
+{
+  "type": "mcjtylib:copy_nbt",
+  "pattern": [
+    " T ",
+    "CMC",
+    " T "
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:workbench"
+    },
+    "M": {
+      "item": "rftoolsutility:crafter1"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "item": "rftoolsutility:crafter2"
+  }
+}

@@ -1,0 +1,1112 @@
+{
+	id: "3D7606CCC3AA3984"
+	group: ""
+	order_index: 30
+	filename: "project_e"
+	title: "Project E"
+	icon: {
+		id: "projecte:philosophers_stone"
+		Count: 1b
+		tag: { }
+		ForgeCaps: {
+			Parent: { }
+		}
+	}
+	subtitle: ["Do NOT transmute humans !"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: -2.0d
+			description: [
+				"Philosopher's Stone is the starting point to start using EMC."
+				""
+				"In this pack you need Supremium Coal to get Alchemical Coal."
+			]
+			dependencies: ["09556A9AE232B5F9"]
+			size: 2.0d
+			id: "2496AB86EC974CBF"
+			tasks: [{
+				id: "6D42CA0763FA53A0"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0BD9D6BC8144753F"
+				type: "item"
+				item: "mysticalagradditions:supremium_coal_block"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["The Alchemical Chest is a large chest, capable of holding 104 stacks of items."]
+			dependencies: ["1103820B58A2C2F0"]
+			id: "39B341DDBA9E1041"
+			tasks: [{
+				id: "6CB6F3A0AD541668"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+			rewards: [{
+				id: "73267A241C7860D4"
+				type: "item"
+				item: "forbidden_arcanus:dark_nether_star"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: [
+				"Any items placed in the inventory will be destroyed and converted to EMC which is then stored in the internal buffer."
+				"It can receives EMC energy from an adjacent Energy Collector or Anti-Matter Relay."
+			]
+			dependencies: [
+				"2496AB86EC974CBF"
+				"39B341DDBA9E1041"
+			]
+			id: "10851F30E823445B"
+			tasks: [{
+				id: "1D47DC8EB5176EBD"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+			rewards: [{
+				id: "088EBBCCAD2B5090"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["The Energy Condenser MK2 is an upgraded version of the Energy Condenser."]
+			dependencies: ["10851F30E823445B"]
+			id: "612247F8866643D5"
+			tasks: [{
+				id: "4855F8FDA4F03A61"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+			rewards: [{
+				id: "78169C8C8CBB7FE3"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["The Transmutation Table functions as a battery for EMC energy, a charger for EMC storage items, as a library of blueprints and as a fabricator of items."]
+			dependencies: ["2496AB86EC974CBF"]
+			id: "20A13953035A1815"
+			tasks: [{
+				id: "50077D22B700722E"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "753149C7FDED4C60"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["22 487 040 EMC in this Dark Matter."]
+			dependencies: ["2496AB86EC974CBF"]
+			id: "66B4624A09FBDD7B"
+			tasks: [{
+				id: "16D1559A03533243"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [{
+				id: "0D5CFB125098F556"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["84 271 104 EMC in this Red Matter."]
+			dependencies: ["66B4624A09FBDD7B"]
+			id: "5D5F0B77D9FC5E02"
+			tasks: [{
+				id: "21C4BC0B342CF7F9"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [{
+				id: "48DF71AC5E4284BB"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+		}
+		{
+			title: "Alchemical Bag"
+			x: -2.5d
+			y: -2.0d
+			description: ["The Alchemical Bag is like a portable enderchest but with a much more large storage."]
+			dependencies: ["39B341DDBA9E1041"]
+			id: "57796882875B5D0D"
+			tasks: [{
+				id: "5A12A0634F413C04"
+				type: "item"
+				title: "Any #projecte:alchemical_bags"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "projecte:alchemical_bags"
+					}
+				}
+			}]
+			rewards: [{
+				id: "017F2DF2BDDDB2EF"
+				type: "item"
+				item: "projecte:red_alchemical_bag"
+			}]
+		}
+		{
+			title: "Dark Matter Armor"
+			x: 4.5d
+			y: -2.0d
+			description: ["Dark Matter Armor is the first tier armor from ProjectE."]
+			dependencies: ["66B4624A09FBDD7B"]
+			id: "29A643706EF0F496"
+			tasks: [
+				{
+					id: "3CABE7B8194C564A"
+					type: "item"
+					item: "projecte:dm_helmet"
+				}
+				{
+					id: "5920F6563ED887E5"
+					type: "item"
+					item: "projecte:dm_chestplate"
+				}
+				{
+					id: "6FD3C5D1D6AC8745"
+					type: "item"
+					item: "projecte:dm_leggings"
+				}
+				{
+					id: "5FC3C68B7846BB63"
+					type: "item"
+					item: "projecte:dm_boots"
+				}
+			]
+			rewards: [{
+				id: "4904A5B76BA0448F"
+				type: "item"
+				item: "projecte:dark_matter_block"
+			}]
+		}
+		{
+			title: "Red Matter Armor"
+			x: 5.5d
+			y: -1.5d
+			description: ["Red Matter armor is the second tier armor from ProjectE."]
+			dependencies: ["5D5F0B77D9FC5E02"]
+			id: "2568CCE74F8EF8AD"
+			tasks: [
+				{
+					id: "3642940B140DE933"
+					type: "item"
+					item: "projecte:rm_helmet"
+				}
+				{
+					id: "38D510E9300CA503"
+					type: "item"
+					item: "projecte:rm_chestplate"
+				}
+				{
+					id: "2E3A68536B3A2026"
+					type: "item"
+					item: "projecte:rm_leggings"
+				}
+				{
+					id: "7A3B1FF5B00181AE"
+					type: "item"
+					item: "projecte:rm_boots"
+				}
+			]
+			rewards: [{
+				id: "394B4B66F34AA1D9"
+				type: "item"
+				item: "projecte:red_matter_block"
+			}]
+		}
+		{
+			title: "Gem Armor"
+			x: 5.5d
+			y: -2.5d
+			description: [
+				"The Gem armor is the last tier armor from ProjectE. "
+				"This armor has some functions with it:"
+				""
+				"Step Assist on the boots."
+				"Night vision on the helmet."
+				"You can partially fly by holding the jump button."
+			]
+			dependencies: ["2568CCE74F8EF8AD"]
+			id: "0DE82070B7246F89"
+			tasks: [
+				{
+					id: "14C8877FA0798967"
+					type: "item"
+					item: "projecte:gem_helmet"
+				}
+				{
+					id: "733DC97D2E275178"
+					type: "item"
+					item: "projecte:gem_chestplate"
+				}
+				{
+					id: "74C562A77A4B2E39"
+					type: "item"
+					item: "projecte:gem_leggings"
+				}
+				{
+					id: "411D5C96E0BEBF62"
+					type: "item"
+					item: "projecte:gem_boots"
+				}
+			]
+			rewards: [{
+				id: "18F236A73CE7BA36"
+				type: "item"
+				item: "projecte:red_matter_block"
+				count: 4
+			}]
+		}
+		{
+			title: "How do I begin Project E?"
+			icon: "create:brass_hand"
+			x: 2.0d
+			y: -6.5d
+			shape: "circle"
+			description: ["Well, Project E is SO powerful that it's in the end of this pack. You need a Sphere of All Things to prove your courage, your patience and your determination to begin Project E with the Philosopher Stone."]
+			dependencies: ["1103820B58A2C2F0"]
+			id: "5F05939FBA3547AB"
+			tasks: [{
+				id: "363B8DE8602C87F5"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "486F41F57793A040"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["269 623 296 EMC in this Magenta Matter."]
+			dependencies: ["5D5F0B77D9FC5E02"]
+			id: "788110FA809EA7B8"
+			tasks: [{
+				id: "1A4875CEF3C95DFE"
+				type: "item"
+				item: "projectex:magenta_matter"
+			}]
+			rewards: [{
+				id: "6F0327FECFA14636"
+				type: "item"
+				item: "projectex:magenta_matter"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["825 679 872 EMC in this Pink Matter."]
+			dependencies: ["788110FA809EA7B8"]
+			id: "2C6F0ACF417C2CF4"
+			tasks: [{
+				id: "25CCA90909B0C751"
+				type: "item"
+				item: "projectex:pink_matter"
+			}]
+			rewards: [{
+				id: "1DE7ED35A426F82D"
+				type: "item"
+				item: "projectex:pink_matter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["2 493 849 600 EMC in this Purple Matter."]
+			dependencies: ["2C6F0ACF417C2CF4"]
+			id: "44F00B3D3A909032"
+			tasks: [{
+				id: "387789D6B49DF467"
+				type: "item"
+				item: "projectex:purple_matter"
+			}]
+			rewards: [{
+				id: "1B21CE0BC38C9A0D"
+				type: "item"
+				item: "projectex:purple_matter"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["7 498 258 784 EMC in this Violet Matter."]
+			dependencies: ["44F00B3D3A909032"]
+			id: "0DDB0D02097667F7"
+			tasks: [{
+				id: "7E10DFD4D48C4D82"
+				type: "item"
+				item: "projectex:violet_matter"
+			}]
+			rewards: [{
+				id: "5A7E430135A6C54F"
+				type: "item"
+				item: "projectex:violet_matter"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			description: ["22 511 886 336 EMC in this Blue Matter."]
+			dependencies: ["0DDB0D02097667F7"]
+			id: "3ECA72C579CC747A"
+			tasks: [{
+				id: "3774C6A20456ABCF"
+				type: "item"
+				item: "projectex:blue_matter"
+			}]
+			rewards: [{
+				id: "707896C51459F56B"
+				type: "item"
+				item: "projectex:blue_matter"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["67 552 468 992 EMC in this Cyan Matter."]
+			dependencies: ["3ECA72C579CC747A"]
+			id: "22BFC772C39884B5"
+			tasks: [{
+				id: "6F4DC1A880F1F538"
+				type: "item"
+				item: "projectex:cyan_matter"
+			}]
+			rewards: [{
+				id: "6BF619E3D9071651"
+				type: "item"
+				item: "projectex:cyan_matter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["202 674 216 960 EMC in this Green Matter."]
+			dependencies: ["22BFC772C39884B5"]
+			id: "32E040D267EAB556"
+			tasks: [{
+				id: "5A5FDC9EE69B8D3F"
+				type: "item"
+				item: "projectex:green_matter"
+			}]
+			rewards: [{
+				id: "55C35FA108011390"
+				type: "item"
+				item: "projectex:green_matter"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["608 039 460 864 EMC in this Lime Matter."]
+			dependencies: ["32E040D267EAB556"]
+			id: "51C74DF7AA0F4724"
+			tasks: [{
+				id: "030ADB829EA6F3C4"
+				type: "item"
+				item: "projectex:lime_matter"
+			}]
+			rewards: [{
+				id: "7D6A32157BA6433B"
+				type: "item"
+				item: "projectex:lime_matter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["1 824 135 192 576 EMC in this Yellow Matter."]
+			dependencies: ["51C74DF7AA0F4724"]
+			id: "729080F35DF1BD00"
+			tasks: [{
+				id: "06A6252DC6A763A2"
+				type: "item"
+				item: "projectex:yellow_matter"
+			}]
+			rewards: [{
+				id: "7F4C24A6E5368F1D"
+				type: "item"
+				item: "projectex:yellow_matter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			description: ["5 472 422 387 712 EMC in this Orange Matter."]
+			dependencies: ["729080F35DF1BD00"]
+			id: "50D6E47992A00A0C"
+			tasks: [{
+				id: "2D8BF16520532B46"
+				type: "item"
+				item: "projectex:orange_matter"
+			}]
+			rewards: [{
+				id: "06301EF734A10DC8"
+				type: "item"
+				item: "projectex:orange_matter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: ["16 417 283 973 120 EMC in this White Matter."]
+			dependencies: ["50D6E47992A00A0C"]
+			id: "4127527C72249AF0"
+			tasks: [{
+				id: "7B3A6D7D1D1C2915"
+				type: "item"
+				item: "projectex:white_matter"
+			}]
+			rewards: [{
+				id: "161D5210E1DEF470"
+				type: "item"
+				item: "projectex:white_matter"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			description: ["49 251 868 729 344 EMC in this Fading Matter."]
+			dependencies: ["4127527C72249AF0"]
+			id: "3E73787ACD0859FB"
+			tasks: [{
+				id: "6CF6EC11807A2778"
+				type: "item"
+				item: "projectex:fading_matter"
+			}]
+			rewards: [{
+				id: "51DF2E845EF24D6B"
+				type: "item"
+				item: "projectex:fading_matter"
+			}]
+		}
+		{
+			title: "Collector MK1"
+			x: 3.5d
+			y: -2.5d
+			description: ["The Basic Collector [MK1] will generate 4 EMC/s, +1 EMC/s for each relay, which can transfer 64 EMC/s."]
+			dependencies: ["2496AB86EC974CBF"]
+			id: "6B2FCD3B9BE54DC5"
+			tasks: [
+				{
+					id: "2F718BF77E653158"
+					type: "item"
+					item: "projectex:basic_collector"
+				}
+				{
+					id: "1A07835A11C0E66F"
+					type: "item"
+					item: "projectex:basic_relay"
+				}
+			]
+			rewards: [{
+				id: "6E5749743B2C8693"
+				type: "item"
+				item: "projecte:aeternalis_fuel_block"
+			}]
+		}
+		{
+			title: "Collector MK2"
+			x: 4.5d
+			y: -3.0d
+			description: ["The Dark Collector [MK2] will generate 12 EMC/s, +3 EMC/s for each relay, which can transfer 192 EMC/s."]
+			dependencies: ["6B2FCD3B9BE54DC5"]
+			id: "5FDE51B2E7A48AFA"
+			tasks: [
+				{
+					id: "1252671D168BA32B"
+					type: "item"
+					item: "projectex:dark_collector"
+				}
+				{
+					id: "319F555273582277"
+					type: "item"
+					item: "projectex:dark_relay"
+				}
+			]
+			rewards: [{
+				id: "6140FFDD98A3C93A"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+		}
+		{
+			title: "Collector MK3"
+			x: 5.5d
+			y: -4.0d
+			description: ["The Red Collector [MK3] will generate 40 EMC/s, +10 EMC/s for each relay, which can transfer 640 EMC/s."]
+			dependencies: ["5FDE51B2E7A48AFA"]
+			id: "7D4CAEF28DBE4FE2"
+			tasks: [
+				{
+					id: "683721B3E2D19DDD"
+					type: "item"
+					item: "projectex:red_collector"
+				}
+				{
+					id: "69DA6807DB2C64DD"
+					type: "item"
+					item: "projectex:red_relay"
+				}
+			]
+			rewards: [{
+				id: "57ABD73DEF155E19"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+		}
+		{
+			title: "Collector MK4"
+			x: 5.0d
+			y: -5.0d
+			description: ["The Magenta Collector [MK4] will generate 160 EMC/s, +40 EMC/s for each relay, which can transfer 2 560 EMC/s."]
+			dependencies: ["7D4CAEF28DBE4FE2"]
+			id: "0401A0F40DFE89FC"
+			tasks: [
+				{
+					id: "0015D4332C0E744A"
+					type: "item"
+					item: "projectex:magenta_collector"
+				}
+				{
+					id: "143102A5332B0022"
+					type: "item"
+					item: "projectex:magenta_relay"
+				}
+			]
+			rewards: [{
+				id: "50DFE6C8846D2BC9"
+				type: "item"
+				item: "projectex:magenta_matter"
+			}]
+		}
+		{
+			title: "Collector MK5"
+			x: 4.0d
+			y: -4.0d
+			description: ["The Pink Collector [MK5] will generate 640 EMC/s, +150 EMC/s for each relay, which can transfer 10 240 EMC/s."]
+			dependencies: ["0401A0F40DFE89FC"]
+			id: "0924A748A559208A"
+			tasks: [
+				{
+					id: "0B0DC1351056E592"
+					type: "item"
+					item: "projectex:pink_collector"
+				}
+				{
+					id: "4FAA52D0507CD194"
+					type: "item"
+					item: "projectex:pink_relay"
+				}
+			]
+			rewards: [{
+				id: "1AEA043F77C0639C"
+				type: "item"
+				item: "projectex:pink_matter"
+			}]
+		}
+		{
+			title: "Collector MK6"
+			x: 3.5d
+			y: -5.5d
+			description: ["The Purple Collector [MK6] will generate 2 560 EMC/s, +750 EMC/s for each relay, which can transfer 40 960 EMC/s."]
+			dependencies: ["0924A748A559208A"]
+			id: "50EF3725C690FC51"
+			tasks: [
+				{
+					id: "64980C27E7780B98"
+					type: "item"
+					item: "projectex:purple_collector"
+				}
+				{
+					id: "3033BFD2E657B133"
+					type: "item"
+					item: "projectex:purple_relay"
+				}
+			]
+			rewards: [{
+				id: "256A091D5D9FBA0F"
+				type: "item"
+				item: "projectex:purple_matter"
+			}]
+		}
+		{
+			title: "Collector MK7"
+			x: 3.0d
+			y: -4.5d
+			description: ["The Violet Collector [MK7] will generate 10 240 EMC/s, +3 750 EMC/s for each relay, which can transfer 163 840 EMC/s."]
+			dependencies: ["50EF3725C690FC51"]
+			id: "61A65C82B7CBA8E1"
+			tasks: [
+				{
+					id: "2FA02299BD4DB62A"
+					type: "item"
+					item: "projectex:violet_collector"
+				}
+				{
+					id: "789DD024F5283CCF"
+					type: "item"
+					item: "projectex:violet_relay"
+				}
+			]
+			rewards: [{
+				id: "16979F8D1D415D89"
+				type: "item"
+				item: "projectex:violet_matter"
+			}]
+		}
+		{
+			title: "Collector MK8"
+			x: 2.5d
+			y: -3.5d
+			description: ["The Blue Collector [MK8] will generate 40 960 EMC/s, +15 000 EMC/s for each relay, which can transfer 655 360 EMC/s."]
+			dependencies: ["61A65C82B7CBA8E1"]
+			id: "19256785AFE6AEB1"
+			tasks: [
+				{
+					id: "251F9C4F2A4D437D"
+					type: "item"
+					item: "projectex:blue_collector"
+				}
+				{
+					id: "1EF7480CB966428E"
+					type: "item"
+					item: "projectex:blue_relay"
+				}
+			]
+			rewards: [{
+				id: "296663FC1F8CE11A"
+				type: "item"
+				item: "projectex:blue_matter"
+			}]
+		}
+		{
+			title: "Collector MK9"
+			x: 1.5d
+			y: -3.5d
+			description: ["The Cyan Collector [MK9] will generate 163 840 EMC/s, +60 000 EMC/s for each relay, which can transfer 2 621 440 EMC/s."]
+			dependencies: ["19256785AFE6AEB1"]
+			id: "454A87052AC7B74A"
+			tasks: [
+				{
+					id: "0DA3C84DC7660138"
+					type: "item"
+					item: "projectex:cyan_collector"
+				}
+				{
+					id: "3F2C430D9631AD0E"
+					type: "item"
+					item: "projectex:cyan_relay"
+				}
+			]
+			rewards: [{
+				id: "3CAE7716EE82D5CD"
+				type: "item"
+				item: "projectex:cyan_matter"
+			}]
+		}
+		{
+			title: "Collector MK10"
+			x: 1.0d
+			y: -4.5d
+			description: ["The Green Collector [MK10] will generate 655 360 EMC/s, +240 000 EMC/s for each relay, which can transfer 10 485 760 EMC/s."]
+			dependencies: ["454A87052AC7B74A"]
+			id: "6D86FFBB32BA08FD"
+			tasks: [
+				{
+					id: "25CA6883FF49E873"
+					type: "item"
+					item: "projectex:green_collector"
+				}
+				{
+					id: "3B175C4336B15033"
+					type: "item"
+					item: "projectex:green_relay"
+				}
+			]
+			rewards: [{
+				id: "6A097EC5869F6B37"
+				type: "item"
+				item: "projectex:green_matter"
+			}]
+		}
+		{
+			title: "Collector MK11"
+			x: 0.5d
+			y: -5.5d
+			description: ["The Lime Collector [MK11] will generate 2 621 440 EMC/s, +960 000 EMC/s for each relay, which can transfer 41 943 040 EMC/s."]
+			dependencies: ["6D86FFBB32BA08FD"]
+			id: "723DFEE62780BA88"
+			tasks: [
+				{
+					id: "6723FBF4322A42B0"
+					type: "item"
+					item: "projectex:lime_collector"
+				}
+				{
+					id: "170867EF364170BB"
+					type: "item"
+					item: "projectex:lime_relay"
+				}
+			]
+			rewards: [{
+				id: "02C7F22F59171D53"
+				type: "item"
+				item: "projectex:lime_matter"
+			}]
+		}
+		{
+			title: "Collector MK12"
+			x: 0.0d
+			y: -4.0d
+			description: ["The Yellow Collector [MK12] will generate 10 485 760 EMC/s, +3 840 000 EMC/s for each relay, which can transfer 167 772 160 EMC/s."]
+			dependencies: ["723DFEE62780BA88"]
+			id: "3BB12DA16638F436"
+			tasks: [
+				{
+					id: "5852EDFA7ADAD3FA"
+					type: "item"
+					item: "projectex:yellow_collector"
+				}
+				{
+					id: "0B9C3D137472EE58"
+					type: "item"
+					item: "projectex:yellow_relay"
+				}
+			]
+			rewards: [{
+				id: "62AC7B1BCA6D4FF2"
+				type: "item"
+				item: "projectex:yellow_matter"
+			}]
+		}
+		{
+			title: "Collector MK13"
+			x: -1.0d
+			y: -5.0d
+			description: ["The Orange Collector [MK13] will generate 41 943 040 EMC/s, +15 360 000 EMC/s for each relay, which can transfer 671 088 640 EMC/s."]
+			dependencies: ["3BB12DA16638F436"]
+			id: "6B7F034E4FB3092D"
+			tasks: [
+				{
+					id: "400D8CF80DF22E64"
+					type: "item"
+					item: "projectex:orange_collector"
+				}
+				{
+					id: "38397249DDEEA6B3"
+					type: "item"
+					item: "projectex:orange_relay"
+				}
+			]
+			rewards: [{
+				id: "595A267BCBF1F537"
+				type: "item"
+				item: "projectex:orange_matter"
+			}]
+		}
+		{
+			title: "Collector MK14"
+			x: -1.5d
+			y: -4.0d
+			description: ["The White Collector [MK14] will generate 167 772 160 EMC/s, +61 440 000 EMC/s for each relay, which can transfer 2 684 354 560 EMC/s."]
+			dependencies: ["6B7F034E4FB3092D"]
+			id: "37FC2C9D3C60678C"
+			tasks: [
+				{
+					id: "4561D8A8378E0033"
+					type: "item"
+					item: "projectex:white_collector"
+				}
+				{
+					id: "63012D3A14F1564F"
+					type: "item"
+					item: "projectex:white_relay"
+				}
+			]
+			rewards: [{
+				id: "4BD7DB1FC0227BE7"
+				type: "item"
+				item: "projectex:white_matter"
+			}]
+		}
+		{
+			title: "Collector MK15"
+			x: -0.5d
+			y: -3.0d
+			description: ["The Fading Collector [MK15] will generate 671 088 640 EMC/s, +245 760 000 EMC/s for each relay, which can transfer 10 737 418 240 EMC/s."]
+			dependencies: ["37FC2C9D3C60678C"]
+			id: "40451083E9066147"
+			tasks: [
+				{
+					id: "2436C9854284FD66"
+					type: "item"
+					item: "projectex:fading_collector"
+				}
+				{
+					id: "2D15431E4508E30E"
+					type: "item"
+					item: "projectex:fading_relay"
+				}
+			]
+			rewards: [{
+				id: "2682E501A07AC11C"
+				type: "item"
+				item: "projectex:fading_matter"
+			}]
+		}
+		{
+			title: "Final Collector MK16"
+			x: 0.5d
+			y: -2.5d
+			description: ["The Final Collector [MK16] will generate 1 Trillion EMC/s, +1 Trillion EMC/s for each relay, which can transfer 9.2 Quintillion EMC/s."]
+			dependencies: ["40451083E9066147"]
+			id: "27F008223F162C08"
+			tasks: [
+				{
+					id: "40B96D859D882FC9"
+					type: "item"
+					item: "projectex:final_collector"
+				}
+				{
+					id: "002202C5191D7653"
+					type: "item"
+					item: "projectex:final_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "56EBFDCDEF9E3648"
+					type: "item"
+					item: "projectex:fading_matter"
+				}
+				{
+					id: "72B510F8D7719482"
+					type: "item"
+					item: "projectex:fading_matter"
+				}
+				{
+					id: "4E2A6D7FF13E8B85"
+					type: "item"
+					item: "projectex:fading_matter"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			description: ["The Final Star, doesn't work properly for right now, still in WIP, but it's used in the Creative Supply Upgrade recipe."]
+			dependencies: ["2496AB86EC974CBF"]
+			id: "033E8542451947A3"
+			tasks: [{
+				id: "1ECC98F831E21108"
+				type: "item"
+				item: "projectex:final_star"
+			}]
+			rewards: [{
+				id: "4653B635B3D79FFC"
+				type: "item"
+				item: "projectex:final_star_shard"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			description: ["The Final Power Flower will generate 48 Trillion EMC per second."]
+			dependencies: ["2496AB86EC974CBF"]
+			id: "7E4CD670F8CAFCE3"
+			tasks: [{
+				id: "4E5B927A011DAC85"
+				type: "item"
+				item: "projectex:final_power_flower"
+			}]
+			rewards: [{
+				id: "43A63685DA468C0F"
+				type: "item"
+				item: "minecraft:sunflower"
+			}]
+		}
+		{
+			title: "EMC Maker"
+			x: -0.5d
+			y: 2.5d
+			description: [
+				"The EMC Maker is a multiblock structure that can duplicate Clumped EMC."
+				"{image:kubejs:textures/ftbquests/begin/emcmaker.png width:150 height:100 align:1}"
+				"The purpose of this machine is to get lot and a lot of EMC, because the Final Star is very expensive."
+				"And to be honest, at this point in the game you have everything but not enough EMC."
+			]
+			dependencies: ["7E10DFD4D48C4D82"]
+			id: "41B4E767966AC713"
+			tasks: [
+				{
+					id: "02B49C9D925D42CA"
+					type: "item"
+					item: "masterfulmachinery:emcmaker_controller"
+				}
+				{
+					id: "26ABCBAA9A528C77"
+					type: "item"
+					item: "masterfulmachinery:emcmaker_emc_item_port_items_input"
+				}
+				{
+					id: "697D0C762929886D"
+					type: "item"
+					item: "masterfulmachinery:emcmaker_emc_item_port_items_output"
+				}
+				{
+					id: "32EAB7403679AFBA"
+					type: "item"
+					item: "masterfulmachinery:emcmaker_emc_energy_port_energy_input"
+				}
+				{
+					id: "142ADBD9B2597C60"
+					type: "item"
+					item: "forbidden_arcanus:arcane_polished_darkstone_pillar"
+					count: 11L
+				}
+				{
+					id: "1B6466FF2C6A9381"
+					type: "item"
+					item: "projectex:energy_link"
+				}
+				{
+					id: "19ACD23EC22F4A81"
+					type: "item"
+					item: "projecte:transmutation_table"
+					count: 2L
+				}
+				{
+					id: "1B4B6DBB6E7F8D46"
+					type: "item"
+					item: "forbidden_arcanus:runic_tenebris_core"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "1B0E507AEAD57677"
+				type: "item"
+				item: "projectex:violet_compressed_collector"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			description: ["Clumped Ichi EMC is worth 23,756,822,100 EMC."]
+			dependencies: ["41B4E767966AC713"]
+			id: "551858228D6987EB"
+			tasks: [{
+				id: "78EBAB65A9166626"
+				type: "item"
+				item: "kubejs:emc1"
+			}]
+			rewards: [{
+				id: "48386143E5D7B465"
+				type: "item"
+				item: "kubejs:emc1"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			description: ["Clumped Ni EMC is worth 213,811,398,900 EMC."]
+			dependencies: ["551858228D6987EB"]
+			id: "2720D1AD87CE2A03"
+			tasks: [{
+				id: "4FCB0D034BBA1B9E"
+				type: "item"
+				item: "kubejs:emc2"
+			}]
+			rewards: [{
+				id: "5B393FE8A7E37D2A"
+				type: "item"
+				item: "kubejs:emc2"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["Clumped San EMC is worth 1,924,302,590,100 EMC."]
+			dependencies: ["2720D1AD87CE2A03"]
+			id: "3A8468AF20C6207D"
+			tasks: [{
+				id: "09DD70FADF28DDB0"
+				type: "item"
+				item: "kubejs:emc3"
+			}]
+			rewards: [{
+				id: "79D20EC28D1FE478"
+				type: "item"
+				item: "kubejs:emc3"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			description: ["Clumped Yon EMC is worth 17,318,723,310,900 EMC."]
+			dependencies: ["3A8468AF20C6207D"]
+			id: "71890B86614B8A8F"
+			tasks: [{
+				id: "3D420AD64508FDA2"
+				type: "item"
+				item: "kubejs:emc4"
+			}]
+			rewards: [{
+				id: "2825913163470F30"
+				type: "item"
+				item: "kubejs:emc4"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			description: ["Clumped Go EMC is worth 155,868,509,798,100 EMC."]
+			dependencies: ["71890B86614B8A8F"]
+			id: "0C5E01EDC5224EDE"
+			tasks: [{
+				id: "515585259012B199"
+				type: "item"
+				item: "kubejs:emc5"
+			}]
+			rewards: [{
+				id: "15D484342E350567"
+				type: "item"
+				item: "kubejs:emc5"
+			}]
+		}
+	]
+}

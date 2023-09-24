@@ -1,0 +1,11 @@
+{
+  "type": "thermal:press",
+  "ingredient": {
+    "item": "extendedcrafting:black_iron_ingot"
+  },
+  "result": [
+    {
+      "item": "extendedcrafting:black_iron_slate"
+    }
+  ]
+}

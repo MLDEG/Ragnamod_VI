@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GPG",
+    "G G",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "tag" : "forge:glass"
+    },
+    "P": {
+      "tag" : "minecraft:wooden_pressure_plates"
+    }
+  },
+  "result": {
+    "item": "iceandfire:pixie_jar_empty"
+  }
+}

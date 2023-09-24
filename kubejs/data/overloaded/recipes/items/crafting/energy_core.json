@@ -1,0 +1,12 @@
+{
+      "type": "extendedcrafting:shaped_table",
+      "tier": 3,
+      "pattern": ["AAAAAAA", "ABBBBBA", "ABBCBBA", "ABCDCBA", "ABBCBBA", "ABBBBBA", "AAAAAAA"],
+      "key": {
+        "A": { "item": "extendedcrafting:nether_star_block" },
+        "B": { "item": "extendedcrafting:redstone_ingot_block" },
+        "C": { "item": "mysticalagradditions:creative_essence" },
+        "D": { "item": "powah:energy_cell_creative" }
+      },
+      "result": { "item": "overloaded:energy_core", "count": 1 }
+    }

@@ -1,0 +1,11 @@
+{
+    "type": "integrateddynamics:mechanical_drying_basin",
+    "fluid": {
+        "fluid": "tconstruct:molten_signalum",
+        "amount": 1296
+    },
+    "duration": 40,
+    "result": {
+        "item": "thermal:signalum_block"
+    }
+}

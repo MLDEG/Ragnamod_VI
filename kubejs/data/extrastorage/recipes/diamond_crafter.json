@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ada",
+    "cbc",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond_block"
+    },
+    "b": {
+      "item": "extrastorage:gold_crafter"
+    },
+    "c": {
+      "item": "extrastorage:neural_processor"
+    },
+    "d": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "result": {
+    "item": "extrastorage:diamond_crafter"
+  }
+}

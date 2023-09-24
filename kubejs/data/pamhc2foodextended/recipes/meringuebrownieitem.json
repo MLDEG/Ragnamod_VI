@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "item": "pamhc2foodextended:brownieitem"
+    },
+	{	
+      "tag": "forge:meringue/meringue"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:meringuebrownieitem",
+	"count": 1}
+	
+}

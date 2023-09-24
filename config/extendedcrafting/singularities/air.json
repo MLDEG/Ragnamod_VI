@@ -1,0 +1,11 @@
+{
+  "name": "Air",
+  "colors": [
+    "aba83c",
+    "8d8b32"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:air_agglomeratio"
+  },
+  "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "tier": 1,
+    "pattern": ["ABA", "BCB", "ABA"],
+    "key": {
+      "A": { "item": "envirocore:aethium_crystal" },
+      "B": { "item": "enviroenergy:aethium_solar_cell" },
+      "C": { "item": "enviroenergy:ionite_solar_ccu" }
+    },
+    "result": { "item": "enviroenergy:aethium_solar_ccu", "count": 1 }
+  }

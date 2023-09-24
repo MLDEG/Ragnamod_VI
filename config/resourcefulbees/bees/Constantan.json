@@ -1,0 +1,27 @@
+{
+  "flower": "thermal:constantan_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/constantan_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#f1c66a"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:constantan_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "copper",
+    "parent2": "nickel",
+    "feedItem": "thermal:constantan_ingot"
+  },
+  "TraitData": {}
+}

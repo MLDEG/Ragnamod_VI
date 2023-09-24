@@ -1,0 +1,28 @@
+{
+  "flower": "gobber2:gobber2_block_end",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/endgobber_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#3ed39d",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "gobber2:gobber2_globette_end"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "end",
+    "parent2": "gobber",
+    "feedItem": "gobber2:gobber2_globette_end"
+  },
+  "TraitData": {}
+}

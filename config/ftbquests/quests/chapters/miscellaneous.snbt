@@ -1,0 +1,4078 @@
+{
+	id: "0163EF4A5A6A1C7B"
+	group: ""
+	order_index: 2
+	filename: "miscellaneous"
+	title: "Miscellaneous"
+	icon: "ftbquests:book"
+	subtitle: ["This is madness !"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: 0.0d
+			width: 8.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/cool_stuff.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.25d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/brazier.png"
+			hover: ["Brazier"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			width: 8.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/storages.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.75d
+			y: 3.0d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/drawer.png"
+			hover: ["Framed Drawer"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			width: 14.0d
+			height: 6.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/o_stuff.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -10.0d
+			y: 8.0d
+			width: 9.0d
+			height: 6.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/jetpacks.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 8.0d
+			width: 9.0d
+			height: 6.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/dim.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: 8.5d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/dimdung.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.0d
+			y: 8.5d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/undergarden.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 12.5d
+			y: 8.5d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/lostcity.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			width: 8.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/kitchen.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			icon: "brazier:brazier"
+			x: 2.25d
+			y: 1.5d
+			description: ["The Brazier allows you to block hostile mob spawn."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "18634C2C6A6EE7C7"
+			tasks: [
+				{
+					id: "37AFC583E5FE18FC"
+					type: "item"
+					item: "brazier:brazier"
+				}
+				{
+					id: "0D12D6A9253F6DAB"
+					type: "item"
+					item: "minecraft:netherite_block"
+					count: 36L
+				}
+				{
+					id: "08D4DA2331557FF2"
+					type: "item"
+					item: "minecraft:gilded_blackstone"
+					count: 48L
+				}
+			]
+			rewards: [{
+				id: "7972925AFE5CB30C"
+				type: "item"
+				item: "brazier:living_torch"
+				count: 64
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			description: ["The Heart Amulet is an amulet who you can store 10 heart canisters of each color to get more health."]
+			dependencies: [
+				"69F50F42B9BAC0BF"
+				"3D2AE21668EA59A0"
+				"13941EAF09F3B97A"
+				"3BB82D0384E52C95"
+			]
+			id: "21CCE0E08B37DFEC"
+			tasks: [{
+				id: "163A051B72E0CBC7"
+				type: "item"
+				item: "bhc:heart_amulet"
+			}]
+			rewards: [{
+				id: "49527729547CF1AA"
+				type: "item"
+				item: "xreliquary:phoenix_down"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.0d
+			description: ["The red heart is dropped by any mobs."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "13941EAF09F3B97A"
+			tasks: [{
+				id: "424CF6A6DB63F94F"
+				type: "item"
+				item: "bhc:red_heart_canister"
+				count: 10L
+			}]
+			rewards: [{
+				id: "20734CE9E7B37628"
+				type: "item"
+				item: "xreliquary:angelheart_vial"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.0d
+			description: ["The yellow heart is dropped by any boss."]
+			dependencies: ["13941EAF09F3B97A"]
+			id: "3BB82D0384E52C95"
+			tasks: [{
+				id: "4942B881DBAAA8AA"
+				type: "item"
+				item: "bhc:yellow_heart_canister"
+				count: 10L
+			}]
+			rewards: [{
+				id: "3F96622A184A5D88"
+				type: "item"
+				item: "xreliquary:angelheart_vial"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.0d
+			description: ["The green heart is dropped by the Ender Dragon."]
+			dependencies: ["3BB82D0384E52C95"]
+			id: "3D2AE21668EA59A0"
+			tasks: [{
+				id: "63CBA1EC145463E5"
+				type: "item"
+				item: "bhc:green_heart_canister"
+				count: 10L
+			}]
+			rewards: [{
+				id: "4184702FF0494218"
+				type: "item"
+				item: "xreliquary:angelheart_vial"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.0d
+			description: ["The blue heart is dropped by the Evoker."]
+			dependencies: ["3D2AE21668EA59A0"]
+			id: "69F50F42B9BAC0BF"
+			tasks: [{
+				id: "3252384BB631C03E"
+				type: "item"
+				item: "bhc:blue_heart_canister"
+				count: 10L
+			}]
+			rewards: [{
+				id: "0ACC41BDBA8C8D74"
+				type: "item"
+				item: "xreliquary:angelheart_vial"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -0.5d
+			description: [
+				"The Travel Staff allows you to teleport you by using Shift Right-Click and aiming at the desired location."
+				""
+				"Aim the staff at the travel anchor to teleport onto it."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "399CF4713AC8AF32"
+			tasks: [
+				{
+					id: "77EEBDB21C26BA35"
+					type: "item"
+					item: "travel_anchors:travel_staff"
+				}
+				{
+					id: "0FD2BE9E53D04184"
+					type: "item"
+					item: "travel_anchors:travel_anchor"
+				}
+			]
+			rewards: [{
+				id: "5131A7C47E81B4F5"
+				type: "item"
+				item: "travel_anchors:travel_anchor"
+			}]
+		}
+		{
+			title: "Botany Pots"
+			x: -2.25d
+			y: 0.5d
+			description: [
+				"Botany pot can grow all kind of crops and saplings."
+				"The hopper version is perfect to automate farming what you put in your pot."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "7DF601A022C4C64E"
+			tasks: [
+				{
+					id: "67FFA14B63A9814E"
+					type: "item"
+					title: "Any #botanypots:botany_pots"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botanypots:botany_pots"
+						}
+					}
+				}
+				{
+					id: "572FD6AEE5F6249B"
+					type: "item"
+					title: "Any #botanypots:hopper_botany_pots"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botanypots:hopper_botany_pots"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "225ED1BAE9E40E94"
+				type: "item"
+				item: "byg:peat"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "buildinggadgets:gadget_building"
+				Count: 1b
+				tag: {
+					state: {
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+						data: { }
+					}
+				}
+			}
+			x: -1.75d
+			y: -0.5d
+			description: [
+				"The Building Gadget allows you to build structures using a set of different Building Modes."
+				""
+				"The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."
+				""
+				"The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."
+				""
+				"The Destruction Gadget allows you to void a large area."
+				""
+				"The Template Manager provides a visual preview of the build whilst also providing the ability to copy new Templates into the Copy Paste Gadget."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "63F76E62E931EC6D"
+			tasks: [
+				{
+					id: "604616D9C9F051F2"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_building"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "47B532DD5BECA161"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_exchanging"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "1CC736465D44681F"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_copy_paste"
+						Count: 1b
+						tag: {
+							mode: 0b
+							template_id: [I;
+								432714988
+								572149114
+								-1742286775
+								529679778
+							]
+						}
+					}
+				}
+				{
+					id: "29DB729705C19DFA"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_destruction"
+						Count: 1b
+						tag: {
+							overlay: 1b
+							fuzzy: 1b
+						}
+					}
+				}
+				{
+					id: "658E45750DE54033"
+					type: "item"
+					item: "buildinggadgets:template_manager"
+				}
+			]
+			rewards: [{
+				id: "0425AAA4656F4C7F"
+				type: "item"
+				item: "buildinggadgets:construction_block_powder"
+				count: 64
+			}]
+		}
+		{
+			x: -10.25d
+			y: -3.5d
+			description: ["You can place the dock in world to interact with it, for example, with an external storage."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "05D549D52CF26D82"
+			tasks: [{
+				id: "19D2B7B1BD04658F"
+				type: "item"
+				item: "tanknull:dock"
+			}]
+			rewards: [{
+				id: "71EE6A502EA32960"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -4.75d
+			y: -3.5d
+			description: ["You can place the dock in world to interact with it, for example, with an external storage."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "10057A87053D9131"
+			tasks: [{
+				id: "469C3C847B996763"
+				type: "item"
+				item: "dankstorage:dock"
+			}]
+			rewards: [{
+				id: "18F17F7BCF40AF65"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -10.25d
+			y: -2.5d
+			description: [
+				"You can use a tank like a bucket to fill and empty your tank."
+				""
+				"The Tank 1 can store up to 4000mb and have 3 slots."
+			]
+			dependencies: ["05D549D52CF26D82"]
+			id: "3450FCE8B23A062C"
+			tasks: [{
+				id: "6B89C1272BF7FF8E"
+				type: "item"
+				item: {
+					id: "tanknull:tank_1"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "30850E052B886CCC"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			x: -10.25d
+			y: -1.5d
+			description: ["The Tank 2 can store up to 16000mb and have 6 slots."]
+			dependencies: ["3450FCE8B23A062C"]
+			id: "47F763F9656359A5"
+			tasks: [{
+				id: "5072113046ECCEFC"
+				type: "item"
+				item: {
+					id: "tanknull:tank_2"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0424394F0388F57C"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 4
+			}]
+		}
+		{
+			x: -10.25d
+			y: -0.5d
+			description: ["The Tank 3 can store up to 64000mb and have 9 slots."]
+			dependencies: ["47F763F9656359A5"]
+			id: "3DE5BA0A1A76DC9A"
+			tasks: [{
+				id: "36B3714AA194B5BF"
+				type: "item"
+				item: {
+					id: "tanknull:tank_3"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "00160134C7E0B5BA"
+				type: "item"
+				item: "minecraft:gold_block"
+				count: 4
+			}]
+		}
+		{
+			x: -10.25d
+			y: 0.5d
+			description: ["The Tank 4 can store up to 256000mb and have 12 slots."]
+			dependencies: ["3DE5BA0A1A76DC9A"]
+			id: "184409154897559F"
+			tasks: [{
+				id: "585CB06DD08EA7AB"
+				type: "item"
+				item: {
+					id: "tanknull:tank_4"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E63D9F9054FB27D"
+				type: "item"
+				item: "minecraft:emerald_block"
+				count: 4
+			}]
+		}
+		{
+			x: -10.25d
+			y: 1.5d
+			description: ["The Tank 5 can store up to 1024000mb and have 15 slots."]
+			dependencies: ["184409154897559F"]
+			id: "1F1BA4ACF49DE3C9"
+			tasks: [{
+				id: "17E5C37561E977B8"
+				type: "item"
+				item: {
+					id: "tanknull:tank_5"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "71BEB3B73F0C2348"
+				type: "item"
+				item: "minecraft:diamond_block"
+				count: 4
+			}]
+		}
+		{
+			x: -10.25d
+			y: 2.5d
+			description: ["The Tank 6 can store up to 4096000mb and have 18 slots."]
+			dependencies: ["1F1BA4ACF49DE3C9"]
+			id: "7984110DEF8BCD30"
+			tasks: [{
+				id: "5DB2854D2651D0C8"
+				type: "item"
+				item: {
+					id: "tanknull:tank_6"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D92971FF4A9BBE4"
+				type: "item"
+				item: "minecraft:crying_obsidian"
+				count: 16
+			}]
+		}
+		{
+			x: -10.25d
+			y: 3.5d
+			description: ["The Tank 7 can store up to near infinite mb and have 27 slots."]
+			dependencies: ["7984110DEF8BCD30"]
+			id: "16A2D15F9291F3D8"
+			tasks: [{
+				id: "3DEDDA23E9980213"
+				type: "item"
+				item: {
+					id: "tanknull:tank_7"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1BCBA1F242014712"
+				type: "item"
+				item: "minecraft:nether_star"
+				count: 4
+			}]
+		}
+		{
+			x: -4.75d
+			y: 3.5d
+			description: ["The dank 7 can store up to near infinite item and have 81 slots."]
+			dependencies: ["4F6C89AA6CB407D2"]
+			id: "7835AC3EAC6062B5"
+			tasks: [{
+				id: "6925DCA3E1FEFE24"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_7"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "338ECE29B602E118"
+				type: "item"
+				item: "minecraft:nether_star"
+				count: 4
+			}]
+		}
+		{
+			x: -4.75d
+			y: 2.5d
+			description: ["The dank 6 can store up to 262144 item and have 54 slots."]
+			dependencies: ["1E0D86A0D04581F9"]
+			id: "4F6C89AA6CB407D2"
+			tasks: [{
+				id: "1BC8FA473E3D0AE6"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_6"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6C203CB2F4C0609E"
+				type: "item"
+				item: "minecraft:crying_obsidian"
+				count: 16
+			}]
+		}
+		{
+			x: -4.75d
+			y: 1.5d
+			description: ["The dank 5 can store up to 65536 item and have 45 slots."]
+			dependencies: ["38BECE34DCD014B8"]
+			id: "1E0D86A0D04581F9"
+			tasks: [{
+				id: "338D5331CF261D27"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_5"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6DB1CBF22ABA8CEA"
+				type: "item"
+				item: "minecraft:diamond_block"
+				count: 4
+			}]
+		}
+		{
+			x: -4.75d
+			y: 0.5d
+			description: ["The dank 4 can store up to 16384 item and have 36 slots."]
+			dependencies: ["4EE7E0B8D4B45E4E"]
+			id: "38BECE34DCD014B8"
+			tasks: [{
+				id: "0641B35C05E6AA45"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "70E369B055C4E310"
+				type: "item"
+				item: "minecraft:emerald_block"
+				count: 4
+			}]
+		}
+		{
+			x: -4.75d
+			y: -0.5d
+			description: ["The dank 3 can store up to 4096 item and have 27 slots."]
+			dependencies: ["593354307D5BDCE3"]
+			id: "4EE7E0B8D4B45E4E"
+			tasks: [{
+				id: "5AC12EE77E79521B"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "59D1C88F473CA0CF"
+				type: "item"
+				item: "minecraft:gold_block"
+				count: 4
+			}]
+		}
+		{
+			x: -4.75d
+			y: -1.5d
+			description: ["The dank 2 can store up to 1024 item and have 18 slots."]
+			dependencies: ["4E21701EC8B6CAFC"]
+			id: "593354307D5BDCE3"
+			tasks: [{
+				id: "130AA038A8E8ED72"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "400D3C6DFEF8EE1B"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 4
+			}]
+		}
+		{
+			x: -4.75d
+			y: -2.5d
+			description: [
+				"You can use a dank like a bagpack to store, pickup stuff, and you can also use it to place block.Simply use the key bind to \"Construction Mode\" in your control (default \"i\")"
+				""
+				"The dank 1 can store up to 256 item and have 9 slots."
+			]
+			dependencies: ["10057A87053D9131"]
+			id: "4E21701EC8B6CAFC"
+			tasks: [{
+				id: "523AB16685DDF022"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "16D1E3A94AB39CB6"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -1.5d
+			description: ["A hopper with a filter."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "6498A9ABCDB04C18"
+			tasks: [{
+				id: "440B9C7F1717784F"
+				type: "item"
+				item: "goldenhopper:golden_hopper"
+			}]
+			rewards: [{
+				id: "5A4A61FDF3342E8E"
+				type: "item"
+				item: "minecraft:hopper"
+				count: 3
+			}]
+		}
+		{
+			x: 1.75d
+			y: -1.5d
+			description: ["You can make all kinds of sandwiches and food bowls."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "34733BC52802B305"
+			tasks: [{
+				id: "7A6C04E96133C7CC"
+				type: "item"
+				item: "culinaryconstruct:culinary_station"
+			}]
+			rewards: [{
+				id: "624C4F061524EBB5"
+				type: "item"
+				item: "cyclic:apple_iron"
+			}]
+		}
+		{
+			title: "Dimensional Dungeons"
+			icon: "dimdungeons:block_key_charger"
+			x: 7.5d
+			y: 7.0d
+			description: [
+				"A blank key cannot be used to enter a dungeon. A newly crafted key must first be used in an 'activation ritual' which will inscribe the name and location of a randomly generated dungeon onto the key."
+				"This action will require you to bring the key in the Stronghold and use it on the top of an End Portal Frame."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "247308E0062867EB"
+			tasks: [
+				{
+					id: "4FCC35A18296D09D"
+					type: "item"
+					item: "dimdungeons:item_portal_key"
+				}
+				{
+					id: "0AD721BD7954EA13"
+					type: "item"
+					item: "dimdungeons:block_gilded_portal"
+					count: 2L
+				}
+				{
+					id: "6E4DAB7B74107FF3"
+					type: "item"
+					item: "dimdungeons:block_portal_keyhole"
+				}
+			]
+			rewards: [{
+				id: "6E47EDC4E7BE6A94"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "dimdungeons:guide_book"
+					}
+				}
+			}]
+		}
+		{
+			title: "Did you mention Physics?"
+			x: 7.0d
+			y: 10.0d
+			subtitle: "Honey, I Shrunk the Kids!"
+			description: [
+				"The Personal Shrinking Device allows you to enter and exit your compact machine."
+				"{image:kubejs:textures/ftbquests/begin/projectors.png width:150 height:100 align:1}"
+				"Field Projectors are used to miniaturize your compact machines and other craft."
+				"You don't have to make the biggest size, just a 5x5 is sufficient for all crafts."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "0D78FF79D69B3596"
+			tasks: [
+				{
+					id: "2A8559DABC393E69"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+				{
+					id: "29FFE17B8ED00358"
+					type: "item"
+					item: "compactcrafting:field_projector"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "1D06A6081CDF9A85"
+				type: "item"
+				item: "compactmachines:wall"
+				count: 16
+			}]
+		}
+		{
+			x: 8.0d
+			y: 10.0d
+			description: ["The Tiny Compact Machine is a 3x3x3 space."]
+			dependencies: ["0D78FF79D69B3596"]
+			id: "2A3C834BAC2D66A4"
+			tasks: [{
+				id: "2CF5B51B94F4E456"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+			rewards: [{
+				id: "48B3412AD8DBE068"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 10.0d
+			description: ["The Small Compact Machine is a 5x5x5 space."]
+			dependencies: ["2A3C834BAC2D66A4"]
+			id: "67228E1120640FAB"
+			tasks: [{
+				id: "709DB4FE75704F46"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+			rewards: [{
+				id: "001A522ED53F33AE"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 10.0d
+			description: ["The Normal Compact Machine is a 7x7x7 space."]
+			dependencies: ["67228E1120640FAB"]
+			id: "12340D5B78680D32"
+			tasks: [{
+				id: "4056BB1C15492446"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+			rewards: [{
+				id: "4158E626136F7132"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 10.0d
+			description: ["The Large Compact Machine is a 9x9x9 space."]
+			dependencies: ["12340D5B78680D32"]
+			id: "7CDACF0CCDC79EA3"
+			tasks: [{
+				id: "0BD9D4819E7D3305"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+			rewards: [{
+				id: "772AEA06641108C8"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 10.0d
+			description: ["The Giant Compact Machine is a 11x11x11 space."]
+			dependencies: ["7CDACF0CCDC79EA3"]
+			id: "0F324A4E61CB9053"
+			tasks: [{
+				id: "5947DC3C0E0214F4"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+			rewards: [{
+				id: "4C5959514B7C4058"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 10.0d
+			description: ["The Maximum Compact Machine is a 13x13x13 space."]
+			dependencies: ["0F324A4E61CB9053"]
+			id: "349A652CF43F8376"
+			tasks: [{
+				id: "5C2055E3A33A0BD7"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+			rewards: [{
+				id: "40E9522CD46D23EA"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			title: "Builder's Wand"
+			x: -0.25d
+			y: -1.5d
+			description: [
+				"A classic builder's wand."
+				"To undo your placement, you need to shift+ctrl+right-click. You can undo three time."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "0E4B5AC376DA9D23"
+			tasks: [
+				{
+					id: "67553288841B324A"
+					type: "item"
+					item: {
+						id: "constructionwand:diamond_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76E41F530844197F"
+					type: "item"
+					item: {
+						id: "constructionwand:infinity_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "066BE31BA7E05F7D"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 0.25d
+			y: 1.5d
+			description: ["The Ability Bottle is used to stored and reused your ability previously get with totems."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "6D22BF7E2105F734"
+			tasks: [{
+				id: "64A3BE8CAEE6503B"
+				type: "item"
+				item: {
+					id: "everlastingabilities:ability_bottle"
+					Count: 1b
+					tag: {
+						"everlastingabilities:abilityStoreStack": [ ]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0DA227FE7EECC6E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Ender Storage"
+			x: 0.75d
+			y: 0.5d
+			description: [
+				"These chests and tank link together based on matching color patterns. All chests and tank with the same color buttons share an inventory."
+				"Ender bags can be color coded to access ender chests."
+				""
+				"If you play on server, you can privatize your chests and tanks by using a diamond on it."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "1F0EDC68C1BAB021"
+			tasks: [
+				{
+					id: "6D5B7045D1832BD1"
+					type: "item"
+					item: "enderstorage:ender_chest"
+				}
+				{
+					id: "52F629E4BE1FD82D"
+					type: "item"
+					item: "enderstorage:ender_tank"
+				}
+				{
+					id: "1D223248769B0482"
+					type: "item"
+					item: "enderstorage:ender_pouch"
+				}
+			]
+			rewards: [{
+				id: "17BA5A7626B73BCE"
+				type: "item"
+				item: "minecraft:red_dye"
+				count: 9
+			}]
+		}
+		{
+			x: 2.25d
+			y: -0.5d
+			description: ["The Scanner provides a scanner item that can survey the nearby area for points of interest. Scan results are visualized for a short while in a clean and readable manner, either as in-world highlights or appropriately positioned overlays."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "35DAC14A7BA14EE3"
+			tasks: [
+				{
+					id: "3D7CAEF188D6B721"
+					type: "item"
+					item: "scannable:scanner"
+				}
+				{
+					id: "41D748AFA812606C"
+					type: "item"
+					item: "scannable:module_blank"
+				}
+			]
+			rewards: [{
+				id: "43BDE65B33C509BF"
+				type: "item"
+				item: "scannable:module_ore_rare"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 7.0d
+			subtitle: "Diggy Diggy Hole!"
+			description: ["Just a mining dimension to mine without any cave."]
+			dependencies: [
+				"1F534501B689CBB4"
+				"2A4B496451E1606F"
+			]
+			id: "60E5765FE4FDFC45"
+			tasks: [{
+				id: "3769B231A01C3EA4"
+				type: "item"
+				item: "jamd:mine_portal_block"
+			}]
+			rewards: [{
+				id: "68F7ECCC14B1D3B4"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 11.25d
+			y: 7.0d
+			description: ["Eternal day in the void."]
+			dependencies: [
+				"1F534501B689CBB4"
+				"2A4B496451E1606F"
+			]
+			id: "3727827CF1E483EC"
+			tasks: [{
+				id: "4541C1F47A65BDE8"
+				type: "item"
+				item: "javd:portal_block"
+			}]
+			rewards: [{
+				id: "6B157A12CD143661"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -2.25d
+			y: 2.5d
+			description: ["The Mining Gadget is a Laser Gun who can mine stuff with RF."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "17E3F7F20601ADE1"
+			tasks: [{
+				id: "01A837070724CC98"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "24AB7F8BE1D0FA3B"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -1.25d
+			y: 2.5d
+			description: ["The Modification Table is used to upgrade your Mining Gadget."]
+			dependencies: ["17E3F7F20601ADE1"]
+			id: "4B992A3F5C06E4D5"
+			tasks: [{
+				id: "380A68C8DE70183A"
+				type: "item"
+				item: "mininggadgets:modificationtable"
+			}]
+			rewards: [{
+				id: "10F6993387876E17"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Mining Gadget upgrades"
+			x: -0.25d
+			y: 2.5d
+			description: ["All the upgrade are self-explanatory."]
+			dependencies: ["4B992A3F5C06E4D5"]
+			id: "412CCD462ABBB2D0"
+			tasks: [
+				{
+					id: "349E69A2B695CAE6"
+					type: "item"
+					item: "mininggadgets:upgrade_light_placer"
+				}
+				{
+					id: "47FA304CECE8E094"
+					type: "item"
+					item: "mininggadgets:upgrade_three_by_three"
+				}
+				{
+					id: "5DF37009AF53756F"
+					type: "item"
+					item: "mininggadgets:upgrade_efficiency_5"
+				}
+				{
+					id: "24FD6E2852CD2C5F"
+					type: "item"
+					item: "mininggadgets:upgrade_fortune_3"
+				}
+				{
+					id: "4FEF62C1E33F6EE9"
+					type: "item"
+					item: "mininggadgets:upgrade_range_3"
+				}
+				{
+					id: "78260424C2E70DA5"
+					type: "item"
+					item: "mininggadgets:upgrade_battery_3"
+				}
+				{
+					id: "7CD8E129FA986B79"
+					type: "item"
+					item: "mininggadgets:upgrade_magnet"
+				}
+				{
+					id: "5EBC785107FC9EB3"
+					type: "item"
+					item: "mininggadgets:upgrade_silk"
+				}
+				{
+					id: "0022119BAD584AFC"
+					type: "item"
+					item: "mininggadgets:upgrade_void_junk"
+				}
+				{
+					id: "43A5B6234173D263"
+					type: "item"
+					item: "mininggadgets:upgrade_freezing"
+				}
+			]
+			rewards: [{
+				id: "2FDF036C2A5B6167"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -9.25d
+			y: 0.0d
+			description: ["The copper Chest has 45 slots."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "285B6AF07DEB680A"
+			tasks: [{
+				id: "67702672E913A183"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+			rewards: [{
+				id: "12062B74AE94532F"
+				type: "item"
+				item: "thermal:copper_block"
+			}]
+		}
+		{
+			x: -8.75d
+			y: 1.0d
+			description: ["The Iron Chest has 54 slots."]
+			dependencies: ["285B6AF07DEB680A"]
+			id: "0745DA6B5A5073E6"
+			tasks: [{
+				id: "361E0782C5D60900"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "045BBC694B13F8DF"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 0.0d
+			description: ["The Silver Chest has 72 slots."]
+			dependencies: ["0745DA6B5A5073E6"]
+			id: "532F601FF4977FDB"
+			tasks: [{
+				id: "4C0461D779805429"
+				type: "item"
+				item: "ironchest:silver_chest"
+			}]
+			rewards: [{
+				id: "4871E2ABB52C00E4"
+				type: "item"
+				item: "thermal:silver_block"
+			}]
+		}
+		{
+			x: -7.75d
+			y: 1.0d
+			description: ["The Gold Chest has 81 slots."]
+			dependencies: ["532F601FF4977FDB"]
+			id: "67E89C2431196628"
+			tasks: [{
+				id: "55F29A43CEF13556"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [{
+				id: "3F04A52E258CCCE2"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 0.0d
+			description: ["The Diamond Chest has 108 slots."]
+			dependencies: ["67E89C2431196628"]
+			id: "0F9C9E3105F175F2"
+			tasks: [{
+				id: "207B2EE16EDBE075"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "7D9B51A5999AD1C7"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 2
+			}]
+		}
+		{
+			x: -6.75d
+			y: 1.0d
+			description: ["The Crystal Chest has 108 slots."]
+			dependencies: ["0F9C9E3105F175F2"]
+			id: "736B9ABAEB66C837"
+			tasks: [{
+				id: "673AC6E70792426F"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+			rewards: [{
+				id: "03577C1420FD42F5"
+				type: "item"
+				item: "connectedglass:tinted_glass"
+				count: 8
+			}]
+		}
+		{
+			x: -6.25d
+			y: 0.0d
+			description: ["The Obsidian Chest has 108 slots, and it's blast proof."]
+			dependencies: ["0F9C9E3105F175F2"]
+			id: "55F5752FA2A6E52C"
+			tasks: [{
+				id: "56C1E7C32A939DCF"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [{
+				id: "671BF72533587FED"
+				type: "item"
+				item: "compressium:obsidian_1"
+			}]
+		}
+		{
+			title: "Item Collector"
+			x: 1.25d
+			y: -0.5d
+			description: ["Item Collectors adds Collectors which collect items in a specified range! Item Collectors range can be changed and items can be whitelisted or blacklisted!"]
+			dependencies: ["1F534501B689CBB4"]
+			id: "40F59530878402FD"
+			tasks: [
+				{
+					id: "79824A5014CD7801"
+					type: "item"
+					item: "itemcollectors:basic_collector"
+				}
+				{
+					id: "2EF188510F269B26"
+					type: "item"
+					item: "itemcollectors:advanced_collector"
+				}
+			]
+			rewards: [{
+				id: "778834C2BCE8C5CA"
+				type: "item"
+				item: "architects_palette:ender_pearl_block"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.0d
+			description: ["The Copper Furnace use 180 ticks to smelt something."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "22D82B3883A6253B"
+			tasks: [{
+				id: "7409C942F0FD8DE6"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+			rewards: [{
+				id: "13E995FCCFB8E333"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.0d
+			description: ["The Iron Furnace use 160 ticks to smelt something."]
+			dependencies: ["22D82B3883A6253B"]
+			id: "32B2F3B01C0E8311"
+			tasks: [{
+				id: "514CE2B29FA81EA6"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "5A4DE5260C87E849"
+				type: "item"
+				item: "minecraft:coal"
+				count: 32
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			description: ["The Silver Furnace use 140 ticks to smelt something."]
+			dependencies: ["32B2F3B01C0E8311"]
+			id: "2C18654AC26316CE"
+			tasks: [{
+				id: "0EA7E0DB81FDEC50"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+			rewards: [{
+				id: "4A78C5B214016D6B"
+				type: "item"
+				item: "minecraft:coal"
+				count: 48
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			description: ["The Gold Furnace use 120 ticks to smelt something."]
+			dependencies: ["2C18654AC26316CE"]
+			id: "0971515F51F2E5A3"
+			tasks: [{
+				id: "08B580E9AF023FE6"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [{
+				id: "6E2A9EFF8965C9F5"
+				type: "item"
+				item: "minecraft:coal"
+				count: 64
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			description: ["The Diamond Furnace use 80 ticks to smelt something."]
+			dependencies: ["0971515F51F2E5A3"]
+			id: "011370286A50E620"
+			tasks: [{
+				id: "163E8F2FA108DA17"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [{
+				id: "4532A317ACE45A90"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			description: ["The Crystal Furnace use 40 ticks to smelt something."]
+			dependencies: ["011370286A50E620"]
+			id: "7FA6B8F96C43FFFC"
+			tasks: [{
+				id: "40A836AAECC010A5"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+			rewards: [{
+				id: "1927F172DE4354BC"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 15
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			description: ["The Emerald Furnace use 40 ticks to smelt something."]
+			dependencies: ["011370286A50E620"]
+			id: "5C75C12F7A46B79A"
+			tasks: [{
+				id: "386DE4DFB014E382"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "59D864D55518AF99"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 20
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			description: ["The Obsidian Furnace use 20 ticks to smelt something."]
+			dependencies: [
+				"5C75C12F7A46B79A"
+				"7FA6B8F96C43FFFC"
+			]
+			id: "19F6227B96911A09"
+			tasks: [{
+				id: "68496C816A89DF9A"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+			rewards: [{
+				id: "6AD2ACE59AAD48E5"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 25
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			description: ["The Netherite Furnace use 5 ticks to smelt something."]
+			dependencies: ["19F6227B96911A09"]
+			id: "2E61411E88CA41A1"
+			tasks: [{
+				id: "7D2831F3EB51458B"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [{
+				id: "23FD37A02FFC7402"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 30
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			description: ["The Rainbow Furnace use 20 ticks to smelt something, but smelt an entire stack."]
+			dependencies: [
+				"22D82B3883A6253B"
+				"7FA6B8F96C43FFFC"
+				"011370286A50E620"
+				"5C75C12F7A46B79A"
+				"0971515F51F2E5A3"
+				"32B2F3B01C0E8311"
+				"2E61411E88CA41A1"
+				"19F6227B96911A09"
+				"2C18654AC26316CE"
+			]
+			id: "1013F4A101A289C1"
+			tasks: [{
+				id: "17C3C7D62694C08D"
+				type: "item"
+				item: "ironfurnaces:million_furnace"
+			}]
+			rewards: [{
+				id: "64CF95BD0DB0EE93"
+				type: "item"
+				item: "compressium:coal_3"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -2.5d
+			description: ["The copper Barrel has 45 slots."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "7C718429183B07A0"
+			tasks: [{
+				id: "48620BE45B6E113A"
+				type: "item"
+				item: "metalbarrels:copper_barrel"
+			}]
+			rewards: [{
+				id: "55A54DA1198BD112"
+				type: "item"
+				item: "thermal:copper_block"
+			}]
+		}
+		{
+			x: -8.75d
+			y: -1.5d
+			description: ["The Iron Barrel has 54 slots."]
+			dependencies: ["7C718429183B07A0"]
+			id: "47E6A05C7610E8A6"
+			tasks: [{
+				id: "79D5637AF3869ADC"
+				type: "item"
+				item: "metalbarrels:iron_barrel"
+			}]
+			rewards: [{
+				id: "7D9CA099316FAF13"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -2.5d
+			description: ["The Silver Barrel has 72 slots."]
+			dependencies: ["47E6A05C7610E8A6"]
+			id: "3429E752BB5A0CBA"
+			tasks: [{
+				id: "0507AF08932E7ACC"
+				type: "item"
+				item: "metalbarrels:silver_barrel"
+			}]
+			rewards: [{
+				id: "531CEB64002F8E4C"
+				type: "item"
+				item: "thermal:silver_block"
+			}]
+		}
+		{
+			x: -7.75d
+			y: -1.5d
+			description: ["The Gold Barrel has 81 slots."]
+			dependencies: ["3429E752BB5A0CBA"]
+			id: "1130D3A1A08286B6"
+			tasks: [{
+				id: "479B98239A5D87FA"
+				type: "item"
+				item: "metalbarrels:gold_barrel"
+			}]
+			rewards: [{
+				id: "65380AE1001A6070"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -2.5d
+			description: ["The Diamond Barrel has 108 slots."]
+			dependencies: ["1130D3A1A08286B6"]
+			id: "58FDFF7BA5D47117"
+			tasks: [{
+				id: "11E7616D93A0BB78"
+				type: "item"
+				item: "metalbarrels:diamond_barrel"
+			}]
+			rewards: [{
+				id: "2EBFE675348FE1CB"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 2
+			}]
+		}
+		{
+			x: -6.25d
+			y: -2.5d
+			description: ["The Obsidian Barrel has 108 slots, and it's blast proof."]
+			dependencies: ["58FDFF7BA5D47117"]
+			id: "0BD84F6A8E9E433B"
+			tasks: [{
+				id: "49DF54E9157481EA"
+				type: "item"
+				item: "metalbarrels:obsidian_barrel"
+			}]
+			rewards: [{
+				id: "07B0A71416B290F5"
+				type: "item"
+				item: "compressium:obsidian_1"
+			}]
+		}
+		{
+			x: -6.75d
+			y: -1.5d
+			description: ["The Crystal Barrel has 108 slots."]
+			dependencies: ["58FDFF7BA5D47117"]
+			id: "17A0CA7CE3F97026"
+			tasks: [{
+				id: "07E81731094E7CBA"
+				type: "item"
+				item: "metalbarrels:crystal_barrel"
+			}]
+			rewards: [{
+				id: "420F818E252167FE"
+				type: "item"
+				item: "connectedglass:tinted_glass"
+				count: 8
+			}]
+		}
+		{
+			x: -5.75d
+			y: -1.5d
+			description: ["The Netherite Barrel has 135 slots, and it's blast proof."]
+			dependencies: ["0BD84F6A8E9E433B"]
+			id: "443A3E5710D3C7BE"
+			tasks: [{
+				id: "469BF83933009E38"
+				type: "item"
+				item: "metalbarrels:netherite_barrel"
+			}]
+			rewards: [{
+				id: "72FA99DE33F0B275"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				count: 4
+			}]
+		}
+		{
+			x: -11.5d
+			y: 8.0d
+			description: [
+				"This is the tier 1 jetpack from the vanilla collection."
+				"Can store 80K RF and use 32RF/t"
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "1B03D6AA02783EDE"
+			tasks: [{
+				id: "31E50445D8CDAC9D"
+				type: "item"
+				item: "simplyjetpacks:jetpack_vanilla1"
+			}]
+			rewards: [{
+				id: "67950582B3071D0D"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 8.0d
+			description: [
+				"This is the tier 2 jetpack from the vanilla collection."
+				"Can store 400K RF and use 50RF/t"
+			]
+			dependencies: ["1B03D6AA02783EDE"]
+			id: "71DE95E72D6968B3"
+			tasks: [{
+				id: "0B2A786057EB0A46"
+				type: "item"
+				item: "simplyjetpacks:jetpack_vanilla2"
+			}]
+			rewards: [{
+				id: "25E59763DA1EB113"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 8.0d
+			description: [
+				"This is the tier 3 jetpack from the vanilla collection."
+				"Can store 4M RF and use 200RF/t"
+			]
+			dependencies: ["71DE95E72D6968B3"]
+			id: "1FBF5D8B469A3961"
+			tasks: [{
+				id: "1668DC1F4D50109A"
+				type: "item"
+				item: "simplyjetpacks:jetpack_vanilla3"
+			}]
+			rewards: [{
+				id: "2C7FE440919B19B9"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 8.0d
+			description: [
+				"This is the tier 4 jetpack from the vanilla collection."
+				"Can store 20M RF and use 450RF/t"
+			]
+			dependencies: ["1FBF5D8B469A3961"]
+			id: "7319B7B69B0067FB"
+			tasks: [{
+				id: "0A51333807A7B99D"
+				type: "item"
+				item: "simplyjetpacks:jetpack_vanilla4"
+			}]
+			rewards: [{
+				id: "56E38EF79A4224CA"
+				type: "item"
+				item: "minecraft:netherite_block"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 10.0d
+			description: [
+				"This is the tier 1 jetpack from the Thermal collection."
+				"Can store 80K RF and use 32RF/t"
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "5321A818F8ED9DAE"
+			tasks: [{
+				id: "11208C7CF4AB2A4F"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te1"
+			}]
+			rewards: [{
+				id: "1072594C27743E32"
+				type: "item"
+				item: "thermal:lead_block"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 10.0d
+			description: [
+				"This is the tier 2 jetpack from the Thermal collection."
+				"Can store 400K RF and use 50RF/t"
+			]
+			dependencies: ["5321A818F8ED9DAE"]
+			id: "11FD3DE52F519432"
+			tasks: [{
+				id: "6AE05E495E3C36AD"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te2"
+			}]
+			rewards: [{
+				id: "0CE32E30AEEF4318"
+				type: "item"
+				item: "thermal:invar_block"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 10.0d
+			description: [
+				"This is the tier 3 jetpack from the Thermal collection."
+				"Can store 4M RF and use 200RF/t"
+			]
+			dependencies: ["11FD3DE52F519432"]
+			id: "3785C64A6A780790"
+			tasks: [{
+				id: "50FE07386C4392F1"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te3"
+			}]
+			rewards: [{
+				id: "6E17BA7D1C7CDFC5"
+				type: "item"
+				item: "thermal:electrum_block"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 10.0d
+			description: [
+				"This is the tier 4 jetpack from the Thermal collection."
+				"Can store 20M RF and use 450RF/t"
+			]
+			dependencies: ["3785C64A6A780790"]
+			id: "2998BF44F1E353FF"
+			tasks: [{
+				id: "1E4BB742E20A9D18"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te4"
+			}]
+			rewards: [{
+				id: "7B637FAA8479DDF8"
+				type: "item"
+				item: "thermal:enderium_block"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 10.0d
+			description: [
+				"This is the tier 5 jetpack from the Thermal collection."
+				"Can store 60M RF and use 850RF/t"
+			]
+			dependencies: ["2998BF44F1E353FF"]
+			id: "7B1F7A6624856E98"
+			tasks: [{
+				id: "746B93C92882FE5C"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te5"
+			}]
+			rewards: [{
+				id: "2021613EAEB9601A"
+				type: "item"
+				item: "eidolon:arcane_gold_block"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 9.0d
+			description: [
+				"This is the tier 1 jetpack from the Mekanism collection."
+				"Can store 80K RF and use 32RF/t"
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "6D009211960BBE06"
+			tasks: [{
+				id: "2E2AFEDE6BF729EE"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek1"
+			}]
+			rewards: [{
+				id: "6C64F2F918F233CC"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek1"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 9.0d
+			description: [
+				"This is the tier 2 jetpack from the Mekanism collection."
+				"Can store 400K RF and use 50RF/t"
+			]
+			dependencies: ["6D009211960BBE06"]
+			id: "255B01BF0AC398A1"
+			tasks: [{
+				id: "687390E0EFA4B09E"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek2"
+			}]
+			rewards: [{
+				id: "63C8218F2F005A34"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek2"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 9.0d
+			description: [
+				"This is the tier 3 jetpack from the Mekanism collection."
+				"Can store 4M RF and use 200RF/t"
+			]
+			dependencies: ["255B01BF0AC398A1"]
+			id: "30014445F3F5C8D1"
+			tasks: [{
+				id: "58A6C2CD92DE102D"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek3"
+			}]
+			rewards: [{
+				id: "156AE619E055F84E"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek3"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 9.0d
+			description: [
+				"This is the tier 4 jetpack from the Mekanism collection."
+				"Can store 20M RF and use 450RF/t"
+			]
+			dependencies: ["30014445F3F5C8D1"]
+			id: "1DBE6F55D347DD57"
+			tasks: [{
+				id: "66EEBAC8A9846678"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek4"
+			}]
+			rewards: [{
+				id: "7BF903F13D2E7873"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek4"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 7.0d
+			description: [
+				"This is the tier 1 jetpack from the immersive collection."
+				"Can store 80k RF and use 32RF/t"
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "3CAAF135CA97DA60"
+			tasks: [{
+				id: "0097516F5EB0A1DA"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie1"
+			}]
+			rewards: [{
+				id: "7148B42339141A3F"
+				type: "item"
+				item: "thermal:copper_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.0d
+			description: [
+				"This is the tier 2 jetpack from the immersive collection."
+				"Can store 400k RF and use 50RF/t"
+			]
+			dependencies: ["3CAAF135CA97DA60"]
+			id: "4885EE38B2566F4E"
+			tasks: [{
+				id: "7402B4A10D74D8A4"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie2"
+			}]
+			rewards: [{
+				id: "0931282570BDF1DE"
+				type: "item"
+				item: "thermal:electrum_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: -9.0d
+			y: 7.0d
+			description: [
+				"This is the tier 3 jetpack from the immersive collection."
+				"Can store 4M RF and use 200RF/t"
+			]
+			dependencies: ["4885EE38B2566F4E"]
+			id: "005A85FFDD74C2C0"
+			tasks: [{
+				id: "4A764C8F1FBE0EEF"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie3"
+			}]
+			rewards: [{
+				id: "127BA41A41FBFCF5"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 8
+			}]
+		}
+		{
+			title: "The Undergarden"
+			x: 10.0d
+			y: 7.0d
+			description: ["To enter the Undergarden, just make a stone brick portal and right click with this catalyst."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "5B83DDDBFDC5E30F"
+			tasks: [{
+				id: "6D1FE535AA553B47"
+				type: "item"
+				item: {
+					id: "undergarden:catalyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "25132228A95ABD68"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: -0.25d
+			y: 0.5d
+			description: [
+				"This item allows you to accelerate the rate at which blocks tick."
+				"It passively collects time while in your inventory which you can consume by right clicking a block with it."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "6057A24539A10D96"
+			tasks: [{
+				id: "577BA119013ACE9E"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CE2CFF995249C41"
+				type: "item"
+				item: "create:cuckoo_clock"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 3.5d
+			description: ["The Click Machine is simply a Click machine, it can left and right click with or not an item."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "60ACB358EDFC04DD"
+			tasks: [{
+				id: "21A17DF51F4B22BA"
+				type: "item"
+				item: "clickmachine:auto_clicker"
+			}]
+			rewards: [{
+				id: "2EF71AFD488F09E4"
+				type: "item"
+				item: "clickmachine:auto_clicker"
+			}]
+		}
+		{
+			title: "Jump Day"
+			x: -2.5d
+			y: 9.0d
+			description: [
+				"With the Slime Sling you can bounce everywhere and go on adventure more easily."
+				""
+				"The reward of this quest give you the necessary to get a Bounce ability for any boots from tinker."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "7B68A4BBD3A133C3"
+			tasks: [{
+				id: "36D34F90EC5DFD65"
+				type: "item"
+				item: {
+					id: "tconstruct:earth_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2C12A54CA2DE4A7B"
+					type: "item"
+					item: "tconstruct:earth_congealed_slime"
+					count: 8
+				}
+				{
+					id: "02A94E09051D440F"
+					type: "item"
+					item: "tconstruct:sky_congealed_slime"
+					count: 8
+				}
+				{
+					id: "45A67345C1BE6A65"
+					type: "item"
+					item: "tconstruct:ichor_congealed_slime"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Beginner Tinkerer"
+			x: -1.5d
+			y: 9.0d
+			description: [
+				"The Tinker Station is your first station who you can build your basic weapons and tools."
+				"The part builder is the table where you can create your parts to build your tools and weapons."
+				"The Part Chest is simply a chest who you can store your part."
+				"A Crafting Station is basically a Crafting Table but when you put an item in it, you can leave and your item is store in the Station."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "06F4B11EE74A567E"
+			tasks: [
+				{
+					id: "0122FFED6404CE1C"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "0CC4E600C505D1BF"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "004B46DF5C6DF405"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "0F3860C8E114436D"
+					type: "item"
+					item: "tconstruct:crafting_station"
+				}
+			]
+			rewards: [{
+				id: "56507F530E9B9807"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 8
+			}]
+		}
+		{
+			title: "Advanced Tinkerer"
+			x: -0.5d
+			y: 9.0d
+			description: [
+				"To begin in Tinker Construct, you need to build a tiny smeltery with these two blocs."
+				"Just put your Melter on top of your Heater."
+			]
+			dependencies: [
+				"1F534501B689CBB4"
+				"06F4B11EE74A567E"
+			]
+			id: "119491CEE2704BF3"
+			tasks: [
+				{
+					id: "6F69351F5C3901C8"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "703AE7D62DE1349E"
+					type: "item"
+					item: "tconstruct:seared_melter"
+					consume_items: false
+				}
+			]
+			rewards: [{
+				id: "240327B61175E3E8"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			title: "Master Tinkerer"
+			x: 1.5d
+			y: 9.0d
+			description: [
+				"It's time to make a bigger smelter, right ? With your tiny smelter, pour some molten copper in a casting basin with a Seared Heater in it to get a Smeltery Controller."
+				"A Seared Drain is what you need to put in and out your melted stuff."
+				"With a Seared Chute you can put in and out items from your smeltery."
+				"With a Seared Duct you can filter what you want to extract."
+				"You can make any size you want for your smeltery. From a 1x1 to max 14x14."
+			]
+			dependencies: [
+				"1F534501B689CBB4"
+				"661C0BD618AE4EDD"
+			]
+			id: "68A18606530D5376"
+			tasks: [
+				{
+					id: "2154608832C42A29"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "75397CB72D2195F0"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "3C526949260C3BA5"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 64L
+				}
+				{
+					id: "5D53A873CEA2A4BD"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "0595598BE977DAD6"
+					type: "item"
+					item: "tconstruct:seared_duct"
+				}
+				{
+					id: "052C10CCCE67C236"
+					type: "item"
+					item: "tconstruct:seared_chute"
+				}
+			]
+			rewards: [{
+				id: "6490010CF8DA433A"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "Tinkerers' casts"
+			x: 0.5d
+			y: 9.0d
+			description: ["To extract the melted stuff you have made in your tiny smeltery, you need a faucet and at least a Casting Basin."]
+			dependencies: [
+				"1F534501B689CBB4"
+				"119491CEE2704BF3"
+			]
+			id: "661C0BD618AE4EDD"
+			tasks: [
+				{
+					id: "67D2724C4E847B11"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "294F76C98D637A19"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "1960106DEC449552"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "6CA5E4C490D4C95E"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.0d
+			description: ["With a Tinker's Anvil you can make advanced tools and weapons."]
+			dependencies: ["68A18606530D5376"]
+			id: "5CFDDD66F3349EAB"
+			tasks: [{
+				id: "6AF430BF756870B0"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "minecraft:netherite_block"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7797B0322105FF02"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+		}
+		{
+			title: "Through Space"
+			x: -2.25d
+			y: -1.5d
+			description: [
+				"Wormhole is a really cool mod. It gives you the possibility to shape your portal has you want, flat or straight."
+				"{image:kubejs:textures/ftbquests/begin/wormhole.png width:150 height:100 align:1}"
+				"The target Definition Device can store coordinate to inject into your portal."
+				"To store a coordinate, right-click with your device to named it and stored it."
+				""
+				"To make sure your portal is properly shape, you need to right-click on the portal Stabilizer. If he turns blue, you have a stabilized portal."
+				""
+				"Now to put your coordinate into your portal, you need to right-click with your device on the stabilizer."
+				""
+				"The portals work cross-dimension, and you can change the color of it with a simple dye."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "39E4867C31AF291C"
+			tasks: [
+				{
+					id: "4C656AE8C89FD430"
+					type: "item"
+					item: "wormhole:portal_frame"
+					count: 64L
+				}
+				{
+					id: "7893454C626B51BF"
+					type: "item"
+					item: {
+						id: "wormhole:portal_stabilizer"
+						Count: 1b
+						tag: { }
+					}
+					count: 2L
+				}
+				{
+					id: "35E1A51F67343213"
+					type: "item"
+					item: {
+						id: "wormhole:advanced_energy_cell"
+						Count: 1b
+						tag: { }
+					}
+					count: 2L
+				}
+				{
+					id: "5D26CAF674E6A785"
+					type: "item"
+					item: {
+						id: "wormhole:advanced_target_cell"
+						Count: 1b
+						tag: { }
+					}
+					count: 2L
+				}
+				{
+					id: "20A11E6E5C1A629A"
+					type: "item"
+					item: {
+						id: "wormhole:advanced_target_device"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "54A7FA7206989E9A"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 64
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.0d
+			description: [
+				"This basic backpack have 27 slots to store things and have 1 upgrade slot."
+				"You can dye your backpack the same way you can dye a leather armor."
+				"You can also put your backpack on the ground by shift clicking on the ground with your backpack in your hand."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "45A6A422D4EBC8E1"
+			tasks: [{
+				id: "502E2172482F03DA"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "37E1FE0AF3BCEA04"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			description: ["The Iron Backpack have 54 slots to put things and have 2 upgrade slots."]
+			dependencies: ["45A6A422D4EBC8E1"]
+			id: "2E6B3A90B82E604E"
+			tasks: [{
+				id: "3DA12375783BF181"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "2DD7F5F1EE5CB6C9"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			description: ["The Gold Backpack have 81 slots to put things and have 3 upgrade slots."]
+			dependencies: ["2E6B3A90B82E604E"]
+			id: "3980C83785FB3A8D"
+			tasks: [{
+				id: "1FEDE8737AAE7A13"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "25F7A31EC1FD4CFA"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			description: ["The Diamond Backpack have 108 slots to put things and have 5 upgrade slots."]
+			dependencies: ["3980C83785FB3A8D"]
+			id: "7730F0AD80DB6D41"
+			tasks: [{
+				id: "64ACB2E563FA900B"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "702F95FCB542D1FD"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			description: ["The Netherite Backpack have 120 slots to put things and have 7 upgrade slots."]
+			dependencies: ["7730F0AD80DB6D41"]
+			id: "5CE04112C43D7A02"
+			tasks: [{
+				id: "60F4D70894B6896D"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "60886521EB7FEFD9"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			description: ["This is your base to make upgrade with your backpack."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "3CF5229F9A3EFD84"
+			tasks: [{
+				id: "7769A41C930207DB"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+			rewards: [{
+				id: "524A51DAFEA38A61"
+				type: "item"
+				item: "minecraft:leather"
+				count: 2
+			}]
+		}
+		{
+			x: -2.75d
+			y: -2.5d
+			description: ["Just a simple item pipe."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "776FADAE064A70D8"
+			tasks: [{
+				id: "7A30469CD12808A2"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "71EF5A49F911CD78"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -1.75d
+			y: -2.5d
+			description: ["Just a simple fluid pipe."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "35DB68974ECE2BA0"
+			tasks: [{
+				id: "57E12B38ABDB85EC"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "537C7D6E777A14A4"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -0.75d
+			y: -2.5d
+			description: ["Just a simple gas pipe."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "60DAC0904D75D52E"
+			tasks: [{
+				id: "550520C25F089119"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4FD00D6AD83054C6"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: 0.25d
+			y: -2.5d
+			description: ["Just a simple energy pipe."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "4FB644D389A2E952"
+			tasks: [{
+				id: "61FAFACCE261CD32"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "67F302B9D8EFB1A9"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: 1.25d
+			y: -2.5d
+			description: [
+				"All in One pipe !"
+				"Item, Fluid, Gas and Energy."
+			]
+			dependencies: [
+				"4FB644D389A2E952"
+				"35DB68974ECE2BA0"
+				"60DAC0904D75D52E"
+				"776FADAE064A70D8"
+			]
+			id: "7FE074E408429813"
+			tasks: [{
+				id: "2E38368A3EEA20A4"
+				type: "item"
+				item: "pipez:universal_pipe"
+				count: 8L
+			}]
+			rewards: [{
+				id: "540EC6D550A140CF"
+				type: "item"
+				item: "pipez:universal_pipe"
+				count: 8
+			}]
+		}
+		{
+			title: "Pipe Upgrades"
+			x: 2.25d
+			y: -2.5d
+			description: [
+				"You need a wrench to proper function your simple pipe."
+				"Those upgrades are used to speed up your pipe."
+				"The Basic upgrade give you Redstone control."
+				"The Improved upgrade give you, plus, distribution control."
+				"The Advanced upgrade give you, plus, filter."
+				"The Ultimate upgrade give you, plus, insane speed."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "1A131060D0DAE21F"
+			tasks: [
+				{
+					id: "5ABCAA8E416D32E4"
+					type: "item"
+					item: "pipez:basic_upgrade"
+				}
+				{
+					id: "1FD5EBDC398302C6"
+					type: "item"
+					item: "pipez:improved_upgrade"
+				}
+				{
+					id: "45901759DC141139"
+					type: "item"
+					item: "pipez:advanced_upgrade"
+				}
+				{
+					id: "7A02906A23828697"
+					type: "item"
+					item: "pipez:ultimate_upgrade"
+				}
+				{
+					id: "2E01E6E34C09E2D2"
+					type: "item"
+					item: "pipez:wrench"
+				}
+			]
+			rewards: [{
+				id: "6814CE08FFDB1438"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: -2.75d
+			y: 3.5d
+			description: ["Modular Router is very useful to transfer items, fluids, energy wirelessly with upgrade and modules"]
+			dependencies: ["1F534501B689CBB4"]
+			id: "5FE1C61BBBD97E2C"
+			tasks: [{
+				id: "37B6E1F212FFF2AF"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+			rewards: [{
+				id: "08BE38BE46E2AD0E"
+				type: "item"
+				item: "modularrouters:item_router"
+				count: 4
+			}]
+		}
+		{
+			title: "Router Upgrades"
+			x: -0.75d
+			y: 3.5d
+			description: ["The name of the upgrade speak for themselves."]
+			dependencies: ["5FE1C61BBBD97E2C"]
+			id: "3365796380BC7711"
+			tasks: [
+				{
+					id: "7D7E2A472B7F1760"
+					type: "item"
+					item: "modularrouters:speed_upgrade"
+					count: 9L
+				}
+				{
+					id: "602AF3E3939F63C1"
+					type: "item"
+					item: "modularrouters:stack_upgrade"
+					count: 6L
+				}
+			]
+			rewards: [
+				{
+					id: "2F35ACA2A85C2FFC"
+					type: "item"
+					item: "modularrouters:speed_upgrade"
+					count: 9
+				}
+				{
+					id: "6C7737C1DA454C7E"
+					type: "item"
+					item: "modularrouters:stack_upgrade"
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Router Modules"
+			x: -1.75d
+			y: 3.5d
+			description: [
+				"Puller Module is used to pull anything from point A to point B."
+				"Simply Shift right-click a chest, tank or battery to register your puller point."
+				""
+				"Sender Module is used exactly the same has the Puller, but it can Send."
+			]
+			dependencies: ["5FE1C61BBBD97E2C"]
+			id: "34AEB9CE8A8E9405"
+			tasks: [
+				{
+					id: "72073CB6A2E9EF9B"
+					type: "item"
+					item: {
+						id: "modularrouters:puller_module_1"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+								Direction: "NONE"
+							}
+						}
+					}
+				}
+				{
+					id: "3B9B9D840C2A0035"
+					type: "item"
+					item: {
+						id: "modularrouters:sender_module_1"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+								Direction: "NONE"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "47C18CFF7B6A3483"
+					type: "item"
+					item: {
+						id: "modularrouters:puller_module_2"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+							}
+						}
+					}
+				}
+				{
+					id: "3BBA90C1692135D1"
+					type: "item"
+					item: {
+						id: "modularrouters:sender_module_2"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Entangled"
+			x: -0.75d
+			y: -0.5d
+			description: [
+				"With an entangled block you can bind almost any block."
+				"For example you can bind a chest to an entangled block and from it you can import and export items."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "31D64E7FE9AFD245"
+			tasks: [
+				{
+					id: "5C3F46DD53E8D7FE"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3D6894B9BE21DE2B"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "350FCFB0BCDE15B6"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.75d
+			y: 1.5d
+			description: [
+				"You can farm mobs loot in a Mob Cage."
+				"Check JEI to find what block environment a mob need and grab an ADN sample of your desired mob."
+				""
+				"Right click with your DNA Sampler on Mob Cage to start farm their loot, you can regrab the ADN with your sampler by simply right click again."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "4E6C11F47AFDB1AE"
+			tasks: [
+				{
+					id: "40055A22C636A638"
+					type: "item"
+					item: "cagedmobs:mobcage"
+				}
+				{
+					id: "01FF0DDBA0AD0066"
+					type: "item"
+					item: "cagedmobs:hoppingmobcage"
+				}
+			]
+			rewards: [{
+				id: "735FCA5003CBD097"
+				type: "item"
+				item: "betterendforge:thallasium_block"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 1.5d
+			description: ["The Netherite DNA Sampler is used for boss, the Basic is for most of passive mobs."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "4B45ACC1B04473BE"
+			tasks: [
+				{
+					id: "7B333582B87B4903"
+					type: "item"
+					item: "cagedmobs:dnasampler"
+				}
+				{
+					id: "6035C7D4EE378822"
+					type: "item"
+					item: "cagedmobs:dnasamplerdiamond"
+				}
+				{
+					id: "37580AAF0DD27BA4"
+					type: "item"
+					item: "cagedmobs:dnasamplernetherite"
+				}
+			]
+			rewards: [{
+				id: "4E8A590AE782C3C1"
+				type: "item"
+				item: "cagedmobs:dnasamplerdiamond"
+			}]
+		}
+		{
+			title: "Mob Cage upgrades"
+			x: -0.75d
+			y: 1.5d
+			description: [
+				"For farm certain kind of loot, sometime you need an upgrade."
+				"Generally the Cooking upgrade can cook meat in the cage."
+				"The Lightning upgrade is used, for example, farm Dragon Skull from Ice and Fire"
+				"The Arrow upgrade is used, for example, to farm Music Disc from Creeper."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "161171A213DB96CF"
+			tasks: [
+				{
+					id: "52B6E5EA2E5E3E8E"
+					type: "item"
+					item: "cagedmobs:cookingupgrade"
+				}
+				{
+					id: "6EC0D1309397483B"
+					type: "item"
+					item: "cagedmobs:lightningupgrade"
+				}
+				{
+					id: "6DC5C4F24B2A0397"
+					type: "item"
+					item: "cagedmobs:arrowupgrade"
+				}
+			]
+			rewards: [{
+				id: "7FA2C7821C847CB2"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+		}
+		{
+			title: "Chipped Bench"
+			x: 0.75d
+			y: -1.5d
+			description: [
+				"Chipped Bench is a great mod for builders."
+				"They function like a stonecutter."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "74F9FABDA2B6A809"
+			tasks: [
+				{
+					id: "6DED7141C51E9A8D"
+					type: "item"
+					item: "chipped:alchemy_bench"
+				}
+				{
+					id: "74688EC4B31AE7B5"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+				{
+					id: "51E0791BBEC6AA5F"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+				{
+					id: "452CD3E01CCFD148"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "2F53922086921D68"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+				{
+					id: "5611E6447973C487"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+			]
+			rewards: [
+				{
+					id: "4B5C03BE69BCA674"
+					type: "item"
+					item: "chipped:sea_lantern_10"
+					count: 16
+				}
+				{
+					id: "332CE4983CA98C84"
+					type: "item"
+					item: "chipped:purpur_block_13"
+					count: 16
+				}
+				{
+					id: "29BB804FEA30EA07"
+					type: "item"
+					item: "chipped:shroomlight_12"
+					count: 16
+				}
+				{
+					id: "313C94402A7D5D06"
+					type: "item"
+					item: "chipped:red_stained_glass_6"
+					count: 16
+				}
+				{
+					id: "28BE367D9C299E12"
+					type: "item"
+					item: "chipped:black_wool_6"
+					count: 16
+				}
+				{
+					id: "53FF0BEBEC4D9A86"
+					type: "item"
+					item: "chipped:spruce_planks_8"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Framed Drawers"
+			x: -8.25d
+			y: 3.0d
+			description: ["Framed Drawers are basically Drawers who can be customized."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "3F779A837556DDCB"
+			tasks: [
+				{
+					id: "324CA2E21B4BEE0C"
+					type: "item"
+					item: "framedcompactdrawers:framed_full_one"
+				}
+				{
+					id: "2451F5C5CCB0539E"
+					type: "item"
+					item: "framedcompactdrawers:framed_drawer_controller"
+				}
+				{
+					id: "05F57869DA3A11C7"
+					type: "item"
+					item: "framedcompactdrawers:framed_compact_drawer"
+				}
+			]
+			rewards: [
+				{
+					id: "6DF19BDB49AC3D55"
+					type: "item"
+					item: "storagedrawers:obsidian_storage_upgrade"
+					count: 3
+				}
+				{
+					id: "35333A4A31629093"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Backpack Upgrades"
+			x: 3.0d
+			y: 10.0d
+			description: [
+				"Smelting upgrade put a furnace integrated in your backpack."
+				"Crafting upgrade put a 3x3 crafting grid in your backpack."
+				"Stonecutter upgrade put a Stonecutter in your backpack."
+				"Feeding upgrade give you an auto feed with your food in your backpack."
+				"Jukebox upgrade put a jukebox in your backpack !"
+			]
+			dependencies: ["3CF5229F9A3EFD84"]
+			id: "4A284E684820E2EC"
+			tasks: [
+				{
+					id: "1617D16CC2BC1328"
+					type: "item"
+					item: "sophisticatedbackpacks:smelting_upgrade"
+				}
+				{
+					id: "52C6789B0E341163"
+					type: "item"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+				}
+				{
+					id: "345FDF9F4A302E28"
+					type: "item"
+					item: "sophisticatedbackpacks:stonecutter_upgrade"
+				}
+				{
+					id: "49529BA3ADB9F5D0"
+					type: "item"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+				}
+				{
+					id: "470A07BB0CF0C6D5"
+					type: "item"
+					item: "sophisticatedbackpacks:jukebox_upgrade"
+				}
+			]
+			rewards: [{
+				id: "76656E395E5CA9CD"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+		}
+		{
+			title: "Lost City"
+			x: 12.5d
+			y: 7.0d
+			description: ["To go to Lost City, place any bed on two \"dimensional blank blocks\" and surround your bed with skeleton skull."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "5590521BEF0A3538"
+			tasks: [
+				{
+					id: "6BB262C6F30CC6F0"
+					type: "item"
+					item: "rftoolsdim:dimensional_blank_block"
+					count: 2L
+				}
+				{
+					id: "22B69242E29D8B39"
+					type: "item"
+					title: "Any #minecraft:beds"
+					item: "minecraft:white_bed"
+				}
+				{
+					id: "59B84478E53F2100"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "062E1B1A8A7FBB47"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Chisel"
+			x: 1.25d
+			y: 1.5d
+			description: ["Classic Chisel, You can have multiple cool blocks with it !"]
+			dependencies: ["1F534501B689CBB4"]
+			id: "14E9ADD65A0E2B28"
+			tasks: [{
+				id: "14CAE7806DF9F640"
+				type: "item"
+				item: {
+					id: "chisel:diamond_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						chiseldata: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "34DE658CC6C34EF8"
+					type: "item"
+					item: "chisel:factory/hazard"
+					count: 64
+				}
+				{
+					id: "5FE7493B6C34294D"
+					type: "item"
+					item: "chisel:futura/controller"
+					count: 64
+				}
+				{
+					id: "23A9CEAE0432F54A"
+					type: "item"
+					item: "chisel:laboratory/fuzzscreen"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 1.75d
+			y: 0.5d
+			description: ["The Nature's Compass can help you find a specific biome you want."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "071FABFA49FA346D"
+			tasks: [{
+				id: "3F549420E9D1AFB1"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "795691E578A045D9"
+					type: "item"
+					item: "tconstruct:earth_slime_sapling"
+				}
+				{
+					id: "3A17E51FF0A32869"
+					type: "item"
+					item: "byg:lament_sapling"
+				}
+				{
+					id: "6E50D5BF0151980D"
+					type: "item"
+					item: "byg:white_cherry_sapling"
+				}
+			]
+		}
+		{
+			x: 0.75d
+			y: 2.5d
+			description: ["Like his name said, it's a simple chunk loader."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "5C171B8D08A886E2"
+			tasks: [{
+				id: "15B54FBF75EE644A"
+				type: "item"
+				item: "chunknogobyebye:loader"
+			}]
+			rewards: [{
+				id: "4A62CCA7A575B55F"
+				type: "item"
+				item: "chunknogobyebye:loader"
+			}]
+		}
+		{
+			x: -2.75d
+			y: -0.5d
+			description: [
+				"Waystones are pillar who can teleport you to other waystones you have activated."
+				"In this pack teleportations are free, even between dimension."
+				"Warp Stone is a teleportation device who can teleport you to other waystones."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "6755F5992A1052AA"
+			tasks: [
+				{
+					id: "0FB5C437E6F14AA9"
+					type: "item"
+					item: "waystones:waystone"
+				}
+				{
+					id: "359585003A76CB0B"
+					type: "item"
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2D0FE14F94E7851F"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			title: "Framed Blocks"
+			x: 2.75d
+			y: -1.5d
+			description: [
+				"Framed Blocks give you the possibility to create stair, slab, slope, doors and all kind a stuff."
+				"Right-click with a block on it to turn the framed block into the chosen block."
+				""
+				"You can, also, right-click with a glowstone to emit light with your framed block."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "5711EED5F41255C2"
+			tasks: [
+				{
+					id: "10508045F517C54B"
+					type: "item"
+					item: "framedblocks:framed_cube"
+					count: 4L
+				}
+				{
+					id: "11856F50E7549F21"
+					type: "item"
+					item: "framedblocks:framed_slope"
+				}
+				{
+					id: "2BF74E215D87E6C0"
+					type: "item"
+					item: "framedblocks:framed_hammer"
+				}
+			]
+			rewards: [{
+				id: "020443F10BB4B7BD"
+				type: "item"
+				item: "framedblocks:framed_cube"
+				count: 16
+			}]
+		}
+		{
+			x: 2.75d
+			y: 0.5d
+			description: ["You can store all your enchanted book in this Enchantment Library."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "30929A39AAE546F9"
+			tasks: [{
+				id: "395D8E341C58D2FF"
+				type: "item"
+				item: "apotheosis:enchantment_library"
+			}]
+			rewards: [{
+				id: "42A8A0DABD3A1102"
+				type: "item"
+				item: "minecraft:book"
+				count: 64
+			}]
+		}
+		{
+			title: "Let's Go To Work"
+			x: -1.25d
+			y: 0.5d
+			description: [
+				"On this pack you have the possibility to play with a lot of different professions for the villagers."
+				"{image:kubejs:textures/ftbquests/begin/workingstation.png width:150 height:100 align:1}"
+				"You can find those Working Station by simply type \"#station\" in JEI to find all the working station available."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "0EE55FBEF89F5378"
+			tasks: [
+				{
+					id: "34C716D3AA49CF98"
+					type: "item"
+					item: "morevillagers:oceanography_table"
+				}
+				{
+					id: "3CD12E6F6555526D"
+					type: "item"
+					item: "morevillagers:woodworking_table"
+				}
+				{
+					id: "72C0735F12C0CB8E"
+					type: "item"
+					item: "morevillagers:blueprint_table"
+				}
+			]
+			rewards: [{
+				id: "3D9681800F6D17C4"
+				type: "item"
+				item: "amb:driftwood_lectern"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: [
+				"Simply a Grinder."
+				"It can help you make powders."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004D6"
+			tasks: [{
+				id: "00000000000004D7"
+				type: "item"
+				item: "pamhc2foodcore:grinderitem"
+			}]
+			rewards: [{
+				id: "5FFC6E3CC81324B3"
+				type: "item"
+				item: "pamhc2foodcore:cocoapowderitem"
+				count: 4
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			description: [
+				"Simply a Bakeware."
+				"It can help you make delicious pies !"
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004DC"
+			tasks: [{
+				id: "00000000000004DD"
+				type: "item"
+				item: "pamhc2foodcore:bakewareitem"
+			}]
+			rewards: [{
+				id: "2E95D87DE6EBF15F"
+				type: "item"
+				item: "pamhc2foodextended:mangopieitem"
+				count: 4
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: [
+				"Simply a Roller."
+				"It can help you make some oil for your cooking."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004D0"
+			tasks: [{
+				id: "00000000000004D1"
+				type: "item"
+				item: "pamhc2foodcore:rolleritem"
+			}]
+			rewards: [{
+				id: "213DF0961977E95D"
+				type: "item"
+				item: "pamhc2foodcore:cookingoilitem"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.0d
+			description: [
+				"Simply a Skillet."
+				"It can help you make great burgers."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004CC"
+			tasks: [{
+				id: "00000000000004CD"
+				type: "item"
+				item: "pamhc2foodcore:skilletitem"
+			}]
+			rewards: [{
+				id: "169846C79A112745"
+				type: "item"
+				item: "pamhc2foodextended:deluxecheeseburgeritem"
+				count: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			description: [
+				"Simply a Mixing Bowl."
+				"It can help you make Smoothies with a little of snow."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004D4"
+			tasks: [{
+				id: "00000000000004D5"
+				type: "item"
+				item: "pamhc2foodcore:mixingbowlitem"
+			}]
+			rewards: [{
+				id: "02F1C79E2B543B1F"
+				type: "item"
+				item: "pamhc2foodextended:strawberrysmoothieitem"
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			description: ["The Cow in a Jar provide milk to recipes, in your kitchen, and make milk automatically overtime."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004E0"
+			tasks: [{
+				id: "00000000000004E1"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [{
+				id: "513A75F64E2326B9"
+				type: "item"
+				item: "pamhc2foodcore:freshmilkitem"
+				count: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			description: ["The Toaster can turn Bread into Toast."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004E2"
+			tasks: [{
+				id: "00000000000004E3"
+				type: "item"
+				item: "cookingforblockheads:toaster"
+			}]
+			rewards: [{
+				id: "3235FF2333363C55"
+				type: "item"
+				item: "pamhc2foodcore:toastitem"
+				count: 4
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			description: [
+				"Simply a Juicer. "
+				"It can help you make fruit juice, for example, great for the beginning of your adventure."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004D8"
+			tasks: [{
+				id: "00000000000004D9"
+				type: "item"
+				item: "pamhc2foodcore:juiceritem"
+			}]
+			rewards: [{
+				id: "21C78F93BF95514B"
+				type: "item"
+				item: "pamhc2foodcore:applejuiceitem"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: [
+				"Simply a Saucepan."
+				"It can help you make jelly, for example."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004CE"
+			tasks: [{
+				id: "00000000000004CF"
+				type: "item"
+				item: "pamhc2foodcore:saucepanitem"
+			}]
+			rewards: [{
+				id: "649D47D9DA00B57F"
+				type: "item"
+				item: "pamhc2foodextended:cherryjellyitem"
+				count: 4
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: [
+				"Simply a Pot."
+				"It can help you make butter or salt, for example."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004D2"
+			tasks: [{
+				id: "00000000000004D3"
+				type: "item"
+				item: "pamhc2foodcore:potitem"
+			}]
+			rewards: [{
+				id: "3D522762F02B23C8"
+				type: "item"
+				item: "pamhc2foodcore:butteritem"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			description: [
+				"Simply a Cutting Board."
+				"It can help you make some sandwich, for example."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004DA"
+			tasks: [{
+				id: "00000000000004DB"
+				type: "item"
+				item: "pamhc2foodcore:cuttingboarditem"
+			}]
+			rewards: [{
+				id: "7FFB24ED6ACD2FCF"
+				type: "item"
+				item: "pamhc2foodextended:cranberryjellysandwichitem"
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			description: ["The Gluttony Charm, when held, make you eat instantly."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004C6"
+			tasks: [{
+				id: "00000000000004C7"
+				type: "item"
+				item: "darkutils:charm_gluttony"
+			}]
+			rewards: [{
+				id: "3B1C04A0DD17493A"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			description: ["This book show you all the food recipe, you can place it on top of your Cooking Table."]
+			dependencies: ["1F534501B689CBB4"]
+			id: "00000000000004C0"
+			tasks: [{
+				id: "00000000000004C1"
+				type: "item"
+				item: "cookingforblockheads:no_filter_edition"
+			}]
+			rewards: [{
+				id: "760C703162304E9C"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.25d
+			description: [
+				"With the Market you can buy every natural seeds, saplings, flowers from every mods (except botania and Twilight Forest) "
+				"At the cost of Endumium."
+			]
+			dependencies: ["1F534501B689CBB4"]
+			size: 1.5d
+			id: "00000000000004CA"
+			tasks: [{
+				id: "00000000000004CB"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+			rewards: [
+				{
+					id: "79F41BF7828C4603"
+					type: "random"
+					table_id: 6279604713272709768L
+				}
+				{
+					id: "31498D6C04D9E410"
+					type: "random"
+					table_id: 6279604713272709768L
+				}
+				{
+					id: "24D4BCAF25B9EF16"
+					type: "random"
+					table_id: 6279604713272709768L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			description: ["If you connect this Cooking Table with your kitchen, you can access all your stuff to craft foods."]
+			dependencies: ["1F534501B689CBB4"]
+			size: 1.5d
+			id: "00000000000004DE"
+			tasks: [{
+				id: "00000000000004DF"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [{
+				id: "0655BE894845B0BD"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Kitchen Floor"
+			x: 6.0d
+			y: 1.5d
+			description: ["With a Kitchen Floor you can connect all your kitchen storage, like a fridge, counter, oven, even drawers !"]
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004EA"
+			tasks: [{
+				id: "00000000000004EB"
+				type: "item"
+				title: "Any #forge:kitchen_floor"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:kitchen_floor"
+					}
+				}
+				count: 64L
+			}]
+			rewards: [{
+				id: "038EB39668DA8F60"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: ["A Kitchen Cabinet has a same inventory as a chest."]
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004E8"
+			tasks: [
+				{
+					id: "00000000000004E9"
+					type: "item"
+					item: "cookingforblockheads:cabinet"
+				}
+				{
+					id: "6BC59DB774515C16"
+					type: "item"
+					item: "cookingforblockheads:hanging_corner"
+				}
+			]
+			rewards: [{
+				id: "2C3563C97EA40884"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			description: ["A fridge has the same inventory as a chest, you can put two fridge one of top of each other to get a taller fridge."]
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004C2"
+			tasks: [{
+				id: "00000000000004C3"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+			rewards: [{
+				id: "7F6A51048CDF543F"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			title: "Heat and Cool"
+			x: 7.5d
+			y: 0.0d
+			description: [
+				"The preservation chamber prevents the last item of a slot from being used up. (used on fridge)"
+				""
+				"The Ice Unit provides snow and ice to recipes. (used on fridge)"
+				""
+				"The Heating Unit allows to heat an oven using energy."
+			]
+			dependencies: [
+				"00000000000004C2"
+				"00000000000004E6"
+			]
+			id: "00000000000004BA"
+			tasks: [
+				{
+					id: "00000000000004BB"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+				{
+					id: "00000000000004BC"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+				{
+					id: "00000000000004BD"
+					type: "item"
+					item: "cookingforblockheads:heating_unit"
+				}
+			]
+			rewards: [{
+				id: "1A31FF178C42C391"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			description: ["In the Oven you can cook 9 items at once."]
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004E6"
+			tasks: [{
+				id: "00000000000004E7"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [{
+				id: "514B1A912624D0F8"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			description: ["A Kitchen Counter has a same inventory as a chest."]
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004EC"
+			tasks: [
+				{
+					id: "00000000000004ED"
+					type: "item"
+					item: "cookingforblockheads:counter"
+				}
+				{
+					id: "22B2C0CC273A43F1"
+					type: "item"
+					item: "cookingforblockheads:corner"
+				}
+			]
+			rewards: [{
+				id: "33D3455B560AC065"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			description: ["You can have an infinite amount of water with a sink."]
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004E4"
+			tasks: [{
+				id: "00000000000004E5"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [{
+				id: "5E063E1544B76E03"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			dependencies: ["00000000000004DE"]
+			id: "0000000000000504"
+			tasks: [{
+				id: "0000000000000505"
+				type: "item"
+				item: "upgrade_aquatic:mulberry_bread"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4228D000ACD532C5"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F6"
+			tasks: [{
+				id: "00000000000004F7"
+				type: "item"
+				item: "pamhc2foodextended:tacoitem"
+				count: 64L
+			}]
+			rewards: [{
+				id: "0AF62EECEA57625C"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F0"
+			tasks: [{
+				id: "00000000000004F1"
+				type: "item"
+				item: "neapolitan:strawberry_cake"
+			}]
+			rewards: [{
+				id: "661A6C89BB611DD2"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004EE"
+			tasks: [{
+				id: "00000000000004EF"
+				type: "item"
+				item: "jellyfishing:krabby_patty"
+				count: 32L
+			}]
+			rewards: [{
+				id: "5E3083CE6DA0BB77"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F2"
+			tasks: [{
+				id: "00000000000004F3"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+				count: 32L
+			}]
+			rewards: [{
+				id: "2027FF356D77D438"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F4"
+			tasks: [{
+				id: "00000000000004F5"
+				type: "item"
+				item: "pamhc2foodcore:friedchickenitem"
+				count: 32L
+			}]
+			rewards: [{
+				id: "68CD1CC79A0FB599"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			dependencies: ["00000000000004DE"]
+			id: "0000000000000506"
+			tasks: [{
+				id: "0000000000000507"
+				type: "item"
+				item: "rats:rat_burger"
+				count: 64L
+			}]
+			rewards: [{
+				id: "75AC5AC53A113035"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004FA"
+			tasks: [{
+				id: "00000000000004FB"
+				type: "item"
+				item: "buzzier_bees:glazed_porkchop"
+				count: 64L
+			}]
+			rewards: [{
+				id: "0622878915B7D576"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004FE"
+			tasks: [{
+				id: "2D17CD9ECD76B0F7"
+				type: "item"
+				item: "pamhc2foodextended:sushiitem"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2EA1B800C3526DD0"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004FC"
+			tasks: [{
+				id: "00000000000004FD"
+				type: "item"
+				item: "jellyfishing:triple_gooberberry_sunrise"
+				count: 16L
+			}]
+			rewards: [{
+				id: "06A8A3FF08807F70"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["00000000000004DE"]
+			id: "0000000000000502"
+			tasks: [{
+				id: "0000000000000503"
+				type: "item"
+				item: "pamhc2foodcore:epicbaconitem"
+				count: 32L
+			}]
+			rewards: [{
+				id: "1DB64ABE1D586C32"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["00000000000004DE"]
+			id: "00000000000004F8"
+			tasks: [{
+				id: "00000000000004F9"
+				type: "item"
+				item: "pamhc2foodextended:supremepizzaitem"
+				count: 64L
+			}]
+			rewards: [{
+				id: "242360AB3A576F98"
+				type: "random"
+				table_id: 6279604713272709768L
+			}]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "fluid": {
+    "name": "kubejs:molten_insanium",
+    "amount": 1296
+  },
+  "result": "mysticalagradditions:insanium_ingot_block",
+  "cooling_time": 340
+}

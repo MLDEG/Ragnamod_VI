@@ -1,0 +1,11 @@
+{
+  "name": "Amber Gem",
+  "colors": [
+    "e28704",
+    "a63100"
+  ],
+  "ingredient": {
+    "item": "betterendforge:amber_gem"
+  },
+  "inUltimateSingularity": true
+}

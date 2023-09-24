@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "item": "bloodmagic:masterbloodorb"
+  },
+  "tool": {
+    "tag": "bloodmagic:arc/reverter"
+  },
+  "output": {
+    "item": "eidolon:shadow_gem"
+  },
+  "consumeingredient": true
+}

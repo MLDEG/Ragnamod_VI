@@ -1,0 +1,16 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "undergarden:forgotten_guardian",
+    "samplerTier": 3,
+    "environments": ["undergarden"],
+    "growTicks": 1800,
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "undergarden:forgotten_nugget"
+            },
+            "minAmount": 4,
+            "maxAmount": 16
+        }
+]}

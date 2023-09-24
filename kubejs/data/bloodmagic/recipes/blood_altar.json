@@ -1,0 +1,12 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": ["ABA", "ACA", "DED"],
+  "key": {
+    "A": { "item": "undergarden:depthrock" },
+    "B": { "type": "forge:nbt", "item": "botania:brew_vial", "count": 1, "nbt": "{brewKey:\"botania:bloodthirst\"}" },
+    "C": { "item": "botania:runic_altar" },
+    "D": { "item": "morered:red_alloy_ingot" },
+    "E": { "item": "betterendforge:terminite_ingot" }
+  },
+  "result": { "item": "bloodmagic:altar", "count": 1 }
+}

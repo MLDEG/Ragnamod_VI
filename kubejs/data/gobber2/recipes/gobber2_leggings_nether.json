@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        "ABA",
+        "A A"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "gobber2:gobber2_ingot_nether"
+        },
+        "B":
+        {
+            "item": "gobber2:gobber2_leggings"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gobber2:gobber2_leggings_nether",
+        "count": 1
+    }
+}

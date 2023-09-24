@@ -1,0 +1,52 @@
+
+#Nether Ore config for janoeo
+[janoeo]
+	#Nether aluminium ore generation: disable / enable
+	netherAluminiumOreGen = true
+	#Nether coal ore generation: disable / enable
+	netherCoalOreGen = true
+	#Nether diamond ore generation: disable / enable
+	netherDiamondOreGen = true
+	#Nether emerald ore generation: disable / enable
+	netherEmeraldOreGen = true
+	#Nether gold ore generation: disable / enable
+	netherGoldOreGen = false
+	#Nether iron ore generation: disable / enable
+	netherIronOreGen = true
+	#Nether lapis ore generation: disable / enable
+	netherLapisOreGen = true
+	#Nether lead ore generation: disable / enable
+	netherLeadOreGen = true
+	#Nether redstone ore generation: disable / enable
+	netherRedstoneOreGen = true
+	#Nether ruby ore generation: disable / enable
+	netherRubyOreGen = false
+	#Nether sapphire ore generation: disable / enable
+	netherSapphireOreGen = false
+	#Nether silver ore generation: disable / enable
+	netherSilverOreGen = true
+	#Nether uranium ore generation: disable / enable
+	netherUraniumOreGen = true
+	#Nether dense quartz ore generation: disable / enable
+	netherDenseQuartzOreGen = true
+	#Nether dense coal generation: disable / enable
+	netherDenseCoalOreGen = true
+	#Nether dense diamond generation: disable / enable
+	netherDenseDiamondOreGen = true
+	#Nether dense emerald ore generation: disable / enable
+	netherDenseEmeraldOreGen = true
+	#Nether dense gold ore generation: disable / enable
+	netherDenseGoldOreGen = true
+	#Nether dense iron ore generation: disable / enable
+	netherDenseIronOreGen = true
+	#Nether dense lapis ore generation: disable / enable
+	netherDenseLapisOreGen = true
+	#Nether dense redstone ore generation: disable / enable
+	netherDenseRedstoneOreGen = true
+	#Nether tin ore generation: disable / enable
+	netherTinOreGen = true
+	#Nether copper ore generation: disable / enable
+	netherCopperOreGen = true
+	#Nether osmium ore generation: disable / enable
+	netherOsmiumOreGen = true
+

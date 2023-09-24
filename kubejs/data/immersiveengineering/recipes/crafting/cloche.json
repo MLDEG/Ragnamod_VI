@@ -1,0 +1,2 @@
+{
+    "type":"minecraft:crafting_shaped","pattern":["ABA", "ACA", "DED"],"key":{"A":{"item":"thermal:enderium_glass"},"B":{"item":"mekanism:basic_energy_cube"},"C":{"tag":"botanypots:hopper_botany_pots"},"D":{"item":"immersiveengineering:treated_scaffold"},"E":{"item":"mekanism:advanced_fluid_tank"}},"result":{"item":"immersiveengineering:cloche"}}

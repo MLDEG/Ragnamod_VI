@@ -1,0 +1,32 @@
+{"type": "compactcrafting:miniaturization","recipeSize": 9,"layers":[
+    {"type": "compactcrafting:mixed", 
+    "pattern": [
+        ["B", "B", "B", "B"],
+        ["B", "X", "X", "B"],
+        ["B", "X", "X", "B"],
+        ["B", "B", "B", "B"]]},
+    {"type": "compactcrafting:mixed", 
+    "pattern": [
+        ["B", "X", "X", "B"],
+        ["X", "C", "C", "X"],
+        ["X", "C", "C", "X"],
+        ["B", "X", "X", "B"]]},
+    {"type": "compactcrafting:mixed", 
+    "pattern": [
+        ["A", "X", "X", "A"],
+        ["X", "C", "C", "X"],
+        ["X", "C", "C", "X"],
+        ["A", "X", "X", "A"]]},
+    {"type": "compactcrafting:mixed", 
+    "pattern": [
+        ["A", "A", "A", "A"],
+        ["A", "X", "X", "A"],
+        ["A", "X", "X", "A"],
+        ["A", "A", "A", "A"]]}],
+    "catalyst": {"id": "thermal:redstone_servo","Count": 1},
+    "components": {
+        "A": {"type": "compactcrafting:block","block": "immersiveengineering:sheetmetal_steel"}, 
+        "B": {"type": "compactcrafting:block","block": "immersiveengineering:sheetmetal_iron"},
+        "C": {"type": "compactcrafting:block","block": "immersiveengineering:rs_engineering"},
+        "X": {"type": "compactcrafting:block","block": "minecraft:air"}},
+    "outputs": [{"id": "thermal:machine_frame","Count": 1}]}

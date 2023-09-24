@@ -1,0 +1,1281 @@
+{
+	id: "000000000000061A"
+	group: ""
+	order_index: 22
+	filename: "gobber"
+	title: "Gobber"
+	icon: "gobber2:dragon_star"
+	subtitle: ["Dude, this is powerful !"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Gobber Armor"
+			x: 5.0d
+			y: -4.0d
+			description: [
+				"The Helmet gives you slow auto-feed and water breathing."
+				"The Chestplate do nothing."
+				"The Leggings give you protection against fall damage."
+				"The Boots do nothing."
+				""
+				"Full suit give you poison protection."
+			]
+			dependencies: ["0000000000000643"]
+			id: "000000000000061D"
+			tasks: [
+				{
+					id: "000000000000061E"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000061F"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000620"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000621"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "26B02334FAF5F6F5"
+				type: "item"
+				item: "gobber2:gobber2_block"
+			}]
+		}
+		{
+			title: "Nether Armor"
+			x: 8.0d
+			y: -4.0d
+			description: [
+				"The Helmet gives you a moderate auto-feed with saturation, water breathing and absorption hearts."
+				"The Chestplate gives you fire and knockback protection."
+				"The Leggings gives you protection against fall damage."
+				"The Boots do nothing."
+				""
+				"Full suit give you poison and wither protection."
+			]
+			dependencies: ["0000000000000645"]
+			id: "0000000000000622"
+			tasks: [
+				{
+					id: "0000000000000623"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000624"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000625"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000626"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0CB1261C69014367"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "End Armor"
+			x: 11.0d
+			y: -3.0d
+			description: [
+				"The Helmet give you rapid auto-feed with saturation, water breathing and absorption hearts."
+				"The Chestplate gives you fire and knockback protection."
+				"The Leggings gives you protection against fall damage."
+				"The Boots do nothing."
+				""
+				"protection."
+			]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000627"
+			tasks: [
+				{
+					id: "0000000000000628"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000629"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000062A"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000062B"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2AD725C8A6DC39C1"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			title: "Dragon Armor"
+			x: 14.5d
+			y: -7.0d
+			description: ["The full armor provides you all the benefits of the End Armor, give you creative flight and a full protection against negative effect."]
+			dependencies: [
+				"0000000000000671"
+				"0000000000000673"
+			]
+			id: "000000000000062C"
+			tasks: [
+				{
+					id: "000000000000062D"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000062E"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "000000000000062F"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000630"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4CE3C4C8EA54BC90"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			description: ["Craft a Gobber Medallion with Gobber Ingots."]
+			dependencies: ["0000000000000643"]
+			id: "0000000000000631"
+			tasks: [{
+				id: "0000000000000632"
+				type: "item"
+				item: "gobber2:gobber2_medallion"
+			}]
+			rewards: [{
+				id: "65640796D8C7D935"
+				type: "item"
+				item: "gobber2:gobber2_block"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			description: ["Craft a Nether Medallion with Nether Gobber Ingots."]
+			dependencies: ["0000000000000645"]
+			id: "0000000000000633"
+			tasks: [{
+				id: "0000000000000634"
+				type: "item"
+				item: "gobber2:gobber2_medallion_nether"
+			}]
+			rewards: [{
+				id: "35A7DECD9534DB1F"
+				type: "item"
+				item: "gobber2:gobber2_block_nether"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.0d
+			description: ["Craft a End Medallion with End Gobber Ingots."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000635"
+			tasks: [{
+				id: "0000000000000636"
+				type: "item"
+				item: "gobber2:gobber2_medallion_end"
+			}]
+			rewards: [{
+				id: "1BB7DD863012ED22"
+				type: "item"
+				item: "gobber2:gobber2_block_end"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			description: ["The Medallion of Village Hero provides you with Hero of the Village effect."]
+			dependencies: ["0000000000000631"]
+			id: "0000000000000637"
+			tasks: [{
+				id: "0000000000000638"
+				type: "item"
+				item: "gobber2:gobber2_medallion_hero"
+			}]
+			rewards: [{
+				id: "578040CEF20275C2"
+				type: "item"
+				item: "gobber2:gobber2_foo"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			description: ["The Medallion of Experience gives you more XP and loot drops when killing hostile mobs, you can store XP in it with sneak + right-click."]
+			dependencies: ["0000000000000633"]
+			id: "0000000000000639"
+			tasks: [{
+				id: "000000000000063A"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_medallion_exp"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3810E7F4C21BFE87"
+				type: "item"
+				item: "gobber2:gobber2_foo_nether"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.0d
+			description: ["The Medallion of Conduit Power provides you the Conduit Power effect."]
+			dependencies: ["0000000000000635"]
+			id: "000000000000063B"
+			tasks: [{
+				id: "000000000000063C"
+				type: "item"
+				item: "gobber2:gobber2_medallion_conduit"
+			}]
+			rewards: [{
+				id: "0B282EDDA765132B"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			title: "Gobber Goblette"
+			x: 4.0d
+			y: -7.0d
+			description: ["Get some Gobber Globette by growing Gobber Seeds."]
+			dependencies: ["5052D69F0063307C"]
+			size: 2.0d
+			id: "000000000000063D"
+			tasks: [{
+				id: "000000000000063E"
+				type: "item"
+				item: "gobber2:gobber2_globette"
+				count: 64L
+			}]
+			rewards: [{
+				id: "73E1197C4A901EF3"
+				type: "item"
+				item: "gobber2:gobber2_glob"
+				count: 4
+			}]
+		}
+		{
+			title: "Nether Gobber Goblette"
+			x: 7.0d
+			y: -7.0d
+			description: ["Get some Nether Gobber Globette by growing Nether Gobber Seeds."]
+			dependencies: ["0EB27F3AF6EDF185"]
+			size: 2.0d
+			id: "000000000000063F"
+			tasks: [{
+				id: "0000000000000640"
+				type: "item"
+				item: "gobber2:gobber2_globette_nether"
+				count: 64L
+			}]
+			rewards: [{
+				id: "482408F9D0B6C087"
+				type: "item"
+				item: "gobber2:gobber2_glob_nether"
+				count: 4
+			}]
+		}
+		{
+			title: "End Gobber Goblette"
+			x: 10.0d
+			y: -7.0d
+			description: ["Get some End Gobber Globette by growing End Gobber Seeds."]
+			dependencies: ["07E1FC0AE507F371"]
+			size: 2.0d
+			id: "0000000000000641"
+			tasks: [{
+				id: "0000000000000642"
+				type: "item"
+				item: "gobber2:gobber2_globette_end"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6556F8F1FE22FFCE"
+				type: "item"
+				item: "gobber2:gobber2_glob_end"
+				count: 4
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.25d
+			description: ["Craft a Gobber Ingot with Gobber Glob."]
+			dependencies: ["000000000000063D"]
+			size: 1.5d
+			id: "0000000000000643"
+			tasks: [{
+				id: "0000000000000644"
+				type: "item"
+				item: "gobber2:gobber2_ingot"
+			}]
+			rewards: [{
+				id: "4B51DCABFFD81893"
+				type: "item"
+				item: "gobber2:gobber2_block"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.25d
+			description: ["Craft a Nether Gobber Ingot with Nether Gobber Glob."]
+			dependencies: ["000000000000063F"]
+			size: 1.5d
+			id: "0000000000000645"
+			tasks: [{
+				id: "0000000000000646"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+			}]
+			rewards: [{
+				id: "2638B11A8972E070"
+				type: "item"
+				item: "gobber2:gobber2_block_nether"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -5.25d
+			description: ["Craft an End Gobber Ingot with End Gobber Glob."]
+			dependencies: ["0000000000000641"]
+			size: 1.5d
+			id: "0000000000000647"
+			tasks: [{
+				id: "0000000000000648"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+			}]
+			rewards: [{
+				id: "7B50E1C096D84223"
+				type: "item"
+				item: "gobber2:gobber2_block_end"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			description: ["Craft a Ring with the Gobber Ingots."]
+			dependencies: ["0000000000000643"]
+			id: "0000000000000649"
+			tasks: [{
+				id: "000000000000064A"
+				type: "item"
+				item: "gobber2:gobber2_ring"
+			}]
+			rewards: [{
+				id: "569095B0DBE77BCC"
+				type: "item"
+				item: "gobber2:gobber2_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.0d
+			description: ["Craft a Nether Ring with the Nether Gobber Ingots."]
+			dependencies: ["0000000000000645"]
+			id: "000000000000064B"
+			tasks: [{
+				id: "000000000000064C"
+				type: "item"
+				item: "gobber2:gobber2_ring_nether"
+			}]
+			rewards: [{
+				id: "0C8490E233178624"
+				type: "item"
+				item: "gobber2:gobber2_ingot_nether"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			description: ["Craft an End Ring with the End Gobber Ingots."]
+			dependencies: ["0000000000000647"]
+			id: "000000000000064D"
+			tasks: [{
+				id: "000000000000064E"
+				type: "item"
+				item: "gobber2:gobber2_ring_end"
+			}]
+			rewards: [{
+				id: "222B0ADB5BA0954F"
+				type: "item"
+				item: "gobber2:gobber2_ingot_end"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			description: ["The Healer provides a slow, but steady health regen."]
+			dependencies: ["0000000000000643"]
+			id: "000000000000064F"
+			tasks: [{
+				id: "0000000000000650"
+				type: "item"
+				item: "gobber2:block_healer"
+			}]
+			rewards: [{
+				id: "1B54AE21396BC074"
+				type: "item"
+				item: "gobber2:gobber2_block"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			description: ["The Protector provides a moderate, but steady health regen and eliminates many, annoying hostile mobs."]
+			dependencies: ["0000000000000645"]
+			id: "0000000000000651"
+			tasks: [{
+				id: "0000000000000652"
+				type: "item"
+				item: "gobber2:block_protector"
+			}]
+			rewards: [{
+				id: "2EC35C786E9CE6DF"
+				type: "item"
+				item: "gobber2:gobber2_block_nether"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.5d
+			description: ["The Defender provides a steady health regen and eliminates many, annoying hostile mobs, has a range of 32 blocks."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000653"
+			tasks: [{
+				id: "0000000000000654"
+				type: "item"
+				item: "gobber2:block_defender"
+			}]
+			rewards: [{
+				id: "078416FDB61FF3EA"
+				type: "item"
+				item: "gobber2:gobber2_block_end"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			description: ["The Maturator provides carious crops and other groawbles a little boost."]
+			dependencies: ["0000000000000645"]
+			id: "0000000000000655"
+			tasks: [{
+				id: "0000000000000656"
+				type: "item"
+				item: "gobber2:block_maturator"
+			}]
+			rewards: [{
+				id: "22ED3B1F15D076DB"
+				type: "item"
+				item: "gobber2:gobber2_block_nether"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.5d
+			description: ["The Looter kills instantly mobs and drops goodies."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000657"
+			tasks: [{
+				id: "0000000000000658"
+				type: "item"
+				item: "gobber2:block_looter"
+			}]
+			rewards: [{
+				id: "7C4469F346989851"
+				type: "item"
+				item: "gobber2:gobber2_block_end"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			description: [
+				"The Ring of the Farmer works on many plants, crops, saplings, cane, gourds, and bamboo."
+				"Shift + right-click will grow grass and flowers."
+			]
+			dependencies: ["0000000000000649"]
+			id: "0000000000000659"
+			tasks: [{
+				id: "000000000000065A"
+				type: "item"
+				item: "gobber2:gobber2_ring_farmer"
+			}]
+			rewards: [{
+				id: "3E666A232BB8063E"
+				type: "item"
+				item: "gobber2:gobber2_goo"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: ["The Ring of Husbandry causes animals in a 10 block radius to mate, normal breeding cycles still apply."]
+			dependencies: ["0000000000000649"]
+			id: "000000000000065B"
+			tasks: [{
+				id: "000000000000065C"
+				type: "item"
+				item: "gobber2:gobber2_ring_husbandry"
+			}]
+			rewards: [{
+				id: "4E7651B9A2636D81"
+				type: "item"
+				item: "gobber2:gobber2_gooey_apple"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: ["The Ring of Ascent provides the player 3 minutes of levitation."]
+			dependencies: ["0000000000000649"]
+			id: "000000000000065D"
+			tasks: [{
+				id: "000000000000065E"
+				type: "item"
+				item: "gobber2:gobber2_ring_ascent"
+			}]
+			rewards: [{
+				id: "34199E453A7B950F"
+				type: "item"
+				item: "gobber2:gobber2_gooey_beef"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["The Ring of Attraction works like a magnet."]
+			dependencies: ["0000000000000649"]
+			id: "000000000000065F"
+			tasks: [{
+				id: "0000000000000660"
+				type: "item"
+				item: "gobber2:gobber2_ring_attraction"
+			}]
+			rewards: [{
+				id: "45B56D24EDD405CA"
+				type: "item"
+				item: "gobber2:gobber2_gooey_beefstew"
+				count: 8
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			description: ["The Ring of the Phoenix allows you to survive the flames, and come out stronger."]
+			dependencies: ["000000000000064B"]
+			id: "0000000000000661"
+			tasks: [{
+				id: "0000000000000662"
+				type: "item"
+				item: "gobber2:gobber2_ring_phoenix"
+			}]
+			rewards: [{
+				id: "3464311B0F20A01E"
+				type: "item"
+				item: "gobber2:gobber2_goo_nether"
+				count: 8
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			description: ["The Ring of Repair slowly repairs damaged item in your inventory."]
+			dependencies: ["000000000000064B"]
+			id: "0000000000000663"
+			tasks: [{
+				id: "0000000000000664"
+				type: "item"
+				item: "gobber2:gobber2_ring_repair"
+			}]
+			rewards: [{
+				id: "42AD662A4010FDC4"
+				type: "item"
+				item: "gobber2:gobber2_gooey_apple_nether"
+				count: 8
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			description: ["The Ring of Vision provides night vision."]
+			dependencies: ["000000000000064B"]
+			id: "0000000000000665"
+			tasks: [{
+				id: "0000000000000666"
+				type: "item"
+				item: "gobber2:gobber2_ring_vision"
+			}]
+			rewards: [{
+				id: "45982E321F290DB4"
+				type: "item"
+				item: "gobber2:gobber2_gooey_beef_nether"
+				count: 8
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: ["Ring of Curing provides curing of most negative potion effects."]
+			dependencies: ["000000000000064B"]
+			id: "0000000000000667"
+			tasks: [{
+				id: "0000000000000668"
+				type: "item"
+				item: "gobber2:gobber2_ring_curing"
+			}]
+			rewards: [{
+				id: "562BDE033271E83F"
+				type: "item"
+				item: "gobber2:gobber2_gooey_beefstew_nether"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			description: ["The Ring of Dismissal tosses mobs out of your way while you have the ring in your main hand."]
+			dependencies: ["000000000000064D"]
+			id: "0000000000000669"
+			tasks: [{
+				id: "000000000000066A"
+				type: "item"
+				item: "gobber2:gobber2_ring_dismissal"
+			}]
+			rewards: [{
+				id: "2E367B9F38208CF8"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.0d
+			description: ["The Ring of Stealth allows you to go undetected by hostile mobs while you have the ring in your main hand."]
+			dependencies: ["000000000000064D"]
+			id: "000000000000066B"
+			tasks: [{
+				id: "000000000000066C"
+				type: "item"
+				item: "gobber2:gobber2_ring_stealth"
+			}]
+			rewards: [{
+				id: "242AB474BC719EB6"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			description: ["The Ring of the Void teleports you to the End when you right-click it."]
+			dependencies: ["000000000000064D"]
+			id: "000000000000066D"
+			tasks: [{
+				id: "000000000000066E"
+				type: "item"
+				item: "gobber2:gobber2_ring_void"
+			}]
+			rewards: [{
+				id: "31CAD8001AF03C16"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			description: ["The Ring of the Enderchest provides you access to your Encerchest."]
+			dependencies: ["000000000000064D"]
+			id: "000000000000066F"
+			tasks: [{
+				id: "0000000000000670"
+				type: "item"
+				item: "gobber2:gobber2_ring_enderchest"
+			}]
+			rewards: [{
+				id: "0DFD5DAECFA109AB"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -7.0d
+			description: ["Craft  a Dragon Elytra with End Gobber Ingots, Dragon Eggs and an Elytra."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000671"
+			tasks: [{
+				id: "0000000000000672"
+				type: "item"
+				item: "gobber2:dragon_elytra"
+			}]
+			rewards: [{
+				id: "283311DA5CDCE372"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -7.0d
+			description: ["Craft a Dragon Star with End Gobber Ingots, Dragon Eggs and a Nether Star."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000673"
+			tasks: [{
+				id: "0000000000000674"
+				type: "item"
+				item: "gobber2:dragon_star"
+			}]
+			rewards: [{
+				id: "5431A501EFD8ADF0"
+				type: "item"
+				item: "gobber2:dragon_star"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			description: ["Craft some End Armor Links with End Rings and Nether Stars."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000675"
+			tasks: [{
+				id: "0000000000000676"
+				type: "item"
+				item: "gobber2:gobber2_links_end"
+			}]
+			rewards: [{
+				id: "69731CB1CF4E2598"
+				type: "item"
+				item: "gobber2:gobber2_links_end"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.5d
+			description: ["The Staff of Ensnarement captures and stores many mobs and animals, only once at a time."]
+			dependencies: ["0000000000000643"]
+			id: "0000000000000677"
+			tasks: [{
+				id: "0000000000000678"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_staff_ensnarement"
+					Count: 1b
+					tag: {
+						name: "Lobber Zombie"
+						mob_data: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "34CB48D014651C29"
+				type: "item"
+				item: "gobber2:gobber2_block"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -7.5d
+			description: ["The Staff of the Stars can place regular torches unlimited."]
+			dependencies: ["0000000000000645"]
+			id: "0000000000000679"
+			tasks: [{
+				id: "000000000000067A"
+				type: "item"
+				item: "gobber2:gobber2_staff_stars"
+			}]
+			rewards: [{
+				id: "7F8F2E482E70A895"
+				type: "item"
+				item: "gobber2:gobber2_block_nether"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			description: ["The Staff of the Farmer combines the ring of the farmer and the staff of the harvest."]
+			dependencies: ["0000000000000643"]
+			id: "000000000000067B"
+			tasks: [{
+				id: "000000000000067C"
+				type: "item"
+				item: "gobber2:gobber2_staff_farmer"
+			}]
+			rewards: [{
+				id: "1FE9759219002526"
+				type: "item"
+				item: "gobber2:gobber2_block"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.5d
+			description: ["The Staff of Nature converts saplings between types and concerts between cane and bamboo."]
+			dependencies: ["0000000000000645"]
+			id: "000000000000067D"
+			tasks: [{
+				id: "000000000000067E"
+				type: "item"
+				item: "gobber2:gobber2_staff_nature"
+			}]
+			rewards: [{
+				id: "6FB0694B75DF9E8E"
+				type: "item"
+				item: "gobber2:gobber2_block_nether"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -5.5d
+			description: ["Craft an End Sword."]
+			dependencies: ["0000000000000647"]
+			id: "000000000000067F"
+			tasks: [{
+				id: "0000000000000680"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_sword_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "664918AB7ACFF9F0"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.5d
+			description: ["Craft an End Bow."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000681"
+			tasks: [{
+				id: "0000000000000682"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_bow_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "14DE3B440491CC87"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.5d
+			description: ["Craft an End Pickaxe."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000683"
+			tasks: [{
+				id: "0000000000000684"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_pickaxe_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BE347D6DB386B10"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.5d
+			description: ["Craft an End Paxel, combines pickaxe, axe and shovel."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000685"
+			tasks: [{
+				id: "0000000000000686"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_paxel_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B3289E2EA195C76"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.5d
+			description: ["Craft an End Shovel."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000687"
+			tasks: [{
+				id: "0000000000000688"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_shovel_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "463B9139030A2612"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.5d
+			description: ["Craft an End Axe."]
+			dependencies: ["0000000000000647"]
+			id: "0000000000000689"
+			tasks: [{
+				id: "000000000000068A"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_axe_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "049DD1465BB6BD91"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -3.5d
+			description: ["Craft an End Tree Axe, can chop an entire tree."]
+			dependencies: ["0000000000000647"]
+			id: "000000000000068B"
+			tasks: [{
+				id: "000000000000068C"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_tree_axe_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "62A5B4AF6561391C"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.5d
+			description: ["Craft an End Hammer, can mine 3x3."]
+			dependencies: ["0000000000000647"]
+			id: "000000000000068D"
+			tasks: [{
+				id: "000000000000068E"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_hammer_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "50363483A24F659E"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.5d
+			description: ["Craft an End Excavator, can mine 3x3."]
+			dependencies: ["0000000000000647"]
+			id: "000000000000068F"
+			tasks: [{
+				id: "0000000000000690"
+				type: "item"
+				item: {
+					id: "gobber2:gobber2_excavator_end"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CB4628939FE47FF"
+				type: "item"
+				item: "gobber2:gobber2_foo_end"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -8.5d
+			shape: "hexagon"
+			description: [
+				"To get your first Gobber Seed you need to craft it in the Mana-Infuser with Imperium Seed Base, Pladium Boule, Shadow Gem, Source Gem, Starmetal Ingot, Proto Chorus and a High Covalence Dust."
+				""
+				"So you need to get in Mythic Botany, Mystical, Environmental Tech, Eidolon, Ars Nouveau, Astral Sorcery and a little of Integrated Dynamics and Project E"
+			]
+			dependencies: ["0000000000000618"]
+			id: "5052D69F0063307C"
+			tasks: [{
+				id: "388EEB58C6D35FB3"
+				type: "item"
+				item: "gobber2:gobber2_seed"
+			}]
+			rewards: [{
+				id: "4DADF074E4840941"
+				type: "item"
+				item: "gobber2:gobber2_seed"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.5d
+			description: [
+				"To get your first Nether Gobber Glob you need to craft it in the Hellfire Forge, a Gobber Goblette, a Wixie Shards, a Demonic Slate and a Dark Rune with a minimum of 4096 Will in your Greater Tartaric Gem."
+				""
+				"So you need to get in Blood Magic, Forbidden Arcanus and Ars Nouveau."
+			]
+			dependencies: ["000000000000063E"]
+			id: "0EB27F3AF6EDF185"
+			tasks: [{
+				id: "6CDE1DFCCDEDF957"
+				type: "item"
+				item: "gobber2:gobber2_glob_nether"
+			}]
+			rewards: [{
+				id: "74B4E6689E51EE26"
+				type: "item"
+				item: "gobber2:gobber2_seed_nether"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -8.5d
+			description: [
+				"To get your first End Gobber Glob you need to craft it in the Iridescent Altar with the Mineralis constellation bind to a crystal, some Nether Gobber Globette, Phantasmal Ingot, Aeternium Ingot, Crystaltine Ingot, a Xerothium Crystal and some Psigem."
+				""
+				"So you need to get in Astral Sorcery, Environmental Tech end game, BetterEnd, Ice and Fire and PSI."
+			]
+			dependencies: ["0000000000000640"]
+			id: "07E1FC0AE507F371"
+			tasks: [{
+				id: "69FABE92F4D34598"
+				type: "item"
+				item: "gobber2:gobber2_glob_end"
+			}]
+			rewards: [{
+				id: "23ED6BBDA9BE58E9"
+				type: "item"
+				item: "gobber2:gobber2_seed_end"
+			}]
+		}
+		{
+			title: "How do I begin Gobber ?"
+			icon: "create:brass_hand"
+			x: 2.5d
+			y: -7.0d
+			shape: "circle"
+			description: [
+				"First of ALL ! There is NO ore from this mod who can be found."
+				"Instead, there is three craft to get seed and farm materials from Gobber."
+				"{image:kubejs:textures/ftbquests/begin/gobbercraft.png width:150 height:100 align:1}"
+				"At the end of Gobber you can obtain a powerful gear that negate void damage and give you flight."
+				"Be prepare because you're going to need to play with a LOT of mods !"
+			]
+			dependencies: ["0000000000000618"]
+			id: "0A92956451853934"
+			tasks: [{
+				id: "1712ABD92E42018D"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4D7B2E32F604D475"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+    },
+    {
+      "tag": "forge:gems/sapphire"
+
+    }
+  ],
+  "result": {
+    "item": "thermal:sapphire_block",
+    "count": 1
+  }
+}

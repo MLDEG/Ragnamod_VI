@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ECE"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:dyes/white"
+    },
+    "B": {
+      "item": "minecraft:slime_ball"
+    },
+    "C": {
+      "tag": "forge:plates/gold"
+    },
+    "D": {
+      "item": "minecraft:experience_bottle"
+    },
+    "E": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "everlastingabilities:ability_bottle"
+  }
+}

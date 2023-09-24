@@ -1,0 +1,564 @@
+{
+	id: "18A6A629A0AB1CEB"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	icon: "kubejs:sphere"
+	subtitle: ["Bonjour."]
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -3.5d
+		width: 10.0d
+		height: 5.0d
+		rotation: 0.0d
+		image: "ragnamod:textures/logo.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Welcome"
+			x: 0.0d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"Welcome to Ragnamod VI."
+				""
+				"This modpack invites you to discover several mods with a follow-up on the Quest book."
+				"This is not mandatory to take advantage of the modpack but gives you several objectives to accomplish."
+				""
+				"Several craft have been modified to bring a little more difficulty and a good mix between the mods, it remains nevertheless a modpack accessible to all with an acceleration of the difficulty for the creative items."
+			]
+			size: 2.0d
+			id: "2B04C39F8061A391"
+			tasks: [{
+				id: "512BFD0BD6AC1144"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Thanks"
+			icon: "cyclic:heart"
+			x: 1.0d
+			y: 1.5d
+			shape: "heart"
+			description: [
+				"Thanks to my beta tester."
+				""
+				"Without them, this modpack would not be what it is today."
+			]
+			dependencies: ["2B04C39F8061A391"]
+			id: "126DB247BB902BD4"
+			tasks: [{
+				id: "6A37C1CEF7F0A98B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "5D6EA9717C0170E7"
+				type: "item"
+				item: {
+					id: "betterendforge:lucernia_barrel"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												-1766861216
+												1072645884
+												-1454411334
+												-1751524195
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzY5MjQ1MywKICAicHJvZmlsZUlkIiA6ICI5NmFmZDY2MDNmZWY0NmZjYTk0ZjcxYmE5Nzk5ZGM5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCaWRlb0dlbXUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZmODdiNTM1NGY1ZmNhNzJiNmUzMGQ4ZDQ1ZWVmYzkyNzBjMWI4YmEzMDkyNGFkM2U2YTM5MTdkNjI4ZjlhOCIKICAgIH0KICB9Cn0="
+													Signature: "L90uuokciZQcVil9OhXI3dWOA6HYYOCFV9SHeRN5z/O4tNNEAclG0pvmyOkcp63r5y7HbIf014b0fM2vZ+v/12jaZKdusJhbzn+t6jmiSB0hwfiCKLBQ4+86hgzY0HCmuMKNA4bqTzIrOFnsfwyDm6XJs+0oapkBj3WnawABZVRFFFS/h8wFYoyMNBTiKpciC3vYv685Vl/QtVnTMZjdTM+4yFCBIe7kgB7wwN3PCm41WulH+rriE+CNwPr7oYPBUIod3Mh0PNKr6In+wOwdPOQEMX59ZRIxsPha29RumLJ4+V8oXUuDD9zr1/kEA25bvzKd9xtiHg7G5761HR58Pb3zzD9OEzBge0yRNbhlJJIkV7NoXnt4l+ijuAxvc/ziMh1ETDWcOHB5qDLe4lx3t9XTj1mzy92dAjvj7CEghDzCSifUpblOaxS+wTlQuG1SW8FyblABSyfDPlpDQVZvuOaHMkez2h+zNN49j6ceLCdlOYXQZ2wAcPVF+JX6RnX7wjkAfWLlwrkQJgZHio9FhszvT4ftrhhSK0/QOMzO4mSMIRoBakS6UiQVWqeK9X9YH2+NgTmi4lNCD/oQl6oRHu6Ef6G5g/Mvzc15ytkB/Pnk6esxqbusDwr8LvD52PuG4pJHhOJy62JXpaqZQV8kEq+X1xXm5jiGFQuwtRx8GR0="
+												}]
+											}
+											Name: "BideoGemu"
+										}
+									}
+								}
+								{
+									Slot: 1b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												1129043164
+												-425770240
+												-1738852909
+												2110185442
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzcwMDk4MCwKICAicHJvZmlsZUlkIiA6ICI0MzRiZDRkY2U2OWY0MzAwOTg1YjM1ZDM3ZGM2ZGZlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3JkT2ZMb25nTmV6IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVkZTRjOTA0ZGIzNDFmMDkyM2Y5M2I4Mjc0YjUzODk0NzEwNTQwZDZkZTA2NWNiNmM4NWE2MTYyODIyOTA4YmYiCiAgICB9CiAgfQp9"
+													Signature: "kIs8faT9WTF5gn+NEKn++/OkgH3RvYv/CJJ7lHVZ5mkNeIoPMKrrgMZle+w2xv/025LBMMPJwS8UYNGFXwLJ2yvpsu3SyTORgyVjz2H1DsCCkKa73QPymrrxniF5MF3VG+9icAc/6AGLU4EyVeYxHNGqfF0xdC9tbVqh0YmDYto9xIzExYflcouxVqMyMVR0Wh2sBvpJpgTR4Ddc1kog3qnvMephEk6Xo98NmnGN6H4cVGZIO5AlL5S3ubEmOxdVH1jF6wemQJTKJS8gq9PBQnh2yu/BETEV2ByGKNkX8cRL/hAmkZMTGe+uOzZr2+W6Xs6imbpJ4SAlVM4Mj9cgpGXv2/C4+9rnpSe0i6M3DCfvzywPtuMD394WTbX11+jIxjPLPD3/WIe7KKPHK5OgJ+SrGCRjRUmOtU2lEC7quhBNqUrskDJbk3Dfm/Epb9PYyflcnnhr/68h95IKQBph9kCDoKqXjMSKFcJw1I/hRgU0RWvPHzSS6iinirtVeCg6u5vmlq9Pjx4tfvXDsOcEdKyNz9DoJSXNAEgQb4rhsOxZGYOIMl64gB8pjk7jp2sbT3pzbj0oG2bVEzPwcuUDyDw4IueBsgZG9ejB7puFN3IgN1a7BxAZdAazpg51yhViEThDaKm5tzA3RE3HxSYZPZ6OdXxiyB3Kk+yxQiNojBs="
+												}]
+											}
+											Name: "LordOfLongNez"
+										}
+									}
+								}
+								{
+									Slot: 2b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												-1226181604
+												404639341
+												-1621508735
+												2092483644
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzcwODc5MywKICAicHJvZmlsZUlkIiA6ICJiNmU5ZjQxYzE4MWU0ZTZkOWY1OWJkODE3Y2I4YzQzYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJWMFk0RzNVUiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MmQ4Y2NjZTcwZGRiNzAwZThmYjdiMDM0MDgxYjNiNGYzMDRlOTkxNmQzN2M2YmRjODg0ZWUwYzQ0MWM5M2U2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+													Signature: "AKCIxLzgJujadbZlPUUifuwDYpQOvx1dj1Yv7slnE+atrk8XSan48hdgDRQXiJiaQS0IN2NBvw1NkWURAenyAYFDuZIN+LTmWJ2U7nbsh0Fxc96FQ1i/Kof+5LktpNjyRjMCyUz4tMzi827oSIdUE9fmSvTlV8ySR/jQG7i5QZPJHZZq8Pe50GFtVI/qe6ySQIkmbHWtuN6TmsyAfpI0skZDqiVUxccgXKMor//l2B+0OAxoeuptwaI1ApXpuE9100AuKvRdeVk4afbMHqjDmYRcwtFGc3MNQR7ERlq+j+NeFAbxJu/mpi7YtTbmocSUOy7lLAxmNPs+yDf7dinjlT86Ypsul8r8e2xdpow9q++0Gk0anT08QWIUMCs7fJk1zKcgpQThEzAKMT+bAc9FCYPCoecNPpezoFbdNrtWGZwFy0f6XslkZJEDUlMW6NdIfYsPu7OOa9ydH4nnLXjqO5HYy7lzJ5cktpGaNpBb5klk4RIItXxNn6Q5AV3LvWa76ZaGse9HjlkEzvjFb8JmT6U8eDQlBTjfz6vEVl2nzFW9iEWS7FQNedvQgaOlXazPSH7o+M67yPv3ty5d+FSFDbOgxmFAiqnTd9tZH7SadbuQ1p5qXhwINEKrevtyNsuc4P/Xz91HfLly9eT+i7tkQoxtzl3P6iM2hALBEXFwpqQ="
+												}]
+											}
+											Name: "V0Y4G3UR"
+										}
+									}
+								}
+								{
+									Slot: 3b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												-795333556
+												-869511252
+												-1823285067
+												1216309843
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzcxNTczMSwKICAicHJvZmlsZUlkIiA6ICJkMDk4MmM0Y2NjMmM0ZmFjOTM1MmUwYjU0ODdmNmE1MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJCYWthbmVrb08iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWEwNzFjMjk5ZWJlMTA4ZTlkYjllYjAxMTRlOWJiZGUwYTg5NzI2ZjE3NWRkN2E4NTNjZmNlYjU2ZjAwOGE2YyIKICAgIH0KICB9Cn0="
+													Signature: "X3QoL2QKSMjrCiYdqomloYELvNYIH28NNg2cKeT0L3CV72VMs2w11k3k2SR/H1UznIP8e4MR/YcIzAvdihaPCwMtI+o4iZfjRiZ93CXgDSPDBYpUOzEfjcFdIHL0lD0ah6TWKTq7kv0CuVhBGWUh/FtWBf6179YxmYpl2zPyVqpjE2+Ty33hfMcLMM5rz0STuRcSFC6VV/uN7Ldcgrpw3aB6MSFvWaBcja1qUWN5ivWq7tG+biiaPHsDYTMkmg3GgnEBYaoW1QxUAxV/pTd6AgmG4Zj7UF07ScmZLAfVs05D5AWEDj/5vDQcdVJzp7RoQD61T9F1Xp363pzzg3Cp26+gg2dnriBeqih90HzSVKTWxqlooAwq+YkSdUmARrRuPg4TDmypkkPAMoN2bjhFbNy1Oq4mimQYYNmqbh8huA4PuGejuvoXIhze6hCFxEURAmMocdWE5uKAfh/KiNOZlrjnol/ppZhKCM791I4dxobWM00tjJu41tnT8fmwBFe0wLXe88lkN2Ljf+z9RdDNfNiEii/z7Kxy8coKqRO2XRMnM+kyFg/Wioo5b2dqL8l+efnjZT4zbuBtsFd2hX/wtXVMbORQJ+z3SFv3gdbyJyPywuFCKKEHypGlniakWVdWeCcpPSC7PW33XAGZ7QOxk5Zi2grLU8EFpBpraxt60cQ="
+												}]
+											}
+											Name: "BakanekoO"
+										}
+									}
+								}
+								{
+									Slot: 4b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												593829833
+												-236632762
+												-1995449369
+												67983156
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzcyNzE4NCwKICAicHJvZmlsZUlkIiA6ICIyMzY1MWZjOWYxZTU0NTQ2ODkwZmRiZTcwNDBkNTczNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbW9zTmVidWx1cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lNDQxMjI2N2MyNzg3Y2NhNzlmMTYyYWQ1MWM5MzkzN2Y4YjQyZTY2OTI0ZDJlOTk2ZGIzYjAyOWU3MzA4ZGM5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+													Signature: "a0E/Z6qPiaFntjBswxCeZod2sWTU5jQCjCH/6FBZT3Cj1lo01mRDpGXA6W+LmUiTgrhE7naUy/rUsr+WoR2KbrGub5bjjvlUuRYDoJVm1ECkA46zrTjn/XNz/kIhJq28ldqjt8Vsmf/vJz3sVlLt7FKZ87Uxit+eWvEQBKlbyth8xP1rja3/Kf2P+OF/Ps0BQOZtqIuqv2CkGQHXKZzUMRcR7x6Pwqdg4uckOlT6Xz/afvAw8s5lCeY5WO4kyjxTWFcK3zRlaEs0UoZAGqa4pCfqX1vGHBZCYIL+Z/FeWXKFboH85G7N6a25uSAaGdt2X79yIfgNJuUWEl3RMdtacZKuJYfAE7juo1drCFE/IrXs9jcRPEj4ezOicKmIgnLud+YFez+GCVpuqw6UEflb4I9S3nin0ZJfNLirfe/Ms7IUK48oVKMBmGn+xN1QL19QHf5kdm9RmLymphTUuA7kgbeEUZO2hQLBp68nGfOr3CQKeiHG0jxW4Io/mfqXu4oPSG/4KoJo7ymqcozRSdjBlWKoHt4ygmHQEDTotkt+uRWc7nqRngrd9p+yPTQd5NnHLOJZyanJGtlEYd+b+6SIr3y9uy5dOoSlaL7xgI7yK+4qeCoQ06Jp9XO29snJ4pJm+C8F088SnuRC+65yALGSyiywf8uWTfzg4RkbIQZzEW4="
+												}]
+											}
+											Name: "AmosNebulus"
+										}
+									}
+								}
+								{
+									Slot: 5b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												1492183920
+												1283803492
+												-1126534305
+												1712348659
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzczNDQxMiwKICAicHJvZmlsZUlkIiA6ICI1OGYwZWI3MDRjODU0OTY0YmNkYTczNWY2NjEwNWRmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJhYm9pc2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzlmOTVjMmEwYTAxZWVkYTAzZDdhNzRlZTAwMmI4MGE4ZWYwMGZkNmY5ZmQ0YjU3ODZjODAwYTAwOGYwMTc4MCIKICAgIH0KICB9Cn0="
+													Signature: "xuSialAciMzMDcjU2+cE6jjYxkfwxjF0q1+yzkCl0JDza+hgpzdp01A5bJ1M8swYNIQngtKL+BAY9FSSCmylz1877gIrKKaA1zsxpnm42smia+nB1amFVJPl+aZnTHn550nQLr6Vu+oIYgzIFn0hPsPyyPRBsdStJjsw+YDfxbt35ezixsVnijkpgRs6xsQOl26qkOEgBNf+DqJsLSWVbSdEg5ew5kn8LtH+fgORNKkVIffUdvHbgUiAoJzFRvLu3CgSDlvcij4eAGjdznk/v+SxS+j/Ftk5b/8l5WwoqFcxsrMyYJj4tnbatebUt5TKEtO04JoLYxLYhGaH/brL//Kc8CQliuC1keRO4yXTkz1+AxswbyJG7+KNtrob6XKCKsyUZBHFHkcu4tlz2pJnYRwefC2M/jW19JWUUF89KkznKsuuUZR9Su6tlXBFCf74HatEktwmLcd1je4f1t7c/qy47drZ7lRUKmjDa+S6wRIJd3mDRG7+vaD38VIzIiDCkmWuNsm09SjqHAgCU0wFoiquYil0t4QRFeVoIjtr1iKY53ZQD7cj0OQS/MZo354196OB7V1nODRv3F5zMy35uVt6/cGzf/I3j8V7g57K/xV4hfG6anq54dKC+dYkjsw7KIDIj+SLTlsif3CMJBymhlWjxSGsfTHeV+kL7GPYUd8="
+												}]
+											}
+											Name: "aboish"
+										}
+									}
+								}
+								{
+									Slot: 6b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												-328822484
+												-789756298
+												-1240157370
+												-896032021
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3Nzc0MjYxMiwKICAicHJvZmlsZUlkIiA6ICJlYzY2OTEyY2QwZWQ0Njc2YjYxNGIzNDZjYTk3YTJlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJpV2FyWnoyNTYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI0OGFlMzc3MTkzZWRjY2FjZjRmODEwNjYwZmQwNmZmZGMwZTViYzM3NTYyZmM3N2U0Y2NkMjJiOTk5NjU5MyIKICAgIH0KICB9Cn0="
+													Signature: "Ib07/kTWYoBqDnXALozx+7zD2CdSTRPAhDz9IvLsYtPhIRn3SaYpsGWUBqWZ/Kbm/NXV5rX1z6p8L/YSVtsVVW9wFNKYiav31Ko/NE84ixm9QbBm1JSSWp/lqBQFotkC0YEurWKAJJH3aGG+Ocjzzoas2ZVyCQhx1KaRpZD05oQoTgHGzJJTUxWjPE1sPH8mWPv+lTxYcRzCc+tMWy985TLf/ZA3bWYqBw956oOlwJCsJgFv8oRgnU7NjowcOGuUDyWx9OUX3Q6ENDgkxyK8tfvpibS6NMaqhMRBkyIUO3hF7/pH/1iIgq83Me6VmgwmQIoU1r902O1oBKm7bSATBTeQ4L1SANBI5tbE06tBAny7+s0EBQVMiZksaa8CYb+ThMcRcMWtKnEDX9TsJkz30/qTBZl7p7/cZqCyeCTgMvdhYgEWuD3YDReygZ/3DbQcnuRRYFdUqUPaoraSdRQkfABuSe7dig7ebeH2HOaxyJurnNEGyG0VzZFct0e36A2F+CCGSrVOcwsZGX4E9HqX42KcsM7CrvIXOJjoNXg8Eyrn6q/udywEwTdrE58W9mStAakN9ulGBS0IgZkpY4RijxxG3Q09aQvS1EPvyB1urL1TLKDj7AxrECTTzml4WzeQHMyEcZCZlUwQhJiyTTZiNmIL5uLjbsUIYiLiBFcOrlI="
+												}]
+											}
+											Name: "iWarZz256"
+										}
+									}
+								}
+								{
+									Slot: 7b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												1855697845
+												-1793897102
+												-1318444525
+												-1476791231
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3Nzc0OTI2NCwKICAicHJvZmlsZUlkIiA6ICI2ZTliYjNiNTk1MTM0ZDcyYjE2YTIyMTNhN2Y5ZjQ0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBem9HckUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZlMzk2NDhlZmFjN2FiYjBmZTE2ZGZkYjYxNmZmZTVmNmRhNGM2ZmUyZDdhZmNjNjBkOWZiZDhmNTc3Y2QyZiIKICAgIH0KICB9Cn0="
+													Signature: "PL0qpbU0Y8TXtwhsSJLqXL6VN98j5Vq3BiQHE3/T6Y12rG8L/4WNYw3HgTGXK0XBUbNEcGN6B7u2GIUluPB3UqeFMkHTSXw3MVIlz17JnzsB4rVOQMt+B+GA/vx4TDDvNfaslcUbm+tK144I6aOxqf/E6qkskd/t4sfosMLmTRovb4+Z6Et4AIbfX0IzAoWKrmMeZxyxiDNw87EVkueo8amRh+h0i1ElFIgJ7w6wUW6WajN8T6xhqQ/lGxIgo8uh9qENAALlQVdT+tZhgvF79Ht9LdGHI3afXJiip+3dx8jYaf0qEODB9BxxtW1FA9wOTk5KW6SPEO+5dbmbRTfgUL70Pt5nasKEZlk8Hu5+ru0oa6vsbLMbOMcQ4poMKQsGe/jExuo+hsVKTQ95S0qa05f2Ld5+6TlLGEqxihkxXoU94V2b08ROZNvU2J3dF9/Uy/bsZl0CUCMWxC5ivnZgthIqxG1jst4hQ9jZDdjd0b5AMvwHwazCLc1YJH7FPv556q3+0Rn4JlP8VDxtBzPd7ylHbgpbUDJ0LR6Cv5esELFZCzu4rhNvyoJ7D0AfALDGw7fAZk5RmfIOEZQQUSXmVAod0DVm327ibX0l1/9PpS7bqve+CL8Blp89K2Ii+mDiyGm69RiLg5hsKATot/NBdva1UAFrWEU12EWc/fNdbpg="
+												}]
+											}
+											Name: "AzoGrE"
+										}
+									}
+								}
+								{
+									Slot: 8b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												196841243
+												1352091162
+												-1553356344
+												-73964243
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzY3ODI2MiwKICAicHJvZmlsZUlkIiA6ICIwYmJiOGYxYjUwOTc0NjFhYTM2OWE5YzhmYjk3NjUyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHBaeiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZTc3MGIxOWFjYTBhMjY4MWMzZmQ4NjUwOTY5MGFlMTM4MGE5OWUwMjIyNWU0MTU5ZTQ4ODUyMTQ4ZTAxZDUiCiAgICB9CiAgfQp9"
+													Signature: "iyhD/f9MlIlbZq+jwIw7hF9FmDtSxqzAv/Zceu2r4tknsKRNLFd+XiswW3s7qssn3UBmlGJP0EyoJ8jCWNMwxwN+SNF5sg5fHei9OSZ+c/QMWBNAYyOu6oyEOk5XHLRs2Mo57j7lYsw8l+eO/i7efikPf1V6UzGdkJxggRsCtSSAqCyLpoBfpeU1+ssPlN32yGRs3hliRm9+NGk4KxBy9oo6BV9LfAXmkjCr0GifiGZAYc2xnYFNxbM9Oeplz9AnZ96EfjC/UgMwqKLW5zqC0bRh9gsEuQiV6zstTuK/p9noIOTM/6LbirxhPQvzo7f8Qtow0gaZYR5lZP+KrcDBfOZYaUTLRbgrctUg7JcJM4hy2NaSBXK37HCqWOXF3tcIXW8eHJU/xnfiL+cpVKeGBZ4RDv/iU5ATt196E/qp2MXixQRvNh44X1wWKbmuIuHikiQPHosNyCkU+mA6X100GQNTALCUkyuR2ivEyf5NZ0T/cb/0RAXQuMn5y+tw7BS5tcmQLfjyTuS0WD7x2UBDiSozyO/nTfxFwFfwoRURfExM0eHIwATXpvlkJAu2e07UeHOGF+pm5VQhvhcXnXESHt/aJ9NriXfbJKaWlcE9VAKTNm4Wsmd+7veNzOOE5wJCKgAzCPWHHop3iHQt7csUjKdYtqeH9Iq8aG06xWZq+cA="
+												}]
+											}
+											Name: "AlpZz"
+										}
+									}
+								}
+								{
+									Slot: 9b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												1193319775
+												1444236776
+												-1641351536
+												-1471460908
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3Nzc2NzY4MCwKICAicHJvZmlsZUlkIiA6ICI0NzIwOWQ1ZjU2MTU0ZGU4OWUyYWY2OTBhODRiNDlkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5dW1la2F6dTYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjYzZjE5ZGUzOGI5OGM1YTRmMmY5MDdmZTU1ZmZmNTY1YjQ5ZTk0ZWE0MjMzMWVmYWRmMDg5OGYzMTkyNzQwZCIKICAgIH0KICB9Cn0="
+													Signature: "JTdsoApSYd7q4V13+UdlKDNE4Iet3jPOpMSBzm7/86SkpVb8UtN9TQBD9Ps5D6xGWEfmLMH9XXeFFZNIxwqr4wrYgyH6xuTOXAmBPXCpcCeqENm2+P7lC69Y7iau0TP5VX3jleUNC/OiXmoXt0xgMx9aQnWS7WLsCtuWr38CwCh5wu+FuV91zCvG9FAme8K/dPVsxbkhLUP/K7E8CBnpG+dQ1cmXd6Xv55EJ18GujbXhKV8GeBIB10836BMx9+tMhoQiVLOOZ/etkv/Brtv0/r3Y45F7PBQMkmoaY+lZNU+d6AlLTvtVeIeKhxhdhiIEvxbWbp3DP6Ll498mp+ZEx+YOx68/WbGP98io+GsVH9kKMedygr2UsxNHMOHzGDwKhSOf2cekWpTcjFtOOf0qcx/8MiJUXE1uT1//on6mKNsKVwV5MT9sYPaQI/la5ykL8RJPHvVItATtCAGPFcXicqaEq3hdc2sfRXOjkfvZPsSygY1zdVcQDABQuis2qyV3E+djxlP14nSoXdotKt2PwqB+KXwGhKP/BIGcgjNsls92pXn6SCQRbpAb6HU+9WTkb29yp+Lax2+Fu38+oRsYN+HmxhsGN0e5RC9X3e1H5pjzGXFliMWTQ2klcdVVamGN5xEmge8tLzYyUo7PHkC9ozGHtZp2RFmHdzSdOqyMQHI="
+												}]
+											}
+											Name: "yumekazu6"
+										}
+									}
+								}
+								{
+									Slot: 10b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												1220949613
+												-647149528
+												-1214396900
+												-741989343
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3Nzc3NTM4MiwKICAicHJvZmlsZUlkIiA6ICI0OGM2MzY2ZGQ5NmQ0ODI4Yjc5ZGM2MWNkM2M2MjQyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaeW85NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MDY1MGQyZDhhNWQ4NzQ3MTBhZjIyMjE0NmE5YzgxZmE1YzgzNTE4Y2I4ZGViYWYyMGExZWFjMjZiYzA1MzkwIgogICAgfQogIH0KfQ=="
+													Signature: "jCyUcgf+l543gc7q1JTp9Ebr77uRfQPhl0MS9oFSgLSqPUAMe/Mim/tqPPW3UDvv9ZjQH32CTD/4+SBRqjBKpm6lpc3pkVDargrNuicXKyvly+0tAilPc49evBpqOmJKyltaaD0YLSQSA6KvRP3DxWv0uQbAJ897XcICHba4IAEQ3emmtVoQDdHP8Kf5rCvjHdQROQAJvwxZOJysTcDW2mL/nDp9Tvk7jV+YJ6d+erg0GcCV3Xn7NVgdtyAMsOo0FDTU3qhHomMtOIiefrtcwDy5u5xzxPa6w87jcFJc971X9BHxAInPPFWGZWAvO4xQuhZ82o8w3yxvxG6kfm/iiIkP8FHJGc6pXoB5jsSuqJ50Dstcc2KS0fNvHMdVoVy04LW6RtzI7tWBuneaukQdR7ETbA72rlGuuWAOcbWK66rhSTp+4VCGtkR9uC0W4IFdeEp/Yr44j6YQVOKnUlHHE6C+5lyI8UodIJNdMr9BuD1KZMO5aSiJr/tj1Q8EsunJZqRpkn2sRDOhS2hiUPMqDD88bYtSMiuUfoUr9fSxE0Y/We1Ytf7m6YVOyh772Cdp3Ggsd2K8/JXXTg1/SAVAEVC56fxqfz6gWQuPdVWCT3aVqqVIYJ0micJCG1s/Ks7fBNi4x1Cy6qQee3gtWi/58Nznt+qD+Ef6AtMePOybDxE="
+												}]
+											}
+											Name: "Zyo95"
+										}
+									}
+								}
+								{
+									Slot: 11b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												-1081217093
+												1621116598
+												-1581753790
+												856333730
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3Nzc4NTAyMCwKICAicHJvZmlsZUlkIiA6ICJiZjhkZWZiYjYwYTA0NmI2YTFiODVhNDIzMzBhOWRhMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJqYWNvY3JhZnQwMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xN2Q4ZTgwYjczZWQwZmI1Y2Q4ZDIxMGUwYzk3MGJlOWZhOTQyYmQ3Y2Q3NmQ0ODliOTE2ODg1NmY2YjE2MTFhIgogICAgfQogIH0KfQ=="
+													Signature: "p9lCrRJsUXKwpa4nNp8mpoeGCCzrGpqnkTGwEcOpcWq69kz3iSQRggha2WHW3K1mPv3Jy2S1mi8kCXYk5Nea043q77pcYsUsdKgdF+wt4NwmlFuiwoTFXVmyiPDv7CtMa291WjE5pGNZ4I5HAAUJnPs6iuV2kKPGvVv/NaiRAuzQCUk30x/8paV6CCcgul5yVgkeNRs3oRQ5Nk8CmejJraS7P9SDX1a/SeZSH36WACnTxBBn+T7poMkIOzd4I8Gm8Q6Th0Yolourwmy9XmrKoxXptIs3eTpFgcRppkCGFm8ddx2k2/JTUcRm7aqHx0w1XTLefQtTLXN3W4fFBQczAlZ1rANPuRegmRg4apMx/zfubfntOX4ssfn2BSkuombWhyWNrMBaVYAzkQxur1xGsBgi2T3fH3E+uvncoO39qH5gQ1SjP7nYZgTKPmafp+Ouw27aNuAguQYejdYVnOUkaK7JyMQ1ejDgU8FKPujqfbOEQ1GWxFCyXDnkwqLjVFF75sWGiTLaeZVTrYcuH+tDlCrvmRj6aD9EcxbTsfkVETImxARCQxPC8KI6CgPABF8z79U8cqHlDT8dMD2xjkuKLAOD+fIgkC87d47nvl38fAlhWADjfodDLh2iKpkWinHFrJB1EACAMYPJFQM3wDQmKWmdFOJJvSNdy9eBE8LJbMk="
+												}]
+											}
+											Name: "jacocraft03"
+										}
+									}
+								}
+								{
+									Slot: 12b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												1309246786
+												-837467295
+												-2020151318
+												621713778
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3Nzc5MzY0OCwKICAicHJvZmlsZUlkIiA6ICI0ZTA5ODU0MmNlMTU0MzYxODc5NmVmZWEyNTBlOTk3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJuaWNvbGFzX2Rlc2MxOCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMjNkYjVmYTFhOGU4MjA1ZDNkYzM0ZjRhMjRiN2IwOWFjNmNjOThjZWYzYjI0NDViMGVkNmY4YjY2NDFmYzVmIgogICAgfQogIH0KfQ=="
+													Signature: "wXfyEr3QZmsdVU5i2rAOgzlk3HLsXOs6e3VQ7H4AQN5B9BgT0HnbNEgfSRc8fexfUoLIVOPjkMMruSrwJgslxXw8q5O4Du88VEycPR11PyTMqvRZYLfFd06SuJQgihqI1Uv3C8o/ierXJe6ExKbXhKebt8CJG37q2Z9UVF284S2Zup2ab18oyzlmwF+nHVuMsRK5iQ6x/hU5QfHbMje1X+5I7IUOYezlme1egbzO6/cVL7BoMk5Vwgrsk6cE/pecNvB2HlQU8UONVunMjPJ95BsH1tH4nQUQwNtoMfvprY6zLdippA6djWwydqdQXeZFZ2O6s+saXnvlGymHxjS6+0XsRHthD+d/MmXWsrg/DyzvjStq30XurHYOJ8sp+1bntPLDP4CRJRv0t4I9E4BuWQV8i3yiW4ctzeV7QA6WuKM4B1WDQU4ROb+1HRLr8Ke5JxSQcW44WV796XSY5Sz8cJR1rZrxrrU5TsQxY2j2rZJmiZEeR6ERLMF71Qg1Nt/Kv1GZjMpsANQWLSDYRVRxhKV+AR9W97WId7/zg0AEbeRgQSxXivkykMY1QX6ftZ5TwZ+carjl+nMbpHQUWtwvCSHuKMcOPWndUJrfYSZHHXm022/MU0nH4138WEKTzWYuzShox7ABxcwEO6viUY8qsrVfzW+17G2Oqdv8jokwYKQ="
+												}]
+											}
+											Name: "nicolas_desc18"
+										}
+									}
+								}
+								{
+									Slot: 13b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												-650334262
+												1353273238
+												-1479052827
+												-1942372936
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzgwMTA5MSwKICAicHJvZmlsZUlkIiA6ICJkOTNjYWZjYTUwYTk0Zjk2YTdkNzcxZTU4YzM5YmRiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJPc2lyaXNGb3IiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjBhZGM5ODRjZDgwZGNhYzYyNmFiMmI5NWQxNmQwMzU4Nzg1OTVlZjU1ZDc2MGU1NjUwMTA5MGVmZmZjNjYzOCIKICAgIH0KICB9Cn0="
+													Signature: "fVH6TWjRvs35ti3O5q0bQ0JfAH74Kw1TuIfvtcfyEaKX0QW4xkiwoqqROmesV/4rSe2fqSI98K3s87eBg/IJkJIcEt49QSwM2QLNbviiiAFQzD8BwPc/65d2PrQCpx457c1OTx7jlItQn6uNlD4ClQ1FIM14wPTM2Bl5XigqAuo0dIh2Ru5ATofdQNApMtTRfIoLa2jFEZQFleWkWQndPhKEr+BI9HVmDef75L6ISxlN99Wdyjii8qGoU21MkCjFfmcAjBvbnQJFlsNkZbB2YCDw4ND7vDyePjQu71s0FqiFJLUOgm6O9qp4OpEwuseR/xWC4SlKIO/OorU+DMFJPQ0hXIQesVWDpNUD5/O+eqE8NSj05KCTbCo4EprC5PSGkHElhLqFyCJifkn8l8WZSvIurPaz2quCc0j/DudyYmyz54qfL60WR0RS9CCxxG7K8vHdjUMNEouW2TBbc4GCwMojxHmLLDAhraV1Z+m8JNyfYOKv8XQYW6u3vLP0qN42efx8WGhZ624IiDY94AsiW/LE44w1mneHdBY/+xMNq4P51Jow+PYVgJCVW5GGB8fCJb5Btprl0qrdYqvkthcF/9ekkCqP+MBm39Sy37Py83aBBGL+fNqFqARb7VwEBQbllWPxENeDcdDfehC7P8qxUiuVPUboNXK5s7zI8cDKHZY="
+												}]
+											}
+											Name: "OsirisFor"
+										}
+									}
+								}
+								{
+									Slot: 14b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												354442793
+												-809153047
+												-1122452579
+												-574039768
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzgwODAzOSwKICAicHJvZmlsZUlkIiA6ICIxNTIwNWUyOWNmYzU0ZGU5YmQxOGJiOWRkZGM4ZDkyOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcmVuaW5qYV9TYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMzMTUyNGZhODY1MjQyNWQzMzVjNTljOTU0OGNjNDdjN2ZkMGY1YTM1ZWVhYjk3ZTQ2MzBmMjUyNjdkMTg1MSIKICAgIH0KICB9Cn0="
+													Signature: "Zj4/JLijhCBc9zQUvlNYC2R4EpzI6RABw1TrHQaVYoSY3eSoV5DZl5xkTSwTDUxQFVJRiHeYCR/36vWCWVfcaoc+kdvzW2ZV93PPI3XlUNMjrfCjlJPX7JO0kTpBfkYw6xMfTe00SJkeKCaKfRjfqOdnOHDj7fttTavPhmIcm7KezKqOETM67smzYSuC7aSgwbdcVHArZipcaBTK1rvImHhsHQYIAVABUrdKunvKFWLq9ULH1RVQ8BUY0nj+p2liYWmxGr3Vntnu4K4ftmwJqVhnW7nORbUE4cyWUMWJ0EOAA4TeHABHa4KF/0FVL4cjNNse4zM1JajS5gito9KCcW20FOn+o/8vBqnI6cARNnRXE0IcHGcm++gZYl+ybkCTU4bCHz5OtIkjer3oYZbseJEjAk5EZg68whoVVe3P41SD/vrWkAD62a9ku2CM2QZJhmiVUF/g3WreuJFuvL3qdriJN1rte9Lw9s4uG7Y0FoWDYNe2OP6Xu9THVgd29FlDsIyOtYJCl21wqubxEJcQUpXKvF4okrdSb9oVamfmWEmspYgJCUuUGo+Empu5LKJxC7fUO8MJi+QYbLFoDezxTs/LxANgAAYVee/QZ+0XemUq1q1wYmRGbykrKV2GcA/FzCQnHSOI+OUECq+P4/iY28qaahoGUr0OW1KnOaPdcxU="
+												}]
+											}
+											Name: "Greninja_San"
+										}
+									}
+								}
+								{
+									Slot: 15b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												-1842834179
+												-460308446
+												-1984310789
+												1469451438
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzgxNTAzMSwKICAicHJvZmlsZUlkIiA6ICI5MjI4OTRmZGU0OTA0MDIyODliOWQxZmI1Nzk2MGNhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBZmthZmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFlOTdjMzkzMzNjY2U2YmU3YWQwMmZjNTdjYmY2ODkxMjA2NDFmOWFmNDZjODA3NTZmNGM1NGExMjY0MWRhNSIKICAgIH0KICB9Cn0="
+													Signature: "modFRm2x8zCn718GZ+IPHGz19DLwUc2+1wBD2T8h93HAgwIJPFnYB1EyYobg/bqJB6YJlsM1LOTS3vbgEvZ6ZcXqOoHogxL/9UEgjZfoguaXpY1ucKCNi+NGPBqoXN+Ygnq4AvMSdspMJBabpH46rWXnsFqFivSoFv30lroklS+cQv2G5KIPsICHzNInGEgwZnli5xoYrUhCuWypoIAKFdKh+XDrTN/qMahrPLJasqsdHKrAeDyCMdAuIxgaCTQ/ltJ7gRCWcD9C/vBFZ5doqAUOLmMk4O45bgyLyEaM32/E9lzuFMTte47TtoBWB5ZA+9NfZjajiZnctJoHHVdxsehdMdPTE2ewDwUlFRT0j7pnL/ilRLZhBKPzPsgm+D5FZSMT480781ClFjjcjZqDbJodusw9KE2XhgWrpX9XnBRtHta2E6DnUCLYThuKoutkps9WLkgIXJNTEhJnMFyJdgfQE5YfCri7gRdhgfq1M8e0zRMwnzaziHS8sq8BiiMKFfZUPYQOsrK1RRne7Rupqn0w0dHjJ7S6dU6Itv0rU4dLB25cNKTo+ioIvfkYFnzZli8+R1QSBjXlj1QuzFG1heSuuS2rKmjSEZYzj0ab+E6ljBKOeIEmM5ZIa38ExlgLG2QvUGM/tacIKlDtC9ppSIhykQAw5KKGawM+DBPhNfQ="
+												}]
+											}
+											Name: "Afkafe"
+										}
+									}
+								}
+								{
+									Slot: 16b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												1688353136
+												-1615769648
+												-1832593681
+												1515357251
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNzc3NzgyMjA4NCwKICAicHJvZmlsZUlkIiA6ICI2NGEyMzk3MDlmYjE0ZmQwOTJjNGQ2ZWY1YTUyODQ0MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJjMGRhc3kiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYxMmNiMzNjNmIyODNkYjdjZTEyOTg3ZTdmYjZmMThhZmI4NGJkZTc4YzdlMTRkZTk1MjI5NjNmZTI0ODlmMCIKICAgIH0KICB9Cn0="
+													Signature: "QwhVZhe/SkHQGovL49BcpeE8wuNiFBVaOKAvWehxUrN3IpavOGTUk7x40YKWI0zX0gvuzAP8uj5/Tx6YGpeMpu1Y3YRYWI48Ktq45B7iqSZcIpZSVp7jTFvGQ5AfWSpGIhcbsET5BHNBEJNpxelMcOYtLLtoMNbkWvB59RSOHAqSuwlshggdVYa5Nnm7CLq5zEJIOYMoTATZ5YvFoZ2iqm0o+qSRxwIf+PGAOryD6ZBdBBSx8SAUaaTkiOgVqPVBdq5cMd0Srm8XmCs8o4mRyk0mEjUM7a5+beSs7VVJCsqRbfVg95qvPyThE242aISZsiNmWdjLXUwzWY/wc5tpHX/PXlujt1V3fzbv/mIlIM5R+POEh3iUvqJ1VFVIFlW15NoM7lgsbZN3b8w5+pL08tvAUq3Q7FkDFg6gV2QGheRdgT4QS9w+SzudIJLg9fVqg9cCtJ7NFafcHlIBktdifp3V1WQXFiiqAniozSKtxfv0OXe52FT6uRxcqYzxCjj/AbZyr56xzkNwJ/3Hmyc6bo092rG51a5OTBlJabYQAzNnsEbwB28kPkZHLhAclbM3koZnYbGgUqq/Uyu+glJSSJ2xYz6zgCHsrru46JqXigVzbCmK2kjkF67mR8MaYXuPY0w4pMIEzsKj282VNo6niIWExICl8B2LOlJE4zZXsoI="
+												}]
+											}
+											Name: "c0dasy"
+										}
+									}
+								}
+								{
+									Slot: 17b
+									id: "minecraft:player_head"
+									Count: 1b
+									tag: {
+										SkullOwner: {
+											Id: [I;
+												-630641055
+												-137935910
+												-1488231255
+												961474794
+											]
+											Properties: {
+												textures: [{
+													Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzMDcxNzY3NjczNywKICAicHJvZmlsZUlkIiA6ICJkYTY5MmU2MWY3Yzc0M2RhYTc0YjY0YTkzOTRlZjBlYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQYXVsMzE0MTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY3NjVkODQ2ODE0M2ZjY2Q4NTMzYWI0MTdmNzNmZThkZWQ5YTM4Y2UxY2QwYWNlYzk2ZWM4ODVhMGM0YmViOCIKICAgIH0KICB9Cn0="
+													Signature: "GyUcuuQKbu6Swcuwh1CKsRBr2h7l5EnCa1XaHpmXnfqsKBvGMWbbxE41UPOTR+gBdmZMpLwm5Ey1s/IE2RlOmQjOqidALvIU7KHYwZEXuxGnzpEYbgyIe9OkuMSv/BobUfnbnVPJ99CUbGfLSnCAcPmh7Xty44dQr8HwIPi97L7gf/gTcPNdiPtCZezp+vLi5r2bvrgU81J0uxz3+hbSD2razVd9Bkx/imLkS6soCIpVpClowhZfhu993PJtBI60nIF9U0AL4wJFZ0GURchL9c/uBvWGGTrTdmN1SIu4W5L470siHBb9l7Al5L1bQyU4FY9nFDFSZfekQGH5W8gVKXg8XR0ZOMCnhmQEQF0HKUHuMV3tw08XTQkfv0FDgFHztxFWfev1ty6AwCADJPH8Xv7iwXJyDjCfq5vAacwamnHyWJhk8jeWr/6jEiQlrqbzimgjGKDSEjvWBf66UnT0bOzSVGMPiC/kD+Dho6IV2HCyJuEaahje/i+U9tqsxzrdJPfxoAAd+DGfvWD4jDItkVWjj+zieO7QiTp8Aa4zAYQyyvZKKrUWhS+a+aC6QqWt7PfJrJ7fUq23/rEAeXzZLez98kTFVg5IkxtiXScTjSAdQDFCnNol1i0hgYY3Q9uuggCn45VyK8kLVO+jx0/GwAMMN8zGIpTlH9aYc40K0cI="
+												}]
+											}
+											Name: "Paul31410"
+										}
+									}
+								}
+							]
+							id: "betterendforge:barrel"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "ftbquests:book"
+			x: -1.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"Like I said, this modpack doesn't force you to play around with the quests."
+				""
+				"It's your choice to follow them or not."
+				""
+				"Be aware, however, that some quests give you explanations, for example how to enter the Twilight Forest."
+			]
+			dependencies: ["2B04C39F8061A391"]
+			id: "7FE28D790C05A013"
+			tasks: [{
+				id: "14B057AD3CEE2CAE"
+				type: "checkmark"
+				title: "Quests"
+			}]
+			rewards: [{
+				id: "76CACB701FA0746F"
+				type: "item"
+				item: "ftbquests:book"
+			}]
+		}
+		{
+			title: "Creative Quests"
+			icon: "thermal:lock"
+			x: 0.0d
+			y: 2.0d
+			shape: "diamond"
+			description: ["To unlock the creative items page you must complete the \"end of ...\" quests."]
+			dependencies: ["2B04C39F8061A391"]
+			id: "04BBC0D3045DE9D9"
+			tasks: [{
+				id: "33966D61D39939C5"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "jellyfishing:triple_gooberberry_sunrise"
+			x: -1.5d
+			y: 0.5d
+			description: [
+				"To share your quests with your friends, you need to create a team."
+				""
+				"To do this, type the command:"
+				"/ftbteams party create."
+				""
+				"Now go to your inventory menu and click on the button at the top left \"My Team\"."
+				"You can, from there, click on Settings to configure your team (name, color, description, etc ...)"
+				""
+				"You just have to invite your friends with the command:"
+				"/ftbteams party invite NAME"
+				""
+				"Your friends just have to accept, and you are now in a team."
+				""
+				"If you want to join an already existing team you just have to type the command:"
+				"/ftbteams party join TEAM NAME"
+			]
+			dependencies: ["2B04C39F8061A391"]
+			id: "3D5841B8216C4182"
+			tasks: [{
+				id: "3A9BEFC1E2BB53C9"
+				type: "checkmark"
+				title: "FTB TEAM"
+			}]
+		}
+		{
+			title: "Ores Tooltips"
+			icon: "minecraft:diamond_ore"
+			x: 1.5d
+			y: 0.5d
+			shape: "octagon"
+			description: [
+				"You'll find in Tooltips information on the Y level, where the ores spawn in the overworld!"
+				"{image:kubejs:textures/ftbquests/ore.png width:250 height:100 align:1 fit:true}"
+				"The information given is the best layer to mine."
+				"§aCommon §f| §6Uncommon §f| §bRare §f| §dVery Rare"
+			]
+			dependencies: ["2B04C39F8061A391"]
+			id: "46EA919C01D191F6"
+			tasks: [{
+				id: "5A0EC4AFA7018DEC"
+				type: "checkmark"
+			}]
+		}
+	]
+}

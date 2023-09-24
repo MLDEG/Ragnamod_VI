@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "rats:marbled_cheese_raw"
+        },
+        "title": {
+            "translate": "advancements.rats.ratlantis_root.title"
+        },
+        "description": {
+            "translate": "advancements.rats.ratlantis_root.description"
+        },
+        "background": "rats:textures/block/marbled_cheese_raw.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden" : false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

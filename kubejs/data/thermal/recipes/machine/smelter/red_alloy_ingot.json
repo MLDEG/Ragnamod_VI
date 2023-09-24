@@ -1,0 +1,9 @@
+{
+    "type": "thermal:smelter",
+    "input": [
+      { "item": "thermal:copper_ingot" },
+      { "item": "minecraft:redstone", "count": 4 }
+    ],
+    "result": [{ "item": "morered:red_alloy_ingot", "count": 1 }],
+    "energy": 1600
+  }

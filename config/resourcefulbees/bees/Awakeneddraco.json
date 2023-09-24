@@ -1,0 +1,27 @@
+{
+  "flower": "draconicevolution:awakened_draconium_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/awakeneddraco_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#cb4906"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "draconicevolution:awakened_draconium_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "draconium",
+    "parent2": "dragon",
+    "feedItem": "draconicevolution:awakened_draconium_ingot"
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,10 @@
+{
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "psi:ebony_substance"
+  },
+  "output": {
+    "item": "powah:dielectric_paste"
+  },
+  "mana": 50
+}

@@ -1,0 +1,26 @@
+{
+  "controllerId": "autoastral",
+  "name": "Dark Celestal",
+  "textureOverride": "astralsorcery:block/black_marble_raw",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "astralsorcery:block/black_marble_pillar_updown",
+      "name": "Item",
+      "id": "dark_celestial_item",
+      "data": {
+        "rows": 5,
+        "columns": 5
+      }
+    },
+    {
+      "type": "masterfulmachinery:astral_starlight",
+      "textureOverride": "astralsorcery:block/wood_engraved",
+      "name": "Starlight",
+      "id": "dark_celestial_starlight",
+      "data": {
+        "capacity": 10000000
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+
+#Gravel Ore config for janoeo
+[janoeo]
+	#Gravel gold ore generation: disable / enable
+	gravelGoldOreGen = true
+	#Gravel diamond ore generation: disable / enable
+	gravelDiamondOreGen = true
+	#Gravel iron ore generation: disable / enable
+	gravelIronOreGen = true
+	#Gravel coal ore generation: disable / enable
+	gravelCoalOreGen = true
+	#Gravel lapis ore generation: disable / enable
+	gravelLapisOreGen = true
+

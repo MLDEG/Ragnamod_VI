@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABC",
+    "DEF",
+    " G "
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:dyes/red"
+    },
+    "B": {
+      "tag": "forge:dyes/orange"
+    },
+    "C": {
+      "tag": "forge:dyes/yellow"
+    },
+    "D": {
+      "tag": "forge:dyes/lime"
+    },
+    "E": {
+      "tag": "forge:dyes/blue"
+    },
+    "F": {
+      "tag": "forge:dyes/purple"
+    },
+    "G": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "earthmobsmod:rainbow_wool"
+  }
+}

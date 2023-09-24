@@ -1,0 +1,20 @@
+{
+      "type": "extendedcrafting:combination",
+      "powerCost": 1000000000,
+      "powerRate": 1000000,
+      "input": { "item": "overloaded:creative_generator" },
+      "ingredients": [
+        { "item": "mysticaladaptations:insanium_helmet" },
+        { "item": "gobber2:gobber2_helmet_dragon" },
+        { "item": "mekanism:mekasuit_helmet" },
+        { "item": "mythicbotany:alfsteel_helmet" },
+        { "item": "forbidden_arcanus:mortem_helmet" },
+        { "item": "psi:psimetal_exosuit_helmet" },
+        { "item": "enigmaticlegacy:etherium_helmet" },
+        { "item": "projecte:gem_helmet" },
+        { "item": "iceandfire:dragonsteel_ice_helmet" },
+        { "item": "iceandfire:dragonsteel_fire_helmet" },
+        { "item": "iceandfire:dragonsteel_lightning_helmet" }
+      ],
+      "result": { "item": "overloaded:multi_helmet", "count": 1 }
+    }

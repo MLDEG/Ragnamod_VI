@@ -1,0 +1,10 @@
+{
+    "type": "bloodmagic:soulforge",
+    "input0": {"item": "gobber2:gobber2_globette"},
+    "input1": {"item": "ars_nouveau:wixie_shards"},
+    "input2": {"item": "forbidden_arcanus:dark_rune"},
+    "input3": {"item": "bloodmagic:demonslate"},
+    "output": {"item": "gobber2:gobber2_glob_nether"},
+    "minimumDrain": 4096.0,
+    "drain": 2048.0
+}

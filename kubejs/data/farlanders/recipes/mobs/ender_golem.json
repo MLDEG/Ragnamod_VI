@@ -1,0 +1,15 @@
+{
+        "type": "cagedmobs:mob_data",
+        "entity": "farlanders:ender_golem",
+        "samplerTier": 2,
+        "environments": ["end"],
+        "growTicks": 1800,
+        "results": [
+            {
+                "chance": 0.75,
+                "output": {
+                    "item": "farlanders:ender_horn"
+                },
+                "minAmount": 1,
+                "maxAmount": 3
+}]}

@@ -1,0 +1,25 @@
+{
+  "oreConfig": [
+    {
+        "ore": "gobber2:gobber2_ore_end",
+        "minY": -1,
+        "maxY": -1,
+        "maxVeinSize": -1,
+        "spawnRate": -1.0
+    },
+    {
+        "ore": "gobber2:gobber2_ore_nether",
+        "minY": -1,
+        "maxY": -1,
+        "maxVeinSize": -1,
+        "spawnRate": -1.0
+    },
+    {
+        "ore": "gobber2:gobber2_ore",
+        "minY": -1,
+        "maxY": -1,
+        "maxVeinSize": -1,
+        "spawnRate": -1.0
+    }
+  ]
+}

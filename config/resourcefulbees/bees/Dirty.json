@@ -1,0 +1,28 @@
+{
+    "flower": "minecraft:dirt",
+    "hasHoneycomb": true,
+    "maxTimeInHive": 600, 
+    "baseLayerTexture": "dirty_bee",
+    "ColorData": {
+        "isBeeColored": false,
+        "honeycombColor": "#7e5a3f"
+    },
+    "MutationData": {
+      "hasMutation": false
+    },
+    "CentrifugeData": {
+      "hasCentrifugeOutput": true,
+      "mainOutput": "minecraft:dirt",
+      "mainOutputCount": 4
+    },
+    "BreedData": {
+      "isBreedable": true,
+      "feedItem": "minecraft:dirt"
+    },
+    "SpawnData": {
+        "canSpawnInWorld": true,
+        "biomeWhitelist": "tag:overworld",
+        "biomeBlacklist": "tag:ocean"
+    },
+    "TraitData": {}
+    }

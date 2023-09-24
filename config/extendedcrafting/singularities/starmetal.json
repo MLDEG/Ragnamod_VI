@@ -1,0 +1,11 @@
+{
+  "name": "Starmetal",
+  "colors": [
+    "0032a8",
+    "090839"
+  ],
+  "ingredient": {
+    "item": "astralsorcery:starmetal_ingot"
+  },
+  "inUltimateSingularity": true
+}

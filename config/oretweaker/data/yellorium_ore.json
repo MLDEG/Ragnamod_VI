@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "bigreactors:yellorite_ore",
+      "filler": "minecraft:stone",
+      "minY": 5,
+      "maxY": 32,
+      "maxVeinSize": 4,
+      "spawnRate": 2.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

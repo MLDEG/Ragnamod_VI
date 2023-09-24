@@ -1,0 +1,13 @@
+{
+    "name": "Endumium Crystal",
+    "type": "resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "item": "minecraft:air"
+    },
+    "color": "ef41ff",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_rock"
+    }
+  }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/sapphire"
+    }
+  ],
+  "result": {
+    "item": "thermal:sapphire",
+    "count": 9
+  }
+}

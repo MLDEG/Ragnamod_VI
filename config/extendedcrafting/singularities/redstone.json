@@ -1,0 +1,11 @@
+{
+  "name": "Redstone",
+  "colors": [
+    "aa0f01",
+    "720000"
+  ],
+  "ingredient": {
+    "item": "minecraft:redstone"
+  },
+  "inUltimateSingularity": true
+}

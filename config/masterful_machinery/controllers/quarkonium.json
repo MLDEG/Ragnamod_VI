@@ -1,0 +1,25 @@
+{
+  "controllerId": "quarkonium",
+  "name": "Quarkotron",
+  "textureOverride": "kubejs:block/machinarium_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "kubejs:block/machinarium_block",
+      "name": "Item",
+      "id": "quarkitem",
+      "data": {
+        "rows": 1,
+        "columns": 1
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "qfe",
+      "data": {
+        "capacity": 100000000
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Blazing Crystal",
+  "colors": [
+    "d79811",
+    "b1670c"
+  ],
+  "ingredient": {
+    "item": "powah:crystal_blazing"
+  },
+  "inUltimateSingularity": true
+}

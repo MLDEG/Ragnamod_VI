@@ -1,0 +1,28 @@
+{
+  "flower": "bigreactors:yellorium_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/yellorium_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#b3a843",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "bigreactors:yellorium_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "uraninite",
+    "parent2": "gold",
+    "feedItem": "bigreactors:yellorium_ingot"
+  },
+  "TraitData": {}
+}

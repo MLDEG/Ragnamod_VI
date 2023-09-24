@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "rftoolsdim:rare_essence"
+    },
+    {
+      "item": "rftoolsbase:dimensionalshard"
+    }
+  ],
+  "results": [
+    {
+      "item": "rftoolsdim:rare_essence",
+      "count": 2
+    }
+  ]
+}

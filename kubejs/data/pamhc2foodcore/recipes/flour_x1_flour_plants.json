@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "item": "pamhc2foodcore:grinderitem"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+
+
+	],
+	
+	"result": {"item": "pamhc2foodcore:flouritem",
+	"count": 1}
+	
+}

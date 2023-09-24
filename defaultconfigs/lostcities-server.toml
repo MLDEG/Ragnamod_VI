@@ -1,0 +1,11 @@
+
+#General settings
+[general]
+	#Block to put underneath a bed so that it qualifies as a teleporter bed
+	specialBedBlock = "rftoolsdim:dimensional_blank_block"
+
+#General settings
+[profiles]
+	selectedProfile = ""
+	selectedCustomJson = ""
+

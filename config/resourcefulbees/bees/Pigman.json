@@ -1,0 +1,29 @@
+{
+  "flower": "minecraft:glowstone",
+  "maxTimeInHive": 1000,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "pigman/pigman_bee",
+  "traits": ["nether", "pigman"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#885956"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:glowstone_dust"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:glowstone_dust"
+  },
+  "SpawnData": {
+      "canSpawnInWorld": true,
+      "biomeWhitelist": "tag:nether"
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

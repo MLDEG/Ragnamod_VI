@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+	"A": {
+		"tag": "forge:ingots/osmium"
+	},
+	"B": {
+		"item": "minecraft:furnace"
+	},
+	"C": {
+		"tag": "forge:dusts/redstone"
+	},
+	"D": {
+		"item": "mekanism:steel_casing"
+	}
+  },
+  "result": {
+    "item": "mekanism:metallurgic_infuser"
+  }
+}

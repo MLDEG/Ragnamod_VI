@@ -1,0 +1,27 @@
+{
+  "flower": "kubejs:platinum_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/platinum_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#60cef0"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "kubejs:platinum_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "manasteel",
+    "parent2": "ender",
+    "feedItem": "kubejs:platinum_ingot"
+  },
+  "TraitData": {}
+}

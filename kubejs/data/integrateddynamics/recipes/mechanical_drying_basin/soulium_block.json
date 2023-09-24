@@ -1,0 +1,11 @@
+{
+    "type": "integrateddynamics:mechanical_drying_basin",
+    "fluid": {
+        "fluid": "mysticalagradditions:molten_soulium",
+        "amount": 1296
+    },
+    "duration": 40,
+    "result": {
+        "item": "mysticalagriculture:soulium_ingot_block"
+    }
+}

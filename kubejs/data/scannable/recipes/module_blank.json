@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blank_module",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "item": "botania:cell_block"
+    },
+    "B": {
+      "item": "bloodmagic:blankslate"
+    },
+    "C": {
+      "tag": "forge:plates/gold"
+    },
+    "D": {
+      "item": "rftoolscontrol:cpu_core_2000"
+    }
+  },
+  "result": {
+    "item": "scannable:module_blank"
+  }
+}

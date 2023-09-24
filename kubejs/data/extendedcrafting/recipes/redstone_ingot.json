@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "morered:red_alloy_ingot"
+    }
+  },
+  "result": {
+    "item": "extendedcrafting:redstone_ingot"
+  }
+}

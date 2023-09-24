@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    "CDC"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:floodlight"
+    },
+    "B": {
+      "type": "forge:nbt",
+      "item": "tconstruct:tough_handle",
+      "nbt": "{Material:\"tconstruct:hepatizon\"}"
+    },
+    "C": {
+      "item": "dustrial_decor:industrial_iron_block"
+    },
+    "D": {
+      "item": "mekanism:elite_control_circuit"
+    }
+  },
+  "result": {
+    "item": "compactcrafting:field_projector",
+    "count": 4
+  }
+}

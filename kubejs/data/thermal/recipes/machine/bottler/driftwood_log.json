@@ -1,0 +1,1 @@
+{"type": "thermal:bottler","ingredients": [{"item": "minecraft:oak_log"},{"fluid": "minecraft:water","amount": 10}],"result": [{"item": "upgrade_aquatic:driftwood_log"}]}

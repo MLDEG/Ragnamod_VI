@@ -1,0 +1,11 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "tier": 1,
+    "pattern": ["ABA", "BCB", "ABA"],
+    "key": {
+      "A": { "item": "envirocore:nanorite_crystal" },
+      "B": { "item": "enviroenergy:nanorite_solar_cell" },
+      "C": { "item": "enviroenergy:aethium_solar_ccu" }
+    },
+    "result": { "item": "enviroenergy:nanorite_solar_ccu", "count": 1 }
+  }

@@ -1,0 +1,27 @@
+{
+  "flower": "pneumaticcraft:compressed_iron_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/compressediron_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#868686"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "pneumaticcraft:ingot_iron_compressed"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "iron",
+    "parent2": "creeper",
+    "feedItem": "pneumaticcraft:ingot_iron_compressed"
+  },
+  "TraitData": {}
+}

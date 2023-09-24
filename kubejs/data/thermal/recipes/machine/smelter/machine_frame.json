@@ -1,0 +1,10 @@
+{
+    "type": "thermal:smelter",
+    "input": [
+      { "item": "immersiveengineering:sheetmetal_iron" },
+      { "item": "immersiveengineering:sheetmetal_steel" },
+      { "item": "immersiveengineering:rs_engineering"}
+    ],
+    "result": [{ "item": "thermal:machine_frame", "count": 1 }],
+    "energy": 3200
+  }

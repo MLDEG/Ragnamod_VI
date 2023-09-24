@@ -1,0 +1,27 @@
+{
+  "flower": "farlanders:endumium_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/endumium_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#de48fe"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "farlanders:endumium_crystal"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "elementium",
+    "parent2": "jellyfishjelly",
+    "feedItem": "farlanders:endumium_crystal"
+  },
+  "TraitData": {}
+}

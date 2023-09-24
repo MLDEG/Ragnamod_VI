@@ -1,0 +1,772 @@
+
+#Ore frequency and height config for janoeo
+[janoeo]
+
+	[janoeo.overworld]
+
+		[janoeo.overworld.copper]
+			#Range: 1 ~ 128
+			size = 8
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 63
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.tin]
+			#Range: 1 ~ 128
+			size = 8
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 63
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.aluminium]
+			#Range: 1 ~ 128
+			size = 12
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 63
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.uranium]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 32
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.osmium]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 32
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.lead]
+			#Range: 1 ~ 128
+			size = 12
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 63
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.silver]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 26
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.ruby]
+			#Range: 1 ~ 128
+			size = 2
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 26
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.sapphire]
+			#Range: 1 ~ 128
+			size = 2
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 26
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.amethyst]
+			#Range: 1 ~ 128
+			size = 2
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 26
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.zinc]
+			#Range: 1 ~ 128
+			size = 8
+			#Range: 0 ~ 128
+			count = 12
+			#Range: 1 ~ 255
+			top = 63
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.overworld.gravel]
+
+			[janoeo.overworld.gravel.iron]
+				#Range: 1 ~ 128
+				size = 8
+				#Range: 0 ~ 128
+				count = 48
+				#Range: 1 ~ 255
+				top = 48
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.overworld.gravel.gold]
+				#Range: 1 ~ 128
+				size = 6
+				#Range: 0 ~ 128
+				count = 40
+				#Range: 1 ~ 255
+				top = 28
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.overworld.gravel.diamond]
+				#Range: 1 ~ 128
+				size = 4
+				#Range: 0 ~ 128
+				count = 32
+				#Range: 1 ~ 255
+				top = 18
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.overworld.gravel.coal]
+				#Range: 1 ~ 128
+				size = 12
+				#Range: 0 ~ 128
+				count = 56
+				#Range: 1 ~ 255
+				top = 120
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.overworld.gravel.lapis]
+				#Range: 1 ~ 128
+				size = 5
+				#Range: 0 ~ 128
+				count = 36
+				#Range: 1 ~ 255
+				top = 23
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.overworld.gravel.emerald]
+				#Range: 1 ~ 128
+				size = 4
+				#Range: 1 ~ 255
+				top = 18
+				#Range: 1 ~ 255
+				bottom = 1
+
+		[janoeo.overworld.dense]
+
+			[janoeo.overworld.dense.copper]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 63
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.overworld.dense.tin]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 63
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.overworld.dense.emerald]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 32
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 6
+
+			[janoeo.overworld.dense.coal]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 130
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 18
+
+			[janoeo.overworld.dense.gold]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 32
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 6
+
+			[janoeo.overworld.dense.iron]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 63
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.overworld.dense.lapis]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 32
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 6
+
+			[janoeo.overworld.dense.redstone]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 16
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 3
+
+			[janoeo.overworld.dense.diamond]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 16
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 3
+
+		[janoeo.overworld.ocean]
+
+			[janoeo.overworld.ocean.gravel]
+
+				[janoeo.overworld.ocean.gravel.iron]
+					#Range: 1 ~ 128
+					size = 8
+					#Range: 0 ~ 128
+					count = 40
+					#Range: 1 ~ 255
+					top = 64
+					#Range: 1 ~ 255
+					bottom = 1
+
+				[janoeo.overworld.ocean.gravel.gold]
+					#Range: 1 ~ 128
+					size = 6
+					#Range: 0 ~ 128
+					count = 32
+					#Range: 1 ~ 255
+					top = 48
+					#Range: 1 ~ 255
+					bottom = 1
+
+				[janoeo.overworld.ocean.gravel.diamond]
+					#Range: 1 ~ 128
+					size = 4
+					#Range: 0 ~ 128
+					count = 8
+					#Range: 1 ~ 255
+					top = 38
+					#Range: 1 ~ 255
+					bottom = 1
+
+				[janoeo.overworld.ocean.gravel.coal]
+					#Range: 1 ~ 128
+					size = 12
+					#Range: 0 ~ 128
+					count = 56
+					#Range: 1 ~ 255
+					top = 64
+					#Range: 1 ~ 255
+					bottom = 1
+
+				[janoeo.overworld.ocean.gravel.lapis]
+					#Range: 1 ~ 128
+					size = 4
+					#Range: 0 ~ 128
+					count = 24
+					#Range: 1 ~ 255
+					top = 43
+					#Range: 1 ~ 255
+					bottom = 1
+
+				[janoeo.overworld.ocean.gravel.emerald]
+					#Range: 1 ~ 128
+					size = 4
+					#Range: 1 ~ 255
+					top = 38
+					#Range: 1 ~ 255
+					bottom = 1
+
+	[janoeo.nether]
+
+		[janoeo.nether.coal]
+			#Range: 1 ~ 128
+			size = 12
+			#Range: 0 ~ 128
+			count = 68
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.diamond]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 20
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.emerald]
+			#Range: 0 ~ 128
+			count = 8
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.gold]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 32
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.iron]
+			#Range: 1 ~ 128
+			size = 6
+			#Range: 0 ~ 128
+			count = 40
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.lapis]
+			#Range: 1 ~ 128
+			size = 6
+			#Range: 0 ~ 128
+			count = 20
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.redstone]
+			#Range: 1 ~ 128
+			size = 8
+			#Range: 0 ~ 128
+			count = 32
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.aluminium]
+			#Range: 1 ~ 128
+			size = 6
+			#Range: 0 ~ 128
+			count = 32
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.lead]
+			#Range: 1 ~ 128
+			size = 6
+			#Range: 0 ~ 128
+			count = 40
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.tin]
+			#Range: 1 ~ 128
+			size = 6
+			#Range: 0 ~ 128
+			count = 32
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.copper]
+			#Range: 1 ~ 128
+			size = 6
+			#Range: 0 ~ 128
+			count = 40
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.ruby]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 20
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.sapphire]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 20
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.silver]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 32
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.uranium]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 32
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.osmium]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 32
+			#Range: 1 ~ 255
+			top = 127
+			#Range: 1 ~ 255
+			bottom = 1
+
+		[janoeo.nether.dense]
+
+			[janoeo.nether.dense.quartz]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.nether.dense.emerald]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.nether.dense.coal]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.nether.dense.gold]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.nether.dense.iron]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.nether.dense.lapis]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.nether.dense.redstone]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+			[janoeo.nether.dense.diamond]
+				#Range: 0 ~ 128
+				count = 128
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+				#Range: 1 ~ 32
+				factor = 10
+
+		[janoeo.nether.gravel]
+
+			[janoeo.nether.gravel.iron]
+				#Range: 1 ~ 128
+				size = 8
+				#Range: 0 ~ 128
+				count = 48
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.gravel.gold]
+				#Range: 1 ~ 128
+				size = 6
+				#Range: 0 ~ 128
+				count = 40
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.gravel.diamond]
+				#Range: 1 ~ 128
+				size = 4
+				#Range: 0 ~ 128
+				count = 32
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.gravel.coal]
+				#Range: 1 ~ 128
+				size = 12
+				#Range: 0 ~ 128
+				count = 64
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.gravel.lapis]
+				#Range: 1 ~ 128
+				size = 5
+				#Range: 0 ~ 128
+				count = 36
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.gravel.emerald]
+				#Range: 1 ~ 128
+				size = 4
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+		[janoeo.nether.basalt]
+
+			[janoeo.nether.basalt.coal]
+				#Range: 1 ~ 128
+				size = 12
+				#Range: 0 ~ 128
+				count = 17
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.basalt.diamond]
+				#Range: 1 ~ 128
+				size = 4
+				#Range: 0 ~ 128
+				count = 5
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.basalt.emerald]
+				#Range: 0 ~ 128
+				count = 2
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.basalt.gold]
+				#Range: 1 ~ 128
+				size = 4
+				#Range: 0 ~ 128
+				count = 8
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.basalt.iron]
+				#Range: 1 ~ 128
+				size = 6
+				#Range: 0 ~ 128
+				count = 10
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.basalt.lapis]
+				#Range: 1 ~ 128
+				size = 6
+				#Range: 0 ~ 128
+				count = 5
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+			[janoeo.nether.basalt.redstone]
+				#Range: 1 ~ 128
+				size = 8
+				#Range: 0 ~ 128
+				count = 8
+				#Range: 1 ~ 255
+				top = 127
+				#Range: 1 ~ 255
+				bottom = 1
+
+	[janoeo.theend]
+
+		[janoeo.theend.coal]
+			#Range: 1 ~ 128
+			size = 12
+			#Range: 0 ~ 128
+			count = 34
+			#Range: 1 ~ 255
+			top = 70
+			#Range: 1 ~ 255
+			bottom = 20
+
+		[janoeo.theend.diamond]
+			#Range: 1 ~ 128
+			size = 4
+			#Range: 0 ~ 128
+			count = 10
+			#Range: 1 ~ 255
+			top = 70
+			#Range: 1 ~ 255
+			bottom = 20
+
+		[janoeo.theend.emerald]
+			#Range: 0 ~ 128
+			count = 4
+			#Range: 1 ~ 255
+			top = 70
+			#Range: 1 ~ 255
+			bottom = 20
+
+		[janoeo.theend.gold]
+			#Range: 1 ~ 128
+			size = 6
+			#Range: 0 ~ 128
+			count = 16
+			#Range: 1 ~ 255
+			top = 70
+			#Range: 1 ~ 255
+			bottom = 20
+
+		[janoeo.theend.iron]
+			#Range: 1 ~ 128
+			size = 8
+			#Range: 0 ~ 128
+			count = 20
+			#Range: 1 ~ 255
+			top = 70
+			#Range: 1 ~ 255
+			bottom = 20
+
+		[janoeo.theend.lapis]
+			#Range: 1 ~ 128
+			size = 6
+			#Range: 0 ~ 128
+			count = 10
+			#Range: 1 ~ 255
+			top = 70
+			#Range: 1 ~ 255
+			bottom = 20
+
+		[janoeo.theend.redstone]
+			#Range: 1 ~ 128
+			size = 6
+			#Range: 0 ~ 128
+			count = 16
+			#Range: 1 ~ 255
+			top = 70
+			#Range: 1 ~ 255
+			bottom = 20
+

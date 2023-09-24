@@ -1,0 +1,16 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "undergarden:stoneborn",
+    "samplerTier": 2,
+    "environments": ["undergarden"],
+    "growTicks": 1200,
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "undergarden:depthrock_pebble"
+            },
+            "minAmount": 3,
+            "maxAmount": 6
+        }
+]}

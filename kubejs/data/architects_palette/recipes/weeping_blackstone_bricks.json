@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "architects_palette:weeping_blackstone"
+        },
+        {
+            "item": "architects_palette:weeping_blackstone"
+        },
+        {
+            "item": "architects_palette:weeping_blackstone"
+        },
+        {
+            "item": "architects_palette:weeping_blackstone"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "architects_palette:weeping_blackstone_bricks"
+    }
+}

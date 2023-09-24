@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "A A",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+        "item": "minecraft:stone"
+    }
+  },
+    "result": {
+        "count": 9,
+        "item": "architects_palette:heavy_stone_bricks"
+    }
+}

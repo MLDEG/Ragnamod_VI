@@ -1,0 +1,10 @@
+{
+  "type":"immersiveengineering:metal_press",
+  "mold":
+  {"item":"immersiveengineering:mold_plate"},
+  "result":
+  {"item":"extendedcrafting:black_iron_slate"},
+  "input":
+  {"base_ingredient":{"item":"extendedcrafting:black_iron_ingot"}},
+  "energy":2400
+}

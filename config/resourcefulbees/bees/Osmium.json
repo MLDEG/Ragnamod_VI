@@ -1,0 +1,28 @@
+{
+  "flower": "mekanism:block_osmium",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/osmium_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#90a6b8",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_osmium"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rock",
+    "feedItem": "mekanism:ingot_osmium"
+  },
+  "TraitData": {}
+}

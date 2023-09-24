@@ -1,0 +1,11 @@
+{
+  "type": "woot:dyesqueezer",
+  "ingredient": {
+    "item": "resourcefulbees:rgbee_honeycomb"
+  },
+  "energy": 1000,
+  "red": 20,
+  "yellow": 20,
+  "blue": 20,
+  "white": 20
+}

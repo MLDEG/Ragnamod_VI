@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "p",
+    "w"
+  ],
+  "key": {
+    "p": {
+      "item": "tconstruct:pattern"
+    },
+    "w": {
+      "type": "mantle:without",
+      "base": [
+        {
+          "tag": "forge:workbench"
+        },
+        {
+          "tag": "tconstruct:tables"
+        }
+      ],
+      "without": {
+        "item": "tconstruct:crafting_station"
+      }
+    }
+  },
+  "result": {
+    "item": "tconstruct:crafting_station"
+  }
+}

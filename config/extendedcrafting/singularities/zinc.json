@@ -1,0 +1,11 @@
+{
+  "name": "Zinc",
+  "colors": [
+    "f3f3e4",
+    "c7c9a7"
+  ],
+  "ingredient": {
+    "item": "janoeo:zinc_ingot"
+  },
+  "inUltimateSingularity": true
+}

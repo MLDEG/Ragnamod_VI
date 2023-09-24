@@ -1,0 +1,12 @@
+{
+  "type": "botania:mana_infusion",
+  "input": [
+    {
+      "item": "create:powdered_obsidian"
+    }
+  ],
+  "output": {
+    "item": "botania:mana_powder"
+  },
+  "mana": 500
+}

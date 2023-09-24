@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {"item": "ars_nouveau:whelp_charm"},
+      {"tag": "forge:lectern"}
+  ],
+  "result": {"item": "ars_nouveau:bookwyrm_lectern"}
+}

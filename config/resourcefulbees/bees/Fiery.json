@@ -1,0 +1,28 @@
+{
+  "flower": "kubejs:waxed_fiery_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "ingots/fiery_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#2b1a1a",
+      "modelType": "GELATINOUS"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "twilightforest:fiery_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "lava",
+    "parent2": "iron",
+    "feedItem": "twilightforest:fiery_ingot"
+  },
+  "TraitData": {}
+}

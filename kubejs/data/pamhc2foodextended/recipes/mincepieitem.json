@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_bakeware"
+    },
+	{	
+      "tag": "forge:rawbeef"
+    },
+	{	
+      "tag": "forge:fruits"
+    },
+	{	
+      "tag": "forge:nuts/peanut"
+    },
+	{	
+      "tag": "forge:dough"
+    },
+	{	
+      "tag": "forge:butter"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:mincepieitem",
+	"count": 1}
+	
+}

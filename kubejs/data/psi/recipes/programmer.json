@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "CDC",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "item": "rftoolscontrol:cpu_core_2000"
+    },
+    "B": {
+      "item": "kubejs:tungsten_ingot"
+    },
+    "C": {
+      "item": "eidolon:pewter_ingot"
+    },
+    "D": {
+      "item": "psi:psidust"
+    }
+  },
+  "result": {
+    "item": "psi:programmer"
+  }
+}

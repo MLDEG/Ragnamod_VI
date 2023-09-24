@@ -1,0 +1,18 @@
+
+#Common config for janoeo
+[janoeo]
+	#Nether ore generation: disable / enable
+	netherOreGen = true
+	#End ore generation: disable / enable
+	endOreGen = true
+	#Gravel ore generation: disable / enable
+	gravelOreGen = true
+	#Basalt ore generation: disable / enable
+	basaltOreGen = true
+	#Nether dense ore generation: disable / enable
+	denseOreGen = true
+	#Extra ore generation: disable / enable
+	extraOreGen = true
+	#Extra nether ore generation: disable / enable
+	extraNetherOreGen = true
+

@@ -1,0 +1,28 @@
+{
+  "flower": "powah:uraninite_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "ores/uraninite_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#00ce0e",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "powah:uraninite"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "uranium",
+    "parent2": "energizedsteel",
+    "feedItem": "powah:uraninite"
+  },
+  "TraitData": {}
+}

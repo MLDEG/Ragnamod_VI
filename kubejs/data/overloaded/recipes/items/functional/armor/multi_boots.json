@@ -1,0 +1,20 @@
+{
+      "type": "extendedcrafting:combination",
+      "powerCost": 1000000000,
+      "powerRate": 1000000,
+      "input": { "item": "overloaded:creative_generator" },
+      "ingredients": [
+        { "item": "mysticaladaptations:insanium_boots" },
+        { "item": "gobber2:gobber2_boots_dragon" },
+        { "item": "mekanism:mekasuit_boots" },
+        { "item": "mythicbotany:alfsteel_boots" },
+        { "item": "forbidden_arcanus:mortem_boots" },
+        { "item": "psi:psimetal_exosuit_boots" },
+        { "item": "enigmaticlegacy:etherium_boots" },
+        { "item": "projecte:gem_boots" },
+        { "item": "iceandfire:dragonsteel_ice_boots" },
+        { "item": "iceandfire:dragonsteel_fire_boots" },
+        { "item": "iceandfire:dragonsteel_lightning_boots" }
+      ],
+      "result": { "item": "overloaded:multi_boots", "count": 1 }
+    }

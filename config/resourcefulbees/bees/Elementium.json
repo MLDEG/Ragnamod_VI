@@ -1,0 +1,27 @@
+{
+  "flower": "botania:elementium_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/elementium_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#ee5bac"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "botania:elementium_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "manasteel",
+    "parent2": "terrasteel",
+    "feedItem": "botania:elementium_ingot"
+  },
+  "TraitData": {}
+}

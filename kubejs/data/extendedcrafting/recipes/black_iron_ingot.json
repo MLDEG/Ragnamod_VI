@@ -1,0 +1,14 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+  {"item": "eidolon:pewter_ingot"},
+  {"item": "botania:black_lotus"},
+  {"item": "astralsorcery:nocturnal_powder"},
+  {"item": "envirocore:kyronite_interconnect"}
+  ],
+  "energy": 10000000,
+  "result": {
+  "item": "extendedcrafting:black_iron_ingot",
+  "count": 4
+  }
+}

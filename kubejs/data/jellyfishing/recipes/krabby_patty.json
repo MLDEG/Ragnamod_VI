@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pamhc2foodcore:skilletitem"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "jellyfishing:jellyfish_jelly"
+    },
+    {
+      "item": "pamhc2crops:tomatoitem"
+    },
+    {
+      "item": "rats:cheese"
+    },
+    {
+      "item": "pamhc2crops:lettuceitem"
+    },
+    {
+      "item": "pamhc2foodcore:groundbeefitem"
+    },
+    {
+      "item": "pamhc2foodextended:ketchupitem"
+    },
+    {
+      "item": "pamhc2crops:onionitem"
+    }
+  ],
+  "result": {
+    "item": "jellyfishing:krabby_patty"
+  }
+}

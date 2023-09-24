@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "ironfurnaces:million_furnace"
+    },
+    "B": {
+      "item": "mysticaladaptations:insanium_furnace"
+    },
+    "C": {
+      "item": "overloaded:energy_core"
+    }
+  },
+  "result": {
+    "item": "overloaded:instant_furnace"
+  }
+}

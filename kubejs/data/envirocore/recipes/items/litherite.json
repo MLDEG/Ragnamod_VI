@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "type": "mantle:intersection",
+    "ingredients": [
+      {
+        "item": "powah:uraninite_block"
+      }
+    ]
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_queens_slime",
+    "amount": 2880
+  },
+  "result": "envirocore:litherite",
+  "cooling_time": 120
+}

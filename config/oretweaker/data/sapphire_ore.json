@@ -1,0 +1,13 @@
+{
+"oreConfig": [
+    {
+    "ore": "thermal:sapphire_ore",
+    "filler": "minecraft:stone",
+    "minY": 25,
+    "maxY": 45,
+    "maxVeinSize": 8,
+    "spawnRate": 3.0,
+    "biomeBlacklist": [],
+    "biomeWhitelist": []
+    }
+]}

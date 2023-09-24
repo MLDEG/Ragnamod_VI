@@ -1,0 +1,11 @@
+{
+  "name": "Manasteel",
+  "colors": [
+    "3287fc",
+    "005ddd"
+  ],
+  "ingredient": {
+    "item": "botania:manasteel_ingot"
+  },
+  "inUltimateSingularity": true
+}

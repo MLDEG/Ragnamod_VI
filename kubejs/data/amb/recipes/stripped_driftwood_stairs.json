@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "group": "wood_stairs", "pattern": ["#  ", "## ", "###"], "key": {"#": [{"item": "upgrade_aquatic:stripped_driftwood"}, {"item": "upgrade_aquatic:stripped_driftwood_log"}]}, "result": {"item": "amb:stripped_driftwood_stairs", "count": 4}, "conditions": [{"type": "forge:mod_loaded", "modid": "upgrade_aquatic"}]}

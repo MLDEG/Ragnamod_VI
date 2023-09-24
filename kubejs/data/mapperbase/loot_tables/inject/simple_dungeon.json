@@ -1,0 +1,33 @@
+{
+	"pools": [{
+		"name": "main",
+		"rolls": 1,
+		"entries": [{
+				"type": "item",
+				"name": "mekanism:ingot_steel",
+				"weight": 25
+			},
+			{
+				"type": "item",
+				"name": "mapperbase:steel_horse_armor",
+				"weight": 10
+			},
+			{
+				"type": "item",
+				"name": "mekanism:nugget_steel",
+				"weight": 40,
+				"functions": [{
+					"function": "minecraft:set_count",
+					"count": {
+						"min": 1.0,
+						"max": 6.0
+					}
+				}]
+			},
+			{
+				"type": "empty",
+				"weight": 25
+			}
+		]
+	}]
+}

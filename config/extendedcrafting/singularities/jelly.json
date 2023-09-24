@@ -1,0 +1,11 @@
+{
+  "name": "Jelly",
+  "colors": [
+    "fca2f0",
+    "d265a7"
+  ],
+  "ingredient": {
+    "item": "jellyfishing:jellyfish_jelly"
+  },
+  "inUltimateSingularity": true
+}

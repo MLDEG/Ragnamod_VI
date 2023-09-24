@@ -1,0 +1,14 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "AAA",
+        "BCB",
+        "AAA"
+    ],
+    "key":{
+        "A":{"tag":"forge:glass"},
+        "B":{"item":"thermal:silver_ingot"},
+        "C":{"item":"metalbarrels:iron_barrel"}
+    },
+    "result":{"item":"metalbarrels:silver_barrel"}
+}

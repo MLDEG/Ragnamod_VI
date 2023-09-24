@@ -1,0 +1,11 @@
+{
+  "name": "Constantan",
+  "colors": [
+    "f1c66a",
+    "e2b156"
+  ],
+  "ingredient": {
+    "item": "thermal:constantan_ingot"
+  },
+  "inUltimateSingularity": true
+}

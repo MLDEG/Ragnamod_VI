@@ -1,0 +1,16 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": ["AAAAAAAAA","ABCDCDBBA","ABDCDBDCA","ADBBEBCDA","ACDFGHDCA","ADCBIBBDA","ACDBDCDBA","ABBDCDCBA","AAAAAAAAA"],
+  "key": {
+    "A": {"item": "thermal:tar_block"},
+    "B": {"item": "mysticalagriculture:imperium_growth_accelerator"},
+    "C": {"item": "ars_nouveau:sylph_shards"},
+    "D": {"item": "projecte:dark_matter_block"},
+    "E": {"item": "enderstorage:ender_chest"},
+    "F": {"item": "mekanism:personal_chest"},
+    "G": {"item": "projecte:alchemical_chest"},
+    "H": {"item": "ironchest:obsidian_chest"},
+    "I": {"item": "pneumaticcraft:smart_chest"}
+  },
+  "result": {"item": "projecte:condenser_mk1","count": 1}
+}

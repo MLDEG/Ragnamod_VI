@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "AAA",
+        "AAA"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "gobber2:gobber2_ingot_nether"
+        },
+        "B":
+        {
+            "item": "gobber2:gobber2_chestplate"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gobber2:gobber2_chestplate_nether",
+        "count": 1
+    }
+}

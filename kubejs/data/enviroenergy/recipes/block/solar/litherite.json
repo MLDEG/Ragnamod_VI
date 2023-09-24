@@ -1,0 +1,11 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "tier": 1,
+    "pattern": ["ABA", "BCB", "ABA"],
+    "key": {
+      "A": { "item": "envirocore:litherite_crystal" },
+      "B": { "item": "enviroenergy:litherite_solar_cell" },
+      "C": { "tag": "envirocore:structure/panels" }
+    },
+    "result": { "item": "enviroenergy:litherite_solar_ccu", "count": 1 }
+  }

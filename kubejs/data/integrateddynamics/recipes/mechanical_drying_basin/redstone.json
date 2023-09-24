@@ -1,0 +1,11 @@
+{
+    "type": "integrateddynamics:mechanical_drying_basin",
+    "fluid": {
+        "fluid": "thermal:redstone",
+        "amount": 900
+    },
+    "duration": 40,
+    "result": {
+        "item": "minecraft:redstone_block"
+    }
+}

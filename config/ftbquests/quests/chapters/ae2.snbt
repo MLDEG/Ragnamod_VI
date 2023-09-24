@@ -1,0 +1,1549 @@
+{
+	id: "00000000000000B8"
+	group: ""
+	order_index: 11
+	filename: "ae2"
+	title: "Refined Storage"
+	icon: "refinedstorage:creative_controller"
+	subtitle: ["Put all your stuff on your disk."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["The 1k Storage can store 1.000 items."]
+			dependencies: ["0000000000000129"]
+			id: "4890D4E010232193"
+			tasks: [{
+				id: "0823FDF966428F37"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "0DD6B90AEF1C4A22"
+				type: "item"
+				item: "refinedstorage:silicon"
+				count: 4
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			description: ["The 4k Storage can store 4.000 items."]
+			dependencies: ["4890D4E010232193"]
+			id: "0FD9D9D482EF31BC"
+			tasks: [{
+				id: "068C33464EBBA718"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+			rewards: [{
+				id: "457FE4EA5F3676CD"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["The 16k Storage can store 16.000 items."]
+			dependencies: ["0FD9D9D482EF31BC"]
+			id: "2B5C9CC6A5EB2F02"
+			tasks: [{
+				id: "4E3778C4913F9824"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+			rewards: [{
+				id: "330B9B2BF74B3A55"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			description: ["The 64k Storage can store 64.000 items."]
+			dependencies: ["2B5C9CC6A5EB2F02"]
+			id: "311E258049AEE98D"
+			tasks: [{
+				id: "4BD59A7508F44B9B"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+			rewards: [{
+				id: "26D1F1C28F55028D"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			description: ["The 256k Storage can store 256.000 items."]
+			dependencies: ["311E258049AEE98D"]
+			id: "2415048950ECC7C6"
+			tasks: [{
+				id: "5DEF5461946826F0"
+				type: "item"
+				item: "extradisks:256k_storage_part"
+			}]
+			rewards: [{
+				id: "38853E24B6D9F7F7"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			description: ["The 1024k Storage can store 1.024.000 items."]
+			dependencies: ["2415048950ECC7C6"]
+			id: "16ACFDEF81C7E3F7"
+			tasks: [{
+				id: "702BE9BE1E0BB0B7"
+				type: "item"
+				item: "extradisks:1024k_storage_part"
+			}]
+			rewards: [{
+				id: "76A3BE6949DDE7F7"
+				type: "item"
+				item: "extradisks:256k_storage_part"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			description: ["The 4096k Storage can store 4.096.000 items."]
+			dependencies: ["16ACFDEF81C7E3F7"]
+			id: "1C6BA97A10322DDD"
+			tasks: [{
+				id: "30409C8DD9391FEC"
+				type: "item"
+				item: "extradisks:4096k_storage_part"
+			}]
+			rewards: [{
+				id: "48577E18490DB157"
+				type: "item"
+				item: "extradisks:1024k_storage_part"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.5d
+			description: ["The 16384k Storage can store 16.384.000 items."]
+			dependencies: ["1C6BA97A10322DDD"]
+			id: "245AA5586B50670F"
+			tasks: [{
+				id: "0185B7E4F9625AD6"
+				type: "item"
+				item: "extradisks:16384k_storage_part"
+			}]
+			rewards: [{
+				id: "3BBD0A51CA7D1B1F"
+				type: "item"
+				item: "extradisks:4096k_storage_part"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			description: ["The 65536k Storage can store 65.536.000 items."]
+			dependencies: ["245AA5586B50670F"]
+			id: "5FE70C6C268A6376"
+			tasks: [{
+				id: "5E2452DCC170C3E8"
+				type: "item"
+				item: "extradisks:65536k_storage_part"
+			}]
+			rewards: [{
+				id: "761E4F96746F446A"
+				type: "item"
+				item: "extradisks:16384k_storage_part"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			description: ["The 262m Storage can store 262 Milion items."]
+			dependencies: ["5FE70C6C268A6376"]
+			id: "49C9CCA849B94243"
+			tasks: [{
+				id: "78AC62B716274B0F"
+				type: "item"
+				item: "extradisks:262144k_storage_part"
+			}]
+			rewards: [{
+				id: "0A7E64F5208D5CE6"
+				type: "item"
+				item: "extradisks:65536k_storage_part"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			description: ["The 1048m Storage can store 1048 Milion items."]
+			dependencies: ["49C9CCA849B94243"]
+			id: "71D01C957F8702B2"
+			tasks: [{
+				id: "7E08B4B95E7C3FB5"
+				type: "item"
+				item: "extradisks:1048576k_storage_part"
+			}]
+			rewards: [{
+				id: "594DF5D3C1116834"
+				type: "item"
+				item: "extradisks:262144k_storage_part"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			description: ["The Infinite Storage can store way too much items."]
+			dependencies: ["71D01C957F8702B2"]
+			id: "7D33B1E9F3A7C8FC"
+			tasks: [{
+				id: "52076E71B8B5C47F"
+				type: "item"
+				item: "extradisks:infinite_storage_part"
+			}]
+			rewards: [{
+				id: "047143F4F7BA80D2"
+				type: "item"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						BlockEntityTag: {
+							Items: [{
+								Slot: 13b
+								id: "minecraft:chest"
+								Count: 1b
+								tag: {
+									BlockEntityTag: {
+										Items: [{
+											Slot: 13b
+											id: "minecraft:chest"
+											Count: 1b
+											tag: {
+												BlockEntityTag: {
+													Items: [{
+														Slot: 13b
+														id: "minecraft:chest"
+														Count: 1b
+														tag: {
+															BlockEntityTag: {
+																Items: [{
+																	Slot: 13b
+																	id: "minecraft:chest"
+																	Count: 1b
+																	tag: {
+																		BlockEntityTag: {
+																			Items: [{
+																				Slot: 13b
+																				id: "minecraft:chest"
+																				Count: 1b
+																				tag: {
+																					BlockEntityTag: {
+																						Items: [{
+																							Slot: 13b
+																							id: "minecraft:chest"
+																							Count: 1b
+																							tag: {
+																								BlockEntityTag: {
+																									Items: [{
+																										Slot: 13b
+																										id: "minecraft:chest"
+																										Count: 1b
+																										tag: {
+																											BlockEntityTag: {
+																												Items: [{
+																													Slot: 13b
+																													id: "minecraft:chest"
+																													Count: 1b
+																													tag: {
+																														BlockEntityTag: {
+																															Items: [{
+																																Slot: 13b
+																																id: "minecraft:chest"
+																																Count: 1b
+																																tag: {
+																																	BlockEntityTag: {
+																																		Items: [{
+																																			Slot: 13b
+																																			id: "minecraft:chest"
+																																			Count: 1b
+																																			tag: {
+																																				BlockEntityTag: {
+																																					Items: [{
+																																						Slot: 13b
+																																						id: "minecraft:chest"
+																																						Count: 1b
+																																						tag: {
+																																							BlockEntityTag: {
+																																								Items: [{
+																																									Slot: 13b
+																																									id: "minecraft:chest"
+																																									Count: 1b
+																																									tag: {
+																																										BlockEntityTag: {
+																																											Items: [{
+																																												Slot: 13b
+																																												id: "minecraft:chest"
+																																												Count: 1b
+																																												tag: {
+																																													BlockEntityTag: {
+																																														Items: [{
+																																															Slot: 13b
+																																															id: "minecraft:chest"
+																																															Count: 1b
+																																															tag: {
+																																																BlockEntityTag: {
+																																																	Items: [{
+																																																		Slot: 13b
+																																																		id: "minecraft:chest"
+																																																		Count: 1b
+																																																		tag: {
+																																																			BlockEntityTag: {
+																																																				Items: [{
+																																																					Slot: 13b
+																																																					id: "minecraft:chest"
+																																																					Count: 1b
+																																																					tag: {
+																																																						BlockEntityTag: {
+																																																							Items: [{
+																																																								Slot: 13b
+																																																								id: "minecraft:chest"
+																																																								Count: 1b
+																																																								tag: {
+																																																									BlockEntityTag: {
+																																																										Items: [{
+																																																											Slot: 13b
+																																																											id: "minecraft:chest"
+																																																											Count: 1b
+																																																											tag: {
+																																																												BlockEntityTag: {
+																																																													Items: [{
+																																																														Slot: 13b
+																																																														id: "minecraft:chest"
+																																																														Count: 1b
+																																																														tag: {
+																																																															BlockEntityTag: {
+																																																																Items: [{
+																																																																	Slot: 12b
+																																																																	id: "minecraft:chest"
+																																																																	Count: 1b
+																																																																	tag: {
+																																																																		BlockEntityTag: {
+																																																																			Items: [{
+																																																																				Slot: 13b
+																																																																				id: "minecraft:chest"
+																																																																				Count: 1b
+																																																																				tag: {
+																																																																					BlockEntityTag: {
+																																																																						Items: [{
+																																																																							Slot: 13b
+																																																																							id: "minecraft:chest"
+																																																																							Count: 1b
+																																																																							tag: {
+																																																																								BlockEntityTag: {
+																																																																									Items: [{
+																																																																										Slot: 13b
+																																																																										id: "minecraft:chest"
+																																																																										Count: 1b
+																																																																										tag: {
+																																																																											BlockEntityTag: {
+																																																																												Items: [{
+																																																																													Slot: 13b
+																																																																													id: "minecraft:chest"
+																																																																													Count: 1b
+																																																																													tag: {
+																																																																														BlockEntityTag: {
+																																																																															Items: [{
+																																																																																Slot: 13b
+																																																																																id: "minecraft:chest"
+																																																																																Count: 1b
+																																																																																tag: {
+																																																																																	BlockEntityTag: {
+																																																																																		Items: [{
+																																																																																			Slot: 13b
+																																																																																			id: "minecraft:chest"
+																																																																																			Count: 1b
+																																																																																			tag: {
+																																																																																				BlockEntityTag: {
+																																																																																					Items: [{
+																																																																																						Slot: 13b
+																																																																																						id: "minecraft:chest"
+																																																																																						Count: 1b
+																																																																																						tag: {
+																																																																																							BlockEntityTag: {
+																																																																																								Items: [{
+																																																																																									Slot: 13b
+																																																																																									id: "minecraft:chest"
+																																																																																									Count: 1b
+																																																																																									tag: {
+																																																																																										BlockEntityTag: {
+																																																																																											Items: [{
+																																																																																												Slot: 13b
+																																																																																												id: "minecraft:chest"
+																																																																																												Count: 1b
+																																																																																												tag: {
+																																																																																													BlockEntityTag: {
+																																																																																														Items: [
+																																																																																															{
+																																																																																																Slot: 0b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 3b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 4b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 5b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 7b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 9b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 12b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 14b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 16b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 18b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 19b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 21b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 22b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 23b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 25b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																															{
+																																																																																																Slot: 26b
+																																																																																																id: "minecraft:chest"
+																																																																																																Count: 1b
+																																																																																															}
+																																																																																														]
+																																																																																														id: "minecraft:chest"
+																																																																																													}
+																																																																																													display: {
+																																																																																														Lore: ["\"(+NBT)\""]
+																																																																																													}
+																																																																																												}
+																																																																																											}]
+																																																																																											id: "minecraft:chest"
+																																																																																										}
+																																																																																										display: {
+																																																																																											Lore: ["\"(+NBT)\""]
+																																																																																										}
+																																																																																									}
+																																																																																								}]
+																																																																																								id: "minecraft:chest"
+																																																																																							}
+																																																																																							display: {
+																																																																																								Lore: ["\"(+NBT)\""]
+																																																																																							}
+																																																																																						}
+																																																																																					}]
+																																																																																					id: "minecraft:chest"
+																																																																																				}
+																																																																																				display: {
+																																																																																					Lore: ["\"(+NBT)\""]
+																																																																																				}
+																																																																																			}
+																																																																																		}]
+																																																																																		id: "minecraft:chest"
+																																																																																	}
+																																																																																	display: {
+																																																																																		Lore: ["\"(+NBT)\""]
+																																																																																	}
+																																																																																}
+																																																																															}]
+																																																																															id: "minecraft:chest"
+																																																																														}
+																																																																														display: {
+																																																																															Lore: ["\"(+NBT)\""]
+																																																																														}
+																																																																													}
+																																																																												}]
+																																																																												id: "minecraft:chest"
+																																																																											}
+																																																																											display: {
+																																																																												Lore: ["\"(+NBT)\""]
+																																																																											}
+																																																																										}
+																																																																									}]
+																																																																									id: "minecraft:chest"
+																																																																								}
+																																																																								display: {
+																																																																									Lore: ["\"(+NBT)\""]
+																																																																								}
+																																																																							}
+																																																																						}]
+																																																																						id: "minecraft:chest"
+																																																																					}
+																																																																					display: {
+																																																																						Lore: ["\"(+NBT)\""]
+																																																																					}
+																																																																				}
+																																																																			}]
+																																																																			id: "minecraft:chest"
+																																																																		}
+																																																																		display: {
+																																																																			Lore: ["\"(+NBT)\""]
+																																																																		}
+																																																																	}
+																																																																}]
+																																																																id: "minecraft:chest"
+																																																															}
+																																																															display: {
+																																																																Lore: ["\"(+NBT)\""]
+																																																															}
+																																																														}
+																																																													}]
+																																																													id: "minecraft:chest"
+																																																												}
+																																																												display: {
+																																																													Lore: ["\"(+NBT)\""]
+																																																												}
+																																																											}
+																																																										}]
+																																																										id: "minecraft:chest"
+																																																									}
+																																																									display: {
+																																																										Lore: ["\"(+NBT)\""]
+																																																									}
+																																																								}
+																																																							}]
+																																																							id: "minecraft:chest"
+																																																						}
+																																																						display: {
+																																																							Lore: ["\"(+NBT)\""]
+																																																						}
+																																																					}
+																																																				}]
+																																																				id: "minecraft:chest"
+																																																			}
+																																																			display: {
+																																																				Lore: ["\"(+NBT)\""]
+																																																			}
+																																																		}
+																																																	}]
+																																																	id: "minecraft:chest"
+																																																}
+																																																display: {
+																																																	Lore: ["\"(+NBT)\""]
+																																																}
+																																															}
+																																														}]
+																																														id: "minecraft:chest"
+																																													}
+																																													display: {
+																																														Lore: ["\"(+NBT)\""]
+																																													}
+																																												}
+																																											}]
+																																											id: "minecraft:chest"
+																																										}
+																																										display: {
+																																											Lore: ["\"(+NBT)\""]
+																																										}
+																																									}
+																																								}]
+																																								id: "minecraft:chest"
+																																							}
+																																							display: {
+																																								Lore: ["\"(+NBT)\""]
+																																							}
+																																						}
+																																					}]
+																																					id: "minecraft:chest"
+																																				}
+																																				display: {
+																																					Lore: ["\"(+NBT)\""]
+																																				}
+																																			}
+																																		}]
+																																		id: "minecraft:chest"
+																																	}
+																																	display: {
+																																		Lore: ["\"(+NBT)\""]
+																																	}
+																																}
+																															}]
+																															id: "minecraft:chest"
+																														}
+																														display: {
+																															Lore: ["\"(+NBT)\""]
+																														}
+																													}
+																												}]
+																												id: "minecraft:chest"
+																											}
+																											display: {
+																												Lore: ["\"(+NBT)\""]
+																											}
+																										}
+																									}]
+																									id: "minecraft:chest"
+																								}
+																								display: {
+																									Lore: ["\"(+NBT)\""]
+																								}
+																							}
+																						}]
+																						id: "minecraft:chest"
+																					}
+																					display: {
+																						Lore: ["\"(+NBT)\""]
+																					}
+																				}
+																			}]
+																			id: "minecraft:chest"
+																		}
+																		display: {
+																			Lore: ["\"(+NBT)\""]
+																		}
+																	}
+																}]
+																id: "minecraft:chest"
+															}
+															display: {
+																Lore: ["\"(+NBT)\""]
+															}
+														}
+													}]
+													id: "minecraft:chest"
+												}
+												display: {
+													Lore: ["\"(+NBT)\""]
+												}
+											}
+										}]
+										id: "minecraft:chest"
+									}
+									display: {
+										Lore: ["\"(+NBT)\""]
+									}
+								}
+							}]
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+							Name: "{\"text\":\"The Chest King\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			description: ["The 64k Fluid Storage can store 64 buckets."]
+			dependencies: ["0000000000000129"]
+			id: "541405403409682A"
+			tasks: [{
+				id: "17EB6B57FDC15272"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "709BEFA16EC5791B"
+				type: "item"
+				item: "refinedstorage:silicon"
+				count: 4
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.0d
+			description: ["The 265k Fluid Storage can store 265 buckets."]
+			dependencies: ["541405403409682A"]
+			id: "3CE958E4C67FE2FA"
+			tasks: [{
+				id: "41508F17D2C21161"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "387EE9A5B92B31F7"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.0d
+			description: ["The 1024k Fluid Storage can store 1024 buckets."]
+			dependencies: ["3CE958E4C67FE2FA"]
+			id: "6154BB10414AA1A1"
+			tasks: [{
+				id: "2BDB8EBED3572241"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "76D31C9003FCFF08"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			description: ["The 4096k Fluid Storage can store 4096 buckets."]
+			dependencies: ["6154BB10414AA1A1"]
+			id: "47C5140C2B706068"
+			tasks: [{
+				id: "2B78B2E6A8A965B1"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "7E00A368EB309EA5"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.0d
+			description: ["The 16384k Fluid Storage can store 16384 buckets."]
+			dependencies: ["47C5140C2B706068"]
+			id: "50EC3D3A9E948D4C"
+			tasks: [{
+				id: "18DE20CA96FD8501"
+				type: "item"
+				item: "extradisks:16384k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "2610B784836B8EEB"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			description: ["The 65536k Fluid Storage can store 65536 buckets."]
+			dependencies: ["50EC3D3A9E948D4C"]
+			id: "14DB3D4D8D66A939"
+			tasks: [{
+				id: "5D9BE02EEB6698AE"
+				type: "item"
+				item: "extradisks:65536k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "62B8A74ADF7CCA0B"
+				type: "item"
+				item: "extradisks:16384k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			description: ["The 262m Fluid Storage can store 262k buckets."]
+			dependencies: ["14DB3D4D8D66A939"]
+			id: "0040F3DFEB349523"
+			tasks: [{
+				id: "0FA74EF3250809FC"
+				type: "item"
+				item: "extradisks:262144k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "3749A2F4EF7ED6FE"
+				type: "item"
+				item: "extradisks:65536k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			description: ["The 1048m Fluid Storage can store 1048k buckets."]
+			dependencies: ["0040F3DFEB349523"]
+			id: "01B2D66B6A5A9550"
+			tasks: [{
+				id: "1F1F496F8613AA0D"
+				type: "item"
+				item: "extradisks:1048576k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "437A49443E2E64ED"
+				type: "item"
+				item: "extradisks:262144k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.0d
+			description: ["The Infinite Fluid Storage can store way too much fluids."]
+			dependencies: ["01B2D66B6A5A9550"]
+			id: "6C5BFE5667EF3B08"
+			tasks: [{
+				id: "4621C9CAB19B3B68"
+				type: "item"
+				item: "extradisks:infinite_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "73885EF9FF29B97C"
+				type: "item"
+				item: "botania:open_bucket"
+			}]
+		}
+		{
+			title: "Crafter"
+			x: 10.0d
+			y: 2.0d
+			description: [
+				"The Crafter is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."
+				""
+				"Up to 9 patterns."
+			]
+			dependencies: ["62604960C94936F9"]
+			id: "7D370C49247374DA"
+			tasks: [{
+				id: "7BB8A2CE550DA9A9"
+				type: "item"
+				title: "Any #refinedstorage:crafter"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:crafter"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AE0BC4A0571313A"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			description: [
+				"The Iron Crafter is an upgrade of a Crafter."
+				""
+				"It crafts faster and have 27 slots for patterns."
+			]
+			dependencies: ["7D370C49247374DA"]
+			id: "60842AD2DDD54551"
+			tasks: [{
+				id: "2F46737B993F7018"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+			rewards: [{
+				id: "0A60A426C00A28C9"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			description: [
+				"The Gold Crafter is an upgrade of an Iron Crafter."
+				""
+				"It crafts faster and have 45 slots for patterns."
+			]
+			dependencies: ["60842AD2DDD54551"]
+			id: "0526CACD7EB8C811"
+			tasks: [{
+				id: "11DB216A5B7BC615"
+				type: "item"
+				item: "extrastorage:gold_crafter"
+			}]
+			rewards: [{
+				id: "7A4C81D86736061A"
+				type: "item"
+				item: "extrastorage:iron_crafter"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			description: [
+				"The Diamond Crafter is an upgrade of a Gold Crafter."
+				""
+				"It crafts faster and have 63 slots for patterns."
+			]
+			dependencies: ["0526CACD7EB8C811"]
+			id: "33E1FE46DD033A48"
+			tasks: [{
+				id: "6C6814678F770C0B"
+				type: "item"
+				item: "extrastorage:diamond_crafter"
+			}]
+			rewards: [{
+				id: "30C23360C1F37042"
+				type: "item"
+				item: "extrastorage:gold_crafter"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			description: [
+				"The Netherite Crafter is an upgrade of a Diamond Crafter."
+				""
+				"It crafts faster and have 81 slots for patterns."
+			]
+			dependencies: ["33E1FE46DD033A48"]
+			id: "2D49BFFF2E1FD278"
+			tasks: [{
+				id: "069EF6F3292FFDE6"
+				type: "item"
+				item: "extrastorage:netherite_crafter"
+			}]
+			rewards: [{
+				id: "594C3F54AFA0D0C9"
+				type: "item"
+				item: "extrastorage:diamond_crafter"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			description: ["The Machine Casing is a block that is used to craft the various Refined Storage devices."]
+			dependencies: ["0000000000000129"]
+			size: 2.0d
+			id: "62604960C94936F9"
+			tasks: [{
+				id: "59BFF79FAF596C36"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+			rewards: [{
+				id: "68CD9A9D442F48F2"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 16
+			}]
+		}
+		{
+			title: "Grid"
+			x: 8.0d
+			y: -0.5d
+			description: ["The Grid is a block that allows access to the items in the storage network."]
+			dependencies: ["62604960C94936F9"]
+			id: "2D3F6FB9EE10DD83"
+			tasks: [{
+				id: "284E8D6915B982DC"
+				type: "item"
+				title: "Any #refinedstorage:grid"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:grid"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2022104332199E2C"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 16
+			}]
+		}
+		{
+			title: "Crafting Grid"
+			x: 7.0d
+			y: 0.0d
+			description: ["The Crafting Grid is the same as a regular Grid, but has a crafting inventory."]
+			dependencies: [
+				"62604960C94936F9"
+				"2D3F6FB9EE10DD83"
+			]
+			id: "76FE317C7CC59B49"
+			tasks: [{
+				id: "66F6506FE79BEC0B"
+				type: "item"
+				title: "Any #refinedstorage:crafting_grid"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:crafting_grid"
+					}
+				}
+			}]
+			rewards: [{
+				id: "01D10CA4EAD1C21F"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+		}
+		{
+			title: "Pattern Grid"
+			x: 8.0d
+			y: -1.5d
+			description: ["The Pattern Grid is the same as a regular Grid, but also allows for the creation of patterns."]
+			dependencies: ["2D3F6FB9EE10DD83"]
+			id: "433F2A54B49DAB6F"
+			tasks: [
+				{
+					id: "371AFA5C0783D9B8"
+					type: "item"
+					title: "Any #refinedstorage:pattern_grid"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:pattern_grid"
+						}
+					}
+				}
+				{
+					id: "6F9358DBBAFD3A0A"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+			]
+			rewards: [{
+				id: "7639F87B9E15F51D"
+				type: "item"
+				item: "refinedstorage:pattern"
+				count: 9
+			}]
+		}
+		{
+			title: "Fluid Grid"
+			x: 9.0d
+			y: 0.0d
+			description: ["The Fluid Grid is the same as a regular Grid, but is used for viewing fluids in the fluid storage of your storage network."]
+			dependencies: [
+				"62604960C94936F9"
+				"2D3F6FB9EE10DD83"
+			]
+			id: "055962C78B8C93DE"
+			tasks: [{
+				id: "60FEA023733344C4"
+				type: "item"
+				title: "Any #refinedstorage:fluid_grid"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:fluid_grid"
+					}
+				}
+			}]
+			rewards: [{
+				id: "54EF8734EA7ECB23"
+				type: "item"
+				item: "refinedstorage:basic_processor"
+				count: 8
+			}]
+		}
+		{
+			title: "Crafter Manager"
+			x: 7.0d
+			y: 2.0d
+			description: ["The Crafter Manager is a block that allows you to see all your patterns in one GUI."]
+			dependencies: ["62604960C94936F9"]
+			id: "2BFF3376EE5F1F6C"
+			tasks: [{
+				id: "3F324C45CFA454C0"
+				type: "item"
+				title: "Any #refinedstorage:crafter_manager"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:crafter_manager"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3258EC25FBC56273"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+		}
+		{
+			title: "Crafting Monitor"
+			x: 7.0d
+			y: -1.0d
+			description: ["The Crafting Monitor is a block that shows all the current running crafting tasks and how long they have been running."]
+			dependencies: ["62604960C94936F9"]
+			id: "36D15F737D985F4D"
+			tasks: [{
+				id: "7C8764F18FA7F5D8"
+				type: "item"
+				title: "Any #refinedstorage:crafting_monitor"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:crafting_monitor"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E77F863396EF704"
+				type: "item"
+				item: "refinedstorage:pattern"
+				count: 5
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: ["The Disk Drive is the block in which you store storage disks or fluid storage disks."]
+			dependencies: ["62604960C94936F9"]
+			id: "2BC7B889FF753C33"
+			tasks: [{
+				id: "0E09BE9FF90AF524"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "1AEA70E23F6BCBEE"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+		{
+			title: "Controller"
+			x: 8.0d
+			y: 2.5d
+			description: ["The Controller is the core of the Refined Storage network. You need to connect all the Refined Storage devices to this block."]
+			dependencies: ["62604960C94936F9"]
+			id: "62512F78983F1636"
+			tasks: [{
+				id: "19E9638F52FB7C4C"
+				type: "item"
+				title: "Any #refinedstorage:controller"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:controller"
+					}
+				}
+			}]
+			rewards: [{
+				id: "579BB5DF44F2F560"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			dependencies: ["62604960C94936F9"]
+			id: "464907AAACADFE7B"
+			tasks: [
+				{
+					id: "2DB7EF7D4D17EA71"
+					type: "item"
+					item: "rslargepatterns:large_pattern_encoder"
+				}
+				{
+					id: "033A5B410780578D"
+					type: "item"
+					item: "rslargepatterns:large_pattern"
+				}
+			]
+			rewards: [{
+				id: "0DFE33F157E13545"
+				type: "item"
+				item: "rslargepatterns:large_pattern"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			description: [
+				"The Interface is a block that acts as a combination of the Importer and the Exporter."
+				"The Fluid Interface is the same as an Interface but for fluids."
+			]
+			dependencies: ["62604960C94936F9"]
+			id: "1278413E9FDF648F"
+			tasks: [
+				{
+					id: "4A59E54577F5F0D8"
+					type: "item"
+					item: "refinedstorage:interface"
+				}
+				{
+					id: "00E0F73CF770E01E"
+					type: "item"
+					item: "refinedstorage:fluid_interface"
+				}
+			]
+			rewards: [{
+				id: "6EA920722F8F8B2D"
+				type: "item"
+				item: "refinedstorage:cable"
+				count: 32
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: [
+				"The External Storage is a block that provides the storage network with storage of the inventory or fluid tank in front of the device."
+				""
+				"The Importer imports items or fluids from an inventory in front of the block and inserts it in the storage network (if there is space)."
+				""
+				"The Exporter extracts items or fluids from the storage network and inserts it in the inventory or tank in front of it."
+			]
+			dependencies: ["248AEB01973858F5"]
+			id: "74B19D531A776607"
+			tasks: [
+				{
+					id: "4601B1452FDD9759"
+					type: "item"
+					item: "refinedstorage:external_storage"
+				}
+				{
+					id: "328842EAB74916E3"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "4C5BDFF0C501D30D"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+			]
+			rewards: [{
+				id: "6ADBC41CC0722E48"
+				type: "item"
+				item: "refinedstorage:cable"
+				count: 32
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: [
+				"The Wireless Transmitter is used to send signals to wireless network items in Refined Storage."
+				""
+				"The Range Upgrade increases the range of the Wireless Transmitter."
+			]
+			dependencies: ["7C4227C8ED5D0F0F"]
+			id: "384FD7EDF932572A"
+			tasks: [
+				{
+					id: "09A53BDB6E49588D"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+				{
+					id: "2946514AFDFCC9A7"
+					type: "item"
+					item: "refinedstorage:range_upgrade"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "337835BB93471FB6"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["The Infinity Range Booster give you an infinite range in the Wireless Transmitter."]
+			dependencies: ["384FD7EDF932572A"]
+			id: "03E1E04D0834EDE4"
+			tasks: [{
+				id: "61C8A42A9C8D04A0"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+			rewards: [{
+				id: "2E3382B8F4EA6EE7"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["The Dimension Card give you an infinite range and an interdimensional range in the Wireless Transmitter."]
+			dependencies: ["03E1E04D0834EDE4"]
+			id: "322D1B089BCC89E8"
+			tasks: [{
+				id: "2ABB77D1B5515F48"
+				type: "item"
+				item: "rsinfinitybooster:dimension_card"
+			}]
+			rewards: [{
+				id: "16D28DBE543062F5"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 64
+			}]
+		}
+		{
+			title: "Refined Network"
+			x: 9.5d
+			y: 1.0d
+			description: [
+				"The Network Receiver is the block that receives a signal from the Network Transmitter."
+				"A Network Transmitter sends a network signal to a Network Receiver that is specified in the given Network Card."
+				"A Network Card is an item that stores the coordinates of a Network Receiver."
+			]
+			dependencies: ["62604960C94936F9"]
+			id: "46945B3FE1D54A13"
+			tasks: [
+				{
+					id: "43399B1D467B9C72"
+					type: "item"
+					title: "Any #refinedstorage:network_receiver"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:network_receiver"
+						}
+					}
+				}
+				{
+					id: "0164B04038196631"
+					type: "item"
+					title: "Any #refinedstorage:network_transmitter"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "refinedstorage:network_transmitter"
+						}
+					}
+				}
+				{
+					id: "7A56FAB1E26E6751"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+			]
+			rewards: [
+				{
+					id: "3F35E844BB550F9A"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "57DF60FE20479140"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: ["The Wireless Crafting Grid is used to access your Refined Network wirelessly with a Wireless Transmitter and rang cards."]
+			dependencies: ["76FE317C7CC59B49"]
+			id: "5C94176D259ECCA8"
+			tasks: [{
+				id: "273A364D643E6E91"
+				type: "item"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}]
+			rewards: [{
+				id: "1F2B36594D598525"
+				type: "item"
+				item: "refinedstorage:wireless_fluid_grid"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: ["The Requester keeps the filtered item/fluid in stock with the desired amount."]
+			dependencies: ["62604960C94936F9"]
+			id: "0D002E009757B788"
+			tasks: [{
+				id: "19631A4F97D8C124"
+				type: "item"
+				item: "rsrequestify:requester"
+			}]
+			rewards: [{
+				id: "736F14090A505665"
+				type: "item"
+				item: "rsrequestify:requester"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"The Speed Upgrade will increase the speed of the device that it is being inserted to."
+				"The Stack upgrade will improve item or fluid transfer speeds by using a whole stack (64 items) instead of 1 item at a time."
+			]
+			dependencies: ["7C4227C8ED5D0F0F"]
+			id: "4BDCC282A13C0657"
+			tasks: [
+				{
+					id: "15DDE4171364FE66"
+					type: "item"
+					item: "refinedstorage:speed_upgrade"
+				}
+				{
+					id: "1BA77DF803A51767"
+					type: "item"
+					item: "refinedstorage:stack_upgrade"
+				}
+			]
+			rewards: [{
+				id: "67981BB0655F2ADE"
+				type: "item"
+				item: "refinedstorage:speed_upgrade"
+				count: 2
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["The Crafting Upgrade will schedule a crafting task when the item being used in a device is needed but not available."]
+			dependencies: ["7C4227C8ED5D0F0F"]
+			id: "31370C8D5515054B"
+			tasks: [{
+				id: "1DDA42D3A79EDADF"
+				type: "item"
+				item: "refinedstorage:crafting_upgrade"
+			}]
+			rewards: [{
+				id: "0B580EC85A987F16"
+				type: "item"
+				item: "refinedstorage:crafting_upgrade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: ["The Regulator Upgrade is an upgrade that can be inserted into an Exporter to keep certain items or fluids in stock in the connected inventory."]
+			dependencies: ["7C4227C8ED5D0F0F"]
+			id: "63A006E2E72596C4"
+			tasks: [{
+				id: "1706FF30D0F6F5E6"
+				type: "item"
+				item: "refinedstorage:regulator_upgrade"
+			}]
+			rewards: [{
+				id: "6DD139505693923F"
+				type: "item"
+				item: "refinedstorage:regulator_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["The Upgrade is the base item used for every type of upgrade."]
+			dependencies: ["248AEB01973858F5"]
+			id: "7C4227C8ED5D0F0F"
+			tasks: [{
+				id: "5D11016FD1522E2C"
+				type: "item"
+				item: "refinedstorage:upgrade"
+			}]
+			rewards: [{
+				id: "65CB4C6D705FC8D3"
+				type: "item"
+				item: "refinedstorage:upgrade"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: [
+				"The Processor Binding is the core of everything you want to craft in Refined Storage."
+				""
+			]
+			dependencies: ["0000000000000129"]
+			id: "248AEB01973858F5"
+			tasks: [{
+				id: "194119A3B8D406EF"
+				type: "item"
+				item: "refinedstorage:processor_binding"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0E0E1D38E5E26BE7"
+				type: "item"
+				item: "botania:mana_string"
+				count: 16
+			}]
+		}
+		{
+			title: "How do I begin Refined Storage ?"
+			icon: "create:brass_hand"
+			x: 8.0d
+			y: -4.5d
+			shape: "circle"
+			description: ["To begin in Refined Storage the first step to make is getting your Processor Binding.For that, you're going to need to begin first Rats and Botania to obtain the Mana String needed."]
+			dependencies: ["0000000000000129"]
+			id: "362E93B882E77401"
+			tasks: [{
+				id: "5E52445A2DB8D11E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "739601B3AC7BD1A5"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "group": "wood_fence_gate", "pattern": ["S#S", "S#S"], "key": {"#": [{"item": "upgrade_aquatic:stripped_driftwood"}, {"item": "upgrade_aquatic:stripped_driftwood_log"}], "S": {"item": "minecraft:stick"}}, "result": {"item": "amb:stripped_driftwood_fence_gate"}, "conditions": [{"type": "forge:mod_loaded", "modid": "upgrade_aquatic"}]}

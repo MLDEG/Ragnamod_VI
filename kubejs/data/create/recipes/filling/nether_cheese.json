@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "rats:cheese"
+    },
+    {
+      "fluid": "tconstruct:magma",
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "rats:nether_cheese"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Source Gem",
+  "colors": [
+    "ca65fc",
+    "c14bfc"
+  ],
+  "ingredient": {
+    "item": "ars_nouveau:mana_gem"
+  },
+  "inUltimateSingularity": true
+}

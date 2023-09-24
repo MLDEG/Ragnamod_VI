@@ -1,0 +1,1 @@
+{"type":"mekanism:metallurgic_infusing","itemInput":{"ingredient":{"tag":"forge:storage_blocks/copper"}},"infusionInput":{"amount":720,"tag":"mekanism:redstone"},"output":{"item":"extendedcrafting:redstone_ingot_block"}}

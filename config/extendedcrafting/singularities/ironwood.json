@@ -1,0 +1,11 @@
+{
+  "name": "Ironwood",
+  "colors": [
+    "7e7373",
+    "4f4137"
+  ],
+  "ingredient": {
+    "item": "twilightforest:ironwood_ingot"
+  },
+  "inUltimateSingularity": true
+}

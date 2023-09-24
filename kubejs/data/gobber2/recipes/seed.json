@@ -1,0 +1,17 @@
+{
+  "type": "mythicbotany:infusion",
+  "group": "infuser",
+  "output": { "item": "gobber2:gobber2_seed" },
+  "mana": 1000000,
+  "ingredients": [
+    { "item": "kubejs:imperium_seed" },
+    { "item": "envirocore:pladium_boule" },
+    { "item": "eidolon:shadow_gem" },
+    { "item": "ars_nouveau:mana_gem" },
+    { "item": "astralsorcery:starmetal_ingot" },
+    { "item": "integrateddynamics:proto_chorus" },
+    { "item": "projecte:high_covalence_dust" }
+  ],
+  "fromColor": 37113,
+  "toColor": 3031651
+}

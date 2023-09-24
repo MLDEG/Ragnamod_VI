@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "key": {
+	"A": {
+		"item": "immersiveengineering:plate_steel"
+	},
+	"B": {
+		"item": "immersiveengineering:component_steel"
+	},
+	"C": {
+		"item": "immersiveengineering:wirecoil_structure_steel"
+	},
+	"D": {
+		"item": "industrialforegoing:machine_frame_supreme"
+	}
+  },
+  "result": {
+    "item": "mekanism:steel_casing"
+  }
+}

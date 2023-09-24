@@ -1,0 +1,15 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "item": {"tag": "forge:ores/draconium"},
+  "result": {
+    "items": [
+      {
+        "tag": "forge:dusts/draconium"
+      },
+      {
+        "tag": "forge:dusts/draconium",
+        "chance": 0.75
+      }
+    ]
+  }
+}

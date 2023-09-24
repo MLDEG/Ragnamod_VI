@@ -1,0 +1,37 @@
+{
+  "flower": "kubejs:dragon_bee_flower",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 2400,
+  "baseLayerTexture" : "dragon/dragon_bee",
+  "traits": [ "ender", "nether", "wither" ],
+  "ColorData": {
+    "isBeeColored": true,
+    "isGlowing": true,
+    "modelType": "DRAGON",
+    "primaryLayerTexture": "dragon/dragon_bee_primary",
+    "secondaryLayerTexture": "dragon/dragon_bee_secondary",
+    "emissiveLayerTexture": "dragon/dragon_bee_emissive",
+    "primaryColor": "#222222",
+    "secondaryColor": "#171717",
+    "glowColor": "#E400FF",
+    "honeycombColor": "#E400FF"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:dragon_egg",
+    "mainOutputWeight": 0.05
+  },
+  "SpawnData": {},
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "ender",
+    "parent2": "wither",
+    "feedItem": "forbidden_arcanus:dragon_scale"
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

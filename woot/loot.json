@@ -1,0 +1,375 @@
+{
+  "version": 1,
+  "simulatedMobs": [
+    {
+      "mob": "minecraft:wither",
+      "simulatedKills": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "learnedDrops": [
+        {
+          "drop": {
+            "item": "minecraft:nether_star"
+          },
+          "simulatedCount": [
+            1000,
+            1000,
+            1000,
+            1000
+          ],
+          "stack0": [
+            1,
+            1000
+          ],
+          "stack1": [
+            1,
+            1000
+          ],
+          "stack2": [
+            1,
+            1000
+          ],
+          "stack3": [
+            1,
+            1000
+          ]
+        },
+        {
+          "drop": {
+            "item": "mysticalagradditions:withering_soul"
+          },
+          "simulatedCount": [
+            369,
+            372,
+            358,
+            342
+          ],
+          "stack0": [
+            1,
+            369
+          ],
+          "stack1": [
+            1,
+            372
+          ],
+          "stack2": [
+            1,
+            358
+          ],
+          "stack3": [
+            1,
+            342
+          ]
+        },
+        {
+          "drop": {
+            "item": "bhc:yellow_heart"
+          },
+          "simulatedCount": [
+            1190,
+            1190,
+            1400,
+            2399
+          ],
+          "stack0": [
+            1,
+            1190
+          ],
+          "stack1": [
+            1,
+            1190
+          ],
+          "stack2": [
+            1,
+            1400
+          ],
+          "stack3": [
+            1,
+            2399
+          ]
+        },
+        {
+          "drop": {
+            "item": "mysticalagriculture:inferium_essence"
+          },
+          "simulatedCount": [
+            235,
+            223,
+            206,
+            212
+          ],
+          "stack0": [
+            1,
+            235
+          ],
+          "stack1": [
+            1,
+            223
+          ],
+          "stack2": [
+            1,
+            206
+          ],
+          "stack3": [
+            1,
+            212
+          ]
+        }
+      ]
+    },
+    {
+      "mob": "iceandfire:lightning_dragon",
+      "simulatedKills": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "learnedDrops": []
+    },
+    {
+      "mob": "minecraft:sheep",
+      "simulatedKills": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "learnedDrops": []
+    },
+    {
+      "mob": "rftoolsdim:dimensional_blob_legendary",
+      "simulatedKills": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "learnedDrops": [
+        {
+          "drop": {
+            "item": "rftoolsdim:legendary_essence"
+          },
+          "simulatedCount": [
+            1000,
+            1000,
+            1000,
+            1000
+          ],
+          "stack0": [
+            4,
+            307
+          ],
+          "stack1": [
+            4,
+            174
+          ],
+          "stack2": [
+            4,
+            96
+          ],
+          "stack3": [
+            4,
+            55
+          ]
+        },
+        {
+          "drop": {
+            "item": "mysticalagriculture:inferium_essence"
+          },
+          "simulatedCount": [
+            182,
+            204,
+            193,
+            202
+          ],
+          "stack0": [
+            1,
+            182
+          ],
+          "stack1": [
+            1,
+            204
+          ],
+          "stack2": [
+            1,
+            193
+          ],
+          "stack3": [
+            1,
+            202
+          ]
+        },
+        {
+          "drop": {
+            "item": "bhc:red_heart"
+          },
+          "simulatedCount": [
+            5,
+            12,
+            32,
+            39
+          ],
+          "stack0": [
+            1,
+            5
+          ],
+          "stack1": [
+            1,
+            12
+          ],
+          "stack2": [
+            1,
+            32
+          ],
+          "stack3": [
+            1,
+            39
+          ]
+        },
+        {
+          "drop": {
+            "item": "xreliquary:mob_charm_fragment"
+          },
+          "simulatedCount": [
+            30,
+            30,
+            42,
+            60
+          ],
+          "stack0": [
+            1,
+            30
+          ],
+          "stack1": [
+            1,
+            30
+          ],
+          "stack2": [
+            1,
+            42
+          ],
+          "stack3": [
+            1,
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "mob": "iceandfire:ice_dragon",
+      "simulatedKills": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "learnedDrops": []
+    },
+    {
+      "mob": "minecraft:phantom",
+      "simulatedKills": [
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "learnedDrops": [
+        {
+          "drop": {
+            "item": "minecraft:phantom_membrane"
+          },
+          "simulatedCount": [
+            485,
+            744,
+            875,
+            906
+          ],
+          "stack0": [
+            1,
+            485
+          ],
+          "stack1": [
+            1,
+            521
+          ],
+          "stack2": [
+            1,
+            380
+          ],
+          "stack3": [
+            1,
+            235
+          ]
+        },
+        {
+          "drop": {
+            "item": "xreliquary:mob_charm_fragment"
+          },
+          "simulatedCount": [
+            21,
+            27,
+            44,
+            65
+          ],
+          "stack0": [
+            1,
+            21
+          ],
+          "stack1": [
+            1,
+            27
+          ],
+          "stack2": [
+            1,
+            44
+          ],
+          "stack3": [
+            1,
+            65
+          ]
+        },
+        {
+          "drop": {
+            "item": "bhc:red_heart"
+          },
+          "simulatedCount": [
+            15,
+            17,
+            10,
+            17
+          ],
+          "stack0": [
+            1,
+            15
+          ],
+          "stack1": [
+            1,
+            17
+          ],
+          "stack2": [
+            1,
+            10
+          ],
+          "stack3": [
+            1,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "mob": "iceandfire:fire_dragon",
+      "simulatedKills": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "learnedDrops": []
+    }
+  ]
+}

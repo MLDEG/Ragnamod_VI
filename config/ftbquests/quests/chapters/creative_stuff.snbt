@@ -1,0 +1,1685 @@
+{
+	id: "28978D686090B88B"
+	group: ""
+	order_index: 32
+	filename: "creative_stuff"
+	title: "Creative Stuff"
+	icon: "pneumaticcraft:creative_upgrade"
+	subtitle: ["The end game my friends."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.5d
+			y: 4.0d
+			description: ["Ra upgrade: Creative, give your rat total immunity"]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "6061091E79034CE8"
+			tasks: [{
+				id: "50584B95857CD298"
+				type: "item"
+				item: "rats:rat_upgrade_creative"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			description: ["The Creative Generator has infinite energy."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "2831A8A6FBB4D057"
+			tasks: [{
+				id: "6FADF40DC55C4360"
+				type: "item"
+				item: "overloaded:creative_generator"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			description: ["The Creative Supply Upgrade can supply infinite Fluids (if you use in a liquid hopper) or infinite items/blocks (if you use in an omnidirectional hopper)"]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "1860EA26CF663FBA"
+			tasks: [{
+				id: "5CCAF48BC5240A9C"
+				type: "item"
+				item: "pneumaticcraft:creative_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["The Creative Compressor is used to generate any pressure you want."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "241FECF4AD499318"
+			tasks: [{
+				id: "598B06B8DE6D0C90"
+				type: "item"
+				item: "pneumaticcraft:creative_compressor"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["The Energy Cell (Creative) has infinite energy."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "7A46464AE39E0CEB"
+			tasks: [{
+				id: "273C8B3DE2A67338"
+				type: "item"
+				item: "powah:energy_cell_creative"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: ["With the Creative CAD Assembly, you can use PSI power indefinitely."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "4B62B17579792FDB"
+			tasks: [{
+				id: "2EE0CE8E0DCE058A"
+				type: "item"
+				item: "psi:cad_assembly_creative"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			description: ["The Dimensional Cell (Creative) has infinite energy."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "37F5AD7645E1C53A"
+			tasks: [{
+				id: "77EAD3C4D5B57356"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_creative"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			description: ["The Creative Cheese is used to tame instantly any rats."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "0326EF28AC420ED1"
+			tasks: [{
+				id: "7E51542EF03EC542"
+				type: "item"
+				item: "rats:creative_cheese"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			description: ["The Creative Vending Upgrade gives you infinite anything you put in your drawers."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "2DFB0B2A6D0EC81B"
+			tasks: [{
+				id: "6B880504F2A8619B"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [{
+				id: "4E63AE174FFDD13A"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			description: ["The Creative Energy Cell has infinite RF inside to make your portal work."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "0B0E99A2D03F424B"
+			tasks: [{
+				id: "4EA731D5B487EB04"
+				type: "item"
+				item: {
+					id: "wormhole:creative_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			description: ["The Creative Wireless Crafting Grid doesn't need energy to work."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "5E2DBE31DF1BB541"
+			tasks: [{
+				id: "1BBDCE3D767371B2"
+				type: "item"
+				item: "refinedstorageaddons:creative_wireless_crafting_grid"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			description: ["The Creative Controller doesn't need power to work."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "7EED70AB2AABA469"
+			tasks: [{
+				id: "2FC7E44F74D9BFD3"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["The Everlasting Guilty Pool has infinite amount of Mana."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "3B526C13EB6D32BB"
+			tasks: [{
+				id: "42BA9CEC454AAC15"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			description: ["The Creative Fluid Tank can replicate any fluids indefinitely"]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "5B2491DEA3C6795C"
+			tasks: [{
+				id: "1ABC2985A5536120"
+				type: "item"
+				item: "create:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			description: ["The Creative Motor gives you the power of rotation."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "0FD714BFCC436E95"
+			tasks: [{
+				id: "25FAF33758B4B043"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			description: ["The Creative Crate can replicate any items or blocks indefinitely."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "0D420B885EEC1D36"
+			tasks: [{
+				id: "0B4CD342F9E3930A"
+				type: "item"
+				item: "create:creative_crate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["The Creative Capacitor has infinite energy."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "601943BE0B7E47E1"
+			tasks: [{
+				id: "7D53F03BB760A001"
+				type: "item"
+				item: "immersiveengineering:capacitor_creative"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["The Creative Chemical Tank is used to create indefinitely Gases."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "7C604EBE05008AEF"
+			tasks: [{
+				id: "24DC862D47B1BF30"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["The Creative Fluid Tank is used to create indefinitely Fluids."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "2BBC1D3B7217E91E"
+			tasks: [{
+				id: "799DED798E801C15"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["The Creative Energy Cube has infinite energy."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "6A4C05844AF87F69"
+			tasks: [{
+				id: "4789D90388560ECD"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			description: ["The Creative Jetpack is basically a creative flight but with a cool jetpack."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "3EA595ACDDDBD3D9"
+			tasks: [{
+				id: "53A5DD0B81E2B6AF"
+				type: "item"
+				item: "simplyjetpacks:jetpack_creative_armored"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			description: ["The Creative Conatus gives you infinite Conatus for your Woot Factory."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "18561B18618CD749"
+			tasks: [{
+				id: "01312B2E6B22620E"
+				type: "item"
+				item: "woot:creative_conatus"
+			}]
+		}
+		{
+			title: "Creative Centrifuge"
+			x: -0.5d
+			y: 2.0d
+			description: ["The Creative Centrifuge is INSANE, it multiplies resources by 100 and the bee takes no time (-1 tick) to craft the resources."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "5E0BF4ACF9FFC494"
+			tasks: [
+				{
+					id: "2783518403679A6A"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_creative"
+				}
+				{
+					id: "636F7F5758F753D5"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_creative"
+					count: 26L
+				}
+			]
+		}
+		{
+			title: "Creative Tinker"
+			x: -1.5d
+			y: 2.0d
+			description: ["Here some Creative stuff for your Tinker's Tools and Weapons."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "48E3111A533E95C7"
+			tasks: [
+				{
+					id: "35C249521BE7EAB6"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+				}
+				{
+					id: "4D1FCFED035CCEAA"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "abilities"
+						}
+					}
+				}
+				{
+					id: "1CF3AB8E9A1B51A0"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "sensor"
+						}
+					}
+				}
+				{
+					id: "5C51D7DF7D3F75D5"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "souls"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["The Creative Tank construction act like if you have infinite fluids in your machines."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "6719075D6FD5F44D"
+			tasks: [{
+				id: "2CC6016BE6F57492"
+				type: "item"
+				item: "thermal:fluid_tank_creative_augment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["The Creative Flux Efficiency speed up quite significantly your machines."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "08A09C3C46A0E975"
+			tasks: [{
+				id: "7E569846678D7AA0"
+				type: "item"
+				item: "thermal:machine_efficiency_creative_augment"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["The Creative Reclamation Chamber don't need catalysts."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "2B6C4E48AD5D0CFE"
+			tasks: [{
+				id: "02E36E9C17AB1B11"
+				type: "item"
+				item: "thermal:machine_catalyst_creative_augment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["The Creative RF Coil give machine infinite RF inside."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "30C056023658AE48"
+			tasks: [{
+				id: "7103259B1A935CC6"
+				type: "item"
+				item: "thermal:rf_coil_creative_augment"
+			}]
+		}
+		{
+			title: "Creative Apiary"
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"The Creative Apiary output 100 Honeycomb Block per operation."
+				""
+				"The Creative Apiary Storage don't need any upgrade to get a huge inventory."
+				""
+				"The Creative Apiary Breeder, breed instantly."
+			]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "0F172A3D84947E90"
+			tasks: [
+				{
+					id: "66791DE55950D09E"
+					type: "item"
+					item: "creativeapiary:tcreative_apiary"
+				}
+				{
+					id: "25050053BAEE08CF"
+					type: "item"
+					item: "creativeapiary:creative_apiary_storage"
+				}
+				{
+					id: "778D658E06EA1625"
+					type: "item"
+					item: "creativeapiary:creative_apiary_breeder"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["The Infinity Pipe Upgrade can transfer 2147483647 items every tick, same for energy and same for liquid."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "6C9FF8085D2E809F"
+			tasks: [{
+				id: "2442723E40DDB185"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
+		}
+		{
+			title: "Multi Armor"
+			x: 1.5d
+			y: 2.0d
+			description: [
+				"The Multi Armor is the most powerful armor in the game, because you have with it the clipping mode (to pass through any blocs) and you can't take ANY damage if you have power in it."
+				"You can, also, fly."
+			]
+			dependencies: ["6FADF40DC55C4360"]
+			id: "5A197558ACA88F94"
+			tasks: [
+				{
+					id: "1B5DA831AEA5835F"
+					type: "item"
+					item: {
+						id: "overloaded:multi_helmet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "286B52F2AD5C75A0"
+					type: "item"
+					item: {
+						id: "overloaded:multi_chestplate"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4968788F4F994D62"
+					type: "item"
+					item: {
+						id: "overloaded:multi_leggings"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5638E0B71F9CCA84"
+					type: "item"
+					item: {
+						id: "overloaded:multi_boots"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: ["The Creative Capacitor has infinite energy."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "4E4963685FB4BFAD"
+			tasks: [{
+				id: "2F83085FF27B234F"
+				type: "item"
+				item: {
+					id: "draconicevolution:creative_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-946025505
+									975588091
+									-1816012452
+									-2062097001
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["The Creative Power Source has infinite energy."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "3858247148A14782"
+			tasks: [{
+				id: "34555501A0F2B832"
+				type: "item"
+				item: "draconicevolution:creative_op_capacitor"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["The Creative Dragon Meal tame any dragon instantly."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "09632C120197EB7F"
+			tasks: [{
+				id: "03906C40ADC084D9"
+				type: "item"
+				item: "iceandfire:creative_dragon_meal"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"The Creative Blaze Cake is used to set your Blaze Burner in any state you want, indefinitely."
+				"The Creative Blaze Cake is not used."
+			]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "12FBCFB63A7D2050"
+			tasks: [{
+				id: "5A6576E4374BBE69"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: ["The Creative Compressed Iron Block is used to maintain any temperature you want."]
+			dependencies: [
+				"00000000000002B2"
+				"00000000000000B6"
+				"00000000000002FB"
+				"000000000000036F"
+				"00000000000004B0"
+				"7BD9E76459AD0B32"
+				"0000000000000554"
+				"000000000000050A"
+				"7163100ACB6A47E0"
+				"00000000000005DC"
+				"000000000000061B"
+				"0000000000000694"
+				"00000000000007D2"
+				"00000000000007FE"
+				"0000000000000840"
+				"000000000000085C"
+				"2A8A7D0DD43BE45E"
+				"000000000000012F"
+				"0000000000000953"
+				"00000000000009BF"
+				"00000000000005CD"
+				"6BD3F31408282D6B"
+				"0000000000000A7B"
+				"3BC984CF807FC3E1"
+				"000000000000012B"
+				"0000000000000AC8"
+				"3CA8304E230FF307"
+				"79E4F302613B3FFF"
+				"4FE66B6C99AA6A9D"
+				"125E78DDE4703293"
+			]
+			id: "72A863B4FBA8F3EF"
+			tasks: [{
+				id: "0E98204ED8E11A04"
+				type: "item"
+				item: "pneumaticcraft:creative_compressed_iron_block"
+			}]
+		}
+	]
+}

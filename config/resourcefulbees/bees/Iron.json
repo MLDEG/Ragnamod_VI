@@ -1,0 +1,28 @@
+{
+  "flower": "minecraft:iron_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/iron/iron_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#ffcc99",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:iron_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rock",
+    "feedItem": "minecraft:iron_ingot"
+  },
+  "TraitData": {}
+}

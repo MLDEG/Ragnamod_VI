@@ -1,0 +1,27 @@
+{
+  "flower": "thermal:electrum_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/electrum_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#f8ee7a"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:electrum_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gold",
+    "parent2": "silver",
+    "feedItem": "thermal:electrum_ingot"
+  },
+  "TraitData": {}
+}

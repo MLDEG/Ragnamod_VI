@@ -1,0 +1,14 @@
+{
+    "name": "Alfsteel",
+    "type": "resource",
+    "tier": "mysticalagradditions:6",
+    "ingredient": {      
+      "item": "minecraft:air"
+    },
+    "color": "fcbc00",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "crux": "kubejs:alfsteel_crux"
+  }

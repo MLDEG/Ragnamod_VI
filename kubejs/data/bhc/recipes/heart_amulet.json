@@ -1,0 +1,31 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SAS",
+    "BCD",
+    " E "
+  ],
+  "key": {
+    "A": {
+      "item": "bhc:red_heart_canister"
+    },
+    "B": {
+      "item": "bhc:yellow_heart_canister"
+    },
+    "C": {
+      "item": "astralsorcery:shifting_star"
+    },
+    "D": {
+      "item": "bhc:green_heart_canister"
+    },
+    "E": {
+      "item": "bhc:blue_heart_canister"
+    },
+    "S": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "bhc:heart_amulet"
+  }
+}

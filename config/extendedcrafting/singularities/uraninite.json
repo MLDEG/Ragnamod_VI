@@ -1,0 +1,11 @@
+{
+  "name": "Uraninite",
+  "colors": [
+    "00a114",
+    "007e0d"
+  ],
+  "ingredient": {
+    "item": "powah:uraninite"
+  },
+  "inUltimateSingularity": true
+}

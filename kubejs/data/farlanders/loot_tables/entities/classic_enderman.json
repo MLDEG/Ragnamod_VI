@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:entity",
+    "pools": [
+		{
+			"name": "enderman_drops",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:entities/enderman"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+  "flower": "undergarden:cloggrum_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/cloggrum_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#706358",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "undergarden:cloggrum_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rock",
+    "feedItem": "undergarden:cloggrum_ingot"
+  },
+  "TraitData": {}
+}

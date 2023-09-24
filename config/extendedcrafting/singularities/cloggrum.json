@@ -1,0 +1,11 @@
+{
+  "name": "Cloggrum",
+  "colors": [
+    "706358",
+    "66594e"
+  ],
+  "ingredient": {
+    "item": "undergarden:cloggrum_ingot"
+  },
+  "inUltimateSingularity": true
+}

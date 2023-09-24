@@ -1,0 +1,8 @@
+{
+    "type": "immersiveengineering:arc_furnace",
+    "input": { "item": "mekanism:dust_steel" },
+    "additives": [],
+    "results": [{ "item": "mekanism:ingot_steel", "count": 1 }],
+    "time": 100,
+    "energy": 51200
+  }

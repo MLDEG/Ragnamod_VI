@@ -1,0 +1,11 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "tier": 1,
+    "pattern": ["ABA", "BCB", "ABA"],
+    "key": {
+      "A": { "item": "envirocore:xerothium_crystal" },
+      "B": { "item": "enviroenergy:xerothium_solar_cell" },
+      "C": { "item": "enviroenergy:nanorite_solar_ccu" }
+    },
+    "result": { "item": "enviroenergy:xerothium_solar_ccu", "count": 1 }
+  }

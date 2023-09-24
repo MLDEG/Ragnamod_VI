@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DED"
+  ],
+  "key": {
+    "A": { "item": "thermal:lead_plate" },
+    "B": { "item": "thermal:flux_capacitor" },
+    "C": { "item": "thermal:dynamo_magmatic" },
+    "D": { "item": "thermal:lead_ingot" },
+    "E": { "item": "thermal:redstone_servo" }
+  },
+  "result": {
+    "item": "simplyjetpacks:thruster_te1",
+    "count": 1
+  }
+}

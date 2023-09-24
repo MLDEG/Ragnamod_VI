@@ -1,0 +1,27 @@
+{
+  "flower": "thermal:bronze_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/bronze_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#f6a90d"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:bronze_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "copper",
+    "parent2": "tin",
+    "feedItem": "thermal:bronze_ingot"
+  },
+  "TraitData": {}
+}

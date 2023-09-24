@@ -1,0 +1,5 @@
+#Set this to false if your system can not handle the awesomeness that is shaders! (Warning: Will make cool things look much less cool!)
+use_shaders = true
+#Enable gui dark mode in GUI's. (This can also be toggled in game from any gui that supports dark mode)
+dark_mode = true
+

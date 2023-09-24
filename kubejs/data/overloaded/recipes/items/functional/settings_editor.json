@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "overloaded:settings_editor"
+  },
+  "pattern": [
+    "ABB",
+    "BCB",
+    "BBB"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "eidolon:gold_inlay"
+    },
+    "B": {
+      "item": "extendedcrafting:nether_star_block"
+    },
+    "C": {
+      "item": "overloaded:energy_core"
+    }
+  }
+}

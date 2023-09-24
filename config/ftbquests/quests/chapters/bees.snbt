@@ -1,0 +1,2771 @@
+{
+	id: "0000000000000002"
+	group: ""
+	order_index: 17
+	filename: "bees"
+	title: "Bees"
+	icon: "minecraft:honeycomb"
+	subtitle: ["BFFFT"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 3.0d
+			y: -1.75d
+			width: 21.0d
+			height: 20.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/honeycomb_quests_shadow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: -9.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/apiary.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			width: 4.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/beehive.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 9.0d
+			y: 0.0d
+			description: ["Get a Tin Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"46F659036B4F5ED9"
+			]
+			id: "0000000000000003"
+			tasks: [{
+				id: "0000000000000004"
+				type: "item"
+				item: "resourcefulbees:tin_honeycomb"
+			}]
+			rewards: [{
+				id: "6E204F57FC80CE71"
+				type: "item"
+				item: "mekanism:enriched_tin"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			description: ["Get a Ghast Bee by breeding a Nether Bee and a Beeper Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000005E"
+				"235A54CA884CE8FE"
+			]
+			id: "0000000000000005"
+			tasks: [{
+				id: "0000000000000006"
+				type: "item"
+				item: "resourcefulbees:ghast_honeycomb"
+			}]
+			rewards: [{
+				id: "1153FD92B3C11871"
+				type: "item"
+				item: {
+					id: "xreliquary:mob_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						entity: "minecraft:ghast"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			description: ["The Guardian Bee can be found in the Overworld (in the Ocean or Rivers)."]
+			dependencies: ["000000000000008E"]
+			id: "0000000000000007"
+			tasks: [{
+				id: "0000000000000008"
+				type: "item"
+				item: "resourcefulbees:guardian_honeycomb"
+			}]
+			rewards: [{
+				id: "6C3144FF8B1EFA09"
+				type: "item"
+				item: {
+					id: "xreliquary:mob_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						entity: "undergarden:forgotten_guardian"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["Get an Osmium Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"46F659036B4F5ED9"
+				"2C3D5C6662C5093D"
+			]
+			id: "0000000000000009"
+			tasks: [{
+				id: "000000000000000A"
+				type: "item"
+				item: "resourcefulbees:osmium_honeycomb"
+			}]
+			rewards: [{
+				id: "7BE4CCC51EBA64D8"
+				type: "item"
+				item: {
+					id: "mekanismtools:osmium_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			description: ["Get a Froststeel Bee by breeding a Steel Bee and an Icy Bee."]
+			dependencies: [
+				"000000000000008E"
+				"561D1F966E252C15"
+				"0000000000000046"
+			]
+			id: "000000000000000B"
+			tasks: [{
+				id: "000000000000000C"
+				type: "item"
+				item: "resourcefulbees:froststeel_honeycomb"
+			}]
+			rewards: [{
+				id: "5C12F514EA752073"
+				type: "item"
+				item: {
+					id: "undergarden:froststeel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			description: ["Get a Lead Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"46F659036B4F5ED9"
+				"2C3D5C6662C5093D"
+			]
+			id: "000000000000000D"
+			tasks: [{
+				id: "000000000000000E"
+				type: "item"
+				item: "resourcefulbees:lead_honeycomb"
+			}]
+			rewards: [{
+				id: "0A712F2BC7589F5D"
+				type: "item"
+				item: "create:crushed_lead_ore"
+				count: 16
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			description: ["Get a Gobber Bee by breeding a Manasteel Bee and a Platinum Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000004C"
+				"0000000000000050"
+			]
+			id: "000000000000000F"
+			tasks: [{
+				id: "0000000000000010"
+				type: "item"
+				item: "resourcefulbees:gobber_honeycomb"
+			}]
+			rewards: [{
+				id: "5CA4C8C16AA6AC5F"
+				type: "item"
+				item: "gobber2:gobber2_block"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			description: ["The RGBee can be found in the Overworld."]
+			dependencies: ["000000000000008E"]
+			id: "0000000000000011"
+			tasks: [{
+				id: "0000000000000012"
+				type: "item"
+				item: "resourcefulbees:rgbee_honeycomb"
+			}]
+			rewards: [{
+				id: "756093C6BA80773E"
+				type: "item"
+				item: "quark:rainbow_rune"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			description: ["Get a Cyanite Bee by breeding a Yellorium Bee and an Icy Bee."]
+			dependencies: [
+				"000000000000008E"
+				"561D1F966E252C15"
+				"000000000000002C"
+			]
+			id: "0000000000000013"
+			tasks: [{
+				id: "0000000000000014"
+				type: "item"
+				item: "resourcefulbees:cyanite_honeycomb"
+			}]
+			rewards: [{
+				id: "485A31DDB26A3CC6"
+				type: "item"
+				item: "bigreactors:cyanite_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.5d
+			shape: "hexagon"
+			description: ["Get a Nitro Crystal Bee by breeding a Redstone Bee and a Spirited Crystal Bee."]
+			dependencies: [
+				"000000000000008E"
+				"3E0E9D2507A5C5C9"
+				"0000000000000018"
+			]
+			id: "0000000000000015"
+			tasks: [{
+				id: "0000000000000016"
+				type: "item"
+				item: "resourcefulbees:nitrocrystal_honeycomb"
+			}]
+			rewards: [{
+				id: "2D9251736CDFED35"
+				type: "item"
+				item: "powah:nitro_crystal_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -9.5d
+			description: ["Get a Redstone Bee by breeding a Gravelly Bee and a RGBee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"0000000000000012"
+			]
+			id: "0000000000000017"
+			tasks: [{
+				id: "0000000000000018"
+				type: "item"
+				item: "resourcefulbees:redstone_honeycomb"
+			}]
+			rewards: [{
+				id: "34344D6DE9EE1CEF"
+				type: "item"
+				item: "compressium:redstone_1"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			description: ["Get a Signalum Bee by breeding a Silver Bee and a Redstone Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000018"
+				"000000000000003E"
+			]
+			id: "0000000000000019"
+			tasks: [{
+				id: "000000000000001A"
+				type: "item"
+				item: "resourcefulbees:signalum_honeycomb"
+			}]
+			rewards: [{
+				id: "238AA33DAE623E57"
+				type: "item"
+				item: "thermal:signalum_plate"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			description: ["Get a Copper Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"46F659036B4F5ED9"
+			]
+			id: "000000000000001B"
+			tasks: [{
+				id: "000000000000001C"
+				type: "item"
+				item: "resourcefulbees:copper_honeycomb"
+			}]
+			rewards: [{
+				id: "1F398C53769C1D8B"
+				type: "item"
+				item: "tconstruct:copper_can"
+				count: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["Get Honeycomb with normal Bees."]
+			dependencies: ["000000000000008E"]
+			id: "000000000000001D"
+			tasks: [{
+				id: "000000000000001E"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+			rewards: [{
+				id: "02EFA4BFCA7AE30E"
+				type: "item"
+				item: "buzzier_bees:honeycomb_tiles"
+				count: 16
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			description: ["Get a Bronze Bee by breeding a Copper Bee and a Tin Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000004"
+				"000000000000001C"
+			]
+			id: "000000000000001F"
+			tasks: [{
+				id: "0000000000000020"
+				type: "item"
+				item: "resourcefulbees:bronze_honeycomb"
+			}]
+			rewards: [{
+				id: "19FEDBA7D94C91F6"
+				type: "item"
+				item: "thermal:bronze_block"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: ["Get an Alfsteel Bee by breeding an Elementium Bee and a Terrasteel Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000062"
+				"000000000000007C"
+			]
+			id: "0000000000000021"
+			tasks: [{
+				id: "0000000000000022"
+				type: "item"
+				item: "resourcefulbees:alfsteel_honeycomb"
+			}]
+			rewards: [{
+				id: "72D66B5A386328EF"
+				type: "item"
+				item: "mythicbotany:alfsteel_block"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			description: ["Get a Blaze Bee by breeding a Skeleton Bee and a Lava Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000003C"
+				"6CB3C85CBE0C4697"
+			]
+			id: "0000000000000023"
+			tasks: [{
+				id: "0000000000000024"
+				type: "item"
+				item: "resourcefulbees:blaze_honeycomb"
+			}]
+			rewards: [{
+				id: "6C575F1F6A28C135"
+				type: "item"
+				item: "gildedingot:blaze_furnace"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			description: ["Get a Gold Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"46F659036B4F5ED9"
+			]
+			id: "0000000000000025"
+			tasks: [{
+				id: "0000000000000026"
+				type: "item"
+				item: "resourcefulbees:gold_honeycomb"
+			}]
+			rewards: [{
+				id: "5A57C700BD022EA8"
+				type: "item"
+				item: "compressium:gold_1"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			description: ["Get an Arcane Gold Bee by breeding a Gold Bee and a Redstone Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000018"
+				"0000000000000026"
+			]
+			id: "0000000000000029"
+			tasks: [{
+				id: "000000000000002A"
+				type: "item"
+				item: "resourcefulbees:arcanegold_honeycomb"
+			}]
+			rewards: [{
+				id: "4CEC82F5D6555198"
+				type: "item"
+				item: "forbidden_arcanus:arcane_golden_chain"
+				count: 32
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.5d
+			description: ["Get a Yellorium Bee by breeding a Uraninite Bee and a Gold Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000026"
+				"5A7D8F0CF2D2C989"
+			]
+			id: "000000000000002B"
+			tasks: [{
+				id: "000000000000002C"
+				type: "item"
+				item: "resourcefulbees:yellorium_honeycomb"
+			}]
+			rewards: [{
+				id: "4E9D5E8C8FA3F2F4"
+				type: "item"
+				item: "bigreactors:yellorium_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			description: ["Get a Regalium Bee by breeding a Froststeel Bee and a Gold Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000000C"
+				"0000000000000026"
+			]
+			id: "000000000000002D"
+			tasks: [{
+				id: "000000000000002E"
+				type: "item"
+				item: "resourcefulbees:regalium_honeycomb"
+			}]
+			rewards: [{
+				id: "61E55FFE920370F9"
+				type: "item"
+				item: "undergarden:regalium_nugget"
+				count: 64
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			description: ["Get an Electrum Bee by breeding a Gold Bee and a Silver Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000003E"
+				"0000000000000026"
+			]
+			id: "000000000000002F"
+			tasks: [{
+				id: "0000000000000030"
+				type: "item"
+				item: "resourcefulbees:electrum_honeycomb"
+			}]
+			rewards: [{
+				id: "322199E85F48E51C"
+				type: "item"
+				item: "thermal:electrum_dust"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			shape: "hexagon"
+			description: ["Get an Amber Bee by breeding an End Bee and a Blaze Bee."]
+			dependencies: [
+				"000000000000008E"
+				"7A25CF47D3ED51C3"
+				"0000000000000024"
+			]
+			id: "0000000000000031"
+			tasks: [{
+				id: "0000000000000032"
+				type: "item"
+				item: "resourcefulbees:amber_honeycomb"
+			}]
+			rewards: [{
+				id: "3EE364C2EFE82D10"
+				type: "item"
+				item: "betterendforge:amber_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			description: ["Get a Constantan Bee by breeding a Copper Bee and a Nickel Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000044"
+				"000000000000001C"
+			]
+			id: "0000000000000033"
+			tasks: [{
+				id: "0000000000000034"
+				type: "item"
+				item: "resourcefulbees:constantan_honeycomb"
+			}]
+			rewards: [{
+				id: "13AC74B27E9DD1ED"
+				type: "item"
+				item: "thermal:constantan_plate"
+				count: 16
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			description: ["Get an Iron Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"46F659036B4F5ED9"
+				"2C3D5C6662C5093D"
+			]
+			id: "0000000000000035"
+			tasks: [{
+				id: "0000000000000036"
+				type: "item"
+				item: "resourcefulbees:iron_honeycomb"
+			}]
+			rewards: [{
+				id: "3C3D7FCAD00806DE"
+				type: "item"
+				item: "compressium:iron_1"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["Get a Cake Bee by breeding an Oreo Bee and a Kitten Bee."]
+			dependencies: [
+				"000000000000008E"
+				"7E1733D1CAEB2C9C"
+				"0000000000000086"
+			]
+			id: "0000000000000037"
+			tasks: [{
+				id: "0000000000000038"
+				type: "item"
+				item: "resourcefulbees:cake_honeycomb"
+			}]
+			rewards: [{
+				id: "2EA5DF79D6D790DD"
+				type: "item"
+				item: "thermal:chocolate_cake"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			description: ["Get a Zinc Bee by breeding a Copper Bee and a Silver Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000003E"
+				"000000000000001C"
+			]
+			id: "0000000000000039"
+			tasks: [{
+				id: "000000000000003A"
+				type: "item"
+				item: "resourcefulbees:zinc_honeycomb"
+			}]
+			rewards: [{
+				id: "4BBDE0ECB152EB62"
+				type: "item"
+				item: "create:zinc_block"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			description: ["The Skeleton Bee can be found in the Overworld."]
+			dependencies: ["000000000000008E"]
+			id: "000000000000003B"
+			tasks: [{
+				id: "000000000000003C"
+				type: "item"
+				item: "resourcefulbees:skeleton_honeycomb"
+			}]
+			rewards: [{
+				id: "26C15E5B30265D21"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["Get a Silver Bee by breeding a Gravelly Bee and an Aluminum Bee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"000000000000004A"
+			]
+			id: "000000000000003D"
+			tasks: [{
+				id: "000000000000003E"
+				type: "item"
+				item: "resourcefulbees:silver_honeycomb"
+			}]
+			rewards: [{
+				id: "47DA372D46AB32FE"
+				type: "item"
+				item: "simplyjetpacks:pilot_goggles_iron"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			description: ["Get a Quartz Bee by breeding a Gravelly Bee and a Nether Bee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"235A54CA884CE8FE"
+			]
+			id: "000000000000003F"
+			tasks: [{
+				id: "0000000000000040"
+				type: "item"
+				item: "resourcefulbees:nether_quartz_honeycomb"
+			}]
+			rewards: [{
+				id: "1BEAC72CDB2CCA7D"
+				type: "item"
+				item: "compressium:quartz_1"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["Get an Invar Bee by breeding an Iron Bee and a Nickel Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000044"
+				"0000000000000036"
+			]
+			id: "0000000000000041"
+			tasks: [{
+				id: "0000000000000042"
+				type: "item"
+				item: "resourcefulbees:invar_honeycomb"
+			}]
+			rewards: [{
+				id: "4597CFA78F2058B4"
+				type: "item"
+				item: "simplyjetpacks:armorplating_te3"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			description: ["Get a Nickel Bee by breeding an Iron Bee and a Copper Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000036"
+				"000000000000001C"
+			]
+			id: "0000000000000043"
+			tasks: [{
+				id: "0000000000000044"
+				type: "item"
+				item: "resourcefulbees:nickel_honeycomb"
+			}]
+			rewards: [{
+				id: "2A4016BE5290D01E"
+				type: "item"
+				item: "thermal:nickel_block"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["Get a Steel Bee by breeding an Iron Bee and a Coal Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000008A"
+				"0000000000000036"
+			]
+			id: "0000000000000045"
+			tasks: [{
+				id: "0000000000000046"
+				type: "item"
+				item: "resourcefulbees:steel_honeycomb"
+			}]
+			rewards: [{
+				id: "7941690C85085EF1"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+				count: 16
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Get a Compressed Iron Bee by breeding an Iron Bee and a Beeper Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000005E"
+				"0000000000000036"
+			]
+			id: "0000000000000047"
+			tasks: [{
+				id: "0000000000000048"
+				type: "item"
+				item: "resourcefulbees:compressediron_honeycomb"
+			}]
+			rewards: [{
+				id: "2EFA454A7BEFCEA7"
+				type: "item"
+				item: "pneumaticcraft:compressed_iron_block"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			description: ["Get an Aluminum Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"46F659036B4F5ED9"
+			]
+			id: "0000000000000049"
+			tasks: [{
+				id: "000000000000004A"
+				type: "item"
+				item: "resourcefulbees:aluminum_honeycomb"
+			}]
+			rewards: [{
+				id: "3C4249194EA71C05"
+				type: "item"
+				item: "immersiveengineering:storage_aluminum"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			description: ["Get a Platinum Bee by breeding a Manasteel Bee and an Ender Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000050"
+				"000000000000005A"
+			]
+			id: "000000000000004B"
+			tasks: [{
+				id: "000000000000004C"
+				type: "item"
+				item: "resourcefulbees:platinum_honeycomb"
+			}]
+			rewards: [{
+				id: "7B086FB3D06BF62A"
+				type: "item"
+				item: "kubejs:platinum_block"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			description: ["Get a Diamond Bee by breeding a Quartz Bee and a Lapis Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000054"
+				"0000000000000040"
+			]
+			id: "000000000000004D"
+			tasks: [{
+				id: "000000000000004E"
+				type: "item"
+				item: "resourcefulbees:diamond_honeycomb"
+			}]
+			rewards: [{
+				id: "2BB2051B5686BAB1"
+				type: "item"
+				item: "compressium:diamond_1"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			description: ["Get a Manasteel Bee by breeding a Steel Bee and a Lapis Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000054"
+				"0000000000000046"
+			]
+			id: "000000000000004F"
+			tasks: [{
+				id: "0000000000000050"
+				type: "item"
+				item: "resourcefulbees:manasteel_honeycomb"
+			}]
+			rewards: [{
+				id: "389922CD429158E7"
+				type: "item"
+				item: {
+					id: "botania:manasteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			description: ["Get an Aquamarine Bee by breeding a Sandy Bee and a Lapis Bee."]
+			dependencies: [
+				"000000000000008E"
+				"70E7FFCA9444FDD3"
+				"0000000000000054"
+			]
+			id: "0000000000000051"
+			tasks: [{
+				id: "0000000000000052"
+				type: "item"
+				item: "resourcefulbees:aquamarine_honeycomb"
+			}]
+			rewards: [{
+				id: "0947D873C69C08F1"
+				type: "item"
+				item: "astralsorcery:aquamarine_sand_ore"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			description: ["Get a Lapis Bee by breeding a Gravelly Bee and a RGBee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"0000000000000012"
+			]
+			id: "0000000000000053"
+			tasks: [{
+				id: "0000000000000054"
+				type: "item"
+				item: "resourcefulbees:lapis_honeycomb"
+			}]
+			rewards: [{
+				id: "0ED4E33F1495FB9E"
+				type: "item"
+				item: "compressium:lapis_1"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			description: ["Get a Starmetal Bee by breeding an Iron Bee and an Aquamarine Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000052"
+				"0000000000000036"
+			]
+			id: "0000000000000055"
+			tasks: [{
+				id: "0000000000000056"
+				type: "item"
+				item: "resourcefulbees:starmetal_honeycomb"
+			}]
+			rewards: [{
+				id: "464E4075D84E75BD"
+				type: "item"
+				item: "astralsorcery:starmetal"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			description: ["Get an Enderium Bee by breeding an Ender Bee and a Platinum Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000004C"
+				"000000000000005A"
+			]
+			id: "0000000000000057"
+			tasks: [{
+				id: "0000000000000058"
+				type: "item"
+				item: "resourcefulbees:enderium_honeycomb"
+			}]
+			rewards: [{
+				id: "3957F92A54848C8B"
+				type: "item"
+				item: "simplyjetpacks:armorplating_te4"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			description: ["The Ender Bee can be found in the End."]
+			dependencies: ["000000000000008E"]
+			id: "0000000000000059"
+			tasks: [{
+				id: "000000000000005A"
+				type: "item"
+				item: "resourcefulbees:ender_honeycomb"
+			}]
+			rewards: [{
+				id: "75A0B97DACC4B3B0"
+				type: "item"
+				item: "betterendforge:ender_block"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			description: ["The Zombie Bee can be found in the Overworld."]
+			dependencies: ["000000000000008E"]
+			id: "000000000000005B"
+			tasks: [{
+				id: "000000000000005C"
+				type: "item"
+				item: "resourcefulbees:zombie_honeycomb"
+			}]
+			rewards: [{
+				id: "0DB419D75AD9587B"
+				type: "item"
+				item: "architects_palette:rotten_flesh_block"
+				count: 16
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			description: ["Get a Beeper Bee by breeding a Skeleton Bee and a Pigman Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000003C"
+				"0000000000000082"
+			]
+			id: "000000000000005D"
+			tasks: [{
+				id: "000000000000005E"
+				type: "item"
+				item: "resourcefulbees:creeper_honeycomb"
+			}]
+			rewards: [{
+				id: "611769822C259337"
+				type: "item"
+				item: "quark:gunpowder_sack"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			description: ["Get an Emerald Bee by breeding a Terrasteel Bee and a Quartz Bee."]
+			dependencies: [
+				"000000000000008E"
+				"235A54CA884CE8FE"
+				"0000000000000062"
+			]
+			id: "000000000000005F"
+			tasks: [{
+				id: "0000000000000060"
+				type: "item"
+				item: "resourcefulbees:emerald_honeycomb"
+			}]
+			rewards: [{
+				id: "6FBC034BB641BE38"
+				type: "item"
+				item: "compressium:emerald_1"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			description: ["Get a Terrasteel Bee by breeding a Manasteel Bee and a Uraninite Bee."]
+			dependencies: [
+				"000000000000008E"
+				"5A7D8F0CF2D2C989"
+				"0000000000000050"
+			]
+			id: "0000000000000061"
+			tasks: [{
+				id: "0000000000000062"
+				type: "item"
+				item: "resourcefulbees:terrasteel_honeycomb"
+			}]
+			rewards: [{
+				id: "09172FB602EE4E62"
+				type: "item"
+				item: "botania:terrasteel_block"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: ["Get an Energized Steel Bee by breeding a Gold Bee and an Iron Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000026"
+				"0000000000000036"
+			]
+			id: "0000000000000063"
+			tasks: [{
+				id: "0000000000000064"
+				type: "item"
+				item: "resourcefulbees:energizedsteel_honeycomb"
+			}]
+			rewards: [{
+				id: "26BE34485E7BC5F3"
+				type: "item"
+				item: "powah:energized_steel_block"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			description: ["Get an End Gobber Bee by breeding an End Bee and a Gobber Bee."]
+			dependencies: [
+				"000000000000008E"
+				"7A25CF47D3ED51C3"
+				"0000000000000010"
+			]
+			id: "0000000000000065"
+			tasks: [{
+				id: "0000000000000066"
+				type: "item"
+				item: "resourcefulbees:endgobber_honeycomb"
+			}]
+			rewards: [{
+				id: "1B3C9C7C63B2D08C"
+				type: "item"
+				item: "gobber2:gobber2_block_end"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			description: ["Get a Uranium Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"46F659036B4F5ED9"
+			]
+			id: "0000000000000067"
+			tasks: [{
+				id: "0000000000000068"
+				type: "item"
+				item: "resourcefulbees:uranium_honeycomb"
+			}]
+			rewards: [{
+				id: "588244696934E5F2"
+				type: "item"
+				item: "mekanism:block_uranium"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["Get a Lumium Bee by breeding a Tin Bee and a Pigman Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000082"
+				"0000000000000004"
+			]
+			id: "0000000000000069"
+			tasks: [{
+				id: "000000000000006A"
+				type: "item"
+				item: "resourcefulbees:lumium_honeycomb"
+			}]
+			rewards: [{
+				id: "4E9608D87636DBA4"
+				type: "item"
+				item: "thermal:lumium_gear"
+				count: 4
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			description: ["Get an Utherium Bee by breeding a Regalium Bee and a Redstone Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000018"
+				"000000000000002E"
+			]
+			id: "000000000000006B"
+			tasks: [{
+				id: "000000000000006C"
+				type: "item"
+				item: "resourcefulbees:utherium_honeycomb"
+			}]
+			rewards: [{
+				id: "6C52BFDB9F00B37A"
+				type: "item"
+				item: "undergarden:utheric_shard"
+				count: 64
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			description: ["Get a Jellyfish Jelly Bee by breeding a Slimy Bee and a Kitten Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000086"
+				"3B9BA9D8F53A8B17"
+			]
+			id: "000000000000006F"
+			tasks: [{
+				id: "0000000000000070"
+				type: "item"
+				item: "resourcefulbees:jellyfishjelly_honeycomb"
+			}]
+			rewards: [{
+				id: "18CD20C7BD98FB55"
+				type: "item"
+				item: "jellyfishing:jellyfish"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["Get a Shulker Bee by breeding an End Bee and a Dragon Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000078"
+				"7A25CF47D3ED51C3"
+			]
+			id: "0000000000000071"
+			tasks: [{
+				id: "0000000000000072"
+				type: "item"
+				item: "resourcefulbees:shulker_honeycomb"
+			}]
+			rewards: [{
+				id: "2989C2E444A735DF"
+				type: "item"
+				item: {
+					id: "minecraft:shulker_box"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Items: [
+								{
+									Slot: 0b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 1b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 2b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 3b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 4b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 5b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 6b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 7b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 8b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 9b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 10b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 11b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 12b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 13b
+									id: "xreliquary:mob_charm"
+									Count: 1b
+									tag: {
+										Damage: 0
+										entity: "minecraft:shulker"
+									}
+								}
+								{
+									Slot: 14b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 15b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 16b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 17b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 18b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 19b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 20b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 21b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 22b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 23b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 24b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 25b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+								{
+									Slot: 26b
+									id: "minecraft:shulker_shell"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: ["Get a Mana Gem Bee by breeding a Rocky Bee and a Manasteel Bee."]
+			dependencies: [
+				"000000000000008E"
+				"46F659036B4F5ED9"
+				"0000000000000050"
+			]
+			id: "0000000000000073"
+			tasks: [{
+				id: "0000000000000074"
+				type: "item"
+				item: "resourcefulbees:managem_honeycomb"
+			}]
+			rewards: [{
+				id: "26FF03F775D98591"
+				type: "item"
+				item: "ars_nouveau:mana_gem_block"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["Get an Obsidian Ingot Bee by breeding an Obsidian Bee and an Iron Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000036"
+				"000000000000008C"
+			]
+			id: "0000000000000075"
+			tasks: [{
+				id: "0000000000000076"
+				type: "item"
+				item: "resourcefulbees:obsidianingot_honeycomb"
+			}]
+			rewards: [{
+				id: "42117D5267571286"
+				type: "item"
+				item: "kubejs:obsidian_ingot_block"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			description: ["Get a Dragon Bee by breeding an Ender Bee and a Wither Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000088"
+				"000000000000005A"
+			]
+			id: "0000000000000077"
+			tasks: [{
+				id: "0000000000000078"
+				type: "item"
+				item: "resourcefulbees:dragon_honeycomb"
+			}]
+			rewards: [{
+				id: "381872ACCA453779"
+				type: "item"
+				item: "minecraft:dragon_head"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Get a Nether Gobber Bee by breeding a Nether Bee and a Gobber Bee."]
+			dependencies: [
+				"000000000000008E"
+				"235A54CA884CE8FE"
+				"0000000000000010"
+			]
+			id: "0000000000000079"
+			tasks: [{
+				id: "000000000000007A"
+				type: "item"
+				item: "resourcefulbees:nethergobber_honeycomb"
+			}]
+			rewards: [{
+				id: "5D5B536D945165D5"
+				type: "item"
+				item: "gobber2:gobber2_block_nether"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["Get an Elementium Bee by breeding a Manasteel Bee and a Terrasteel Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000062"
+				"0000000000000050"
+			]
+			id: "000000000000007B"
+			tasks: [{
+				id: "000000000000007C"
+				type: "item"
+				item: "resourcefulbees:elementium_honeycomb"
+			}]
+			rewards: [{
+				id: "7234EE0611FDAFE9"
+				type: "item"
+				item: "mythicbotany:elementium_ore"
+				count: 16
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: ["Get a Netherite Bee by breeding a Nether Bee and a Diamond Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000004E"
+				"235A54CA884CE8FE"
+			]
+			id: "000000000000007F"
+			tasks: [{
+				id: "0000000000000080"
+				type: "item"
+				item: "resourcefulbees:netherite_honeycomb"
+			}]
+			rewards: [{
+				id: "4EA947FB4B3362F4"
+				type: "item"
+				item: "compressium:netherite_1"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			description: ["The Pigman Bee can be found in the Nether."]
+			dependencies: ["000000000000008E"]
+			id: "0000000000000081"
+			tasks: [{
+				id: "0000000000000082"
+				type: "item"
+				item: "resourcefulbees:pigman_honeycomb"
+			}]
+			rewards: [{
+				id: "7669FCAB8014E036"
+				type: "item"
+				item: "chipped:glowstone_15"
+				count: 16
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			description: ["Get a Cloggrum Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"46F659036B4F5ED9"
+			]
+			id: "0000000000000083"
+			tasks: [{
+				id: "0000000000000084"
+				type: "item"
+				item: "resourcefulbees:cloggrum_honeycomb"
+			}]
+			rewards: [{
+				id: "52A46CA877B32ED1"
+				type: "item"
+				item: "undergarden:cloggrum_tiles"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			description: ["The Kitten Bee can be found in the Overworld."]
+			dependencies: ["000000000000008E"]
+			id: "0000000000000085"
+			tasks: [{
+				id: "0000000000000086"
+				type: "item"
+				item: "resourcefulbees:catnip_honeycomb"
+			}]
+			rewards: [{
+				id: "2495A8BCC8182928"
+				type: "item"
+				item: {
+					id: "botania:cosmetic_cat_ears"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			description: ["Get a Wither Bee by breeding a Skeleton Bee and a Nether Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000003C"
+				"235A54CA884CE8FE"
+			]
+			id: "0000000000000087"
+			tasks: [{
+				id: "0000000000000088"
+				type: "item"
+				item: "resourcefulbees:wither_honeycomb"
+			}]
+			rewards: [{
+				id: "4C527A4C76AFFBEA"
+				type: "item"
+				item: "resourcefulbees:wither_bee_nest"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			description: ["Get a Coal Bee by breeding a Gravelly Bee and a Rocky Bee."]
+			dependencies: [
+				"000000000000008E"
+				"2C3D5C6662C5093D"
+				"46F659036B4F5ED9"
+			]
+			id: "0000000000000089"
+			tasks: [{
+				id: "000000000000008A"
+				type: "item"
+				item: "resourcefulbees:coal_honeycomb"
+			}]
+			rewards: [{
+				id: "44E290A2B65C8797"
+				type: "item"
+				item: "compressium:coal_1"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			description: ["Get an Obsidian Bee by breeding an Icy Bee and a Lava Bee."]
+			dependencies: [
+				"000000000000008E"
+				"561D1F966E252C15"
+				"6CB3C85CBE0C4697"
+			]
+			id: "000000000000008B"
+			tasks: [{
+				id: "000000000000008C"
+				type: "item"
+				item: "resourcefulbees:obsidian_honeycomb"
+			}]
+			rewards: [{
+				id: "21171E92EBF3F0A9"
+				type: "item"
+				item: "chipped:obsidian_5"
+				count: 64
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.5d
+			description: [
+				"On the screenshot provide, you can see a very simple setup to farm honeycomb. Simply put an observer behind the beehive, put a single redstone dust on a block behind the observer to power the dispenser with your shears inside."
+				"To collect the honeycomb just put an item collector or something who can pick up items through blocks."
+			]
+			dependencies: ["000000000000008E"]
+			id: "0000000000000092"
+			tasks: [{
+				id: "0000000000000093"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+			rewards: [{
+				id: "5AD9305C1677EE7B"
+				type: "item"
+				item: "endergetic:poise_beehive"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -10.5d
+			description: ["The Tier 2 Beehive can hold 6 bees and have a time modification of -10%"]
+			dependencies: ["0000000000000092"]
+			id: "0000000000000094"
+			tasks: [{
+				id: "0000000000000095"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+			rewards: [{
+				id: "0112596089F50057"
+				type: "item"
+				item: "resourcefulbees:t1_beehive"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.5d
+			description: ["The Tier 3 Beehive can hold 8 bees and have a time modification of -15%"]
+			dependencies: ["0000000000000094"]
+			id: "0000000000000096"
+			tasks: [{
+				id: "0000000000000097"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+			rewards: [{
+				id: "03434535C3544D72"
+				type: "item"
+				item: "resourcefulbees:t2_beehive"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -10.5d
+			description: ["The Tier 4 Beehive can hold 16 bees and have a time modification of -20%"]
+			dependencies: ["0000000000000096"]
+			id: "0000000000000098"
+			tasks: [{
+				id: "0000000000000099"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+			rewards: [{
+				id: "2BC00EE4DFD733A1"
+				type: "item"
+				item: "resourcefulbees:t3_beehive"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -10.5d
+			description: [
+				"To make your first apiary multiblock, place your Apiary, click on it and click on the eye to enable preview."
+				"Check on JEI with #apiary, and you will see all the blocks you can use to construct your apiary."
+				"And finally, you need an Apiary Storage to collect the honeycomb produce by your bee."
+			]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000099"
+			]
+			id: "000000000000009A"
+			tasks: [{
+				id: "000000000000009B"
+				type: "item"
+				item: "resourcefulbees:t1_apiary"
+			}]
+			rewards: [{
+				id: "2F72CA0CC0C0C8EF"
+				type: "item"
+				item: "resourcefulbees:t4_beehive"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -10.5d
+			description: ["The Tier 2 Apiary can hold 16 unique Bees, has a modification time of -40% and output 16 Honeycomb per operation."]
+			dependencies: ["000000000000009A"]
+			id: "000000000000009C"
+			tasks: [{
+				id: "000000000000009D"
+				type: "item"
+				item: "resourcefulbees:t2_apiary"
+			}]
+			rewards: [{
+				id: "4E4737DB5BDC9E6E"
+				type: "item"
+				item: "resourcefulbees:t1_apiary"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -10.5d
+			description: ["The Tier 3 Apiary can hold 16 unique Bees, has a modification time of -45% and output 4 Honeycomb Block per operation."]
+			dependencies: ["000000000000009C"]
+			id: "000000000000009E"
+			tasks: [{
+				id: "000000000000009F"
+				type: "item"
+				item: "resourcefulbees:t3_apiary"
+			}]
+			rewards: [{
+				id: "28635D22442421FA"
+				type: "item"
+				item: "resourcefulbees:t2_apiary"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -10.5d
+			description: ["The Tier 4 Apiary can hold 16 unique Bees, has a modification time of -50% and output 8 Honeycomb Block per operation."]
+			dependencies: ["000000000000009E"]
+			id: "00000000000000A0"
+			tasks: [{
+				id: "00000000000000A1"
+				type: "item"
+				item: "resourcefulbees:t4_apiary"
+			}]
+			rewards: [{
+				id: "008FA9C641B9EBDC"
+				type: "item"
+				item: "resourcefulbees:t3_apiary"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -9.5d
+			description: ["The Storage Apiary is obligatory to form the multiblock structure of the Apiary, it can hold the output of the structure."]
+			dependencies: ["000000000000008E"]
+			id: "00000000000000A2"
+			tasks: [{
+				id: "00000000000000A3"
+				type: "item"
+				item: "resourcefulbees:apiary_storage"
+			}]
+			rewards: [{
+				id: "1C87674DE8BBF348"
+				type: "item"
+				item: "resourcefulbees:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.5d
+			description: ["The Apiary Breeder is used to breed bees in a GUI instead of outside."]
+			dependencies: ["00000000000000A2"]
+			id: "00000000000000A4"
+			tasks: [{
+				id: "00000000000000A5"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder"
+			}]
+			rewards: [{
+				id: "4E6AF2A3ACA1F251"
+				type: "item"
+				item: "resourcefulbees:apiary_breeder_upgrade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["The basic multiblocks Centrifuge can convert Honeycombs into resources, in three slots, using RF."]
+			dependencies: ["00000000000000B0"]
+			id: "00000000000000A6"
+			tasks: [
+				{
+					id: "00000000000000A7"
+					type: "item"
+					item: "resourcefulbees:centrifuge_controller"
+				}
+				{
+					id: "2D089BFFA884FBA1"
+					type: "item"
+					item: "resourcefulbees:centrifuge_casing"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "5FE1B1511D596E2B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			description: ["The elite multiblocks Centrifuge can convert Honeycombs into resources, in six slots, using RF, and it's faster."]
+			dependencies: ["00000000000000A6"]
+			id: "00000000000000AA"
+			tasks: [
+				{
+					id: "00000000000000AB"
+					type: "item"
+					item: "resourcefulbees:elite_centrifuge_controller"
+				}
+				{
+					id: "353E6963E6F7211B"
+					type: "item"
+					item: "resourcefulbees:elite_centrifuge_casing"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "2C6EC09BB1C03048"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			description: ["With this Manual Centrifuge, well, you can process honeycombs manually by holding Shift and right-clicking, with an empty hand, the Manual Centrifuge."]
+			dependencies: ["000000000000008E"]
+			id: "00000000000000AE"
+			tasks: [{
+				id: "00000000000000AF"
+				type: "item"
+				item: "resourcefulbees:mechanical_centrifuge"
+			}]
+			rewards: [{
+				id: "5A00FCC8219EEAF5"
+				type: "item"
+				item: "cyclic:apple_honey"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["The Centrifuge can convert Honeycombs into resources, in one slot, using RF."]
+			dependencies: [
+				"000000000000008E"
+				"00000000000000AE"
+			]
+			id: "00000000000000B0"
+			tasks: [{
+				id: "00000000000000B1"
+				type: "item"
+				item: "resourcefulbees:centrifuge"
+			}]
+			rewards: [{
+				id: "6C5E1F0E31C8E916"
+				type: "item"
+				item: "buzzier_bees:honey_pot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			description: ["You can smoke a hive with this bee smoker to get honeycombs without get angry bees.You get 30 sec to work."]
+			dependencies: ["000000000000008E"]
+			id: "00000000000000B2"
+			tasks: [{
+				id: "00000000000000B3"
+				type: "item"
+				item: {
+					id: "resourcefulbees:smoker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "110EC9DA75C4FF55"
+				type: "item"
+				item: "twilightforest:smoker"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["Generate RF using honey bottles"]
+			dependencies: ["000000000000008E"]
+			id: "00000000000000B4"
+			tasks: [{
+				id: "00000000000000B5"
+				type: "item"
+				item: "resourcefulbees:honey_generator"
+			}]
+			rewards: [{
+				id: "7DBB0A80C9F1566B"
+				type: "item"
+				item: "resourcefulbees:honey_generator"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			description: ["The Ender Beecon consume honey to prevent bees from teleporting in effect range and grants effects for bees."]
+			dependencies: ["000000000000008E"]
+			id: "08ABEB3EB814BE77"
+			tasks: [{
+				id: "6F18C0349A83A68A"
+				type: "item"
+				item: "resourcefulbees:ender_beecon"
+			}]
+			rewards: [{
+				id: "56E9CDDE5AC80301"
+				type: "item"
+				item: "resourcefulbees:purpur_bee_nest"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			description: ["The multiblocks Centrifuge Tier 3 can convert Honeycombs into 2x resources than the normal centrifuge, in six slots, using more RF, and it's faster."]
+			dependencies: ["00000000000000AA"]
+			id: "2DFF3B23B2BBBE24"
+			tasks: [
+				{
+					id: "7ACBB8652731B16A"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_3"
+				}
+				{
+					id: "4185187EBAB2A42A"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_3"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "230EA378D9D58158"
+				type: "item"
+				item: "compressium:gold_3"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: ["The multiblocks Centrifuge Tier 4 can convert Honeycombs into 4x resources than the normal centrifuge, in seven slots, using more RF, and it's faster."]
+			dependencies: ["2DFF3B23B2BBBE24"]
+			id: "4AF293767F42AD33"
+			tasks: [
+				{
+					id: "6850426D8C53812C"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_4"
+				}
+				{
+					id: "77BFCD6848504B0F"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_4"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "06FE6D9A48B11C87"
+				type: "item"
+				item: "compressium:diamond_3"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: ["The multiblocks Centrifuge Tier 5 can convert Honeycombs into 8x resources than the normal centrifuge, in eight slots, using more RF, and it's faster."]
+			dependencies: ["4AF293767F42AD33"]
+			id: "37A66E302916C601"
+			tasks: [
+				{
+					id: "10E57B0ED396B566"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_5"
+				}
+				{
+					id: "2787329D3298AABF"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_5"
+					count: 35L
+				}
+			]
+			rewards: [{
+				id: "5295C35B0A6CE3FD"
+				type: "item"
+				item: "compressium:emerald_3"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: ["The Beepedia is used to see information on bee you click on."]
+			dependencies: ["000000000000008E"]
+			id: "63AFEB52EFDDABC4"
+			tasks: [{
+				id: "0897904CB90EFF0A"
+				type: "item"
+				item: "resourcefulbees:beepedia"
+			}]
+			rewards: [{
+				id: "67426FA40088F963"
+				type: "item"
+				item: "minecraft:honey_bottle"
+				count: 16
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["000000000000008E"]
+			id: "45C08F0B2DB7EA55"
+			tasks: [{
+				id: "55B65D5E4EA80D61"
+				type: "item"
+				item: "resourcefulbees:bee_box"
+			}]
+			rewards: [{
+				id: "69D71F605B397C85"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: ["Get a Fiery Bee by breeding a Lava Bee and an Iron Bee."]
+			dependencies: [
+				"000000000000008E"
+				"6CB3C85CBE0C4697"
+				"0000000000000036"
+			]
+			id: "61479274970F916B"
+			tasks: [{
+				id: "6665322E72290D67"
+				type: "item"
+				item: "resourcefulbees:fiery_honeycomb"
+			}]
+			rewards: [{
+				id: "3511CC2AF2922D89"
+				type: "item"
+				item: "twilightforest:fiery_block"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -9.5d
+			description: ["Get a Carminite Bee by breeding a Steeleaf Bee and a Redstone Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000018"
+				"46D4968DAEDDDBA2"
+			]
+			id: "743466A1E204AA53"
+			tasks: [{
+				id: "02E1379E789AB1C2"
+				type: "item"
+				item: "resourcefulbees:carminite_honeycomb"
+			}]
+			rewards: [{
+				id: "0D63F1CB42AFF138"
+				type: "item"
+				item: "twilightforest:carminite_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.5d
+			description: ["Get a Blazing Crystal Bee by breeding a Blaze Bee and an Energized Steel Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000024"
+				"0000000000000064"
+			]
+			id: "3B8C616A74850B65"
+			tasks: [{
+				id: "0625F81FDDCD1FDD"
+				type: "item"
+				item: "resourcefulbees:blazingcrystal_honeycomb"
+			}]
+			rewards: [{
+				id: "3E4274784FE19E1C"
+				type: "item"
+				item: "powah:blazing_crystal_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			description: ["Get a Brass Bee by breeding a Copper Bee and a Nickel Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000003A"
+				"000000000000001C"
+			]
+			id: "24DB603474E62BC5"
+			tasks: [{
+				id: "0124B4AB8B71CBEA"
+				type: "item"
+				item: "resourcefulbees:brass_honeycomb"
+			}]
+			rewards: [{
+				id: "1E41B74005121DD4"
+				type: "item"
+				item: "create:brass_casing"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["Get a Niotic Bee by breeding a Blazing Crystal Bee and an Energized Steel Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0625F81FDDCD1FDD"
+				"0000000000000064"
+			]
+			id: "3956172C4AEEF754"
+			tasks: [{
+				id: "5BE244CBCFE078AF"
+				type: "item"
+				item: "resourcefulbees:nioticcrystal_honeycomb"
+			}]
+			rewards: [{
+				id: "097161F47954D545"
+				type: "item"
+				item: "powah:niotic_crystal_block"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			description: ["Get a Cobalt Bee by breeding a Nether Bee and a Diamond Bee."]
+			dependencies: [
+				"000000000000008E"
+				"235A54CA884CE8FE"
+				"000000000000004E"
+			]
+			id: "0E5E532DF722ACFB"
+			tasks: [{
+				id: "54E217BB8BC6D370"
+				type: "item"
+				item: "resourcefulbees:cobalt_honeycomb"
+			}]
+			rewards: [{
+				id: "0CE79B604AE4CCE5"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:cobalt"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			description: ["Get a Steeleaf Bee by breeding a Steel Bee and an Ironwood Bee."]
+			dependencies: [
+				"000000000000008E"
+				"196124B7E16E785A"
+				"0000000000000046"
+			]
+			id: "54349F45BB52D2D4"
+			tasks: [{
+				id: "46D4968DAEDDDBA2"
+				type: "item"
+				item: "resourcefulbees:steeleaf_honeycomb"
+			}]
+			rewards: [{
+				id: "7E0FD7722318E2D5"
+				type: "item"
+				item: "twilightforest:steeleaf_block"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			description: ["Get a Uraninite Bee by breeding a Uranium Bee and an Energized Steel Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000064"
+				"0000000000000068"
+			]
+			id: "0D75C63ABE7DA50A"
+			tasks: [{
+				id: "5A7D8F0CF2D2C989"
+				type: "item"
+				item: "resourcefulbees:uraninite_honeycomb"
+			}]
+			rewards: [{
+				id: "7AE9A68EE425F364"
+				type: "item"
+				item: "powah:uraninite_ore_dense"
+				count: 32
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.5d
+			description: ["Get a Spirited Crystal Bee by breeding a Niotic Crystal Bee and an Emerald Bee."]
+			dependencies: [
+				"000000000000008E"
+				"5BE244CBCFE078AF"
+				"0000000000000060"
+			]
+			id: "60D95E7377FA2051"
+			tasks: [{
+				id: "3E0E9D2507A5C5C9"
+				type: "item"
+				item: "resourcefulbees:spiritedcrystal_honeycomb"
+			}]
+			rewards: [{
+				id: "272E4568EAEBC638"
+				type: "item"
+				item: "powah:spirited_crystal_block"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			description: ["Get a Knightmetal Bee by breeding an Ironwood Bee and a Steeleaf Bee."]
+			dependencies: [
+				"000000000000008E"
+				"46D4968DAEDDDBA2"
+				"196124B7E16E785A"
+			]
+			id: "383857A5F9D743D2"
+			tasks: [{
+				id: "787446820584063C"
+				type: "item"
+				item: "resourcefulbees:knightmetal_honeycomb"
+			}]
+			rewards: [{
+				id: "3D272750180160D1"
+				type: "item"
+				item: "twilightforest:knightmetal_block"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			description: ["Get a Rose Gold Bee by breeding a Gold Bee and a Copper Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000001C"
+				"0000000000000026"
+			]
+			id: "4061D64D8A8CB8D4"
+			tasks: [{
+				id: "7519538992999BFC"
+				type: "item"
+				item: "resourcefulbees:rosegold_honeycomb"
+			}]
+			rewards: [{
+				id: "046298D7C14A9072"
+				type: "item"
+				item: {
+					id: "tconstruct:tool_handle"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:rose_gold"
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			description: ["Get a Pig Iron Bee by breeding an Iron Bee and a Zombie Bee."]
+			dependencies: [
+				"000000000000008E"
+				"000000000000005C"
+				"0000000000000036"
+			]
+			id: "3EEAB59E04625089"
+			tasks: [{
+				id: "6CB8F81F24BABEE4"
+				type: "item"
+				item: "resourcefulbees:pigiron_honeycomb"
+			}]
+			rewards: [{
+				id: "2EC67CC882E3E2F3"
+				type: "item"
+				item: {
+					id: "tconstruct:large_plate"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:pig_iron"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: ["Get a Manyullyn Bee by breeding a Cobalt Bee and a Netherite Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000080"
+				"54E217BB8BC6D370"
+			]
+			id: "1ADE753A5F5A41C6"
+			tasks: [{
+				id: "0F70E4C825EFC1CB"
+				type: "item"
+				item: "resourcefulbees:manyullyn_honeycomb"
+			}]
+			rewards: [{
+				id: "65934583A9B0E084"
+				type: "item"
+				item: {
+					id: "tconstruct:broad_blade"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:manyullyn"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			description: ["Get a Hepatizon Bee by breeding a Copper Bee and a Cobalt Bee."]
+			dependencies: [
+				"000000000000008E"
+				"54E217BB8BC6D370"
+				"000000000000001C"
+			]
+			id: "33832EB2E5448051"
+			tasks: [{
+				id: "25E20C8EAD1FDCB1"
+				type: "item"
+				item: "resourcefulbees:hepatizon_honeycomb"
+			}]
+			rewards: [{
+				id: "25356EBF6A24BAC4"
+				type: "item"
+				item: {
+					id: "tconstruct:hammer_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:hepatizon"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["Get an Ironwood Bee by breeding a Gold Bee and an Iron Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000036"
+				"0000000000000026"
+			]
+			id: "6B7714B682510643"
+			tasks: [{
+				id: "196124B7E16E785A"
+				type: "item"
+				item: "resourcefulbees:ironwood_honeycomb"
+			}]
+			rewards: [{
+				id: "18B982DE2587EC9A"
+				type: "item"
+				item: "twilightforest:ironwood_raw"
+				count: 32
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			description: ["The Lava Bee can be found in the Nether."]
+			dependencies: ["000000000000008E"]
+			id: "3E1DC3A8C2244CF7"
+			tasks: [{
+				id: "6CB3C85CBE0C4697"
+				type: "item"
+				item: "resourcefulbees:lava_honeycomb"
+			}]
+			rewards: [{
+				id: "777391103C6CDC29"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.5d
+			description: ["The Slimy Bee can be found in the Overworld (in swamps)."]
+			dependencies: ["000000000000008E"]
+			id: "45B4370A76EBA91F"
+			tasks: [{
+				id: "3B9BA9D8F53A8B17"
+				type: "item"
+				item: "resourcefulbees:slimy_honeycomb"
+			}]
+			rewards: [{
+				id: "563DEA5F1DDFAD8C"
+				type: "item"
+				item: "tconstruct:earth_congealed_slime"
+				count: 4
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			description: ["The Rocky Bee can be found in the Overworld."]
+			dependencies: ["000000000000008E"]
+			id: "24FCB5B097CD7D78"
+			tasks: [{
+				id: "46F659036B4F5ED9"
+				type: "item"
+				item: "resourcefulbees:rock_honeycomb"
+			}]
+			rewards: [{
+				id: "3260D1E95149BA03"
+				type: "item"
+				item: "decorative_blocks:rocky_dirt"
+				count: 64
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: ["The Gravelly Bee can be found in the Overworld."]
+			dependencies: ["000000000000008E"]
+			id: "6B601B2406F34FD4"
+			tasks: [{
+				id: "2C3D5C6662C5093D"
+				type: "item"
+				item: "resourcefulbees:gravel_honeycomb"
+			}]
+			rewards: [{
+				id: "5992C6AABF3B0454"
+				type: "item"
+				item: "compressium:gravel_1"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: ["The Icy Bee can be found in the Overworld (In cold biomes)."]
+			dependencies: ["000000000000008E"]
+			id: "2F27C4795F0F3BFE"
+			tasks: [{
+				id: "561D1F966E252C15"
+				type: "item"
+				item: "resourcefulbees:icy_honeycomb"
+			}]
+			rewards: [{
+				id: "1E6858266B7BE5F4"
+				type: "item"
+				item: "architects_palette:polished_packed_ice"
+				count: 16
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			description: ["The Sand Bee can be found in the Overworld."]
+			dependencies: ["000000000000008E"]
+			id: "172056FDE3275B26"
+			tasks: [{
+				id: "70E7FFCA9444FDD3"
+				type: "item"
+				item: "resourcefulbees:sandy_honeycomb"
+			}]
+			rewards: [{
+				id: "7D07F8483D1EF8C0"
+				type: "item"
+				item: "compressium:sand_1"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["The Nether Bee can be found in the Nether."]
+			dependencies: ["000000000000008E"]
+			id: "1A90A2A3884F1FE4"
+			tasks: [{
+				id: "235A54CA884CE8FE"
+				type: "item"
+				item: "resourcefulbees:nether_honeycomb"
+			}]
+			rewards: [{
+				id: "0843E915EB1FA3B0"
+				type: "item"
+				item: "compressium:netherrack_1"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			description: ["The End Bee can be found in the End."]
+			dependencies: ["000000000000008E"]
+			id: "10A517C808C46152"
+			tasks: [{
+				id: "7A25CF47D3ED51C3"
+				type: "item"
+				item: "resourcefulbees:end_honeycomb"
+			}]
+			rewards: [{
+				id: "1F0375FB2C0EA5F5"
+				type: "item"
+				item: "compressium:endstone_1"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			description: ["Get an Epic Oreo."]
+			dependencies: ["000000000000008E"]
+			id: "2E2222182175194F"
+			tasks: [{
+				id: "7E1733D1CAEB2C9C"
+				type: "item"
+				item: "resourcefulbees:oreo_cookie"
+			}]
+			rewards: [{
+				id: "7C36F4B43D9FFE8D"
+				type: "item"
+				item: "kubejs:ds_oreo"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			description: ["Get an Endumium Bee by breeding an Elementium Bee and a Jellyfish Jelly Bee."]
+			dependencies: [
+				"000000000000008E"
+				"0000000000000070"
+				"000000000000007C"
+			]
+			id: "5F6773139F6102BF"
+			tasks: [{
+				id: "2FE2FB2F8DC5CF78"
+				type: "item"
+				item: "resourcefulbees:endumium_honeycomb"
+			}]
+			rewards: [{
+				id: "1C5C4C2FE8B3FD1A"
+				type: "item"
+				item: "farlanders:endumium_block"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: ["Get a Quartz Enriched Iron Bee by breeding an Iron Bee and a Quartz Bee."]
+			dependencies: [
+				"0000000000000040"
+				"0000000000000036"
+			]
+			id: "321C4CB7D8680828"
+			tasks: [{
+				id: "1E966D6DC756160D"
+				type: "item"
+				item: "resourcefulbees:quartzenrichediron_honeycomb"
+			}]
+			rewards: [{
+				id: "65D909B2CD7F1A98"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			description: ["Get a Chaotic Bee by breeding an Awakened Draconium Bee and a Draconium Bee."]
+			dependencies: [
+				"3F5EBEADE6F119AF"
+				"1D404360BFED9CF9"
+			]
+			id: "44532BC58B8597A4"
+			tasks: [{
+				id: "61D465F25DBEDB7D"
+				type: "item"
+				item: "resourcefulbees:chaotic_honeycomb"
+			}]
+			rewards: [{
+				id: "5BB02B11845048B1"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			description: ["Get an Awakened Draconium Bee by breeding a Draconium Bee and a Dragon Bee."]
+			dependencies: [
+				"0000000000000078"
+				"3F5EBEADE6F119AF"
+			]
+			id: "00EE3D8FBBB56226"
+			tasks: [{
+				id: "1D404360BFED9CF9"
+				type: "item"
+				item: "resourcefulbees:awakeneddraco_honeycomb"
+			}]
+			rewards: [{
+				id: "6E7BFBDB8F52AAB7"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_block"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			description: ["Get a Draconium Bee by breeding a Manyullyn Bee and a Dragon Bee."]
+			dependencies: [
+				"0F70E4C825EFC1CB"
+				"0000000000000078"
+			]
+			id: "0DE5A847E3F4F20E"
+			tasks: [{
+				id: "3F5EBEADE6F119AF"
+				type: "item"
+				item: "resourcefulbees:draconium_honeycomb"
+			}]
+			rewards: [{
+				id: "531A86D4A6E71E42"
+				type: "item"
+				item: "draconicevolution:draconium_block"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["Get a Beenouze by breeding a Woody Woodbeeper and a Rose Gold Bee."]
+			dependencies: [
+				"7519538992999BFC"
+				"75940AE1BBD78698"
+			]
+			id: "6209508E80EB5A89"
+			tasks: [{
+				id: "79583897453FA261"
+				type: "item"
+				item: "resourcefulbees:beenouze_honeycomb"
+			}]
+			rewards: [{
+				id: "31891BE6B158EBC0"
+				type: "item"
+				item: "kubejs:beer"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["The Clay Bee can be found in the Overworld (In swamps)."]
+			dependencies: ["000000000000008E"]
+			id: "19AB2CDBE9B1C58C"
+			tasks: [{
+				id: "3E18EE609F392A9E"
+				type: "item"
+				item: "resourcefulbees:clay_honeycomb"
+			}]
+			rewards: [{
+				id: "783F3BCA8D3569A8"
+				type: "item"
+				item: "compressium:clay_1"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: ["The Dirt Bee can be found in the Overworld."]
+			dependencies: ["000000000000008E"]
+			id: "37727C5AA751B705"
+			tasks: [{
+				id: "2A47BD2147188FBA"
+				type: "item"
+				item: "resourcefulbees:dirty_honeycomb"
+			}]
+			rewards: [{
+				id: "7F8BDB4955F15067"
+				type: "item"
+				item: "compressium:dirt_1"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			description: ["The Woody Woodbeeper Bee can be found in the Overworld."]
+			dependencies: ["000000000000008E"]
+			id: "0C336E4D2F702996"
+			tasks: [{
+				id: "75940AE1BBD78698"
+				type: "item"
+				item: "resourcefulbees:woody_honeycomb"
+			}]
+			rewards: [{
+				id: "483E78C5229D55AD"
+				type: "item"
+				item: "minecraft:oak_wood"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"The Honey Dipper is used to bind Bees on appropriate flowers and hives, just right-click a bee to select it and right click then on a flower and/or hive."
+				""
+				"Useful when you have multiple Bees from the same type with a lot of the same flowers."
+			]
+			dependencies: ["000000000000008E"]
+			id: "07C75F1E85CBDE5C"
+			tasks: [{
+				id: "402804B06E65E2E2"
+				type: "item"
+				item: "resourcefulbees:honey_dipper"
+			}]
+			rewards: [{
+				id: "7F158A16C6AF4DAF"
+				type: "item"
+				item: "buzzier_bees:chiseled_honeycomb_bricks"
+				count: 8
+			}]
+		}
+		{
+			title: "How do I begin Resourceful Bees ?"
+			icon: "create:brass_hand"
+			x: 3.0d
+			y: -11.0d
+			shape: "circle"
+			description: [
+				"First thing you have to do is find Bees, obviously. Next craft a Bee hive, check tooltips to get info on how many bee and honeycomb can be store in beehive tier 1,2 etc."
+				"The Beepedia can help you also to find more info on Bees."
+			]
+			dependencies: ["000000000000008E"]
+			id: "677DCAB3327F0D79"
+			tasks: [{
+				id: "49DEFF49A2532FF6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1A06A71329BB2D0D"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

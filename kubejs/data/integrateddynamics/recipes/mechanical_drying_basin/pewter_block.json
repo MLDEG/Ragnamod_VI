@@ -1,0 +1,11 @@
+{
+    "type": "integrateddynamics:mechanical_drying_basin",
+    "fluid": {
+        "fluid": "tconstruct:molten_pewter",
+        "amount": 1296
+    },
+    "duration": 40,
+    "result": {
+        "item": "eidolon:pewter_block"
+    }
+}

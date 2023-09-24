@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":[
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key":{
+        "A":{"item":"thermal:copper_ingot"},
+        "B":{"tag":"forge:barrels/wooden"}
+    },
+    "result":{"item":"metalbarrels:copper_barrel"}
+}

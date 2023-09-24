@@ -1,0 +1,2019 @@
+{
+	id: "40FD784801A8EBA6"
+	group: ""
+	order_index: 26
+	filename: "soniccraft"
+	title: "SoniCraft"
+	icon: "sonicraft:classic_sonic_plushie"
+	subtitle: ["Gotta go fast !"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -1.5d
+			y: -6.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/green_hill.png"
+			hover: ["Green Hill Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/marble.png"
+			hover: ["Marble Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: -6.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/spring_yard.png"
+			hover: ["Spring Yard Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/star_light.png"
+			hover: ["Star Light Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 14.5d
+			y: -6.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/scrap_brain.png"
+			hover: ["Scrap Brain Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/chemical_plant.png"
+			hover: ["Chemical Plant Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/aquatic_ruin.png"
+			hover: ["Aquatic Ruine Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/casino_night.png"
+			hover: ["Casino Night Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/studiopolis.png"
+			hover: ["Studiopolis Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 14.5d
+			y: -3.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/death_egg.png"
+			hover: ["Death Egg Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 6.5d
+			y: -12.25d
+			width: 2.0d
+			height: 2.5d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/soniccraftring.png"
+			hover: ["Ring Maker"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 14.5d
+			y: -9.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/press_garden.png"
+			hover: ["Press Garden Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			width: 4.5d
+			height: 3.0d
+			rotation: 0.0d
+			image: "kubejs:textures/ftbquests/emerald_hill.png"
+			hover: ["Emerald Hill Zone"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Green Hill Zone"
+			x: -3.0d
+			y: -6.5d
+			description: ["Visit the Green Hill Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "494F10C5755FD6CC"
+			tasks: [{
+				id: "7B13605EA8B9258F"
+				type: "item"
+				item: "sonicraft:ghz_grass"
+				count: 32L
+			}]
+			rewards: [{
+				id: "4426D0CCC6C48B4D"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Green Hill Zone act.2"
+			x: -2.5d
+			y: -5.5d
+			description: ["Visit the Green Hill Zone and farm some things."]
+			dependencies: ["494F10C5755FD6CC"]
+			id: "699E5CEEE6A203A1"
+			tasks: [
+				{
+					id: "341CE7AAEDB91240"
+					type: "item"
+					item: "sonicraft:ghz_totem_top"
+				}
+				{
+					id: "1CC7FAF9806A9901"
+					type: "item"
+					item: "sonicraft:ghz_totem_middle"
+				}
+				{
+					id: "5B5E8BB3FD02DC40"
+					type: "item"
+					item: "sonicraft:ghz_totem_bottom"
+				}
+				{
+					id: "615201BE42E4C3C4"
+					type: "item"
+					item: "sonicraft:ghz_sunflower"
+				}
+				{
+					id: "35FA99E6313F08E3"
+					type: "item"
+					item: "sonicraft:ghz_rock"
+				}
+				{
+					id: "7E80FD6B10981711"
+					type: "item"
+					item: "sonicraft:ghz_flower"
+				}
+			]
+			rewards: [{
+				id: "4448F1D4817FC2C1"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Spring Yard Zone"
+			x: 5.5d
+			y: -6.0d
+			description: ["Visit the Spring Yard Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "6ED963EC6F349954"
+			tasks: [{
+				id: "57EA65287110D578"
+				type: "item"
+				item: "sonicraft:spring_yard_road"
+				count: 32L
+			}]
+			rewards: [{
+				id: "5037841AF8D34CA1"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Spring Yard Zone act.3"
+			x: 5.0d
+			y: -7.0d
+			description: ["Visit the Spring Yard Zone and farm some things."]
+			dependencies: ["6ED963EC6F349954"]
+			id: "1ACB8DAF6F9D404B"
+			tasks: [
+				{
+					id: "784C2CABA76A6F32"
+					type: "item"
+					item: "sonicraft:spring_yard_searchlight"
+				}
+				{
+					id: "53B6A04E8EB36A45"
+					type: "item"
+					item: "sonicraft:spring_yard_platform_slab"
+					count: 9L
+				}
+				{
+					id: "3EF619D0BA6C18D7"
+					type: "item"
+					item: "sonicraft:spikes"
+					count: 9L
+				}
+				{
+					id: "797D97EF1C92830C"
+					type: "item"
+					item: "sonicraft:purple_spring_yard_pillar"
+					count: 2L
+				}
+				{
+					id: "657A98131518D3F9"
+					type: "item"
+					item: "sonicraft:purple_spring_yard_pillar_slab"
+					count: 2L
+				}
+				{
+					id: "3B88E8667B5F05CE"
+					type: "item"
+					item: "sonicraft:spring_yard_scaffolding"
+				}
+			]
+			rewards: [{
+				id: "16A0D462082D60B8"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Spring Yard Zone act.2"
+			x: 5.0d
+			y: -5.0d
+			description: ["Visit the Spring Yard Zone and farm some things."]
+			dependencies: ["6ED963EC6F349954"]
+			id: "688A05F015D40FF0"
+			tasks: [
+				{
+					id: "1363F85C68EE9A51"
+					type: "item"
+					item: "sonicraft:red_spring"
+					count: 2L
+				}
+				{
+					id: "71516F856A0819E1"
+					type: "item"
+					item: "sonicraft:bumper_sonic_1"
+					count: 2L
+				}
+				{
+					id: "7461A31757EAF44D"
+					type: "item"
+					item: "sonicraft:red_spring_yard_light"
+					count: 3L
+				}
+				{
+					id: "3DBF74A61CEFBC51"
+					type: "item"
+					item: "sonicraft:yellow_spring"
+					count: 2L
+				}
+				{
+					id: "7C60BCA3192CF544"
+					type: "item"
+					item: "sonicraft:spring_yard_lamp"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "3C905F109014DF2E"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Star Light Zone"
+			x: 9.0d
+			y: -6.5d
+			description: ["Visit the Star Light Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "7674CEC3AF526A8D"
+			tasks: [{
+				id: "049EC513997824DA"
+				type: "item"
+				item: "sonicraft:star_light_road"
+				count: 32L
+			}]
+			rewards: [{
+				id: "700F2B88381E8CE3"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Star Light Zone act.2"
+			x: 9.5d
+			y: -5.5d
+			description: ["Visit the Star Light Zone and farm some things."]
+			dependencies: ["7674CEC3AF526A8D"]
+			id: "0E691B7674AE2D2B"
+			tasks: [
+				{
+					id: "526A763C48DDA6A8"
+					type: "item"
+					item: "sonicraft:star_light_glass"
+					count: 4L
+				}
+				{
+					id: "1CC669CB57F36D17"
+					type: "item"
+					item: "sonicraft:star_light_lamppost_lamp"
+				}
+				{
+					id: "34E37540A3ADC783"
+					type: "item"
+					item: "sonicraft:star_light_cone"
+				}
+				{
+					id: "608A151E9618D873"
+					type: "item"
+					item: "sonicraft:star_light_girder"
+					count: 12L
+				}
+				{
+					id: "7A37CE4380768DC8"
+					type: "item"
+					item: "sonicraft:star_light_frame_wall"
+					count: 40L
+				}
+				{
+					id: "159CCD8B6DA18282"
+					type: "item"
+					item: "sonicraft:star_light_platform_variant_2"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "114A042554055977"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Marble Zone"
+			x: 1.5d
+			y: -6.0d
+			description: ["Visit the Marble Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "2D8754056BC749D5"
+			tasks: [{
+				id: "1700A1BF19793035"
+				type: "item"
+				item: "sonicraft:marble_zone_grass"
+				count: 32L
+			}]
+			rewards: [{
+				id: "304C0234626B3434"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Marble Zone act.3"
+			x: 1.0d
+			y: -7.0d
+			description: ["Visit the Marble Zone and farm some things."]
+			dependencies: ["2D8754056BC749D5"]
+			id: "664E95A6DA0FDD8D"
+			tasks: [
+				{
+					id: "2C280A196A4D2AE4"
+					type: "item"
+					item: "sonicraft:marble_zone_stone"
+					count: 64L
+				}
+				{
+					id: "5580C09720F2668B"
+					type: "item"
+					item: "sonicraft:blue_marble_zone_pillar"
+					count: 15L
+				}
+				{
+					id: "0DAAE25FFB195F46"
+					type: "item"
+					item: "sonicraft:solid_lava"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "5D3FB013028ED0A3"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Marble Zone act.2"
+			x: 1.0d
+			y: -5.0d
+			description: ["Visit the Marble Zone and farm some things."]
+			dependencies: ["2D8754056BC749D5"]
+			id: "500774617C86C7F1"
+			tasks: [
+				{
+					id: "0BC730223D39B64D"
+					type: "item"
+					item: "sonicraft:marble_zone_cave_wall"
+					count: 64L
+				}
+				{
+					id: "06EED4B96856E673"
+					type: "item"
+					item: "sonicraft:marble_zone_brick_pillar"
+					count: 11L
+				}
+				{
+					id: "3C3FFAFA0DE07BDC"
+					type: "item"
+					item: "sonicraft:marble_zone_iron_block"
+					count: 8L
+				}
+				{
+					id: "499EF0993D33239B"
+					type: "item"
+					item: "sonicraft:spikes"
+					count: 9L
+				}
+				{
+					id: "3BCB6A50D097DA29"
+					type: "item"
+					item: "sonicraft:marble_zone_brick_tiles"
+				}
+			]
+			rewards: [{
+				id: "4D777126801CF216"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.5d
+			description: [
+				"The Ring Item Box give you 10 Rings."
+				"The Invincibility Item Box makes you invincible."
+				"The Shield Item Box give you a free hit."
+			]
+			dependencies: ["781E153A4F3F5A49"]
+			id: "39BC1A63F5DD2750"
+			tasks: [
+				{
+					id: "3EDB809934A3637C"
+					type: "item"
+					item: "sonicraft:item_box_rings"
+				}
+				{
+					id: "3FCCB18522BCDF4E"
+					type: "item"
+					item: "sonicraft:item_box_invincibility"
+				}
+				{
+					id: "0919E8E5A0D01A7E"
+					type: "item"
+					item: "sonicraft:item_box_shield"
+				}
+			]
+			rewards: [{
+				id: "4EC84BFF550B7990"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Scrap Brain Zone"
+			x: 13.5d
+			y: -6.0d
+			description: ["Visit the Scrap Brain Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "128E5BACD1EF54B0"
+			tasks: [{
+				id: "22369BD6CBC2325D"
+				type: "item"
+				item: "sonicraft:scrap_brain_iron_block"
+				count: 32L
+			}]
+			rewards: [{
+				id: "23E2AC61683EC872"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Scrap Brain Zone act.3"
+			x: 13.0d
+			y: -7.0d
+			description: ["Visit the Scrap Brain Zone and farm some things."]
+			dependencies: ["128E5BACD1EF54B0"]
+			id: "33F3FB3D45362D1C"
+			tasks: [
+				{
+					id: "194BA852D1A0DAD1"
+					type: "item"
+					item: "sonicraft:scrap_brain_redstone_block"
+				}
+				{
+					id: "397CB3E96B4AEA3D"
+					type: "item"
+					item: "sonicraft:scrap_brain_sparking_conduit"
+				}
+				{
+					id: "6F91A9A5C8B5D64C"
+					type: "item"
+					item: "sonicraft:scrap_brain_safety_glass"
+					count: 2L
+				}
+				{
+					id: "236BF6EE0131759A"
+					type: "item"
+					item: "sonicraft:scrap_brain_caution_block"
+					count: 64L
+				}
+				{
+					id: "3EE62BD37B08A24F"
+					type: "item"
+					item: "sonicraft:scrap_brain_glass"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "3A158DF14E586A11"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Scrap Brain Zone act.2"
+			x: 13.0d
+			y: -5.0d
+			description: ["Visit the Scrap Brain Zone and farm some things."]
+			dependencies: ["128E5BACD1EF54B0"]
+			id: "17306E5CF78F7D6D"
+			tasks: [
+				{
+					id: "19DCA07AF5ECE6B7"
+					type: "item"
+					item: "sonicraft:light_blue_scrap_brain_crystal"
+					count: 2L
+				}
+				{
+					id: "7D8DDE2F8CA2B524"
+					type: "item"
+					item: "sonicraft:green_scrap_brain_crystal"
+					count: 2L
+				}
+				{
+					id: "72FD0C460F71A56F"
+					type: "item"
+					item: "sonicraft:scrap_brain_stone"
+					count: 32L
+				}
+				{
+					id: "2425F68A76B69D29"
+					type: "item"
+					item: "sonicraft:chiseled_scrap_brain_stone"
+				}
+			]
+			rewards: [{
+				id: "0DDF813C7A34D29B"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Chemical Plant Zone"
+			x: -2.5d
+			y: -3.0d
+			description: ["Visit the Chemical Plant Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "078FB591859C3612"
+			tasks: [{
+				id: "161369FAAEE13C65"
+				type: "item"
+				item: "sonicraft:cpz_road"
+				count: 32L
+			}]
+			rewards: [{
+				id: "47DCCA6AC990885F"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Chemical Plant Zone act.3"
+			x: -3.0d
+			y: -4.0d
+			description: ["Visit the Chemical Plant Zone and farm some things."]
+			dependencies: ["078FB591859C3612"]
+			id: "62C741F999D0C44D"
+			tasks: [
+				{
+					id: "0977DDA88E159A3F"
+					type: "item"
+					item: "sonicraft:cpz_decorative_iron_block"
+					count: 6L
+				}
+				{
+					id: "2CB40FD81279CA9F"
+					type: "item"
+					item: "sonicraft:cpz_pipe"
+					count: 40L
+				}
+				{
+					id: "173CD98C358D1B0E"
+					type: "item"
+					item: "sonicraft:cpz_pipe_corner"
+					count: 3L
+				}
+				{
+					id: "6A8E0020C5612383"
+					type: "item"
+					item: "sonicraft:cpz_caution_pillar"
+					count: 9L
+				}
+				{
+					id: "7C3DB65641C70E30"
+					type: "item"
+					item: "sonicraft:cpz_double_pillar"
+					count: 4L
+				}
+				{
+					id: "344045CACB510FBA"
+					type: "item"
+					item: "sonicraft:cpz_red_lamp"
+					count: 2L
+				}
+				{
+					id: "5E4F6D1070FFDEE1"
+					type: "item"
+					item: "sonicraft:cpz_platform"
+					count: 4L
+				}
+				{
+					id: "7F27E24E59A4C2F9"
+					type: "item"
+					item: "sonicraft:mega_mack_block_light_blue"
+					count: 64L
+				}
+				{
+					id: "684FD32A6C7542BC"
+					type: "item"
+					item: "sonicraft:mega_mack_block_green"
+					count: 36L
+				}
+				{
+					id: "050A1C76279869FF"
+					type: "item"
+					item: "sonicraft:cpz_iron_block"
+					count: 64L
+				}
+				{
+					id: "488427A529040A1A"
+					type: "item"
+					item: "sonicraft:cpz_scaffolding"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "5C529C32B19F3DA7"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Casino Night Zone"
+			x: 5.0d
+			y: -3.5d
+			description: ["Visit the Casino Night Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "3DAEEFA9966EB3CD"
+			tasks: [{
+				id: "50DD1BE6D56CC5ED"
+				type: "item"
+				item: "sonicraft:casino_night_road"
+				count: 32L
+			}]
+			rewards: [{
+				id: "58CC8041435E0614"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Aquatic Ruin Zone act.2"
+			x: 1.0d
+			y: -2.0d
+			description: ["Visit the Aquatic Ruin Zone and farm some things."]
+			dependencies: ["4E85B4E6C5590AD9"]
+			id: "27642F06315CDFC7"
+			tasks: [
+				{
+					id: "3A8106281C7998A6"
+					type: "item"
+					item: "sonicraft:blue_labyrinth_zone_crystal"
+					count: 2L
+				}
+				{
+					id: "4C8B5AF5968EDF6C"
+					type: "item"
+					item: "sonicraft:pink_labyrinth_zone_crystal"
+					count: 2L
+				}
+				{
+					id: "7954F57F233C680F"
+					type: "item"
+					item: "sonicraft:labyrinth_zone_stone"
+					count: 32L
+				}
+				{
+					id: "32536A0D95388381"
+					type: "item"
+					item: "sonicraft:chiseled_labyrinth_stone"
+				}
+			]
+			rewards: [{
+				id: "0596FCF0D57F95D5"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Casino Night Zone act.2"
+			x: 5.5d
+			y: -2.5d
+			description: ["Visit the Casino Night Zone and farm some things."]
+			dependencies: ["3DAEEFA9966EB3CD"]
+			id: "670AB431EDC6375A"
+			tasks: [
+				{
+					id: "64CB0755FA900724"
+					type: "item"
+					item: "sonicraft:casino_night_light"
+					count: 2L
+				}
+				{
+					id: "3BBBE0EAEB344800"
+					type: "item"
+					item: "sonicraft:casino_night_star_light"
+					count: 2L
+				}
+				{
+					id: "13A705171093051D"
+					type: "item"
+					item: "sonicraft:casino_night_horizonal_line_light"
+					count: 64L
+				}
+				{
+					id: "3B30EC8A97A23CEE"
+					type: "item"
+					item: "sonicraft:casino_night_stone_pillar"
+					count: 64L
+				}
+				{
+					id: "7AEA462C2032D78E"
+					type: "item"
+					item: "sonicraft:bumper_sonic_2"
+					count: 2L
+				}
+				{
+					id: "7B4E43A5A0BD7976"
+					type: "item"
+					item: "sonicraft:casino_night_slots_cabinet"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "464CB627516E63A8"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Chemical Plant Zone act.2"
+			x: -3.0d
+			y: -2.0d
+			description: ["Visit the Chemical Plant Zone and farm some things."]
+			dependencies: ["078FB591859C3612"]
+			id: "5C0F92022A728CB6"
+			tasks: [
+				{
+					id: "431EBAE3E2F28FFD"
+					type: "item"
+					item: "sonicraft:silver_sonic_chamber"
+					count: 2L
+				}
+				{
+					id: "6D5F1F6ACE3CF7BD"
+					type: "item"
+					item: "sonicraft:cpz_button"
+				}
+			]
+			rewards: [{
+				id: "396C1F4AEF98182C"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Aquatic Ruin Zone"
+			x: 1.5d
+			y: -3.0d
+			description: ["Visit the Aquatic Ruin Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "4E85B4E6C5590AD9"
+			tasks: [{
+				id: "4D26B2D8A6B9C15D"
+				type: "item"
+				item: "sonicraft:aquatic_ruin_grass"
+				count: 32L
+			}]
+			rewards: [{
+				id: "59CBD2A0563B1952"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Aquatic Ruin Zone act.3"
+			x: 1.0d
+			y: -4.0d
+			description: ["Visit the Aquatic Ruin Zone and farm some things."]
+			dependencies: ["4E85B4E6C5590AD9"]
+			id: "2F4FC8C223DB1C4B"
+			tasks: [
+				{
+					id: "5DFE4707A522FA19"
+					type: "item"
+					item: "sonicraft:aquatic_ruin_platform"
+					count: 64L
+				}
+				{
+					id: "7CE8A1DD2603D560"
+					type: "item"
+					item: "sonicraft:aquatic_ruin_pillar"
+					count: 32L
+				}
+				{
+					id: "6F3AE0E9DFC6B682"
+					type: "item"
+					item: "sonicraft:air_bubble_spawner"
+				}
+			]
+			rewards: [{
+				id: "581BBF6AC303ED33"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Studiopolis Zone"
+			x: 9.5d
+			y: -3.0d
+			description: ["Visit the Studiopolis Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "1AF2A494B0F04CC3"
+			tasks: [{
+				id: "1D36349668EDE1B9"
+				type: "item"
+				item: "sonicraft:studiopolis_road"
+				count: 32L
+			}]
+			rewards: [{
+				id: "38072541E5DD74A7"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Studiopolis Zone act.3"
+			x: 9.0d
+			y: -4.0d
+			description: ["Visit the Studiopolis Zone and farm some things."]
+			dependencies: ["1AF2A494B0F04CC3"]
+			id: "3B3D3084681005BD"
+			tasks: [
+				{
+					id: "30EFCD09A25E99B5"
+					type: "item"
+					item: "sonicraft:studiopolis_tiles"
+					count: 64L
+				}
+				{
+					id: "282D6B0B9C393252"
+					type: "item"
+					item: "sonicraft:studiopolis_bricks"
+					count: 64L
+				}
+				{
+					id: "782F2DBEA5746E03"
+					type: "item"
+					item: "sonicraft:studiopolis_interior_awning"
+					count: 6L
+				}
+				{
+					id: "266CC5E4495E64FE"
+					type: "item"
+					item: "sonicraft:studiopolis_checkerboard_neon"
+					count: 64L
+				}
+				{
+					id: "0203BC9651D1FDA2"
+					type: "item"
+					item: "sonicraft:blue_studiopolis_glass"
+					count: 16L
+				}
+				{
+					id: "696ECA29DC65A149"
+					type: "item"
+					item: "sonicraft:pink_studiopolis_glass"
+					count: 16L
+				}
+				{
+					id: "6A587C1DBF1C932B"
+					type: "item"
+					item: "sonicraft:studiopolis_cable"
+				}
+			]
+			rewards: [{
+				id: "2ACDB4152DB4C87F"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Studiopolis Zone act.2"
+			x: 9.0d
+			y: -2.0d
+			description: ["Visit the Studiopolis Zone and farm some things."]
+			dependencies: ["1AF2A494B0F04CC3"]
+			id: "76F4827A4B284C45"
+			tasks: [
+				{
+					id: "2213D47558C5106A"
+					type: "item"
+					item: "sonicraft:studiopolis_pink_bot_sign"
+				}
+				{
+					id: "1A626FC7D59BF643"
+					type: "item"
+					item: "sonicraft:studiopolis_spin_club_sign"
+				}
+				{
+					id: "67AF0A855254D575"
+					type: "item"
+					item: "sonicraft:studiopolis_eggnog_sign"
+				}
+				{
+					id: "4F4E13496EAF5C91"
+					type: "item"
+					item: "sonicraft:studiopolis_tv"
+					count: 8L
+				}
+				{
+					id: "137A63CF68DEF2DB"
+					type: "item"
+					item: "sonicraft:studiopolis_microphone"
+					count: 2L
+				}
+				{
+					id: "4A28EB6B34698D0E"
+					type: "item"
+					item: "sonicraft:studiopolis_light"
+					count: 2L
+				}
+				{
+					id: "761892F2CD96C3A2"
+					type: "item"
+					item: "sonicraft:studiopolis_scaffolding"
+					count: 5L
+				}
+				{
+					id: "5D0F4C65CAEE757D"
+					type: "item"
+					item: "sonicraft:studiopolis_lamppost_lamp"
+				}
+				{
+					id: "50C323C682594E0F"
+					type: "item"
+					item: "sonicraft:studiopolis_lamppost_antenna"
+				}
+				{
+					id: "1D48F1B58438999B"
+					type: "item"
+					item: "sonicraft:studiopolis_clapperboard_side_panel"
+				}
+			]
+			rewards: [{
+				id: "627B7EAB2EE8D824"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Death Egg Zone"
+			x: 13.5d
+			y: -3.0d
+			description: [
+				"Visit the Death Egg Zone and farm some things."
+				"{image:kubejs:textures/ftbquests/begin/magnet.png width:150 height:100 align:1}"
+				"To go to the Death Egg Zone you have to find a Giant Magnet in Sonic World and click the button, but be aware it's very difficult to find it."
+			]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "140D704A9ECF2DEC"
+			tasks: [{
+				id: "66CD4EF9A8D9A262"
+				type: "item"
+				item: "sonicraft:death_egg_floor"
+				count: 32L
+			}]
+			rewards: [{
+				id: "0D74EE0E67642F91"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Death Egg Zone act.3"
+			x: 13.0d
+			y: -4.0d
+			description: ["Visit the Death Egg Zone and farm some things."]
+			dependencies: ["140D704A9ECF2DEC"]
+			id: "4EE24F9E82F29133"
+			tasks: [
+				{
+					id: "26E80505500B6F16"
+					type: "item"
+					item: "sonicraft:death_egg_outer_shell"
+					count: 64L
+				}
+				{
+					id: "4EB4B12CE5F366FA"
+					type: "item"
+					item: "sonicraft:death_egg_wall"
+					count: 64L
+				}
+				{
+					id: "430751CD1E223B2A"
+					type: "item"
+					item: "sonicraft:death_egg_electric_block"
+					count: 32L
+				}
+				{
+					id: "10CBCB093DE8D54B"
+					type: "item"
+					item: "sonicraft:death_egg_platform"
+					count: 4L
+				}
+				{
+					id: "58DC648D0317D7BF"
+					type: "item"
+					item: "sonicraft:death_egg_arena_floor"
+					count: 64L
+				}
+				{
+					id: "3C83BF10CC34BBE6"
+					type: "item"
+					item: "sonicraft:death_egg_bricks"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "0A9B1ACD279BFF21"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Death Egg Zone act.2"
+			x: 13.0d
+			y: -2.0d
+			description: ["Visit the Death Egg Zone and farm some things."]
+			dependencies: ["140D704A9ECF2DEC"]
+			id: "65FECC69E3BE996D"
+			tasks: [
+				{
+					id: "7D7E6E024867D8D8"
+					type: "item"
+					item: "sonicraft:smooth_death_egg_outer_shell"
+					count: 64L
+				}
+				{
+					id: "171F8FB2B71C14B8"
+					type: "item"
+					item: "sonicraft:death_egg_outer_shell_trench"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "114DDDF22E4CBA2A"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Craft a Goal Plate."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "2CF3DDE03BD7A056"
+			tasks: [{
+				id: "69ED01F841CBFED3"
+				type: "item"
+				item: "sonicraft:signpost"
+			}]
+			rewards: [{
+				id: "634E5D586800EB3D"
+				type: "item"
+				item: "sonicraft:signpost"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: [
+				"You can get those Special Stage Key by beating Eggman or Metal Sonic."
+				""
+				"Then, you need to right-click it on a Goal Plate to get a Chaos Emerald."
+			]
+			dependencies: ["2CF3DDE03BD7A056"]
+			id: "55B06A1FB4F6290C"
+			tasks: [{
+				id: "20B8EFE4C8884B36"
+				type: "item"
+				item: "sonicraft:special_stage_key"
+			}]
+			rewards: [{
+				id: "278A43C3899F1D9B"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["Get the Green Chaos Emerald."]
+			dependencies: ["55B06A1FB4F6290C"]
+			id: "4138AD588783CA00"
+			tasks: [{
+				id: "476C0082517D91B2"
+				type: "item"
+				item: "sonicraft:chaos_emerald_green"
+			}]
+			rewards: [
+				{
+					id: "5E4CF7D7F61E3DDE"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+				{
+					id: "59366FABB4836635"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["Get the Yellow Chaos Emerald."]
+			dependencies: ["55B06A1FB4F6290C"]
+			id: "6F308D7C18654137"
+			tasks: [{
+				id: "669668218E100584"
+				type: "item"
+				item: "sonicraft:chaos_emerald_yellow"
+			}]
+			rewards: [
+				{
+					id: "04F8721151AD4A52"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+				{
+					id: "0E356798565B4973"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			description: ["Get the Blue Chaos Emerald."]
+			dependencies: ["55B06A1FB4F6290C"]
+			id: "2B0304183AE6C7DB"
+			tasks: [{
+				id: "27559C2695155628"
+				type: "item"
+				item: "sonicraft:chaos_emerald_blue"
+			}]
+			rewards: [
+				{
+					id: "19C61D1B4FB60420"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+				{
+					id: "32CF706CD6C0D2D5"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["Get the Purple Chaos Emerald."]
+			dependencies: ["55B06A1FB4F6290C"]
+			id: "2C3A69EF9812FE79"
+			tasks: [{
+				id: "19DC895848DBE9CB"
+				type: "item"
+				item: "sonicraft:chaos_emerald_purple"
+			}]
+			rewards: [
+				{
+					id: "76957E388A99E928"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+				{
+					id: "0CA2E2CB45EB0D77"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["Get the White Chaos Emerald."]
+			dependencies: ["55B06A1FB4F6290C"]
+			id: "015D2C59DE5EE071"
+			tasks: [{
+				id: "0E1D55EC0043E961"
+				type: "item"
+				item: "sonicraft:chaos_emerald_white"
+			}]
+			rewards: [
+				{
+					id: "2E69CC6A4582776B"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+				{
+					id: "2DACE2DD806391B6"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			description: ["Get the Light Blue Chaos Emerald."]
+			dependencies: ["55B06A1FB4F6290C"]
+			id: "0B0EACB60E8AD35E"
+			tasks: [{
+				id: "77847CE34F49B6A8"
+				type: "item"
+				item: "sonicraft:chaos_emerald_light_blue"
+			}]
+			rewards: [
+				{
+					id: "72BCA916A11A48D8"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+				{
+					id: "501E34B137C27949"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["Get the Red Chaos Emerald."]
+			dependencies: ["55B06A1FB4F6290C"]
+			id: "4C409D209B8D17E1"
+			tasks: [{
+				id: "36E874D6949B9CD8"
+				type: "item"
+				item: "sonicraft:chaos_emerald_red"
+			}]
+			rewards: [
+				{
+					id: "71124E3DF0EE983B"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+				{
+					id: "042B84779A5C9950"
+					type: "item"
+					item: "sonicraft:gold_ring"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 8.25d
+			y: 0.0d
+			description: [
+				"With the seven Chaos Emerald you can get the Super Form."
+				""
+				" Right-click to toggle the Super Form that make you stronger and faster at the cost of Rings."
+			]
+			dependencies: [
+				"2B0304183AE6C7DB"
+				"4138AD588783CA00"
+				"0B0EACB60E8AD35E"
+				"2C3A69EF9812FE79"
+				"4C409D209B8D17E1"
+				"015D2C59DE5EE071"
+				"6F308D7C18654137"
+			]
+			size: 1.5d
+			id: "750F883D73C799FE"
+			tasks: [{
+				id: "2D4732826310F32C"
+				type: "item"
+				item: "sonicraft:super_form_emeralds"
+			}]
+			rewards: [{
+				id: "105095F0880157D5"
+				type: "item"
+				item: "compressium:gold_5"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.0d
+			description: ["The Amy Rose item Box spawn Amy Rose."]
+			dependencies: ["781E153A4F3F5A49"]
+			id: "6DD09A77380973D0"
+			tasks: [{
+				id: "0D44A21886921376"
+				type: "item"
+				item: "sonicraft:item_box_amy"
+			}]
+			rewards: [{
+				id: "5FDD08B05178C31D"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.0d
+			description: ["The Sonic item Box spawn Sonic."]
+			dependencies: ["781E153A4F3F5A49"]
+			id: "79109A63136D66A3"
+			tasks: [{
+				id: "531B76AC88C5FC70"
+				type: "item"
+				item: "sonicraft:item_box_sonic"
+			}]
+			rewards: [{
+				id: "15599EEEE158580D"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			description: ["The Tails item Box spawn Tails."]
+			dependencies: ["781E153A4F3F5A49"]
+			id: "4802F6D0D95BF6D9"
+			tasks: [{
+				id: "6A56698787510CCB"
+				type: "item"
+				item: "sonicraft:item_box_tails"
+			}]
+			rewards: [{
+				id: "72851117AB01076B"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			description: ["The Tails item Box spawn Tails.The Knuckles item Box spawn Knuckles."]
+			dependencies: ["781E153A4F3F5A49"]
+			id: "34BBE26F31AAC514"
+			tasks: [{
+				id: "62CC5D9A98E1B598"
+				type: "item"
+				item: "sonicraft:item_box_knuckles"
+			}]
+			rewards: [{
+				id: "08063F78E227D37C"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			description: ["The Rouge item Box spawn Rouge."]
+			dependencies: ["781E153A4F3F5A49"]
+			id: "68558B97E42672E3"
+			tasks: [{
+				id: "13CDC9A8DA53F9B3"
+				type: "item"
+				item: "sonicraft:item_box_rouge"
+			}]
+			rewards: [{
+				id: "2A36F472D826C02A"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 8.0d
+			y: -9.0d
+			description: ["The Shadow item Box spawn Shadow."]
+			dependencies: ["781E153A4F3F5A49"]
+			id: "3838BD83643D0D0A"
+			tasks: [{
+				id: "7D27EEC3D89A5188"
+				type: "item"
+				item: "sonicraft:item_box_shadow"
+			}]
+			rewards: [{
+				id: "72406B07672548FC"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 4.5d
+			y: -10.0d
+			description: ["Kill Amy Rose to get his Piko Piko Hammer."]
+			dependencies: ["6DD09A77380973D0"]
+			id: "7B1783E76D78EFCF"
+			tasks: [{
+				id: "503484FE5C7A8F9A"
+				type: "item"
+				item: {
+					id: "sonicraft:piko_piko_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-597681243
+							826493361
+							-1917670745
+							876601677
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1617C0C0482B6B4A"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			description: ["Kill Sonic to get his shoes."]
+			dependencies: ["79109A63136D66A3"]
+			id: "5DD1FE68CED373B2"
+			tasks: [{
+				id: "5EB9CB63728E079E"
+				type: "item"
+				item: {
+					id: "sonicraft:speed_shoes_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-597681243
+							826493361
+							-1917670745
+							876601677
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A2B9896D8969A65"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 9.0d
+			y: -9.0d
+			description: ["Kill Tails to get his Miles Electric."]
+			dependencies: ["4802F6D0D95BF6D9"]
+			id: "2FF179E8715192D4"
+			tasks: [{
+				id: "4034173BECFAA672"
+				type: "item"
+				item: "sonicraft:miles_electric"
+			}]
+			rewards: [{
+				id: "4EB131345A32D3E5"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 8.5d
+			y: -10.0d
+			description: ["Kill Shadow to get his Fake Chaos Emerald."]
+			dependencies: ["3838BD83643D0D0A"]
+			id: "1A0A684108442468"
+			tasks: [{
+				id: "2C6D6C6DC56EEAB2"
+				type: "item"
+				item: "sonicraft:chaos_emerald_fake"
+			}]
+			rewards: [{
+				id: "296725D366E4846A"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			description: ["The Starpost is purely decorative."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "5C71DF76B0964C87"
+			tasks: [{
+				id: "2E81F4F117CD5C39"
+				type: "item"
+				item: "sonicraft:starpost"
+			}]
+			rewards: [{
+				id: "6192E3ABB7D1CB2C"
+				type: "item"
+				item: "sonicraft:starpost"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			description: ["Build the Sega Genesis and find the 3 cartridges in Sonic World."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "3E16BC544BAA2FF6"
+			tasks: [
+				{
+					id: "3BC8256D641AB7BD"
+					type: "item"
+					item: "sonicraft:sega_genesis"
+				}
+				{
+					id: "01586F96750DA635"
+					type: "item"
+					item: "sonicraft:cartridge_sonic_1"
+				}
+				{
+					id: "4F1FD317216D6A23"
+					type: "item"
+					item: "sonicraft:cartridge_sonic_2"
+				}
+				{
+					id: "04B0DB2872B81CB2"
+					type: "item"
+					item: "sonicraft:cartridge_sonic_3"
+				}
+			]
+			rewards: [{
+				id: "5D9AEAE193F49240"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			description: ["You can find the Sonic Fighters Arcade in Sonic World."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "3FCA26698B8611B9"
+			tasks: [{
+				id: "444B84EB80DB5970"
+				type: "item"
+				item: "sonicraft:sonic_the_fighters_arcade_cabinet"
+			}]
+			rewards: [{
+				id: "72FB810EA472A603"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.25d
+			description: ["The Item Box work like the sonic Game, and it's used to craft many Box."]
+			dependencies: ["6554ECBA503F69C5"]
+			size: 1.5d
+			id: "781E153A4F3F5A49"
+			tasks: [{
+				id: "2C8F2472E0FC8686"
+				type: "item"
+				item: "sonicraft:item_box"
+			}]
+			rewards: [{
+				id: "34F91FD9A72ABC09"
+				type: "item"
+				item: "sonicraft:item_box"
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -10.5d
+			description: ["To enter in Sonic World, just make a Gold Block portal and right click with this ring and flint."]
+			dependencies: ["2B4D0D312F874CC1"]
+			id: "39DA08984DADD200"
+			tasks: [{
+				id: "542B551E341A02A3"
+				type: "item"
+				item: {
+					id: "sonicraft:mobius"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "345A6B4347782176"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: -10.5d
+			description: ["Craft a Ring using your Ring Maker."]
+			dependencies: ["677602AFB00218D2"]
+			id: "2B4D0D312F874CC1"
+			tasks: [{
+				id: "055AC9DCFA3CFAE3"
+				type: "item"
+				item: "sonicraft:gold_ring"
+			}]
+			rewards: [{
+				id: "6C4B6F9E56C09F51"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 8
+			}]
+		}
+		{
+			title: "Ring Maker"
+			x: 6.5d
+			y: -11.0d
+			description: ["Craft the part to make the Ring Maker and see the \"How do I begin SoniCraft ?\" quest."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "677602AFB00218D2"
+			tasks: [
+				{
+					id: "60990A8A22F772EE"
+					type: "item"
+					item: "masterfulmachinery:sonicrings_controller"
+				}
+				{
+					id: "1D288C702359B05D"
+					type: "item"
+					item: "masterfulmachinery:sonicrings_ringenergy_port_energy_input"
+				}
+				{
+					id: "66EAE6A1AC71E8F3"
+					type: "item"
+					item: "masterfulmachinery:sonicrings_ringitem_port_items_input"
+				}
+				{
+					id: "0E0E53807CB66041"
+					type: "item"
+					item: "masterfulmachinery:sonicrings_ringitem_port_items_output"
+				}
+				{
+					id: "72FF06A9521412CB"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 12L
+				}
+				{
+					id: "1F097A120EE9DE38"
+					type: "item"
+					item: "tconstruct:light_blue_clear_stained_glass_pane"
+					count: 21L
+				}
+			]
+			rewards: [{
+				id: "0C976436EDAFCFB3"
+				type: "item"
+				item: "compressium:gold_1"
+			}]
+		}
+		{
+			title: "Press Garden Zone"
+			x: 13.5d
+			y: -9.0d
+			description: ["Visit the Press Garden Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "003C85E128FDC8BD"
+			tasks: [{
+				id: "445102C77C2AA6CC"
+				type: "item"
+				item: "sonicraft:press_garden_grass"
+				count: 32L
+			}]
+			rewards: [{
+				id: "56A291BB7DAB1AA6"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Press Garden Zone act.3"
+			x: 13.0d
+			y: -10.0d
+			description: ["Visit the Press Garden Zone and farm some things."]
+			dependencies: ["003C85E128FDC8BD"]
+			id: "5AE43D0A33293E88"
+			tasks: [
+				{
+					id: "47B3ADF782F07628"
+					type: "item"
+					item: "sonicraft:frosted_press_garden_bricks"
+					count: 64L
+				}
+				{
+					id: "557572A08346E77A"
+					type: "item"
+					item: "sonicraft:frosted_chiseled_press_garden_bricks"
+					count: 32L
+				}
+				{
+					id: "38BB4505E97B6674"
+					type: "item"
+					item: "sonicraft:chilly_blossom_log"
+					count: 64L
+				}
+				{
+					id: "51663C9AEC80FAF7"
+					type: "item"
+					item: "sonicraft:press_garden_quartz_pillar"
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "4114D346B999F5FD"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Press Garden Zone act.2"
+			x: 13.0d
+			y: -8.0d
+			description: ["Visit the Press Garden Zone and farm some things."]
+			dependencies: ["003C85E128FDC8BD"]
+			id: "0D91777FC8A3ED50"
+			tasks: [
+				{
+					id: "69950A89337F9261"
+					type: "item"
+					item: "sonicraft:press_garden_bricks"
+					count: 64L
+				}
+				{
+					id: "3172AC6778F0C563"
+					type: "item"
+					item: "sonicraft:press_garden_brick_pillar"
+					count: 32L
+				}
+				{
+					id: "59AC56C96E28A70E"
+					type: "item"
+					item: "sonicraft:press_garden_compactor_screw"
+					count: 32L
+				}
+				{
+					id: "34514FD8A743F8B0"
+					type: "item"
+					item: "sonicraft:press_garden_brick_floor"
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "032CF1EAA21051BA"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Emerald Hill Zone"
+			x: -2.5d
+			y: -8.5d
+			description: ["Visit the Emerald Hill Zone and farm some things."]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "5107F2D324A54D9D"
+			tasks: [{
+				id: "0F6296F9B493F03A"
+				type: "item"
+				item: "sonicraft:ehz_dirt"
+				count: 32L
+			}]
+			rewards: [{
+				id: "03F287C24B621AC8"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "Emerald Hill Zone act.2"
+			x: -3.0d
+			y: -9.5d
+			description: ["Visit the Emerald Hill Zone and farm some things."]
+			dependencies: ["5107F2D324A54D9D"]
+			id: "770718667189B5B0"
+			tasks: [
+				{
+					id: "2F740FA5CDCBFFBD"
+					type: "item"
+					item: "sonicraft:ehz_flower_spinning"
+					count: 16L
+				}
+				{
+					id: "4A6B9AF96B272AAB"
+					type: "item"
+					item: "sonicraft:ehz_flower_bouncing"
+					count: 16L
+				}
+				{
+					id: "6D745F4592D83E74"
+					type: "item"
+					item: "sonicraft:ehz_flower_curling"
+					count: 16L
+				}
+				{
+					id: "7DE16B1B87DBC00E"
+					type: "item"
+					item: "sonicraft:ehz_flower_blooming"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "457F61E237A3A43F"
+				type: "item"
+				item: "sonicraft:gold_ring"
+				count: 32
+			}]
+		}
+		{
+			title: "How do I begin SoniCraft ?"
+			icon: "create:brass_hand"
+			x: 6.5d
+			y: -14.0d
+			shape: "circle"
+			description: [
+				"To go in the beautiful world of SoniCraft you need to go through first the Twilight Forest, because you need to craft the Ring Maker to get your first Sonic ring."
+				"When you get your first ring, you can craft a Flint and Ring to open the SoniCraft portal !"
+				"{image:kubejs:textures/ftbquests/begin/sonicraftportal.png width:150 height:100 align:1}"
+			]
+			dependencies: ["6554ECBA503F69C5"]
+			id: "1BBA0E1448E35A6B"
+			tasks: [{
+				id: "004A2CC8090CA012"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "46FB22B0C3066219"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+	]
+}

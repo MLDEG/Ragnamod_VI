@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "result": {
+        "item": "rslargepatterns:large_pattern_encoder",
+        "count": 1
+    },
+    "pattern": [
+        "EAE",
+        "PMP",
+        "ECE"
+    ],
+    "key": {
+        "M": {
+            "item": "refinedstorage:machine_casing"
+        },
+        "A": {
+            "item": "refinedstorage:advanced_processor"
+        },
+        "C": {
+            "item": "extendedcrafting:ultimate_auto_table"
+        },
+        "P": {
+            "item": "rslargepatterns:large_pattern"
+        },
+        "E": {
+            "item": "refinedstorage:quartz_enriched_iron"
+        }
+    }
+}

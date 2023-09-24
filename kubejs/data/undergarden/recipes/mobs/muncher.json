@@ -1,0 +1,24 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "undergarden:muncher",
+    "samplerTier": 2,
+    "environments": ["undergarden"],
+    "growTicks": 1200,
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "undergarden:cloggrum_nugget"
+            },
+            "minAmount": 1,
+            "maxAmount": 3
+        },
+        {
+            "chance": 1,
+            "output": {
+                "item": "undergarden:froststeel_nugget"
+            },
+            "minAmount": 1,
+            "maxAmount": 3
+        }
+]}

@@ -1,0 +1,11 @@
+{
+    "type": "integrateddynamics:mechanical_drying_basin",
+    "fluid": {
+        "fluid": "kubejs:molten_insanium",
+        "amount": 1296
+    },
+    "duration": 40,
+    "result": {
+        "item": "mysticalagradditions:insanium_ingot_block"
+    }
+}

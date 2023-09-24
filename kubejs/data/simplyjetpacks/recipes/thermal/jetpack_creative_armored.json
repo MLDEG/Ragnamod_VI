@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": { "item": "kubejs:creative_plate" },
+    "B": { "item": "simplyjetpacks:jetpack_creative" }
+  },
+  "result": {
+    "item": "simplyjetpacks:jetpack_creative_armored",
+    "count": 1
+  }
+}

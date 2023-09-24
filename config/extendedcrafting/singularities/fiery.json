@@ -1,0 +1,11 @@
+{
+  "name": "Fiery",
+  "colors": [
+    "170807",
+    "fcae09"
+  ],
+  "ingredient": {
+    "item": "twilightforest:fiery_ingot"
+  },
+  "inUltimateSingularity": true
+}

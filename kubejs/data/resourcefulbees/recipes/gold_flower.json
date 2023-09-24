@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "tag": "botania:double_mystical_flowers"
+    }
+  },
+  "result": {
+    "item": "resourcefulbees:gold_flower"
+  }
+}

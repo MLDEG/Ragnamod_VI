@@ -1,0 +1,11 @@
+{
+  "name": "Dimensional Shard",
+  "colors": [
+    "80cccb",
+    "4aa2a1"
+  ],
+  "ingredient": {
+    "item": "rftoolsbase:dimensionalshard"
+  },
+  "inUltimateSingularity": true
+}

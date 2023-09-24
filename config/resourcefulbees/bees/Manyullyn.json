@@ -1,0 +1,27 @@
+{
+  "flower": "tconstruct:manyullyn_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "ingots/manyullyn_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#9060ca"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "tconstruct:manyullyn_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "cobalt",
+    "parent2": "netherite",
+    "feedItem": "tconstruct:manyullyn_ingot"
+  },
+  "TraitData": {}
+}

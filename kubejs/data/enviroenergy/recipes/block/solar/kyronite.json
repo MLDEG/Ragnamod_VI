@@ -1,0 +1,11 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "tier": 1,
+    "pattern": ["ABA", "BCB", "ABA"],
+    "key": {
+      "A": { "item": "envirocore:kyronite_crystal" },
+      "B": { "item": "enviroenergy:kyronite_solar_cell" },
+      "C": { "item": "enviroenergy:erodium_solar_ccu" }
+    },
+    "result": { "item": "enviroenergy:kyronite_solar_ccu", "count": 1 }
+  }

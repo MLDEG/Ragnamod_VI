@@ -1,0 +1,31 @@
+{
+  "flower": "minecraft:quartz_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/quartz_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#D4CABA",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:quartz",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "nether",
+    "feedItem": "minecraft:quartz"
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

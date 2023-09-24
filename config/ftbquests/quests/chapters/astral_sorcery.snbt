@@ -1,0 +1,875 @@
+{
+	id: "00000000000002B4"
+	group: ""
+	order_index: 16
+	filename: "astral_sorcery"
+	title: "Astral Sorcery"
+	icon: "astralsorcery:starmetal_ingot"
+	subtitle: ["There are so many stars in the sky."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -6.5d
+			description: ["The Lightwell is used to generate Liquid Starlight."]
+			dependencies: ["00000000000002C5"]
+			id: "00000000000002B5"
+			tasks: [{
+				id: "00000000000002B6"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [{
+				id: "58A865BED27E4B85"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:tool.efficiency"
+										pLevel: 1
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			description: [
+				"The Containment chalice is used to collect fluids with the Evershifting Fountain, it can be used to provide liquid starlight in the Starlight Infuser."
+				"You need to connect at the bottom of the Chalice to put or extract fluids."
+			]
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002B7"
+			tasks: [{
+				id: "00000000000002B8"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+			rewards: [{
+				id: "5DA8906136296337"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["The Starlight Infuser is used to infuse various items with Starlight to transform them (such as turning Aquamarines into Resonating Gems) and turning Crystal tools into their infused counterparts."]
+			dependencies: ["00000000000002C1"]
+			id: "00000000000002B9"
+			tasks: [{
+				id: "00000000000002BA"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+			rewards: [{
+				id: "2A0A9F23CCBD61B3"
+				type: "item"
+				item: "astralsorcery:infused_wood_infused"
+				count: 64
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			description: [
+				"The Ritual Pedestal is used to affect the area around it with the attuned Rock Crystal or Celestial Crystal."
+				""
+				"You have to make a complete structure to make it work, look at the Astral Tome to see how to do it!"
+			]
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002BB"
+			tasks: [{
+				id: "00000000000002BC"
+				type: "item"
+				item: "astralsorcery:ritual_pedestal"
+			}]
+			rewards: [{
+				id: "2527CCFA933A7487"
+				type: "item"
+				item: "astralsorcery:ritual_pedestal"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: [
+				"The Attunement Altar is used to attune Rock Crystals, Celestial Crystals, and (when attuning to a bright constellation) yourself for further crafting, rituals, or perks."
+				"After completing the structure described in the Astral Tome, Spectral Relays must be placed on the Sooty Marble to attune the Altar to a specific constellation."
+				""
+				"The placement of these Relays can be displayed when the constellation is in the sky and the player is holding its Constellation Paper in either hand."
+			]
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002BD"
+			tasks: [{
+				id: "00000000000002BE"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+			rewards: [{
+				id: "79620F17EECC3B46"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+				count: 8
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			description: [
+				"The Iridescent Altar is the fourth and last tier of crafting altar and is used throughout the Radiance chapter of the Astral Tome. It can contain more Starlight and adds 4 more slots for crafting."
+				""
+				"You need to have the table in your inventory."
+			]
+			dependencies: ["00000000000002C1"]
+			size: 2.0d
+			id: "00000000000002BF"
+			tasks: [{
+				id: "00000000000002C0"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+			rewards: [{
+				id: "02CE8AEDA0E122DC"
+				type: "item"
+				item: {
+					id: "astralsorcery:mantle"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: [
+				"The Celestial Altar is the third tier of crafting altar and is used throughout the Constellation chapter of the Astral Tome."
+				""
+				"You need to have the table in your inventory."
+			]
+			dependencies: ["00000000000002C3"]
+			size: 2.0d
+			id: "00000000000002C1"
+			tasks: [{
+				id: "00000000000002C2"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+			rewards: [{
+				id: "7C9478DCBD76A802"
+				type: "item"
+				item: "astralsorcery:stardust"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			description: [
+				"The Starlight Crafting Altar is the second tier of crafting altar and is used throughout the Attunement chapter of the Astral Tome."
+				""
+				"You need to have the table in your inventory."
+			]
+			dependencies: ["00000000000002C5"]
+			size: 2.0d
+			id: "00000000000002C3"
+			tasks: [{
+				id: "00000000000002C4"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [{
+				id: "1F3A156BCC05F5B1"
+				type: "item"
+				item: "astralsorcery:black_marble_raw"
+				count: 64
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			description: [
+				"The Luminous Crafting Table is the first tier of crafting altar and is used throughout the Exploration chapter of the Astral Tome."
+				""
+				"To get it you need to put a Crafting Table under a floating crystal in a big shrine, look the \"How do I begin Astral Sorcery?\" Quests"
+			]
+			dependencies: ["00000000000002DF"]
+			size: 2.0d
+			id: "00000000000002C5"
+			tasks: [{
+				id: "00000000000002C6"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "3814ACE06DBADA5F"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+				count: 64
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			description: [
+				"To obtain Infused Wood, toss any kind of log in Liquid Starlight and voilà !"
+				"{image:kubejs:textures/ftbquests/begin/infusedwood.png width:150 height:100 align:1}"
+			]
+			dependencies: ["00000000000002D7"]
+			id: "00000000000002C7"
+			tasks: [{
+				id: "00000000000002C8"
+				type: "item"
+				item: "astralsorcery:infused_wood"
+			}]
+			rewards: [{
+				id: "7C4C98DF17E0F070"
+				type: "item"
+				item: "astralsorcery:infused_wood"
+				count: 32
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: ["Get a Resonating Gem using the Starlight Infuser."]
+			dependencies: ["00000000000002B9"]
+			id: "00000000000002C9"
+			tasks: [{
+				id: "00000000000002CA"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+			rewards: [{
+				id: "13BBCA35174C6B07"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: [
+				"To use the Tree Beacon you need to grow a tree next to it, then a ghost of this tree will appear to validate that the Tree Beacon works."
+				"It will drop now and then woods, saplings and sticks until the ghost disappear."
+			]
+			dependencies: ["00000000000002C1"]
+			id: "00000000000002CB"
+			tasks: [{
+				id: "00000000000002CC"
+				type: "item"
+				item: "astralsorcery:tree_beacon"
+			}]
+			rewards: [{
+				id: "5447C5DA3465B3BB"
+				type: "item"
+				item: "astralsorcery:grapple_wand"
+			}]
+		}
+		{
+			title: "Ritual Anchor"
+			x: -2.5d
+			y: -0.5d
+			description: ["The Ritual Anchor is used to act as a proxy for active rituals at any distance, The Anchors must be linked with a Linking Tool."]
+			dependencies: ["00000000000002C1"]
+			id: "00000000000002CD"
+			tasks: [{
+				id: "00000000000002CE"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+				count: 2L
+			}]
+			rewards: [{
+				id: "5004C28CF8F6D860"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+				count: 2
+			}]
+		}
+		{
+			title: "Rock Crystal"
+			x: 0.5d
+			y: -5.5d
+			description: [
+				"To find rock crystal, take your Resonating Wand in your hand and search some white particle at night. "
+				"{image:kubejs:textures/ftbquests/begin/particle.png width:150 height:100 align:1}"
+				"When you  find this particle, dig from there and go to the bedrock."
+			]
+			dependencies: ["00000000000002B0"]
+			id: "00000000000002CF"
+			tasks: [{
+				id: "00000000000002D1"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.mineralis"
+										pLevel: 1
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.fornax"
+										pLevel: 2
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "31AF9A3B9998D06A"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+				count: 8
+			}]
+		}
+		{
+			title: "Starmetal"
+			x: 3.5d
+			y: -2.0d
+			description: ["Starmetal Ore is created by exposing Iron Ore to the starlight collected by a Collector Crystal or Celestial Collector Crystal."]
+			dependencies: ["00000000000002DD"]
+			id: "00000000000002D2"
+			tasks: [
+				{
+					id: "00000000000002D3"
+					type: "item"
+					item: "astralsorcery:starmetal_ore"
+				}
+				{
+					id: "00000000000002D4"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+			]
+			rewards: [{
+				id: "1A9E8F067635AAC1"
+				type: "item"
+				item: "astralsorcery:starmetal"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			description: ["You can find Aquamarine in rivers."]
+			dependencies: ["00000000000002B0"]
+			id: "00000000000002D5"
+			tasks: [{
+				id: "00000000000002D6"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+			rewards: [{
+				id: "100F251F11354782"
+				type: "item"
+				item: "astralsorcery:aquamarine_sand_ore"
+				count: 8
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			description: ["Get a bucket of Liquid Starlight."]
+			dependencies: ["00000000000002B5"]
+			id: "00000000000002D7"
+			tasks: [{
+				id: "00000000000002D8"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+			rewards: [{
+				id: "4007B42DC2B9ADC5"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: [
+				"If you ever want to change your Attunement for whatever reason then you will need to craft a Shifting Star."
+				""
+				"This can be used just like a bow (it will draw back and then break) and will clear your Attunement."
+				""
+				"This will undo all your progress with that attunement, if you want to keep your progress point but having another attunement you can use an Irradiant Star with the new attunement you want."
+			]
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002D9"
+			tasks: [{
+				id: "00000000000002DA"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+			rewards: [{
+				id: "4ABDC8B58E5727D0"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: [
+				"The Illumination Wand will create a light source when right-clicking where you want to put a light source."
+				""
+				"You can change the light color by changing the color of your wand (put a dye with your wand in your crafting inventory)."
+			]
+			dependencies: ["00000000000002C1"]
+			id: "00000000000002DB"
+			tasks: [{
+				id: "00000000000002DC"
+				type: "item"
+				item: {
+					id: "astralsorcery:illumination_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E4B61F9D2A3FCB2"
+				type: "item"
+				item: "astralsorcery:shifting_star"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			description: ["The Linking Tool is used to direct Starlight from a Collector Crystal, Celestial Collector Crystal, Lens, or PrismLens to a block."]
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002DD"
+			tasks: [{
+				id: "00000000000002DE"
+				type: "item"
+				item: "astralsorcery:linking_tool"
+			}]
+			rewards: [{
+				id: "16A96EF0ACB0D8BB"
+				type: "item"
+				item: {
+					id: "astralsorcery:exchange_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			description: ["The Resonating Wand is used to activate Astral Sorcery's crafting altars, as well as the Starlight Infuser."]
+			dependencies: ["00000000000002B0"]
+			size: 2.0d
+			id: "00000000000002DF"
+			tasks: [{
+				id: "00000000000002E0"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "1D7A9A97164E7612"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			description: ["The Observatory enables you to find four new Constellations, these are Faint Constellations and can only be found with the Observatory because they are further away."]
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002E1"
+			tasks: [{
+				id: "00000000000002E2"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+			rewards: [{
+				id: "72AB1649C2619F6C"
+				type: "item"
+				item: "astralsorcery:refraction_table"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			description: [
+				"The Telescope is used to discover bright and dim Constellations, provided that the appropriate Constellation Papers have been acquired."
+				""
+				"It functions similarly to the Looking Glass"
+			]
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002E3"
+			tasks: [{
+				id: "00000000000002E4"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [{
+				id: "681C4A670F6DEE44"
+				type: "item"
+				item: {
+					id: "astralsorcery:architect_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.5d
+			description: [
+				"The Looking Glass is used to discover bright Constellations, provided the appropriate Constellation Papers have been acquired."
+				"Right-clicking while outdoors during nighttime displays a view of the night sky's stars, among which the stars of constellations stand out."
+				""
+				"Holding shift will lock the angle, allow you to draw lines connecting the dots."
+				"Once a constellation has been traced, it turns blue and becomes visible in the night sky, and its entry in the Astral Tome gains more information."
+			]
+			dependencies: ["00000000000002C5"]
+			id: "00000000000002E5"
+			tasks: [{
+				id: "00000000000002E6"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "6F5716639999832A"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			description: [
+				"The Fysalldic Prime is set up in the exact same way as the Neromantic Prime."
+				"When fed enough Liquid Starlight, it will start to suck up nearby mobs and freeze them in place."
+			]
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002E9"
+			tasks: [{
+				id: "00000000000002EA"
+				type: "item"
+				item: "astralsorcery:fountain_prime_vortex"
+			}]
+			rewards: [{
+				id: "76AB6F3A44EC40B5"
+				type: "item"
+				item: "astralsorcery:black_marble_raw"
+				count: 64
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			description: ["With the Neromantic Prime you can get Water, Lava but also: Mud, Oil, Murky Water, Liquid Soul and Magma."]
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002EB"
+			tasks: [{
+				id: "00000000000002EC"
+				type: "item"
+				item: "astralsorcery:fountain_prime_liquid"
+			}]
+			rewards: [{
+				id: "79B5774438542C06"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+				count: 64
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			description: [
+				"The Evershifting Fountain is the core of an advanced multi-block."
+				"A Chalice must be placed on top of the fountain and supplied with Liquid Starlight for the structure to operate."
+				"Its exact function is determined by the Prime attached to the fountain's bottom side."
+			]
+			dependencies: ["00000000000002BF"]
+			id: "00000000000002ED"
+			tasks: [{
+				id: "00000000000002EE"
+				type: "item"
+				item: "astralsorcery:fountain"
+			}]
+			rewards: [{
+				id: "6DE48C2D3B9E4D40"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_glass"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			description: [
+				"The Celestial Gateway is used to teleport you to other Celestial Gateways."
+				"When the structure is built correctly, approaching the Gateway will cause the surrounding area to darken into a panoramic night sky."
+				"Celestial Gateways that can be teleported to are depicted with larger yellow stars among the starry backdrop."
+				"It can be renamed in Anvils which will create a small caption appearing on the star while looking at it."
+			]
+			dependencies: ["00000000000002C3"]
+			id: "00000000000002EF"
+			tasks: [{
+				id: "00000000000002F0"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B07EE59F5F9FE65"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["00000000000002B9"]
+			id: "000000000000059B"
+			tasks: [{
+				id: "000000000000059C"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+			}]
+			rewards: [{
+				id: "3FF3F038527A1F26"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+				count: 8
+			}]
+		}
+		{
+			title: "How do I begin Astral Sorcery ?"
+			icon: "create:brass_hand"
+			x: -3.5d
+			y: -7.0d
+			shape: "circle"
+			description: [
+				"To begin with Astral you need to find a big shrine in the world."
+				"{image:kubejs:textures/ftbquests/begin/shrine.png width:150 height:100 align:1}"
+				"In this shrine you can find a floating rock crystal, with that place a crafting table below and clear some space above the floating crystal so that it can be in contact with the sky."
+				"{image:kubejs:textures/ftbquests/begin/crystal.png width:150 height:100 align:1}"
+				"Wait a second and you have your Luminous Crafting Table."
+			]
+			dependencies: ["00000000000002B0"]
+			id: "4A20C2B49A61967D"
+			tasks: [{
+				id: "7088167576861EB7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "652F8FABF8D1EE2D"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+		{
+			title: "Dark Celestial Altar"
+			icon: "masterfulmachinery:autoastral_controller"
+			x: 1.5d
+			y: -7.0d
+			description: [
+				"The Dark Celestial Altar is a multi-block structure that will allow you to automate certain Astral Sorcery crafting."
+				"{image:kubejs:textures/ftbquests/begin/dark_celestial.png width:150 height:100 align:1}"
+				"You need to link a crystal to the Starlight input port to be able to craft with the structure."
+			]
+			dependencies: ["00000000000002C0"]
+			id: "35F0ED96597505AB"
+			tasks: [
+				{
+					id: "37B47BAB7584330F"
+					type: "item"
+					item: "masterfulmachinery:autoastral_controller"
+				}
+				{
+					id: "6B661F0B372ACF5F"
+					type: "item"
+					item: "masterfulmachinery:autoastral_dark_celestial_item_port_items_input"
+				}
+				{
+					id: "6B6EFA617407B1AC"
+					type: "item"
+					item: "masterfulmachinery:autoastral_dark_celestial_item_port_items_output"
+				}
+				{
+					id: "4CE3D8B4AD7419D0"
+					type: "item"
+					item: "masterfulmachinery:autoastral_dark_celestial_starlight_port_astral_starlight_input"
+					count: 4L
+				}
+				{
+					id: "69B4983CA427FBBE"
+					type: "item"
+					item: "astralsorcery:black_marble_bricks"
+					count: 65L
+				}
+				{
+					id: "49662C2225EE11C4"
+					type: "item"
+					item: "astralsorcery:black_marble_chiseled"
+					count: 4L
+				}
+				{
+					id: "6CDFA2A63C392EAF"
+					type: "item"
+					item: "astralsorcery:black_marble_pillar"
+					count: 8L
+				}
+				{
+					id: "604105177EFCC1FB"
+					type: "item"
+					item: "astralsorcery:black_marble_runed"
+					count: 4L
+				}
+				{
+					id: "7BDEF6E4A51A2463"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 57L
+				}
+				{
+					id: "2DA08DEBF629F713"
+					type: "item"
+					item: "astralsorcery:infused_wood_enriched"
+					count: 4L
+				}
+				{
+					id: "71659E93E63F838B"
+					type: "item"
+					item: "astralsorcery:infused_wood_column"
+					count: 8L
+				}
+				{
+					id: "1A40F7C3CB25CA91"
+					type: "item"
+					item: "astralsorcery:altar_radiance"
+				}
+			]
+			rewards: [{
+				id: "60DEA27B02BC5E71"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_collector_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							constellation: "astralsorcery:discidia"
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:collector.rate"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.discidia"
+										pLevel: 2
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			description: ["The Starmetal Cutting Tool is used to cut Starmetal Ingot into dust by left-clicking an ingot toss on the ground."]
+			dependencies: ["00000000000002C3"]
+			id: "5713FA83BFF5FF85"
+			tasks: [{
+				id: "0421400E3BF6D97C"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "41CDBA6D4AFE56E6"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+		}
+	]
+}

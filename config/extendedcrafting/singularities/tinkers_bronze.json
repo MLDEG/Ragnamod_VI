@@ -1,0 +1,11 @@
+{
+  "name": "Tinkers Bronze",
+  "colors": [
+    "ecc074",
+    "ca9144"
+  ],
+  "ingredient": {
+    "item": "tconstruct:tinkers_bronze_ingot"
+  },
+  "inUltimateSingularity": true
+}

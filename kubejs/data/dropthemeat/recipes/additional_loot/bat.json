@@ -1,0 +1,24 @@
+{
+	"type": "cagedmobs:additional_loot_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:bat",
+	"results": [
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "dropthemeat:raw_bat"
+				},
+				"output_cooked": {
+					"item": "dropthemeat:cooked_bat"
+				},
+				"minAmount": 1,
+				"maxAmount": 2
+		}
+	]
+
+}

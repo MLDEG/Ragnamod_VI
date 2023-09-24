@@ -1,0 +1,11 @@
+{
+  "name": "Rose Gold",
+  "colors": [
+    "e5b19e",
+    "bd7e6f"
+  ],
+  "ingredient": {
+    "item": "tconstruct:rose_gold_ingot"
+  },
+  "inUltimateSingularity": true
+}

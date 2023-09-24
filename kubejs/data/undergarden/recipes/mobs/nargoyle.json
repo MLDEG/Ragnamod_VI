@@ -1,0 +1,16 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "undergarden:nargoyle",
+    "samplerTier": 2,
+    "environments": ["undergarden"],
+    "growTicks": 1200,
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "minecraft:string"
+            },
+            "minAmount": 1,
+            "maxAmount": 1
+        }
+]}

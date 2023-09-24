@@ -1,0 +1,27 @@
+{
+  "flower": "powah:niotic_crystal_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "nioticcrystal_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#2ad0cf"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "powah:crystal_niotic"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "blazingcrystal",
+    "parent2": "energizedsteel",
+    "feedItem": "powah:crystal_niotic"
+  },
+  "TraitData": {}
+}

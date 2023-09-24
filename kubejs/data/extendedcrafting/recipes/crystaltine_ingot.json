@@ -1,0 +1,13 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+  {"item": "envirocore:xerothium_crystal"},
+  {"item": "forbidden_arcanus:arcane_crystal"},
+  {"item": "minecraft:nether_star"}
+  ],
+  "energy": 10000000,
+  "result": {
+  "item": "extendedcrafting:crystaltine_ingot",
+  "count": 4
+  }
+}

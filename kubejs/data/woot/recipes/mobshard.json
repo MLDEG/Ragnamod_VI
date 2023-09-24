@@ -1,0 +1,10 @@
+{
+  "type":"immersiveengineering:metal_press",
+  "mold":
+  {"item":"woot:shard_die"},
+  "result":
+  {"item":"woot:mobshard"},
+  "input":
+  {"base_ingredient":{"item":"minecraft:ender_pearl"}},
+  "energy":2400
+}

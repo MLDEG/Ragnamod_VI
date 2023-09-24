@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stripped_oak_wood"
+    },
+    "B": {
+      "item": "thermal:iron_gear"
+    },
+    "C": {
+      "item": "immersiveengineering:rs_engineering"
+    }
+  },
+  "result": {
+    "item": "industrialforegoing:machine_frame_pity"
+  }
+}

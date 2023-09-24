@@ -1,0 +1,11 @@
+{
+  "name": "Lead",
+  "colors": [
+    "7a89b4",
+    "6e7da3"
+  ],
+  "ingredient": {
+    "item": "thermal:lead_ingot"
+  },
+  "inUltimateSingularity": true
+}

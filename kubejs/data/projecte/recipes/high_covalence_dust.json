@@ -1,0 +1,9 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [" BBB ","BBBBB","BBABB","BBBBB"," BBB "],
+  "key": {
+    "A": {"item": "iceandfire:pixie_dust"},
+    "B": {"item": "thermal:enderium_dust"}
+  },
+  "result": {"item": "projecte:high_covalence_dust","count": 4}
+}

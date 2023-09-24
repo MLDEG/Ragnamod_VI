@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    ["ABA","BCB","ABA"],
+    "key":
+    {
+        "A":{"item": "eidolon:arcane_gold_ingot"},
+        "B":{"item": "forbidden_arcanus:mundabitur_dust"},
+        "C":{"item": "mysticalagradditions:insanium_farmland"}
+    },
+    "result":{"item": "forbidden_arcanus:magical_farmland"}
+}

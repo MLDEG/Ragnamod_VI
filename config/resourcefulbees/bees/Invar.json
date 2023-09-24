@@ -1,0 +1,27 @@
+{
+  "flower": "thermal:invar_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/invar_bee",
+  "ColorData": {
+      "isBeeColored": false,
+    "honeycombColor": "#c8cfc7"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:invar_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "iron",
+    "parent2": "nickel",
+    "feedItem": "thermal:invar_ingot"
+  },
+  "TraitData": {}
+}

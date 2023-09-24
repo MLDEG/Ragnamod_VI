@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDE",
+    "AFA"
+  ],
+  "key": {
+    "A": { "item": "mysticalagradditions:creative_essence" },
+    "B": { "item": "simplyjetpacks:jetpack_vanilla4_armored" },
+    "C": { "item": "simplyjetpacks:jetpack_mek4_armored" },
+    "D": { "item": "kubejs:sphere" },
+    "E": { "item": "simplyjetpacks:jetpack_ie3_armored" },
+    "F": { "item": "simplyjetpacks:jetpack_te5_enderium" }
+  },
+  "result": {
+    "item": "simplyjetpacks:jetpack_creative",
+    "count": 1
+  }
+}

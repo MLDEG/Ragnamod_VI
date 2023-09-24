@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "DED"
+  ],
+  "key": {
+    "A": { "item": "thermal:invar_plate" },
+    "B": { "item": "thermal:upgrade_augment_1" },
+    "C": { "item": "thermal:dynamo_numismatic" },
+    "D": { "item": "thermal:invar_ingot" },
+    "E": { "item": "thermal:redstone_servo" }
+  },
+  "result": {
+    "item": "simplyjetpacks:thruster_te2",
+    "count": 1
+  }
+}

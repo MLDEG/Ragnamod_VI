@@ -1,0 +1,28 @@
+{
+  "flower": "gobber2:gobber2_block_nether",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/nethergobber_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#b54071",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "gobber2:gobber2_globette_nether"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "nether",
+    "parent2": "gobber",
+    "feedItem": "gobber2:gobber2_globette_nether"
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,1 @@
+{"type": "cagedmobs:env_data","conditions": [{"type": "forge:mod_loaded","modid": "cagedmobs"}],"input": {"item": "undergarden:depthrock"},"render": "undergarden:depthrock","growModifier": 1.0,"categories": ["undergarden"]}

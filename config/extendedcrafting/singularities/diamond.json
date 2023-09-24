@@ -1,0 +1,11 @@
+{
+  "name": "Diamond",
+  "colors": [
+    "4aedd9",
+    "20c5b5"
+  ],
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "inUltimateSingularity": true
+}

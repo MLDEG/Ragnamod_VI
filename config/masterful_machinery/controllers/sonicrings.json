@@ -1,0 +1,25 @@
+{
+  "controllerId": "sonicrings",
+  "name": "Ring Maker",
+  "textureOverride": "minecraft:block/gold_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "minecraft:block/gold_block",
+      "name": "Item",
+      "id": "ringitem",
+      "data": {
+        "rows": 1,
+        "columns": 1
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "ringenergy",
+      "data": {
+        "capacity": 10000000
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "waystones:warp_dust",
+    "count": 4
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thermal:diamond_dust"
+    },
+    {
+      "tag": "forge:dyes/purple"
+    }
+  ]
+}

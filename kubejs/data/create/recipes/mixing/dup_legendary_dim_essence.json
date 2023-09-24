@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "rftoolsdim:legendary_essence"
+    },
+    {
+      "item": "rftoolsbase:dimensionalshard"
+    }
+  ],
+  "results": [
+    {
+      "item": "rftoolsdim:legendary_essence",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "quark:deepslate"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:cobbled_deepslate"
+    }
+  ],
+  "processingTime": 350
+}

@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "astralsorcery:infused_wood"
+  },
+  "output": {
+    "name": "botania:livingwood"
+  }
+}

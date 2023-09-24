@@ -1,0 +1,29 @@
+{
+  "flower": "minecraft:lapis_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/lapis/lapis_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#345ec3",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:lapis_lazuli",
+    "mainOutputCount": 8
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "gravel",
+    "parent2": "rgbee",
+    "feedItem": "minecraft:lapis_lazuli"
+  },
+  "TraitData": {}
+}

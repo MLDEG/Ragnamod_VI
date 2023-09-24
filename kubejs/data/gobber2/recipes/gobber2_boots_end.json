@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "A A"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "gobber2:gobber2_links_end"
+        },
+        "B":
+        {
+            "item": "gobber2:gobber2_boots_nether"
+        }
+    },
+    
+    "result":
+    {
+        "item": "gobber2:gobber2_boots_end",
+        "count": 1
+    }
+}

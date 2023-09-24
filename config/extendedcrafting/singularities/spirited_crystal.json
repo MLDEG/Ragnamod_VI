@@ -1,0 +1,11 @@
+{
+  "name": "Spirited Crystal",
+  "colors": [
+    "53a50a",
+    "167d00"
+  ],
+  "ingredient": {
+    "item": "powah:crystal_spirited"
+  },
+  "inUltimateSingularity": true
+}

@@ -1,0 +1,2146 @@
+{
+    "groupOverrides": {
+        "BiomesOPlenty Flowers": {
+          "enabled": true,
+          "payment": {
+            "item": "farlanders:endumium_crystal",
+            "count": 1
+          }
+        },
+        "Vanilla Flowers": {
+          "enabled": true,
+          "payment": {
+            "item": "farlanders:endumium_crystal",
+            "count": 1
+          }
+        },
+        "Animal Eggs": {
+          "enabled": true,
+          "payment": {
+            "item": "farlanders:endumium_crystal",
+            "count": 16
+          }
+        },
+        "Vanilla Mushrooms": {
+          "enabled": true,
+          "payment": {
+            "item": "farlanders:endumium_crystal",
+            "count": 1
+          }
+        },
+        "Vanilla Saplings": {
+            "payment": {
+            "item": "farlanders:endumium_crystal",
+            "count": 1
+            }
+        },
+        "Vanilla Seeds": {
+            "payment": {
+            "item": "farlanders:endumium_crystal",
+            "count": 1
+            }
+        },
+        "Bone Meal": {
+            "enabled": false
+        },
+        "Pam's HarvestCraft 2 Trees Saplings": {
+            "payment": {
+            "item": "farlanders:endumium_crystal",
+            "count": 3
+            }
+        },
+        "BiomesOPlenty Saplings": {
+            "payment": {
+            "item": "farlanders:endumium_crystal",
+            "count": 3
+            }
+        },
+        "Pam's HarvestCraft 2 Crops Seeds": {
+            "payment": {
+            "item": "farlanders:endumium_crystal",
+            "count": 3
+            }
+        }
+    },
+    "entryOverrides": {
+      "minecraft:bee_spawn_egg": {
+        "enabled": false
+      },
+      "pamhc2trees:avocado_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:banana_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:fig_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:lemon_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:mango_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:olive_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:orange_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:peach_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:pear_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:starfruit_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:almond_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:cashew_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:chestnut_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:hazelnut_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:pecan_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:pistachio_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:walnut_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 5
+        }
+      },
+      "pamhc2trees:lime_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 8
+        }
+      },
+      "pamhc2trees:cinnamon_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 8
+        }
+      },
+      "pamhc2trees:nutmeg_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 8
+        }
+      },
+      "pamhc2trees:peppercorn_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 8
+        }
+      },
+      "pamhc2trees:vanillabean_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 8
+        }
+      },
+      "pamhc2trees:coconut_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 8
+        }
+      },
+      "pamhc2trees:paperbark_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 8
+        }
+      },
+      "pamhc2trees:spiderweb_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 8
+        }
+      },
+      "pamhc2trees:pinenut_sapling": {
+        "payment": {
+          "item": "farlanders:endumium_crystal",
+          "count": 8
+        }
+      }
+    },
+    "customCategories": {
+      "tall_flower": {
+        "name": "Tall Flowers",
+        "icon": {
+          "item": "minecraft:rose_bush"
+        }
+      }
+    },
+    "customEntries": [
+      {
+        "output": {
+          "item": "byg:allium_flower_bush"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:alpine_bellflower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:amaranth"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:angelica"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:begonia"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:bistort"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:black_rose"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:blue_sage"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:california_poppy"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:crocus"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:cyan_amaranth"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:cyan_rose"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:cyan_tulip"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:daffodil"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:fairy_slipper"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:firecracker_flower_bush"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:green_tulip"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:guzmania"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:incan_lily"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:iris"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:kovan_flower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:lazarus_bellflower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:lolipop_flower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:magenta_amaranth"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:magenta_tulip"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:orange_amaranth"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:orange_daisy"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:osiria_rose"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:peach_leather_flower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:pink_allium"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:pink_allium_flower_bush"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:pink_anemone"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:pink_daffodil"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:pink_orchid"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:protea_flower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:purple_amaranth"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:purple_orchid"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:purple_sage"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:purple_tulip"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:red_cornflower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:red_orchid"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:richea"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:rose"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:silver_vase_flower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:snowdrops"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:torch_ginger"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:violet_leather_flower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:white_anemone"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:white_sage"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:winter_cyclamen"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:winter_rose"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:winter_scilla"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:yellow_daffodil"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "byg:yellow_tulip"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "forbidden_arcanus:yellow_orchid"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:flowers"
+      },
+      {
+        "output": {
+          "item": "minecraft:nether_wart"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:green_mushroom"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:weeping_milkcap"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:wood_blewit"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:black_puff"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:shulkren_fungus"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:purple_glowshroom"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:blue_glowshroom"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "undergarden:blood_mushroom"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "undergarden:ink_mushroom"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "undergarden:veil_mushroom"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "undergarden:indigo_mushroom"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "extendedmushrooms:poisonous_mushroom"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "extendedmushrooms:glowshroom"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "extendedmushrooms:infested_flower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "minecraft:sweet_berries"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:blueberries"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:crimson_berries"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "byg:nightshade_berries"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:bone_spider_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:rainbow_sheep_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:horned_sheep_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:moobloom_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:cluckshroom_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:jolly_llama_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:wooly_cow_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:bouldering_zombie_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:lobber_zombie_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "earthmobsmod:viler_witch_spawnegg"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:other"
+      },
+      {
+        "output": {
+          "item": "minecraft:carrot"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "minecraft:potato"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "tconstruct:sky_slime_grass_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "tconstruct:ender_slime_grass_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "tconstruct:blood_slime_grass_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:barley_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:corn_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:onion_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:radish_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:rice_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:sadiroot_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:spinach_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:bell_pepper_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:eggplant_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:green_bean_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:peanut_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:strawberry_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:tomato_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:coffee_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:tea_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "thermal:frost_melon_seeds"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 1
+        },
+        "category": "farmingforblockheads:seeds"
+      },
+      {
+        "output": {
+          "item": "minecraft:rose_bush"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "tall_flower"
+      },
+      {
+        "output": {
+          "item": "minecraft:peony"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "tall_flower"
+      },
+      {
+        "output": {
+          "item": "minecraft:lilac"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "tall_flower"
+      },
+      {
+        "output": {
+          "item": "minecraft:sunflower"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "tall_flower"
+      },
+      {
+        "output": {
+          "item": "byg:tall_allium"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "tall_flower"
+      },
+      {
+        "output": {
+          "item": "byg:delphinium"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "tall_flower"
+      },
+      {
+        "output": {
+          "item": "byg:foxglove"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "tall_flower"
+      },
+      {
+        "output": {
+          "item": "byg:japanese_orchid"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "tall_flower"
+      },
+      {
+        "output": {
+          "item": "byg:tall_pink_allium"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "tall_flower"
+      },
+      {
+        "output": {
+          "item": "forbidden_arcanus:cherrywood_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "forbidden_arcanus:mysterywood_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:aspen_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:baobab_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:blue_enchanted_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:pink_cherry_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:white_cherry_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:cika_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:cypress_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:ebony_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:ether_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:fir_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:green_enchanted_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:holly_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:jacaranda_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:indigo_jacaranda_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:lament_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:mahogany_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:mangrove_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:maple_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:red_maple_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:silver_maple_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:nightshade_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:palm_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:palo_verde_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:pine_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:rainbow_eucalyptus_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:redwood_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:skyris_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:willow_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:witch_hazel_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:zelkova_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:withering_oak_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:araucaria_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:blue_spruce_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:brown_birch_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:brown_oak_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:brown_zelkova_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:joshua_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:orange_birch_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:orange_oak_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:orange_spruce_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:orchard_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:red_birch_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:red_oak_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:red_spruce_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:yellow_birch_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "byg:yellow_spruce_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "quark:blue_blossom_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "quark:lavender_blossom_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "quark:orange_blossom_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "quark:pink_blossom_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "quark:yellow_blossom_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "quark:red_blossom_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "upgrade_aquatic:river_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "endergetic:poise_bush"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "undergarden:grongle_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "undergarden:smogstem_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "undergarden:wigglewood_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "ars_nouveau:blue_archwood_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 6
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "ars_nouveau:purple_archwood_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 6
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "ars_nouveau:green_archwood_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 6
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "ars_nouveau:red_archwood_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 6
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "integrateddynamics:menril_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 16
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "betterendforge:mossy_glowshroom_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "betterendforge:lacugrove_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "betterendforge:pythadendron_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "betterendforge:dragon_tree_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "betterendforge:tenanea_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "betterendforge:helix_tree_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "betterendforge:umbrella_tree_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "betterendforge:lucernia_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "architects_palette:twisted_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "tconstruct:blood_slime_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "tconstruct:earth_slime_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "tconstruct:sky_slime_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      },
+      {
+        "output": {
+          "item": "tconstruct:ender_slime_sapling"
+        },
+        "payment": {
+        "item": "farlanders:endumium_crystal",
+        "count": 3
+        },
+        "category": "farmingforblockheads:saplings"
+      }
+    ]
+  }

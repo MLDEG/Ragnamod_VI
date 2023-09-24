@@ -1,0 +1,17 @@
+{
+  "controllerId": "smithing",
+  "name": "Smithing Machine",
+  "textureOverride": "kubejs:block/smithing_machine_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "kubejs:block/smithing_machine_block",
+      "name": "Item",
+      "id": "smithingitem",
+      "data": {
+        "rows": 1,
+        "columns": 2
+      }
+    }
+  ]
+}

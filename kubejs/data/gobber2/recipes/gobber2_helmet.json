@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"AAA",
+		"ABA"
+	],
+	
+	"key":
+	{
+		"A": { "item": "gobber2:gobber2_ingot" },
+		"B": { "item": "minecraft:netherite_helmet" }	
+	},
+	
+	"result": { "item": "gobber2:gobber2_helmet" }
+}

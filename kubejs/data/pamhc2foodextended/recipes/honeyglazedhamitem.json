@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_saucepan"
+    },
+	{	
+      "tag": "forge:rawpork"
+    },
+	{	
+      "tag": "forge:honey"
+    },
+	{	
+      "tag": "forge:butter"
+    },
+	{	
+      "tag": "forge:crops/lemon"
+    }
+
+	],
+	
+	"result": {"item": "pamhc2foodextended:honeyglazedhamitem",
+	"count": 1}
+	
+}

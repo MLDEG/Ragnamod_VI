@@ -1,0 +1,11 @@
+{
+  "name": "Endumium",
+  "colors": [
+    "d647f6",
+    "bd0ae5"
+  ],
+  "ingredient": {
+    "item": "farlanders:endumium_crystal"
+  },
+  "inUltimateSingularity": true
+}

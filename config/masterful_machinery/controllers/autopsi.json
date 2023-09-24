@@ -1,0 +1,26 @@
+{
+  "controllerId": "autopsi",
+  "name": "Infusion Automated",
+  "textureOverride": "psi:blocks/psigem_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "psi:blocks/psimetal_block",
+      "name": "Item",
+      "id": "autopsi_item",
+      "data": {
+        "rows": 1,
+        "columns": 1
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "textureOverride": "psi:blocks/psimetal_block",
+      "name": "Energy",
+      "id": "autopsi_energy",
+      "data": {
+        "capacity": 100000000
+      }
+    }
+  ]
+}

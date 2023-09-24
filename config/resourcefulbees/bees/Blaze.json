@@ -1,0 +1,28 @@
+{
+  "flower": "botania:blaze_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "mobs/blaze_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#fcbf00",
+      "modelType": "GELATINOUS"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:blaze_rod"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "skeleton",
+    "parent2": "lava",
+    "feedItem": "minecraft:blaze_rod"
+  },
+  "TraitData": {}
+  }

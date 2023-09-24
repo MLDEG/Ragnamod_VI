@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OEO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "tag": "minecraft:planks"
+    },
+    "E": {
+      "item": "kubejs:loading_pearl"
+    }
+  },
+  "result": {
+    "item": "chunknogobyebye:loader",
+    "count": 1
+  }
+}

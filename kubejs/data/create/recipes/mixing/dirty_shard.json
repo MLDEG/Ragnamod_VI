@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "tag": "quark:shards"
+    }
+  ],
+  "results": [
+    {
+      "item": "quark:dirty_shard"
+    }
+  ]
+}

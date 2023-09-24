@@ -1,0 +1,11 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "tier": 1,
+    "pattern": ["ABA", "BCB", "ABA"],
+    "key": {
+      "A": { "item": "envirocore:ionite_crystal" },
+      "B": { "item": "enviroenergy:ionite_solar_cell" },
+      "C": { "item": "enviroenergy:pladium_solar_ccu" }
+    },
+    "result": { "item": "enviroenergy:ionite_solar_ccu", "count": 1 }
+  }

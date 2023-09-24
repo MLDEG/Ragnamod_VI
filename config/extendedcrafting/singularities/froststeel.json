@@ -1,0 +1,11 @@
+{
+  "name": "Froststeel",
+  "colors": [
+    "82a1bf",
+    "6583a2"
+  ],
+  "ingredient": {
+    "item": "undergarden:froststeel_ingot"
+  },
+  "inUltimateSingularity": true
+}

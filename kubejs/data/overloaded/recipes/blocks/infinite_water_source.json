@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "overloaded:infinite_water_source"
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "mekanism:ultimate_mechanical_pipe"
+    },
+    "B": {
+      "item": "mekanism:enriched_diamond"
+    },
+    "C": {
+      "item": "cookingforblockheads:sink"
+    }
+  }
+}

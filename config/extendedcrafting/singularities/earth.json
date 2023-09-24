@@ -1,0 +1,11 @@
+{
+  "name": "Earth",
+  "colors": [
+    "42ab3c",
+    "368d32"
+  ],
+  "ingredient": {
+    "item": "mysticalagriculture:earth_agglomeratio"
+  },
+  "inUltimateSingularity": true
+}

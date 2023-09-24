@@ -1,0 +1,28 @@
+{
+  "flower": "undergarden:regalium_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/regalium_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#d2be54",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "undergarden:regalium_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "froststeel",
+    "parent2": "gold",
+    "feedItem": "undergarden:regalium_ingot"
+  },
+  "TraitData": {}
+}

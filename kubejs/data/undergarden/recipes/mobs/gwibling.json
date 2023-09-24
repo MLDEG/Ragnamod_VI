@@ -1,0 +1,25 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "undergarden:gwibling",
+    "samplerTier": 2,
+    "environments": ["undergarden"],
+    "growTicks": 1200,
+	"requiresWater": true,
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "undergarden:raw_gwibling"
+            },
+            "minAmount": 1,
+            "maxAmount": 1
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "minecraft:bone_meal"
+            },
+            "minAmount": 1,
+            "maxAmount": 1
+        }
+]}

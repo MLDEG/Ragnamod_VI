@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "ABA",
+    "CAC"
+  ],
+  "key": {
+    "A": {
+      "item": "rftoolsbase:machine_base"
+    },
+    "B": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "C": {
+      "item": "undergarden:cloggrum_ingot"
+    }
+  },
+  "result": {
+    "item": "rftoolsbase:machine_frame"
+  }
+}

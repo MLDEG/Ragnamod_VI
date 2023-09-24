@@ -1,0 +1,16 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "rftoolsdim:dimensional_blob_legendary",
+    "samplerTier": 3,
+    "environments": ["rftool"],
+    "growTicks": 1200,
+    "results": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "rftoolsdim:legendary_essence"
+            },
+            "minAmount": 1,
+            "maxAmount": 2
+        }
+]}

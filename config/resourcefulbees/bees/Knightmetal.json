@@ -1,0 +1,27 @@
+{
+  "flower": "twilightforest:underbrick",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600, 
+  "baseLayerTexture": "ingots/knightmetal_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#c2d3ac"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "twilightforest:knightmetal_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "ironwood",
+    "parent2": "steeleaf",
+    "feedItem": "twilightforest:knightmetal_ingot"
+  },
+  "TraitData": {}
+}

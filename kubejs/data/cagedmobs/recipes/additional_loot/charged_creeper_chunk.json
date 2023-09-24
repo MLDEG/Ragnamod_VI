@@ -1,0 +1,22 @@
+{
+	"type": "cagedmobs:additional_loot_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:creeper",
+	"results": [
+		{
+			"lightning":true,
+			"chance": 0.1,
+			"output": {
+				"item": "rats:charged_creeper_chunk"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		}
+	]
+
+}

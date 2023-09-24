@@ -1,0 +1,9 @@
+{
+    "type": "bloodmagic:altar",
+    "input": { "item": "forbidden_arcanus:xpetrified_orb" },
+    "output": { "item": "forbidden_arcanus:eternal_stella", "count": 1 },
+    "upgradeLevel": 4,
+    "altarSyphon": 50000,
+    "consumptionRate": 20,
+    "drainRate": 10
+  }

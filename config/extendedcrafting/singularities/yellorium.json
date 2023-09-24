@@ -1,0 +1,11 @@
+{
+  "name": "Yellorium",
+  "colors": [
+    "e3d570",
+    "b3a843"
+  ],
+  "ingredient": {
+    "item": "bigreactors:yellorium_ingot"
+  },
+  "inUltimateSingularity": true
+}

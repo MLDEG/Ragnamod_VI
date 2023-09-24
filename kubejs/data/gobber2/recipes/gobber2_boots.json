@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	
+	"pattern":
+	[
+		"ABA",
+		"A A"
+	],
+	
+	"key":
+	{
+		"A": { "item": "gobber2:gobber2_ingot" },
+		"B": { "item": "minecraft:netherite_boots" }	
+	},
+	
+	"result": { "item": "gobber2:gobber2_boots" }
+}

@@ -1,0 +1,24 @@
+{
+  "oreConfig": [
+    {
+      "ore": "kubejs:tungsten_ore",
+      "filler": "minecraft:stone",
+      "minY": 1,
+      "maxY": 16,
+      "maxVeinSize": 4,
+      "spawnRate": 1.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    },
+    {
+      "ore": "kubejs:tungsten_nether_ore",
+      "filler": "minecraft:netherrack",
+      "minY": 1,
+      "maxY": 125,
+      "maxVeinSize": 3,
+      "spawnRate": 1.2,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "group": "sonicraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "sonicraft:gold_ring"
+    },
+    "C": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "sonicraft:item_box",
+    "count": 1
+  }
+}

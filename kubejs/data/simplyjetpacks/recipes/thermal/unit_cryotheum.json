@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": { "item": "thermal:blizz_powder" },
+    "B": { "item": "simplyjetpacks:unit_cryotheum_empty" }
+  },
+  "result": {
+    "item": "simplyjetpacks:unit_cryotheum",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "flower": "bigreactors:cyanite_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/cyanite_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#7bacdd"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "bigreactors:cyanite_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "yellorium",
+    "parent2": "icy",
+    "feedItem": "bigreactors:cyanite_ingot"
+  },
+  "TraitData": {}
+}

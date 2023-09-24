@@ -1,0 +1,13 @@
+{
+  "type": "bloodmagic:arc",
+  "input": {
+    "item": "bloodmagic:weakbloodorb"
+  },
+  "tool": {
+    "tag": "bloodmagic:arc/reverter"
+  },
+  "output": {
+    "item": "botania:mana_diamond"
+  },
+  "consumeingredient": true
+}

@@ -1,0 +1,37 @@
+{
+  "type": "astralsorcery:altar",
+  "altar_type": 3,
+  "duration": 300,
+  "starlight": 5000,
+  "pattern": ["ABB  ","BCDA ","BDEDB"," ADCB","  BBA"],
+  "key": {
+    "A": {"item": "betterendforge:aeternium_ingot"},
+    "B": {"item": "iceandfire:ghost_ingot"},
+    "C": {"item": "gobber2:gobber2_globette_nether"},
+    "D": {"item": "extendedcrafting:crystaltine_ingot"},
+    "E": {"item": "envirocore:xerothium_crystal"}
+  },
+  "output": [
+    {
+      "item": "gobber2:gobber2_glob_end",
+      "count": 1
+    }
+  ],
+  "focus_constellation": "astralsorcery:mineralis",
+  "relay_inputs": [
+    {"item": "psi:psigem"},
+    {"item": "psi:psigem"},
+    {"item": "psi:psigem"},
+    {"item": "psi:psigem"},
+    {"item": "psi:psigem"}
+  ],
+  "effects": [
+    "astralsorcery:built_in_effect_constellation_finish",
+    "astralsorcery:built_in_effect_trait_relay_highlight",
+    "astralsorcery:built_in_effect_discovery_central_beam",
+    "astralsorcery:built_in_effect_trait_focus_circle",
+    "astralsorcery:altar_default_sparkle",
+    "astralsorcery:built_in_effect_constellation_lines",
+    "astralsorcery:built_in_effect_attunement_sparkle"
+  ]
+}

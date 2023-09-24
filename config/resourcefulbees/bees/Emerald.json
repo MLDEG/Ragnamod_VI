@@ -1,0 +1,28 @@
+{
+  "flower": "minecraft:emerald_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/emerald/emerald_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#18eb09",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:emerald"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "terrasteel",
+    "parent2": "nether_quartz",
+    "feedItem": "minecraft:emerald"
+  },
+  "TraitData": {}
+}

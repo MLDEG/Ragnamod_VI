@@ -1,0 +1,11 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "tier": 1,
+  "pattern": ["ABA", "BCB", "ABA"],
+  "key": {
+    "A": { "item": "farlanders:ender_horn" },
+    "B": { "item": "quark:basalt" },
+    "C": { "item": "minecraft:netherite_pickaxe" }
+  },
+  "result": { "item": "jamd:mine_portal_block", "count": 1 }
+}

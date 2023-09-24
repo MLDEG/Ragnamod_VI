@@ -1,0 +1,11 @@
+{
+  "name": "Copper",
+  "colors": [
+    "d48b5a",
+    "c57943"
+  ],
+  "ingredient": {
+    "item": "thermal:copper_ingot"
+  },
+  "inUltimateSingularity": true
+}

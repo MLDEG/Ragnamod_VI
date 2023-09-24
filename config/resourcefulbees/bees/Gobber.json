@@ -1,0 +1,28 @@
+{
+  "flower": "gobber2:gobber2_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ores/gobber_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#67b1e5",
+      "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "gobber2:gobber2_globette"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "manasteel",
+    "parent2": "platinum",
+    "feedItem": "gobber2:gobber2_globette"
+  },
+  "TraitData": {}
+}

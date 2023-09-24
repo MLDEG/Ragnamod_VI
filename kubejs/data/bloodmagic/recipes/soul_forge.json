@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["A A","BCB","BDB"],
+  "key": {
+    "A": {"item": "forbidden_arcanus:arcane_crystal"},
+    "B": {"item": "quark:basalt"},
+    "C": {"item": "bloodmagic:basemonstersoul"},
+    "D": {"item": "botania:piston_relay"}
+  },
+  "result": {
+    "item": "bloodmagic:soulforge"
+  }
+}

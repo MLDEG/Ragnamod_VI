@@ -1,0 +1,11 @@
+{
+  "name": "Quartz Enriched Iron",
+  "colors": [
+    "d1d0cb",
+    "a5a39d"
+  ],
+  "ingredient": {
+    "item": "refinedstorage:quartz_enriched_iron"
+  },
+  "inUltimateSingularity": true
+}

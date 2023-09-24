@@ -1,0 +1,18 @@
+
+#Basalt Ore config for janoeo
+[janoeo]
+	#Basalt coal ore generation: disable / enable
+	basaltCoalOreGen = true
+	#Basalt diamond ore generation: disable / enable
+	basaltDiamondOreGen = true
+	#Basalt emerald ore generation: disable / enable
+	basaltEmeraldOreGen = true
+	#Basalt gold ore generation: disable / enable
+	basaltGoldOreGen = true
+	#Basalt iron ore generation: disable / enable
+	basaltIronOreGen = true
+	#Basalt lapis ore generation: disable / enable
+	basaltLapisOreGen = true
+	#Basalt redstone ore generation: disable / enable
+	basaltRedstoneOreGen = true
+

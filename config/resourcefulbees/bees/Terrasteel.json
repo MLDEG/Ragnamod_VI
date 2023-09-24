@@ -1,0 +1,27 @@
+{
+  "flower": "botania:terrasteel_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "ingots/terrasteel_bee",
+  "ColorData": {
+      "isBeeColored": false,
+      "honeycombColor": "#55fc0a"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "botania:terrasteel_ingot"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "manasteel",
+    "parent2": "uraninite",
+    "feedItem": "botania:terrasteel_ingot"
+  },
+  "TraitData": {}
+}

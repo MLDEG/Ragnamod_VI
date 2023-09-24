@@ -1,0 +1,16 @@
+{
+    "type": "cagedmobs:mob_data",
+    "entity": "undergarden:rotling",
+    "samplerTier": 2,
+    "environments": ["undergarden"],
+    "growTicks": 1200,
+    "results": [
+        {
+            "chance": 1,
+            "output": {
+                "item": "undergarden:utheric_shard"
+            },
+            "minAmount": 0,
+            "maxAmount": 2
+        }
+]}

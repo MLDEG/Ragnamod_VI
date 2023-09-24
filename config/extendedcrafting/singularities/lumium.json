@@ -1,0 +1,11 @@
+{
+  "name": "Lumium",
+  "colors": [
+    "e4efbe",
+    "cc7421"
+  ],
+  "ingredient": {
+    "item": "thermal:lumium_ingot"
+  },
+  "inUltimateSingularity": true
+}

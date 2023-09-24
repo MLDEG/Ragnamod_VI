@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "ACA",
+    "D D"
+  ],
+  "key": {
+    "A": { "item": "thermal:lead_ingot" },
+    "B": { "item": "thermal:flux_capacitor" },
+    "C": { "item": "simplyjetpacks:leather_strap" },
+    "D": { "item": "simplyjetpacks:thruster_te1" }
+  },
+  "result": {
+    "item": "simplyjetpacks:jetpack_te1",
+    "count": 1
+  }
+}

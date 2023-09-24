@@ -1,0 +1,4072 @@
+{
+	id: "0000000000000131"
+	group: ""
+	order_index: 15
+	filename: "mystical_agriculture"
+	title: "Mystical Agriculture"
+	icon: { id: "mysticalagriculture:inferium_essence", Count: 64b }
+	subtitle: ["There is something mystical about these seeds."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Prosperity Shard"
+			x: 0.0d
+			y: -6.0d
+			description: ["To get your first Prosperity Shard you must install a void ore miner."]
+			dependencies: ["000000000000012D"]
+			size: 2.0d
+			id: "0000000000000132"
+			tasks: [{
+				id: "0000000000000133"
+				type: "item"
+				item: "mysticalagriculture:prosperity_shard"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6DDF063C8CB104ED"
+				type: "item"
+				item: "mysticalagriculture:prosperity_block"
+				count: 10
+			}]
+		}
+		{
+			title: "Inferium Essence"
+			x: 2.0d
+			y: -6.0d
+			description: ["Get a Stack of Infernium by killing things."]
+			dependencies: ["000000000000012D"]
+			size: 2.0d
+			id: "0000000000000134"
+			tasks: [{
+				id: "0000000000000135"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+				count: 64L
+			}]
+			rewards: [{
+				id: "7D829D1ED76B43B0"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
+				count: 10
+			}]
+		}
+		{
+			title: "Prudentium Essence"
+			x: 4.0d
+			y: -6.0d
+			description: ["Craft some Prudentium Essence with the Inferium Crystal."]
+			dependencies: [
+				"0000000000000134"
+				"0000000000000176"
+			]
+			size: 2.0d
+			id: "0000000000000136"
+			tasks: [{
+				id: "0000000000000137"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+				count: 48L
+			}]
+			rewards: [{
+				id: "560001E44398643F"
+				type: "item"
+				item: "mysticalagriculture:prudentium_block"
+				count: 6
+			}]
+		}
+		{
+			title: "Tertium Essence"
+			x: 6.0d
+			y: -6.0d
+			description: ["Craft some Tertium Essence with the Prudentium Crystal."]
+			dependencies: [
+				"0000000000000136"
+				"0000000000000178"
+			]
+			size: 2.0d
+			id: "0000000000000138"
+			tasks: [{
+				id: "0000000000000139"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 32L
+			}]
+			rewards: [{
+				id: "5EC5B4F9DDDFFD5C"
+				type: "item"
+				item: "mysticalagriculture:tertium_block"
+				count: 3
+			}]
+		}
+		{
+			title: "Imperium Essence"
+			x: 8.0d
+			y: -6.0d
+			description: ["Craft some Imperium Essence with the Tertium Crystal."]
+			dependencies: [
+				"0000000000000138"
+				"000000000000017A"
+			]
+			size: 2.0d
+			id: "000000000000013A"
+			tasks: [{
+				id: "000000000000013B"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+				count: 16L
+			}]
+			rewards: [{
+				id: "713BD05015A33BB8"
+				type: "item"
+				item: "mysticalagriculture:imperium_block"
+				count: 2
+			}]
+		}
+		{
+			title: "Supremium Essence"
+			x: 10.0d
+			y: -6.0d
+			description: ["Craft some Supremium Essence with the Imperium Crystal."]
+			dependencies: [
+				"000000000000013A"
+				"000000000000017C"
+			]
+			size: 2.0d
+			id: "000000000000013C"
+			tasks: [{
+				id: "000000000000013D"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+				count: 8L
+			}]
+			rewards: [{
+				id: "57C764DA221CECC8"
+				type: "item"
+				item: "mysticalagriculture:supremium_block"
+			}]
+		}
+		{
+			title: "Insanium Essence"
+			x: 12.0d
+			y: -6.0d
+			description: ["Craft some Insanium Essence with the Supremium Crystal."]
+			dependencies: [
+				"000000000000013C"
+				"000000000000017E"
+			]
+			size: 2.0d
+			id: "000000000000013E"
+			tasks: [{
+				id: "000000000000013F"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1BCBFD3BB194F22B"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			description: ["The Prosperity Seed Base is the base of every other Mystical Seeds."]
+			dependencies: ["0000000000000132"]
+			id: "0000000000000140"
+			tasks: [{
+				id: "0000000000000141"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+			rewards: [{
+				id: "39C666E38E3ADFC8"
+				type: "item"
+				item: "mysticalagriculture:prosperity_seed_base"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			description: ["The Infernium Seed Base is the Base seed of all Infernium tier Seeds."]
+			dependencies: [
+				"0000000000000134"
+				"0000000000000140"
+			]
+			id: "0000000000000142"
+			tasks: [{
+				id: "0000000000000143"
+				type: "item"
+				item: "kubejs:inferium_seed"
+			}]
+			rewards: [{
+				id: "6F8A45C705A1405F"
+				type: "item"
+				item: "kubejs:inferium_seed"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			description: ["The Prudentium Seed Base is the Base seed of all Prudentium tier Seeds."]
+			dependencies: [
+				"0000000000000136"
+				"0000000000000142"
+			]
+			id: "0000000000000144"
+			tasks: [{
+				id: "0000000000000145"
+				type: "item"
+				item: "kubejs:prudentium_seed"
+			}]
+			rewards: [{
+				id: "1182F722773D4F8E"
+				type: "item"
+				item: "kubejs:prudentium_seed"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			description: ["The Tertium Seed Base is the Base seed of all Tertium tier Seeds."]
+			dependencies: [
+				"0000000000000138"
+				"0000000000000144"
+			]
+			id: "0000000000000146"
+			tasks: [{
+				id: "0000000000000147"
+				type: "item"
+				item: "kubejs:tertium_seed"
+			}]
+			rewards: [{
+				id: "0A95B58D04D097D8"
+				type: "item"
+				item: "kubejs:tertium_seed"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			description: ["The Imperium Seed Base is the Base seed of all Imperium tier Seeds."]
+			dependencies: [
+				"000000000000013A"
+				"0000000000000146"
+			]
+			id: "0000000000000148"
+			tasks: [{
+				id: "0000000000000149"
+				type: "item"
+				item: "kubejs:imperium_seed"
+			}]
+			rewards: [{
+				id: "178C56010BF2DD9E"
+				type: "item"
+				item: "kubejs:imperium_seed"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.0d
+			description: ["The Supremium Seed Base is the Base seed of all Supremium tier Seeds."]
+			dependencies: [
+				"000000000000013C"
+				"0000000000000148"
+			]
+			id: "000000000000014A"
+			tasks: [{
+				id: "000000000000014B"
+				type: "item"
+				item: "kubejs:supremium_seed"
+			}]
+			rewards: [{
+				id: "2D9B073F72805ABD"
+				type: "item"
+				item: "kubejs:supremium_seed"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			description: ["The Insanium Seed Base is the Base seed of all Insanium tier Seeds."]
+			dependencies: [
+				"000000000000014A"
+				"000000000000013E"
+			]
+			id: "000000000000014C"
+			tasks: [{
+				id: "000000000000014D"
+				type: "item"
+				item: "kubejs:insanium_seed"
+			}]
+			rewards: [{
+				id: "0E8372F456CD0847"
+				type: "item"
+				item: "kubejs:insanium_seed"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.0d
+			description: ["The Prosperity Gemstone is the base of the other Mystical Gemstone."]
+			dependencies: ["0000000000000132"]
+			id: "000000000000014E"
+			tasks: [{
+				id: "000000000000014F"
+				type: "item"
+				item: "mysticalagriculture:prosperity_gemstone"
+			}]
+			rewards: [{
+				id: "067F1396949C31E5"
+				type: "item"
+				item: "mysticalagriculture:prosperity_gemstone"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			description: ["The Inferium Gemstone is used to craft the Inferium Infusion Crystal, Armor, Weapon, Tools and the Growth Accelerator."]
+			dependencies: [
+				"000000000000014E"
+				"0000000000000134"
+			]
+			id: "0000000000000150"
+			tasks: [{
+				id: "0000000000000151"
+				type: "item"
+				item: "mysticalagriculture:inferium_gemstone"
+			}]
+			rewards: [{
+				id: "088FA93FA0798C59"
+				type: "item"
+				item: "mysticalagriculture:inferium_gemstone"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			description: ["The Prudentium Gemstone is used to craft the Prudentium Armor, Weapon, Tools and the Growth Accelerator."]
+			dependencies: [
+				"0000000000000150"
+				"0000000000000136"
+			]
+			id: "0000000000000152"
+			tasks: [{
+				id: "0000000000000153"
+				type: "item"
+				item: "mysticalagriculture:prudentium_gemstone"
+			}]
+			rewards: [{
+				id: "78601E74C8844D07"
+				type: "item"
+				item: "mysticalagriculture:prudentium_gemstone"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -8.0d
+			description: ["The Tertium Gemstone is used to craft the Tertium Armor, Weapon, Tools and the Growth Accelerator."]
+			dependencies: [
+				"0000000000000152"
+				"0000000000000138"
+			]
+			id: "0000000000000154"
+			tasks: [{
+				id: "0000000000000155"
+				type: "item"
+				item: "mysticalagriculture:tertium_gemstone"
+			}]
+			rewards: [{
+				id: "1BAC63A7A6901803"
+				type: "item"
+				item: "mysticalagriculture:tertium_gemstone"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			description: ["The Imperium Gemstone is used to craft the Imperium Armor, Weapon, Tools and the Growth Accelerator."]
+			dependencies: [
+				"000000000000013A"
+				"0000000000000154"
+			]
+			id: "0000000000000156"
+			tasks: [{
+				id: "0000000000000157"
+				type: "item"
+				item: "mysticalagriculture:imperium_gemstone"
+			}]
+			rewards: [{
+				id: "2AAB8F2F94D2AFA5"
+				type: "item"
+				item: "mysticalagriculture:imperium_gemstone"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			description: ["The Supremium Gemstone is used to craft the Supremium Armor, Weapon, Tools and the Growth Accelerator."]
+			dependencies: [
+				"0000000000000156"
+				"000000000000013C"
+			]
+			id: "0000000000000158"
+			tasks: [{
+				id: "0000000000000159"
+				type: "item"
+				item: "mysticalagriculture:supremium_gemstone"
+			}]
+			rewards: [{
+				id: "4E092B34CE99BF19"
+				type: "item"
+				item: "mysticalagriculture:supremium_gemstone"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -8.0d
+			description: ["The Insanium Gemstone is used to craft the Insanium Armor, Weapon, Tools and the Growth Accelerator."]
+			dependencies: [
+				"0000000000000158"
+				"000000000000013E"
+			]
+			id: "000000000000015A"
+			tasks: [{
+				id: "000000000000015B"
+				type: "item"
+				item: "mysticalagradditions:insanium_gemstone"
+			}]
+			rewards: [{
+				id: "69DFFA147079D6FC"
+				type: "item"
+				item: "mysticalagradditions:insanium_gemstone"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			description: ["The Prosperity Ingot is the Base of the other Mystical Ingots."]
+			dependencies: ["0000000000000132"]
+			id: "000000000000015C"
+			tasks: [{
+				id: "000000000000015D"
+				type: "item"
+				item: "mysticalagriculture:prosperity_ingot"
+			}]
+			rewards: [{
+				id: "3EA704B61481AB8A"
+				type: "item"
+				item: "mysticalagriculture:prosperity_ingot"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			description: ["The Inferium Ingot is used to craft the Inferium Furnace, Armor, Weapon and Tools."]
+			dependencies: [
+				"000000000000015C"
+				"0000000000000134"
+			]
+			id: "000000000000015E"
+			tasks: [{
+				id: "000000000000015F"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+			}]
+			rewards: [{
+				id: "2A73CD1AD626D328"
+				type: "item"
+				item: "mysticalagriculture:inferium_ingot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			description: ["The Prudentium Ingot is used to craft the Prudentium Furnace, Armor, Weapon and Tools."]
+			dependencies: [
+				"000000000000015E"
+				"0000000000000136"
+			]
+			id: "0000000000000160"
+			tasks: [{
+				id: "0000000000000161"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+			}]
+			rewards: [{
+				id: "402EEDEE4BAF35C6"
+				type: "item"
+				item: "mysticalagriculture:prudentium_ingot"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -7.0d
+			description: ["The Tertium Ingot is used to craft the Tertium Furnace, Armor, Weapon and Tools."]
+			dependencies: [
+				"0000000000000160"
+				"0000000000000138"
+			]
+			id: "0000000000000162"
+			tasks: [{
+				id: "0000000000000163"
+				type: "item"
+				item: "mysticalagriculture:tertium_ingot"
+			}]
+			rewards: [{
+				id: "3D6F123A7865C22A"
+				type: "item"
+				item: "mysticalagriculture:tertium_ingot"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			description: ["The Imperium Ingot is used to craft the Imperium Furnace, Armor, Weapon and Tools."]
+			dependencies: [
+				"0000000000000162"
+				"000000000000013A"
+			]
+			id: "0000000000000164"
+			tasks: [{
+				id: "0000000000000165"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+			}]
+			rewards: [{
+				id: "04E26894824729B3"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -7.0d
+			description: ["The Supremium Ingot is used to craft the Supremium Furnace, Armor, Weapon and Tools."]
+			dependencies: [
+				"0000000000000164"
+				"000000000000013C"
+			]
+			id: "0000000000000166"
+			tasks: [{
+				id: "0000000000000167"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+			}]
+			rewards: [{
+				id: "7E6F0BF1656FC337"
+				type: "item"
+				item: "mysticalagriculture:supremium_ingot"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.0d
+			description: ["The Insanium Ingot is used to craft the Insanium Furnace, Armor, Weapon and Tools."]
+			dependencies: [
+				"0000000000000166"
+				"000000000000013E"
+			]
+			id: "0000000000000168"
+			tasks: [{
+				id: "0000000000000169"
+				type: "item"
+				item: "mysticalagradditions:insanium_ingot"
+			}]
+			rewards: [{
+				id: "19B1D33248D8CBA8"
+				type: "item"
+				item: "mysticalagradditions:insanium_ingot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.0d
+			description: ["The Inferium Coal will smelt 12 items."]
+			dependencies: ["0000000000000134"]
+			id: "000000000000016A"
+			tasks: [{
+				id: "000000000000016B"
+				type: "item"
+				item: "mysticalagradditions:inferium_coal"
+			}]
+			rewards: [{
+				id: "633BD7EA6A790624"
+				type: "item"
+				item: "mysticalagradditions:inferium_coal"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			description: ["The Prudentium Coal will smelt 24 items."]
+			dependencies: [
+				"0000000000000136"
+				"000000000000016A"
+			]
+			id: "000000000000016C"
+			tasks: [{
+				id: "000000000000016D"
+				type: "item"
+				item: "mysticalagradditions:prudentium_coal"
+			}]
+			rewards: [{
+				id: "34A8388E16D6AB60"
+				type: "item"
+				item: "mysticalagradditions:prudentium_coal"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.0d
+			description: ["The Tertium Coal will smelt 48 items."]
+			dependencies: [
+				"0000000000000138"
+				"000000000000016C"
+			]
+			id: "000000000000016E"
+			tasks: [{
+				id: "000000000000016F"
+				type: "item"
+				item: "mysticalagradditions:tertium_coal"
+			}]
+			rewards: [{
+				id: "226E5E201B91F72A"
+				type: "item"
+				item: "mysticalagradditions:tertium_coal"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -9.0d
+			description: ["The Imperium Coal will smelt 96 items."]
+			dependencies: [
+				"000000000000013A"
+				"000000000000016E"
+			]
+			id: "0000000000000170"
+			tasks: [{
+				id: "0000000000000171"
+				type: "item"
+				item: "mysticalagradditions:imperium_coal"
+			}]
+			rewards: [{
+				id: "194D91C8E7053135"
+				type: "item"
+				item: "mysticalagradditions:imperium_coal"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -9.0d
+			description: ["The Supremium Coal will smelt 192 items."]
+			dependencies: [
+				"000000000000013C"
+				"0000000000000170"
+			]
+			id: "0000000000000172"
+			tasks: [{
+				id: "0000000000000173"
+				type: "item"
+				item: "mysticalagradditions:supremium_coal"
+			}]
+			rewards: [{
+				id: "289C1CC004AA8046"
+				type: "item"
+				item: "mysticalagradditions:supremium_coal"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -9.0d
+			description: ["The Insanium Coal will smelt 384 items."]
+			dependencies: [
+				"0000000000000172"
+				"000000000000013E"
+			]
+			id: "0000000000000174"
+			tasks: [{
+				id: "0000000000000175"
+				type: "item"
+				item: "mysticalagradditions:insanium_coal"
+			}]
+			rewards: [{
+				id: "6F46DDB0CED3557C"
+				type: "item"
+				item: "mysticalagradditions:insanium_coal"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			description: ["The Infernium Infusion Crystal allows you to craft Prudentium Essence."]
+			dependencies: ["0000000000000134"]
+			id: "0000000000000176"
+			tasks: [{
+				id: "0000000000000177"
+				type: "item"
+				item: {
+					id: "matc:inferium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1437DAC0A0617AEF"
+				type: "item"
+				item: "mysticalagradditions:inferium_apple"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			description: ["The Prudentium Infusion Crystal allows you to craft Tertium Essence."]
+			dependencies: [
+				"0000000000000136"
+				"0000000000000176"
+			]
+			id: "0000000000000178"
+			tasks: [{
+				id: "0000000000000179"
+				type: "item"
+				item: {
+					id: "matc:prudentium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DC78B05F68CC980"
+				type: "item"
+				item: "mysticalagradditions:prudentium_apple"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			description: ["The Tertium Infusion Crystal allows you to craft Imperium Essence."]
+			dependencies: [
+				"0000000000000138"
+				"0000000000000178"
+			]
+			id: "000000000000017A"
+			tasks: [{
+				id: "000000000000017B"
+				type: "item"
+				item: {
+					id: "matc:tertium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-597681243
+							826493361
+							-1917670745
+							876601677
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5911E42BF1615DA0"
+				type: "item"
+				item: "mysticalagradditions:tertium_apple"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.0d
+			description: ["The Imperium Infusion Crystal allows you to craft Supremium Essence."]
+			dependencies: [
+				"000000000000013A"
+				"000000000000017A"
+			]
+			id: "000000000000017C"
+			tasks: [{
+				id: "000000000000017D"
+				type: "item"
+				item: {
+					id: "matc:imperium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4482DF4A2EC08A69"
+				type: "item"
+				item: "mysticalagradditions:imperium_apple"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -5.0d
+			description: ["The Supremium Infusion Crystal allows you to craft Insanium Essence."]
+			dependencies: [
+				"000000000000013C"
+				"000000000000017C"
+			]
+			id: "000000000000017E"
+			tasks: [{
+				id: "000000000000017F"
+				type: "item"
+				item: {
+					id: "matc:supremium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6370963DAA7DB4A8"
+				type: "item"
+				item: "mysticalagradditions:supremium_apple"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			description: ["The Master Infusion Crystal allows you to craft any kind of Essence with no durability on the crystal."]
+			dependencies: [
+				"000000000000013E"
+				"000000000000017E"
+			]
+			id: "0000000000000180"
+			tasks: [{
+				id: "0000000000000181"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+			rewards: [{
+				id: "42BC62416FCE395F"
+				type: "item"
+				item: "mysticalagradditions:insanium_apple"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			description: ["The Inferium Farmland is an upgraded version of the farmland vanilla."]
+			dependencies: ["0000000000000134"]
+			id: "0000000000000182"
+			tasks: [{
+				id: "0000000000000183"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+			}]
+			rewards: [{
+				id: "210E65D6F189E4AC"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -9.0d
+			description: ["The Prudentium Farmland is an upgraded version of the Inferium Farmland."]
+			dependencies: [
+				"0000000000000136"
+				"0000000000000182"
+			]
+			id: "0000000000000184"
+			tasks: [{
+				id: "0000000000000185"
+				type: "item"
+				item: "mysticalagriculture:prudentium_farmland"
+			}]
+			rewards: [{
+				id: "6AAD623BCFDCC43B"
+				type: "item"
+				item: "mysticalagriculture:prudentium_farmland"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.0d
+			description: ["The Tertium Farmland is an upgraded version of the Prudentium Farmland."]
+			dependencies: [
+				"0000000000000138"
+				"0000000000000184"
+			]
+			id: "0000000000000186"
+			tasks: [{
+				id: "0000000000000187"
+				type: "item"
+				item: "mysticalagriculture:tertium_farmland"
+			}]
+			rewards: [{
+				id: "1907106DB345C4DC"
+				type: "item"
+				item: "mysticalagriculture:tertium_farmland"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -9.0d
+			description: ["The Imperium Farmland is an upgraded version of the Tertium Farmland."]
+			dependencies: [
+				"000000000000013A"
+				"0000000000000186"
+			]
+			id: "0000000000000188"
+			tasks: [{
+				id: "0000000000000189"
+				type: "item"
+				item: "mysticalagriculture:imperium_farmland"
+			}]
+			rewards: [{
+				id: "5A45656E56EB43BA"
+				type: "item"
+				item: "mysticalagriculture:imperium_farmland"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -9.0d
+			description: ["The Supremium Farmland is an upgraded version of the Imperium Farmland."]
+			dependencies: [
+				"000000000000013C"
+				"0000000000000188"
+			]
+			id: "000000000000018A"
+			tasks: [{
+				id: "000000000000018B"
+				type: "item"
+				item: "mysticalagriculture:supremium_farmland"
+			}]
+			rewards: [{
+				id: "42A88B885A9A9138"
+				type: "item"
+				item: "mysticalagriculture:supremium_farmland"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -9.0d
+			description: ["The Insanium Farmland is an upgraded version of the Supremium Farmland."]
+			dependencies: [
+				"000000000000013E"
+				"000000000000018A"
+			]
+			id: "000000000000018C"
+			tasks: [{
+				id: "000000000000018D"
+				type: "item"
+				item: "mysticalagradditions:insanium_farmland"
+			}]
+			rewards: [{
+				id: "30E69D8EFB2367CA"
+				type: "item"
+				item: "mysticalagradditions:insanium_farmland"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.0d
+			description: ["The Inferium Furnace has a Cooking Speed of 120% and Fuel Efficiency of 100%."]
+			dependencies: ["0000000000000134"]
+			id: "000000000000018E"
+			tasks: [{
+				id: "000000000000018F"
+				type: "item"
+				item: "mysticalagriculture:inferium_furnace"
+			}]
+			rewards: [{
+				id: "4327091C969C6D65"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.0d
+			description: ["The Prudential Furnace has a Cooking Speed of 160% and Fuel Efficiency of 135%."]
+			dependencies: [
+				"0000000000000136"
+				"000000000000018E"
+			]
+			id: "0000000000000190"
+			tasks: [{
+				id: "0000000000000191"
+				type: "item"
+				item: "mysticalagriculture:prudentium_furnace"
+			}]
+			rewards: [{
+				id: "1D06D847F6187F8A"
+				type: "item"
+				item: "mysticalagriculture:prudentium_block"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.0d
+			description: ["The Tertium Furnace has a Cooking Speed of 250% and Fuel Efficiency of 170%."]
+			dependencies: [
+				"0000000000000138"
+				"0000000000000190"
+			]
+			id: "0000000000000192"
+			tasks: [{
+				id: "0000000000000193"
+				type: "item"
+				item: "mysticalagriculture:tertium_furnace"
+			}]
+			rewards: [{
+				id: "08A97C9FC522F574"
+				type: "item"
+				item: "mysticalagriculture:tertium_block"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			description: ["The Imperium Furnace has a Cooking Speed of 690% and Fuel Efficiency of 345%."]
+			dependencies: [
+				"000000000000013A"
+				"0000000000000192"
+			]
+			id: "0000000000000194"
+			tasks: [{
+				id: "0000000000000195"
+				type: "item"
+				item: "mysticalagriculture:imperium_furnace"
+			}]
+			rewards: [{
+				id: "42610D39D66CD90E"
+				type: "item"
+				item: "mysticalagriculture:imperium_block"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -8.0d
+			description: ["The Supremium Furnace has a Cooking Speed of 4000% and Fuel Efficiency of 800%."]
+			dependencies: [
+				"000000000000013C"
+				"0000000000000194"
+			]
+			id: "0000000000000196"
+			tasks: [{
+				id: "0000000000000197"
+				type: "item"
+				item: "mysticalagriculture:supremium_furnace"
+			}]
+			rewards: [{
+				id: "186A01C945FED7CE"
+				type: "item"
+				item: "mysticalagriculture:supremium_block"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -8.0d
+			description: ["The Insanium Furnace has a Cooking Speed of 10000% and Fuel Efficiency of 1000%."]
+			dependencies: [
+				"000000000000013E"
+				"0000000000000196"
+			]
+			id: "0000000000000198"
+			tasks: [{
+				id: "0000000000000199"
+				type: "item"
+				item: "mysticaladaptations:insanium_furnace"
+			}]
+			rewards: [{
+				id: "2A15CC4C1B0A1606"
+				type: "item"
+				item: "mysticalagradditions:insanium_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -9.0d
+			description: ["The Infusion Altar is used to craft Mystical Seeds."]
+			dependencies: ["000000000000012D"]
+			size: 3.0d
+			id: "000000000000019A"
+			tasks: [
+				{
+					id: "000000000000019B"
+					type: "item"
+					item: "mysticalagriculture:infusion_altar"
+				}
+				{
+					id: "1988578E29A48599"
+					type: "item"
+					item: "mysticalagriculture:infusion_pedestal"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "056FC53E6457C279"
+				type: "item"
+				item: "mysticalagriculture:prosperity_ore"
+				count: 16
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			description: ["The Soulium Seed Base is used for all mobs seeds."]
+			dependencies: [
+				"0000000000000140"
+				"00000000000001A4"
+			]
+			id: "000000000000019E"
+			tasks: [{
+				id: "000000000000019F"
+				type: "item"
+				item: "mysticalagriculture:soulium_seed_base"
+			}]
+			rewards: [{
+				id: "00AC2CCCC89D00D6"
+				type: "item"
+				item: "mysticalagriculture:soulium_seed_base"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			description: ["The Soulium Ingot is used to craft the Seed Reprocessor, in this pack the Soulium Dagger is useless because all mobs seeds were modified, so be aware."]
+			dependencies: [
+				"00000000000001A4"
+				"000000000000015C"
+			]
+			id: "00000000000001A2"
+			tasks: [{
+				id: "00000000000001A3"
+				type: "item"
+				item: "mysticalagriculture:soulium_ingot"
+			}]
+			rewards: [{
+				id: "3687D8448F7E20ED"
+				type: "item"
+				item: "mysticalagriculture:soulium_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			description: ["You can get Soulium Dust by mining Soulium Ore."]
+			dependencies: ["00000000000001C6"]
+			id: "00000000000001A4"
+			tasks: [{
+				id: "00000000000001A5"
+				type: "item"
+				item: "mysticalagriculture:soulium_dust"
+			}]
+			rewards: [{
+				id: "299E81406932348E"
+				type: "item"
+				item: "mysticalagriculture:soulium_dust"
+				count: 16
+			}]
+		}
+		{
+			title: "Inferium Armor"
+			x: 2.5d
+			y: -7.0d
+			description: ["Craft an Infernium Armor."]
+			dependencies: [
+				"000000000000015E"
+				"0000000000000150"
+			]
+			id: "00000000000001A8"
+			tasks: [
+				{
+					id: "00000000000001A9"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001B4"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001B5"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001B6"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5D9E78A34DE9C4AD"
+				type: "item"
+				item: {
+					id: "mysticalagradditions:inferium_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Prudentium Armor"
+			x: 4.5d
+			y: -7.0d
+			description: ["Craft a Prudentium Armor."]
+			dependencies: [
+				"0000000000000160"
+				"00000000000001A8"
+				"0000000000000152"
+			]
+			id: "00000000000001AA"
+			tasks: [
+				{
+					id: "00000000000001AB"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001B7"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001B8"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001B9"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "23BE17B9349810E7"
+				type: "item"
+				item: {
+					id: "mysticalagradditions:prudentium_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Tertium Armor"
+			x: 6.5d
+			y: -7.0d
+			description: ["Craft a Tertium Armor."]
+			dependencies: [
+				"0000000000000162"
+				"00000000000001AA"
+				"0000000000000154"
+			]
+			id: "00000000000001AC"
+			tasks: [
+				{
+					id: "00000000000001AD"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-597681243
+								826493361
+								-1917670745
+								876601677
+							]
+						}
+					}
+				}
+				{
+					id: "00000000000001BA"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001BB"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001BC"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7AC77757EF058A90"
+				type: "item"
+				item: {
+					id: "mysticalagradditions:tertium_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Imperium Armor"
+			x: 8.5d
+			y: -7.0d
+			description: ["Craft an Imperium Armor."]
+			dependencies: [
+				"0000000000000164"
+				"00000000000001AC"
+				"0000000000000156"
+			]
+			id: "00000000000001AE"
+			tasks: [
+				{
+					id: "00000000000001AF"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001BD"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001BE"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001BF"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0CD15198D6C8EBE9"
+				type: "item"
+				item: {
+					id: "mysticalagradditions:imperium_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Supremium Armor"
+			x: 10.5d
+			y: -7.0d
+			description: ["Craft a Supremium Armor."]
+			dependencies: [
+				"0000000000000166"
+				"00000000000001AE"
+				"0000000000000158"
+			]
+			id: "00000000000001B0"
+			tasks: [
+				{
+					id: "00000000000001B1"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001C0"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001C1"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001C2"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "03D14D0BC0356C21"
+				type: "item"
+				item: "mysticalagradditions:supremium_paxel"
+			}]
+		}
+		{
+			title: "Insanium Armor"
+			x: 12.5d
+			y: -7.0d
+			description: ["Craft an Insanium Armor."]
+			dependencies: [
+				"0000000000000168"
+				"00000000000001B0"
+				"000000000000015A"
+			]
+			id: "00000000000001B2"
+			tasks: [
+				{
+					id: "00000000000001B3"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001C3"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001C4"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00000000000001C5"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "34A4B1728979C6F0"
+				type: "item"
+				item: "mysticaladaptations:insanium_paxel"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			description: ["You can find Soulium Ore in the Nether."]
+			dependencies: ["000000000000012D"]
+			id: "00000000000001C6"
+			tasks: [{
+				id: "00000000000001C7"
+				type: "item"
+				item: "mysticalagriculture:soulium_ore"
+			}]
+			rewards: [{
+				id: "79711053544977DA"
+				type: "item"
+				item: "mysticalagriculture:soulium_ore"
+				count: 8
+			}]
+		}
+		{
+			icon: "kubejs:ultimate_seed"
+			x: 12.5d
+			y: -2.5d
+			description: ["Craft an Ultimate Seed and his crux."]
+			dependencies: ["000000000000014C"]
+			id: "00000000000001C8"
+			tasks: [
+				{
+					id: "00000000000001C9"
+					type: "item"
+					item: "kubejs:ultimate_seed"
+				}
+				{
+					id: "3651BA9D4D8D829A"
+					type: "item"
+					item: "kubejs:ultimate_crux"
+				}
+			]
+			rewards: [{
+				id: "150A7EAFD3579CEC"
+				type: "item"
+				item: "kubejs:ultimate_essence"
+				count: 8
+			}]
+		}
+		{
+			icon: "mysticalagriculture:nitro_crystal_seeds"
+			x: 11.5d
+			y: -2.5d
+			description: ["Craft a Nitro Crystal Seed and his crux."]
+			dependencies: ["000000000000014C"]
+			id: "00000000000001CA"
+			tasks: [
+				{
+					id: "00000000000001CB"
+					type: "item"
+					item: "mysticalagriculture:nitro_crystal_seeds"
+				}
+				{
+					id: "3D1978FA8618E2BA"
+					type: "item"
+					item: "mysticalagradditions:nitro_crystal_crux"
+				}
+			]
+			rewards: [{
+				id: "4B4CE04CBD3704A6"
+				type: "item"
+				item: "mysticalagriculture:nitro_crystal_essence"
+				count: 8
+			}]
+		}
+		{
+			icon: "mysticalagriculture:dragon_egg_seeds"
+			x: 12.0d
+			y: -3.25d
+			description: ["Craft a Dragon Egg Seed and his crux."]
+			dependencies: ["000000000000014C"]
+			id: "00000000000001CC"
+			tasks: [
+				{
+					id: "00000000000001CD"
+					type: "item"
+					item: "mysticalagriculture:dragon_egg_seeds"
+				}
+				{
+					id: "0339FE53D0D3A66E"
+					type: "item"
+					item: "mysticalagradditions:dragon_egg_crux"
+				}
+			]
+			rewards: [{
+				id: "05866BB199DB0261"
+				type: "item"
+				item: "mysticalagriculture:dragon_egg_essence"
+				count: 8
+			}]
+		}
+		{
+			icon: "mysticalagriculture:nether_star_seeds"
+			x: 11.5d
+			y: -4.0d
+			description: ["Craft a Nether Star Seed and his crux."]
+			dependencies: ["000000000000014C"]
+			id: "00000000000001CE"
+			tasks: [
+				{
+					id: "00000000000001CF"
+					type: "item"
+					item: "mysticalagriculture:nether_star_seeds"
+				}
+				{
+					id: "33B7C5614653318D"
+					type: "item"
+					item: "mysticalagradditions:nether_star_crux"
+				}
+			]
+			rewards: [{
+				id: "188077D27717D599"
+				type: "item"
+				item: "mysticalagriculture:nether_star_essence"
+				count: 8
+			}]
+		}
+		{
+			icon: "mysticalagriculture:alfsteel_seeds"
+			x: 12.5d
+			y: -4.0d
+			description: ["Craft an Alfsteel Seed and his crux."]
+			dependencies: ["000000000000014C"]
+			id: "00000000000001D0"
+			tasks: [
+				{
+					id: "00000000000001D1"
+					type: "item"
+					item: "mysticalagriculture:alfsteel_seeds"
+				}
+				{
+					id: "23D1358A4B56C2AC"
+					type: "item"
+					item: "kubejs:alfsteel_crux"
+				}
+			]
+			rewards: [{
+				id: "44702C4E8AD904A0"
+				type: "item"
+				item: "mysticalagriculture:alfsteel_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			description: ["Craft a Diamond Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001D2"
+			tasks: [{
+				id: "00000000000001D3"
+				type: "item"
+				item: "mysticalagriculture:diamond_seeds"
+			}]
+			rewards: [{
+				id: "79172B1CA94EC9B5"
+				type: "item"
+				item: "mysticalagriculture:diamond_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			description: ["Craft an Emerald Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001D4"
+			tasks: [{
+				id: "00000000000001D5"
+				type: "item"
+				item: "mysticalagriculture:emerald_seeds"
+			}]
+			rewards: [{
+				id: "3F75BF86715EAFC0"
+				type: "item"
+				item: "mysticalagriculture:emerald_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.25d
+			description: ["Craft a Netherite Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001D6"
+			tasks: [{
+				id: "00000000000001D7"
+				type: "item"
+				item: "mysticalagriculture:netherite_seeds"
+			}]
+			rewards: [{
+				id: "0B6A1CFEDFFED031"
+				type: "item"
+				item: "mysticalagriculture:netherite_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.75d
+			description: ["Craft a Wither Skeleton Seed."]
+			dependencies: ["000000000000019E"]
+			id: "00000000000001D8"
+			tasks: [{
+				id: "00000000000001D9"
+				type: "item"
+				item: "mysticalagriculture:wither_skeleton_seeds"
+			}]
+			rewards: [{
+				id: "4CE41AD2625BBCAF"
+				type: "item"
+				item: "mysticalagriculture:wither_skeleton_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			description: ["Craft a Platinum Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001DA"
+			tasks: [{
+				id: "00000000000001DB"
+				type: "item"
+				item: "mysticalagriculture:platinum_seeds"
+			}]
+			rewards: [{
+				id: "7FFDB0956629E8FB"
+				type: "item"
+				item: "mysticalagriculture:platinum_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			description: ["Craft an Enderium Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001DC"
+			tasks: [{
+				id: "00000000000001DD"
+				type: "item"
+				item: "mysticalagriculture:enderium_seeds"
+			}]
+			rewards: [{
+				id: "25D79A2DCD1A9FD4"
+				type: "item"
+				item: "mysticalagriculture:enderium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			description: ["Craft a Terrasteel Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001DE"
+			tasks: [{
+				id: "00000000000001DF"
+				type: "item"
+				item: "mysticalagriculture:terrasteel_seeds"
+			}]
+			rewards: [{
+				id: "368C0885C88167C7"
+				type: "item"
+				item: "mysticalagriculture:terrasteel_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			description: ["Craft a Rock Crystal Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001E0"
+			tasks: [{
+				id: "00000000000001E1"
+				type: "item"
+				item: "mysticalagriculture:rock_crystal_seeds"
+			}]
+			rewards: [{
+				id: "425AB3139F2F3B78"
+				type: "item"
+				item: "mysticalagriculture:rock_crystal_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			description: ["Craft a Yellorium Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001E2"
+			tasks: [{
+				id: "00000000000001E3"
+				type: "item"
+				item: "mysticalagriculture:yellorium_seeds"
+			}]
+			rewards: [{
+				id: "29B5646539397CFF"
+				type: "item"
+				item: "mysticalagriculture:yellorium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.25d
+			description: ["Craft a Cyanite Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001E4"
+			tasks: [{
+				id: "00000000000001E5"
+				type: "item"
+				item: "mysticalagriculture:cyanite_seeds"
+			}]
+			rewards: [{
+				id: "18A3E36EF63627D8"
+				type: "item"
+				item: "mysticalagriculture:cyanite_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			description: ["Craft a Niotic Crystal Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001E6"
+			tasks: [{
+				id: "00000000000001E7"
+				type: "item"
+				item: "mysticalagriculture:niotic_crystal_seeds"
+			}]
+			rewards: [{
+				id: "3D13891AD7DB1F3F"
+				type: "item"
+				item: "mysticalagriculture:niotic_crystal_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			description: ["Craft a Spirited Crystal Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001E8"
+			tasks: [{
+				id: "00000000000001E9"
+				type: "item"
+				item: "mysticalagriculture:spirited_crystal_seeds"
+			}]
+			rewards: [{
+				id: "420B173C01A656DE"
+				type: "item"
+				item: "mysticalagriculture:spirited_crystal_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.75d
+			description: ["Craft an Uraninite Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001EA"
+			tasks: [{
+				id: "00000000000001EB"
+				type: "item"
+				item: "mysticalagriculture:uraninite_seeds"
+			}]
+			rewards: [{
+				id: "1CC0E694C47A8B5F"
+				type: "item"
+				item: "mysticalagriculture:uraninite_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.25d
+			description: ["Craft an Arcane Gold Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001EC"
+			tasks: [{
+				id: "00000000000001ED"
+				type: "item"
+				item: "mysticalagriculture:arcane_gold_seeds"
+			}]
+			rewards: [{
+				id: "12D726CFF4E0DAB7"
+				type: "item"
+				item: "mysticalagriculture:arcane_gold_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			description: ["Craft an Endumium Crystal Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001EE"
+			tasks: [{
+				id: "00000000000001EF"
+				type: "item"
+				item: "mysticalagriculture:endumium_seeds"
+			}]
+			rewards: [{
+				id: "578D45D524C5CE71"
+				type: "item"
+				item: "mysticalagriculture:endumium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.75d
+			description: ["Craft a Forgotten Ingot Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001F0"
+			tasks: [{
+				id: "00000000000001F1"
+				type: "item"
+				item: "mysticalagriculture:forgotten_ingot_seeds"
+			}]
+			rewards: [{
+				id: "5B238F100FBF7E6B"
+				type: "item"
+				item: "mysticalagriculture:forgotten_ingot_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			description: ["Craft an Oratchalcum Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001F2"
+			tasks: [{
+				id: "00000000000001F3"
+				type: "item"
+				item: "mysticalagriculture:oratchalcum_seeds"
+			}]
+			rewards: [{
+				id: "4C08FCC96C94CBBA"
+				type: "item"
+				item: "mysticalagriculture:oratchalcum_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.5d
+			description: ["Craft an Utherium Seed."]
+			dependencies: ["000000000000014A"]
+			id: "00000000000001F4"
+			tasks: [{
+				id: "00000000000001F5"
+				type: "item"
+				item: "mysticalagriculture:utherium_seeds"
+			}]
+			rewards: [{
+				id: "5DB2E529C52600D8"
+				type: "item"
+				item: "mysticalagriculture:utherium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			description: ["Craft a Refined Glowstone Seed."]
+			dependencies: ["0000000000000148"]
+			id: "00000000000001F6"
+			tasks: [{
+				id: "00000000000001F7"
+				type: "item"
+				item: "mysticalagriculture:refined_glowstone_seeds"
+			}]
+			rewards: [{
+				id: "2B2650140D4B5A9B"
+				type: "item"
+				item: "mysticalagriculture:refined_glowstone_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			description: ["Craft a Refined Obsidian Seed."]
+			dependencies: ["0000000000000148"]
+			id: "00000000000001F8"
+			tasks: [{
+				id: "00000000000001F9"
+				type: "item"
+				item: "mysticalagriculture:refined_obsidian_seeds"
+			}]
+			rewards: [{
+				id: "4443BC02948C38B2"
+				type: "item"
+				item: "mysticalagriculture:refined_obsidian_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.75d
+			description: ["Craft a Starmetal Seed."]
+			dependencies: ["0000000000000148"]
+			id: "00000000000001FA"
+			tasks: [{
+				id: "00000000000001FB"
+				type: "item"
+				item: "mysticalagriculture:starmetal_seeds"
+			}]
+			rewards: [{
+				id: "2E27D6253C2E06F5"
+				type: "item"
+				item: "mysticalagriculture:starmetal_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.25d
+			description: ["Craft a Compressed Iron Seed."]
+			dependencies: ["0000000000000148"]
+			id: "00000000000001FC"
+			tasks: [{
+				id: "00000000000001FD"
+				type: "item"
+				item: "mysticalagriculture:compressed_iron_seeds"
+			}]
+			rewards: [{
+				id: "3BFB4D623DC52EE3"
+				type: "item"
+				item: "mysticalagriculture:compressed_iron_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			description: ["Craft an Energized Steel Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000200"
+			tasks: [{
+				id: "0000000000000201"
+				type: "item"
+				item: "mysticalagriculture:energized_steel_seeds"
+			}]
+			rewards: [{
+				id: "0A629DAB10AB46EA"
+				type: "item"
+				item: "mysticalagriculture:energized_steel_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			description: ["Craft a Blazing Crystal Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000202"
+			tasks: [{
+				id: "0000000000000203"
+				type: "item"
+				item: "mysticalagriculture:blazing_crystal_seeds"
+			}]
+			rewards: [{
+				id: "691F68C11087AD57"
+				type: "item"
+				item: "mysticalagriculture:blazing_crystal_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			description: ["Craft a Froststeel Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000204"
+			tasks: [{
+				id: "0000000000000205"
+				type: "item"
+				item: "mysticalagriculture:froststeel_seeds"
+			}]
+			rewards: [{
+				id: "6FD3E51BDF8230B3"
+				type: "item"
+				item: "mysticalagriculture:froststeel_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.25d
+			description: ["Craft a Regalium Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000206"
+			tasks: [{
+				id: "0000000000000207"
+				type: "item"
+				item: "mysticalagriculture:regalium_seeds"
+			}]
+			rewards: [{
+				id: "532D558F2D1CB62A"
+				type: "item"
+				item: "mysticalagriculture:regalium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			description: ["Craft an Enderman Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000208"
+			tasks: [{
+				id: "0000000000000209"
+				type: "item"
+				item: "mysticalagriculture:enderman_seeds"
+			}]
+			rewards: [{
+				id: "32EC12ABB2B56AB5"
+				type: "item"
+				item: "mysticalagriculture:enderman_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.25d
+			description: ["Craft a Steel Seed."]
+			dependencies: ["0000000000000148"]
+			id: "000000000000020A"
+			tasks: [{
+				id: "000000000000020B"
+				type: "item"
+				item: "mysticalagriculture:steel_seeds"
+			}]
+			rewards: [{
+				id: "77A7BB7295BC3F43"
+				type: "item"
+				item: "mysticalagriculture:steel_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			description: ["Craft a Nickel Seed."]
+			dependencies: ["0000000000000148"]
+			id: "000000000000020C"
+			tasks: [{
+				id: "000000000000020D"
+				type: "item"
+				item: "mysticalagriculture:nickel_seeds"
+			}]
+			rewards: [{
+				id: "2C6346D1A32CB922"
+				type: "item"
+				item: "mysticalagriculture:nickel_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			description: ["Craft a Constantan Seed."]
+			dependencies: ["0000000000000148"]
+			id: "000000000000020E"
+			tasks: [{
+				id: "000000000000020F"
+				type: "item"
+				item: "mysticalagriculture:constantan_seeds"
+			}]
+			rewards: [{
+				id: "64228E181AB6F65A"
+				type: "item"
+				item: "mysticalagriculture:constantan_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			description: ["Craft an Electrum Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000210"
+			tasks: [{
+				id: "0000000000000211"
+				type: "item"
+				item: "mysticalagriculture:electrum_seeds"
+			}]
+			rewards: [{
+				id: "4F7AD098CD2146CB"
+				type: "item"
+				item: "mysticalagriculture:electrum_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.75d
+			description: ["Craft an Invar Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000212"
+			tasks: [{
+				id: "0000000000000213"
+				type: "item"
+				item: "mysticalagriculture:invar_seeds"
+			}]
+			rewards: [{
+				id: "70392D077C598D37"
+				type: "item"
+				item: "mysticalagriculture:invar_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			description: ["Craft a Tungsten Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000214"
+			tasks: [{
+				id: "0000000000000215"
+				type: "item"
+				item: "mysticalagriculture:tungsten_seeds"
+			}]
+			rewards: [{
+				id: "2C78B66989D0E707"
+				type: "item"
+				item: "mysticalagriculture:tungsten_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.25d
+			description: ["Craft an Uranium Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000216"
+			tasks: [{
+				id: "0000000000000217"
+				type: "item"
+				item: "mysticalagriculture:uranium_seeds"
+			}]
+			rewards: [{
+				id: "735BF818E8B54029"
+				type: "item"
+				item: "mysticalagriculture:uranium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			description: ["Craft a Signalum Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000218"
+			tasks: [{
+				id: "0000000000000219"
+				type: "item"
+				item: "mysticalagriculture:signalum_seeds"
+			}]
+			rewards: [{
+				id: "4F6298D9B712737B"
+				type: "item"
+				item: "mysticalagriculture:signalum_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			description: ["Craft a Ghast Seed."]
+			dependencies: ["000000000000019E"]
+			id: "000000000000021A"
+			tasks: [{
+				id: "000000000000021B"
+				type: "item"
+				item: "mysticalagriculture:ghast_seeds"
+			}]
+			rewards: [{
+				id: "1042B4CC53558E8B"
+				type: "item"
+				item: "mysticalagriculture:ghast_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.25d
+			description: ["Craft a Blaze Seed."]
+			dependencies: ["000000000000019E"]
+			id: "000000000000021C"
+			tasks: [{
+				id: "000000000000021D"
+				type: "item"
+				item: "mysticalagriculture:blaze_seeds"
+			}]
+			rewards: [{
+				id: "0B43DBFF021CFA9C"
+				type: "item"
+				item: "mysticalagriculture:blaze_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			description: ["Craft an Experience Seed."]
+			dependencies: ["000000000000019E"]
+			id: "000000000000021E"
+			tasks: [{
+				id: "000000000000021F"
+				type: "item"
+				item: "mysticalagriculture:experience_seeds"
+			}]
+			rewards: [{
+				id: "027C387E34119662"
+				type: "item"
+				item: "mysticalagriculture:experience_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			description: ["Craft an End Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000220"
+			tasks: [{
+				id: "0000000000000221"
+				type: "item"
+				item: "mysticalagriculture:end_seeds"
+			}]
+			rewards: [{
+				id: "14DA28B43D3CF431"
+				type: "item"
+				item: "mysticalagriculture:end_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.25d
+			description: ["Craft a Lapis Lazuli Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000222"
+			tasks: [{
+				id: "0000000000000223"
+				type: "item"
+				item: "mysticalagriculture:lapis_lazuli_seeds"
+			}]
+			rewards: [{
+				id: "64B844BD39C0E078"
+				type: "item"
+				item: "mysticalagriculture:lapis_lazuli_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.75d
+			description: ["Craft a Gold Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000224"
+			tasks: [{
+				id: "0000000000000225"
+				type: "item"
+				item: "mysticalagriculture:gold_seeds"
+			}]
+			rewards: [{
+				id: "2B2524BBDC408BE5"
+				type: "item"
+				item: "mysticalagriculture:gold_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			description: ["Craft a Lumium Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000226"
+			tasks: [{
+				id: "0000000000000227"
+				type: "item"
+				item: "mysticalagriculture:lumium_seeds"
+			}]
+			rewards: [{
+				id: "79C5C0336A920E05"
+				type: "item"
+				item: "mysticalagriculture:lumium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			description: ["Craft a HOP Graphite Seed."]
+			dependencies: ["0000000000000148"]
+			id: "0000000000000228"
+			tasks: [{
+				id: "0000000000000229"
+				type: "item"
+				item: "mysticalagriculture:hop_graphite_seeds"
+			}]
+			rewards: [{
+				id: "0F1845072E859F58"
+				type: "item"
+				item: "mysticalagriculture:hop_graphite_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: ["Craft an Elementium Seed."]
+			dependencies: ["0000000000000148"]
+			id: "000000000000022A"
+			tasks: [{
+				id: "000000000000022B"
+				type: "item"
+				item: "mysticalagriculture:elementium_seeds"
+			}]
+			rewards: [{
+				id: "10D0FAC23A9E8260"
+				type: "item"
+				item: "mysticalagriculture:elementium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			description: ["Craft an Osmium Seed."]
+			dependencies: ["0000000000000148"]
+			id: "000000000000022C"
+			tasks: [{
+				id: "000000000000022D"
+				type: "item"
+				item: "mysticalagriculture:osmium_seeds"
+			}]
+			rewards: [{
+				id: "1741AFD4775581CE"
+				type: "item"
+				item: "mysticalagriculture:osmium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			description: ["Craft an Ender Biotite Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000022E"
+			tasks: [{
+				id: "000000000000022F"
+				type: "item"
+				item: "mysticalagriculture:ender_biotite_seeds"
+			}]
+			rewards: [{
+				id: "3733C73536336617"
+				type: "item"
+				item: "mysticalagriculture:ender_biotite_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			description: ["Craft a Manasteel Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000230"
+			tasks: [{
+				id: "0000000000000231"
+				type: "item"
+				item: "mysticalagriculture:manasteel_seeds"
+			}]
+			rewards: [{
+				id: "010EEE453DEE39C1"
+				type: "item"
+				item: "mysticalagriculture:manasteel_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			description: ["Craft a Basalz Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000232"
+			tasks: [{
+				id: "0000000000000233"
+				type: "item"
+				item: "mysticalagriculture:basalz_seeds"
+			}]
+			rewards: [{
+				id: "650A51BCD0B6EF78"
+				type: "item"
+				item: "mysticalagriculture:basalz_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.75d
+			description: ["Craft a Blitz Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000234"
+			tasks: [{
+				id: "0000000000000235"
+				type: "item"
+				item: "mysticalagriculture:blitz_seeds"
+			}]
+			rewards: [{
+				id: "6767CC836BEEF2C1"
+				type: "item"
+				item: "mysticalagriculture:blitz_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			description: ["Craft a Blizz Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000236"
+			tasks: [{
+				id: "0000000000000237"
+				type: "item"
+				item: "mysticalagriculture:blizz_seeds"
+			}]
+			rewards: [{
+				id: "4BB689466A8850F1"
+				type: "item"
+				item: "mysticalagriculture:blizz_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.25d
+			description: ["Craft a Graphite Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000238"
+			tasks: [{
+				id: "0000000000000239"
+				type: "item"
+				item: "mysticalagriculture:graphite_seeds"
+			}]
+			rewards: [{
+				id: "64DA9E8B46CACA32"
+				type: "item"
+				item: "mysticalagriculture:graphite_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			description: ["Craft a Lead Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000023A"
+			tasks: [{
+				id: "000000000000023B"
+				type: "item"
+				item: "mysticalagriculture:lead_seeds"
+			}]
+			rewards: [{
+				id: "655F569DB69D17DD"
+				type: "item"
+				item: "mysticalagriculture:lead_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			description: ["Craft a Silver Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000023C"
+			tasks: [{
+				id: "000000000000023D"
+				type: "item"
+				item: "mysticalagriculture:silver_seeds"
+			}]
+			rewards: [{
+				id: "23DDAB74BFB66332"
+				type: "item"
+				item: "mysticalagriculture:silver_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.75d
+			description: ["Craft an Obsidian Ingot Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000023E"
+			tasks: [{
+				id: "000000000000023F"
+				type: "item"
+				item: "mysticalagriculture:obsidian_ingot_seeds"
+			}]
+			rewards: [{
+				id: "710B9A1DF20EF1CC"
+				type: "item"
+				item: "mysticalagriculture:obsidian_ingot_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.25d
+			description: ["Craft a Creeper Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000240"
+			tasks: [{
+				id: "0000000000000241"
+				type: "item"
+				item: "mysticalagriculture:creeper_seeds"
+			}]
+			rewards: [{
+				id: "38B6841B3C73A787"
+				type: "item"
+				item: "mysticalagriculture:creeper_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.25d
+			description: ["Craft a Skeleton Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000242"
+			tasks: [{
+				id: "0000000000000243"
+				type: "item"
+				item: "mysticalagriculture:skeleton_seeds"
+			}]
+			rewards: [{
+				id: "67CFB1DD36560730"
+				type: "item"
+				item: "mysticalagriculture:skeleton_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["Craft a Zombie Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000244"
+			tasks: [{
+				id: "0000000000000245"
+				type: "item"
+				item: "mysticalagriculture:zombie_seeds"
+			}]
+			rewards: [{
+				id: "6A77A094357DA0DA"
+				type: "item"
+				item: "mysticalagriculture:zombie_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["Craft a Prismarine Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000246"
+			tasks: [{
+				id: "0000000000000247"
+				type: "item"
+				item: "mysticalagriculture:prismarine_seeds"
+			}]
+			rewards: [{
+				id: "472656721942FDF7"
+				type: "item"
+				item: "mysticalagriculture:prismarine_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			description: ["Craft an Obsidian Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000248"
+			tasks: [{
+				id: "0000000000000249"
+				type: "item"
+				item: "mysticalagriculture:obsidian_seeds"
+			}]
+			rewards: [{
+				id: "2234AB7E67AA26B1"
+				type: "item"
+				item: "mysticalagriculture:obsidian_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.25d
+			description: ["Craft a Redstone Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000024A"
+			tasks: [{
+				id: "000000000000024B"
+				type: "item"
+				item: "mysticalagriculture:redstone_seeds"
+			}]
+			rewards: [{
+				id: "322F63D3A612CF52"
+				type: "item"
+				item: "mysticalagriculture:redstone_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			description: ["Craft a Glowstone Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000024C"
+			tasks: [{
+				id: "000000000000024D"
+				type: "item"
+				item: "mysticalagriculture:glowstone_seeds"
+			}]
+			rewards: [{
+				id: "1DDDB84FF32FE5AC"
+				type: "item"
+				item: "mysticalagriculture:glowstone_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			description: ["Craft a Nether Quartz Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000024E"
+			tasks: [{
+				id: "000000000000024F"
+				type: "item"
+				item: "mysticalagriculture:nether_quartz_seeds"
+			}]
+			rewards: [{
+				id: "7092AEA6F0EA0E96"
+				type: "item"
+				item: "mysticalagriculture:nether_quartz_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.25d
+			description: ["Craft an Iron Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000250"
+			tasks: [{
+				id: "0000000000000251"
+				type: "item"
+				item: "mysticalagriculture:iron_seeds"
+			}]
+			rewards: [{
+				id: "79260090F068AE32"
+				type: "item"
+				item: "mysticalagriculture:iron_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			description: ["Craft a Spider Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000252"
+			tasks: [{
+				id: "0000000000000253"
+				type: "item"
+				item: "mysticalagriculture:spider_seeds"
+			}]
+			rewards: [{
+				id: "0282DDAB124E5FA0"
+				type: "item"
+				item: "mysticalagriculture:spider_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			description: ["Craft a Rabbit Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000254"
+			tasks: [{
+				id: "0000000000000255"
+				type: "item"
+				item: "mysticalagriculture:rabbit_seeds"
+			}]
+			rewards: [{
+				id: "3910644AC08E8D81"
+				type: "item"
+				item: "mysticalagriculture:rabbit_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			description: ["Craft a Tin Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000256"
+			tasks: [{
+				id: "0000000000000257"
+				type: "item"
+				item: "mysticalagriculture:tin_seeds"
+			}]
+			rewards: [{
+				id: "2ED554C3A88B6423"
+				type: "item"
+				item: "mysticalagriculture:tin_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			description: ["Craft a Bronze Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000258"
+			tasks: [{
+				id: "0000000000000259"
+				type: "item"
+				item: "mysticalagriculture:bronze_seeds"
+			}]
+			rewards: [{
+				id: "600E81D6B20D86A6"
+				type: "item"
+				item: "mysticalagriculture:bronze_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.75d
+			description: ["Craft a Zinc Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000025A"
+			tasks: [{
+				id: "000000000000025B"
+				type: "item"
+				item: "mysticalagriculture:zinc_seeds"
+			}]
+			rewards: [{
+				id: "78A78EFC2FF9C7BB"
+				type: "item"
+				item: "mysticalagriculture:zinc_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			description: ["Craft a Brass Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000025C"
+			tasks: [{
+				id: "000000000000025D"
+				type: "item"
+				item: "mysticalagriculture:brass_seeds"
+			}]
+			rewards: [{
+				id: "1B13F018AA2BA774"
+				type: "item"
+				item: "mysticalagriculture:brass_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.25d
+			description: ["Craft a Cloggrum Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000260"
+			tasks: [{
+				id: "0000000000000261"
+				type: "item"
+				item: "mysticalagriculture:cloggrum_seeds"
+			}]
+			rewards: [{
+				id: "77BA7DA37D5C6701"
+				type: "item"
+				item: "mysticalagriculture:cloggrum_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			description: ["Craft an Arcane Crystal Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000264"
+			tasks: [{
+				id: "0000000000000265"
+				type: "item"
+				item: "mysticalagriculture:arcanecrystal_seeds"
+			}]
+			rewards: [{
+				id: "211A584F9B3FFD42"
+				type: "item"
+				item: "mysticalagriculture:arcanecrystal_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.75d
+			description: ["Craft a Quartz Enriched Iron Seed."]
+			dependencies: ["0000000000000146"]
+			id: "0000000000000266"
+			tasks: [{
+				id: "0000000000000267"
+				type: "item"
+				item: "mysticalagriculture:quartz_enriched_iron_seeds"
+			}]
+			rewards: [{
+				id: "0B2DF9B40C619EAD"
+				type: "item"
+				item: "mysticalagriculture:quartz_enriched_iron_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.5d
+			description: ["Craft an Aquamarine Seed."]
+			dependencies: ["0000000000000146"]
+			id: "000000000000026A"
+			tasks: [{
+				id: "000000000000026B"
+				type: "item"
+				item: "mysticalagriculture:aquamarine_seeds"
+			}]
+			rewards: [{
+				id: "6081ECEFDD16771A"
+				type: "item"
+				item: "mysticalagriculture:aquamarine_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			description: ["Craft a Nether Seed."]
+			dependencies: ["0000000000000144"]
+			id: "000000000000026C"
+			tasks: [{
+				id: "000000000000026D"
+				type: "item"
+				item: "mysticalagriculture:nether_seeds"
+			}]
+			rewards: [{
+				id: "3A227A783D334779"
+				type: "item"
+				item: "mysticalagriculture:nether_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			description: ["Craft a Dye Seed."]
+			dependencies: ["0000000000000144"]
+			id: "000000000000026E"
+			tasks: [{
+				id: "000000000000026F"
+				type: "item"
+				item: "mysticalagriculture:dye_seeds"
+			}]
+			rewards: [{
+				id: "58B8CAF0F7D7C09F"
+				type: "item"
+				item: "mysticalagriculture:dye_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			description: ["Craft a Nature Seed."]
+			dependencies: ["0000000000000144"]
+			id: "0000000000000270"
+			tasks: [{
+				id: "0000000000000271"
+				type: "item"
+				item: "mysticalagriculture:nature_seeds"
+			}]
+			rewards: [{
+				id: "6510AC7D4D91EFC2"
+				type: "item"
+				item: "mysticalagriculture:nature_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			description: ["Craft a Silicon Seed."]
+			dependencies: ["0000000000000144"]
+			id: "0000000000000272"
+			tasks: [{
+				id: "0000000000000273"
+				type: "item"
+				item: "mysticalagriculture:silicon_seeds"
+			}]
+			rewards: [{
+				id: "3EFB1139CA86A878"
+				type: "item"
+				item: "mysticalagriculture:silicon_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.25d
+			description: ["Craft a Sulfur Seed."]
+			dependencies: ["0000000000000144"]
+			id: "0000000000000274"
+			tasks: [{
+				id: "0000000000000275"
+				type: "item"
+				item: "mysticalagriculture:sulfur_seeds"
+			}]
+			rewards: [{
+				id: "72D72BE634B22C30"
+				type: "item"
+				item: "mysticalagriculture:sulfur_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.75d
+			description: ["Craft an Aluminum Seed."]
+			dependencies: ["0000000000000144"]
+			id: "0000000000000276"
+			tasks: [{
+				id: "0000000000000277"
+				type: "item"
+				item: "mysticalagriculture:aluminum_seeds"
+			}]
+			rewards: [{
+				id: "5AE96E53FAD38A8F"
+				type: "item"
+				item: "mysticalagriculture:aluminum_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["Craft a Copper Seed."]
+			dependencies: ["0000000000000144"]
+			id: "0000000000000278"
+			tasks: [{
+				id: "0000000000000279"
+				type: "item"
+				item: "mysticalagriculture:copper_seeds"
+			}]
+			rewards: [{
+				id: "5EC0D0D240DF282C"
+				type: "item"
+				item: "mysticalagriculture:copper_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["Craft a Saltpeter Seed."]
+			dependencies: ["0000000000000144"]
+			id: "000000000000027A"
+			tasks: [{
+				id: "000000000000027B"
+				type: "item"
+				item: "mysticalagriculture:saltpeter_seeds"
+			}]
+			rewards: [{
+				id: "2E5B11DAF38D44CE"
+				type: "item"
+				item: "mysticalagriculture:saltpeter_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.25d
+			description: ["Craft a Mystical Flower Seed."]
+			dependencies: ["0000000000000144"]
+			id: "000000000000027C"
+			tasks: [{
+				id: "000000000000027D"
+				type: "item"
+				item: "mysticalagriculture:mystical_flower_seeds"
+			}]
+			rewards: [{
+				id: "1148E0BCDCDFF606"
+				type: "item"
+				item: "mysticalagriculture:mystical_flower_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			description: ["Craft a Pig Seed."]
+			dependencies: ["000000000000019E"]
+			id: "000000000000027E"
+			tasks: [{
+				id: "000000000000027F"
+				type: "item"
+				item: "mysticalagriculture:pig_seeds"
+			}]
+			rewards: [{
+				id: "6940E7A46A644089"
+				type: "item"
+				item: "mysticalagriculture:pig_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			description: ["Craft a Chicken Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000280"
+			tasks: [{
+				id: "0000000000000281"
+				type: "item"
+				item: "mysticalagriculture:chicken_seeds"
+			}]
+			rewards: [{
+				id: "0BEDCCA0BE3ABDBF"
+				type: "item"
+				item: "mysticalagriculture:chicken_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.25d
+			description: ["Craft a Cow Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000282"
+			tasks: [{
+				id: "0000000000000283"
+				type: "item"
+				item: "mysticalagriculture:cow_seeds"
+			}]
+			rewards: [{
+				id: "578859E59D9A7170"
+				type: "item"
+				item: "mysticalagriculture:cow_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["Craft a Sheep Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000284"
+			tasks: [{
+				id: "0000000000000285"
+				type: "item"
+				item: "mysticalagriculture:sheep_seeds"
+			}]
+			rewards: [{
+				id: "036C7F1F9DC945DE"
+				type: "item"
+				item: "mysticalagriculture:sheep_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			description: ["Craft a Squid Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000286"
+			tasks: [{
+				id: "0000000000000287"
+				type: "item"
+				item: "mysticalagriculture:squid_seeds"
+			}]
+			rewards: [{
+				id: "2306594D043A60DC"
+				type: "item"
+				item: "mysticalagriculture:squid_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.75d
+			description: ["Craft a Fish Seed."]
+			dependencies: ["000000000000019E"]
+			id: "0000000000000288"
+			tasks: [{
+				id: "0000000000000289"
+				type: "item"
+				item: "mysticalagriculture:fish_seeds"
+			}]
+			rewards: [{
+				id: "7A2F21F5EB0D5AA4"
+				type: "item"
+				item: "mysticalagriculture:fish_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: ["Craft a Slime Seed."]
+			dependencies: ["000000000000019E"]
+			id: "000000000000028A"
+			tasks: [{
+				id: "000000000000028B"
+				type: "item"
+				item: "mysticalagriculture:slime_seeds"
+			}]
+			rewards: [{
+				id: "2CEB18C1566DEB2A"
+				type: "item"
+				item: "mysticalagriculture:slime_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			description: ["Craft a Turtle Seed."]
+			dependencies: ["000000000000019E"]
+			id: "000000000000028C"
+			tasks: [{
+				id: "000000000000028D"
+				type: "item"
+				item: "mysticalagriculture:turtle_seeds"
+			}]
+			rewards: [{
+				id: "75DBAD3376982DE5"
+				type: "item"
+				item: "mysticalagriculture:turtle_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["Craft a Rubber Seed."]
+			dependencies: ["0000000000000144"]
+			id: "000000000000028E"
+			tasks: [{
+				id: "000000000000028F"
+				type: "item"
+				item: "mysticalagriculture:rubber_seeds"
+			}]
+			rewards: [{
+				id: "39A53D04DB505DA4"
+				type: "item"
+				item: "mysticalagriculture:rubber_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			description: ["Craft a Honey Seed."]
+			dependencies: ["0000000000000144"]
+			id: "0000000000000290"
+			tasks: [{
+				id: "0000000000000291"
+				type: "item"
+				item: "mysticalagriculture:honey_seeds"
+			}]
+			rewards: [{
+				id: "3FA2BA751807F6E1"
+				type: "item"
+				item: "mysticalagriculture:honey_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.25d
+			description: ["Craft a Coral Seed."]
+			dependencies: ["0000000000000144"]
+			id: "0000000000000292"
+			tasks: [{
+				id: "0000000000000293"
+				type: "item"
+				item: "mysticalagriculture:coral_seeds"
+			}]
+			rewards: [{
+				id: "741B964132E70BAD"
+				type: "item"
+				item: "mysticalagriculture:coral_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			description: ["Craft a Coal Seed."]
+			dependencies: ["0000000000000144"]
+			id: "0000000000000294"
+			tasks: [{
+				id: "0000000000000295"
+				type: "item"
+				item: "mysticalagriculture:coal_seeds"
+			}]
+			rewards: [{
+				id: "53D3E81473DCA07E"
+				type: "item"
+				item: "mysticalagriculture:coal_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			description: ["Craft an Ice Seed."]
+			dependencies: ["0000000000000142"]
+			id: "0000000000000296"
+			tasks: [{
+				id: "0000000000000297"
+				type: "item"
+				item: "mysticalagriculture:ice_seeds"
+			}]
+			rewards: [{
+				id: "3EC0095F02165EC2"
+				type: "item"
+				item: "mysticalagriculture:ice_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			description: ["Craft a Wood Seed."]
+			dependencies: ["0000000000000142"]
+			id: "0000000000000298"
+			tasks: [{
+				id: "0000000000000299"
+				type: "item"
+				item: "mysticalagriculture:wood_seeds"
+			}]
+			rewards: [{
+				id: "730461A0DFD8A3F5"
+				type: "item"
+				item: "mysticalagriculture:wood_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.25d
+			description: ["Craft a Dirt Seed."]
+			dependencies: ["0000000000000142"]
+			id: "000000000000029A"
+			tasks: [{
+				id: "000000000000029B"
+				type: "item"
+				item: "mysticalagriculture:dirt_seeds"
+			}]
+			rewards: [{
+				id: "421C3AF1A3E1CDE7"
+				type: "item"
+				item: "mysticalagriculture:dirt_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			description: ["Craft a Stone Seed."]
+			dependencies: ["0000000000000142"]
+			id: "000000000000029C"
+			tasks: [{
+				id: "000000000000029D"
+				type: "item"
+				item: "mysticalagriculture:stone_seeds"
+			}]
+			rewards: [{
+				id: "72999DADBD896315"
+				type: "item"
+				item: "mysticalagriculture:stone_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: ["Craft an Inferium Seed."]
+			dependencies: ["0000000000000142"]
+			id: "000000000000029E"
+			tasks: [{
+				id: "000000000000029F"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+			rewards: [{
+				id: "1C8193CC35B55EB7"
+				type: "item"
+				item: "mysticalagriculture:inferium_block"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			description: ["Craft an Air Seed."]
+			dependencies: ["0000000000000140"]
+			id: "00000000000002A0"
+			tasks: [{
+				id: "00000000000002A1"
+				type: "item"
+				item: "mysticalagriculture:air_seeds"
+			}]
+			rewards: [{
+				id: "293EE243654F9F6D"
+				type: "item"
+				item: "mysticalagriculture:air_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			description: ["Craft an Earth Seed."]
+			dependencies: ["0000000000000140"]
+			id: "00000000000002A2"
+			tasks: [{
+				id: "00000000000002A3"
+				type: "item"
+				item: "mysticalagriculture:earth_seeds"
+			}]
+			rewards: [{
+				id: "6329815F9BF23937"
+				type: "item"
+				item: "mysticalagriculture:earth_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: ["Craft a Water Seed."]
+			dependencies: ["0000000000000140"]
+			id: "00000000000002A4"
+			tasks: [{
+				id: "00000000000002A5"
+				type: "item"
+				item: "mysticalagriculture:water_seeds"
+			}]
+			rewards: [{
+				id: "78FC7657BFB45B4F"
+				type: "item"
+				item: "mysticalagriculture:water_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.25d
+			description: ["Craft a Fire Seed."]
+			dependencies: ["0000000000000140"]
+			id: "00000000000002A6"
+			tasks: [{
+				id: "00000000000002A7"
+				type: "item"
+				item: "mysticalagriculture:fire_seeds"
+			}]
+			rewards: [{
+				id: "54E2B2E74375C94D"
+				type: "item"
+				item: "mysticalagriculture:fire_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: 8.0d
+			description: ["Craft a Neptunium Seed."]
+			dependencies: ["0000000000000148"]
+			id: "2BB78A5A2681D94E"
+			tasks: [{
+				id: "7BFCB70BFD2DC84E"
+				type: "item"
+				item: "mysticalagriculture:neptunium_seeds"
+			}]
+			rewards: [{
+				id: "5C214D87BDC3ED73"
+				type: "item"
+				item: "mysticalagriculture:neptunium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 8.0d
+			description: ["Craft a Fluorite Seed."]
+			dependencies: ["0000000000000148"]
+			id: "7609A4CA276586C0"
+			tasks: [{
+				id: "5C82F3348833EAF5"
+				type: "item"
+				item: "mysticalagriculture:fluorite_seeds"
+			}]
+			rewards: [{
+				id: "673B1FEA4B30A141"
+				type: "item"
+				item: "mysticalagriculture:fluorite_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 11.0d
+			description: ["Craft a Rose Gold Seed."]
+			dependencies: ["0000000000000148"]
+			id: "5913738A4480CB07"
+			tasks: [{
+				id: "014D07E946AD9663"
+				type: "item"
+				item: "mysticalagriculture:rose_gold_seeds"
+			}]
+			rewards: [{
+				id: "064EC47A81330DE3"
+				type: "item"
+				item: "mysticalagriculture:rose_gold_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			description: ["Craft a Steeleaf Seed."]
+			dependencies: ["0000000000000146"]
+			id: "33CF6E836C2CDD22"
+			tasks: [{
+				id: "51E25625D0D9E733"
+				type: "item"
+				item: "mysticalagriculture:steeleaf_seeds"
+			}]
+			rewards: [{
+				id: "05F0863400A11714"
+				type: "item"
+				item: "mysticalagriculture:steeleaf_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.25d
+			description: ["Craft an Ironwood Seed."]
+			dependencies: ["0000000000000146"]
+			id: "7CC30FB271B1190C"
+			tasks: [{
+				id: "5C36668FEB20B39F"
+				type: "item"
+				item: "mysticalagriculture:ironwood_seeds"
+			}]
+			rewards: [{
+				id: "348A1E7A4BF61A5A"
+				type: "item"
+				item: "mysticalagriculture:ironwood_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.5d
+			y: 5.0d
+			description: ["Craft a Hepatizon Seed."]
+			dependencies: ["000000000000014A"]
+			id: "0CECFD0E43810023"
+			tasks: [{
+				id: "68EC8D91F4AA9830"
+				type: "item"
+				item: "mysticalagriculture:hepatizon_seeds"
+			}]
+			rewards: [{
+				id: "40125C8EBCD9FB54"
+				type: "item"
+				item: "mysticalagriculture:hepatizon_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.75d
+			description: ["Craft a Cobalt Seed."]
+			dependencies: ["0000000000000148"]
+			id: "501751C198CB4AAD"
+			tasks: [{
+				id: "172E0002963CC3FE"
+				type: "item"
+				item: "mysticalagriculture:cobalt_seeds"
+			}]
+			rewards: [{
+				id: "58B8FD780FF4AF26"
+				type: "item"
+				item: "mysticalagriculture:cobalt_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			description: ["Craft a Knightmetal Seed."]
+			dependencies: ["0000000000000148"]
+			id: "3796EF5E4274C286"
+			tasks: [{
+				id: "066B8F27892802A9"
+				type: "item"
+				item: "mysticalagriculture:knightmetal_seeds"
+			}]
+			rewards: [{
+				id: "6541AE4C42E2B353"
+				type: "item"
+				item: "mysticalagriculture:knightmetal_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 9.5d
+			description: ["Craft a Fiery Ingot Seed."]
+			dependencies: ["0000000000000148"]
+			id: "177AB3FDB327BEA5"
+			tasks: [{
+				id: "60AD5FE38D796CC7"
+				type: "item"
+				item: "mysticalagriculture:fiery_ingot_seeds"
+			}]
+			rewards: [{
+				id: "0640EC5A1F75EF79"
+				type: "item"
+				item: "mysticalagriculture:fiery_ingot_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.25d
+			description: ["Craft a Manyullyn Seed."]
+			dependencies: ["000000000000014A"]
+			id: "4E32A67A7BB05B15"
+			tasks: [{
+				id: "4E75BF7F1F300645"
+				type: "item"
+				item: "mysticalagriculture:manyullyn_seeds"
+			}]
+			rewards: [{
+				id: "4282A7FBDF588E41"
+				type: "item"
+				item: "mysticalagriculture:manyullyn_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: ["Craft an Apatite Seed."]
+			dependencies: ["0000000000000144"]
+			id: "1D9D9E8C50DFCFD8"
+			tasks: [{
+				id: "08467014FD5E8081"
+				type: "item"
+				item: "mysticalagriculture:apatite_seeds"
+			}]
+			rewards: [{
+				id: "69C200DE8E2A0F72"
+				type: "item"
+				item: "mysticalagriculture:apatite_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			description: ["Craft a Tinker's Bronze Seed."]
+			dependencies: ["0000000000000146"]
+			id: "215734FF6A1316ED"
+			tasks: [{
+				id: "0E668BD51C4AC7C7"
+				type: "item"
+				item: "mysticalagriculture:tinkers_bronze_seeds"
+			}]
+			rewards: [{
+				id: "201B614544A6987A"
+				type: "item"
+				item: "mysticalagriculture:tinkers_bronze_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: 8.0d
+			description: ["Craft a Slimesteel Seed."]
+			dependencies: ["0000000000000146"]
+			id: "67B5639277968D4A"
+			tasks: [{
+				id: "19669ABCA2ED2B28"
+				type: "item"
+				item: "mysticalagriculture:slimesteel_seeds"
+			}]
+			rewards: [{
+				id: "2B073099F817F330"
+				type: "item"
+				item: "mysticalagriculture:slimesteel_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			description: ["Craft a Pig Iron Seed."]
+			dependencies: ["0000000000000146"]
+			id: "66A31A57555B5EC5"
+			tasks: [{
+				id: "2F3605E1527F4420"
+				type: "item"
+				item: "mysticalagriculture:pig_iron_seeds"
+			}]
+			rewards: [{
+				id: "333F4D9A236AE243"
+				type: "item"
+				item: "mysticalagriculture:pig_iron_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: 5.0d
+			description: ["Craft a Queen's Slime Seed."]
+			dependencies: ["000000000000014A"]
+			id: "1ABFA18577DC3ED4"
+			tasks: [{
+				id: "7B5C43FBF9FD81EE"
+				type: "item"
+				item: "mysticalagriculture:queens_slime_seeds"
+			}]
+			rewards: [{
+				id: "7405A8C6BD875119"
+				type: "item"
+				item: "mysticalagriculture:queens_slime_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.75d
+			description: ["Craft a Marble Seed."]
+			dependencies: ["0000000000000144"]
+			id: "1D3DB2AD2FCDD5C1"
+			tasks: [{
+				id: "31B4A32EF04A54D4"
+				type: "item"
+				item: "mysticalagriculture:marble_seeds"
+			}]
+			rewards: [{
+				id: "414F1A65445B2C5F"
+				type: "item"
+				item: "mysticalagriculture:marble_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.5d
+			y: 9.5d
+			description: ["Craft a Sapphire Seed."]
+			dependencies: ["0000000000000148"]
+			id: "6806723837D2AF13"
+			tasks: [{
+				id: "0D7ACF817D035BA3"
+				type: "item"
+				item: "mysticalagriculture:sapphire_seeds"
+			}]
+			rewards: [{
+				id: "6E46033DEC94ABB6"
+				type: "item"
+				item: "mysticalagriculture:sapphire_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 10.25d
+			description: ["Craft a Ruby Seed."]
+			dependencies: ["0000000000000148"]
+			id: "76CDDB0E6861E425"
+			tasks: [{
+				id: "0405924E8E5F469A"
+				type: "item"
+				item: "mysticalagriculture:ruby_seeds"
+			}]
+			rewards: [{
+				id: "414D488A6D12C0FF"
+				type: "item"
+				item: "mysticalagriculture:ruby_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			description: ["Craft a Limestone Seed."]
+			dependencies: ["0000000000000144"]
+			id: "3583451335453D77"
+			tasks: [{
+				id: "0B8AEA1AE1EA0569"
+				type: "item"
+				item: "mysticalagriculture:limestone_seeds"
+			}]
+			rewards: [{
+				id: "13DD75D505D142DC"
+				type: "item"
+				item: "mysticalagriculture:limestone_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			description: ["Craft a Basalt Seed."]
+			dependencies: ["0000000000000144"]
+			id: "7660CDA7095BD4F2"
+			tasks: [{
+				id: "4B965D7E596EB731"
+				type: "item"
+				item: "mysticalagriculture:basalt_seeds"
+			}]
+			rewards: [{
+				id: "1C3E6A3BF5ECD41F"
+				type: "item"
+				item: "mysticalagriculture:basalt_essence"
+				count: 8
+			}]
+		}
+		{
+			icon: "mysticalagriculture:chaotic_seeds"
+			x: 12.0d
+			y: -1.75d
+			description: ["Craft a Chaotic Seed and his crux."]
+			dependencies: ["000000000000014C"]
+			id: "07E4BA7392CB4986"
+			tasks: [
+				{
+					id: "5B4DD552DC70FFB2"
+					type: "item"
+					item: "mysticalagriculture:chaotic_seeds"
+				}
+				{
+					id: "2715CDFDC59EBDE1"
+					type: "item"
+					item: "kubejs:chaotic_crux"
+				}
+			]
+			rewards: [{
+				id: "413D9D3C09FE8B91"
+				type: "item"
+				item: "mysticalagriculture:chaotic_essence"
+				count: 8
+			}]
+		}
+		{
+			icon: "mysticalagriculture:awakened_draconium_seeds"
+			x: 11.5d
+			y: -1.0d
+			description: ["Craft an Awakened Draconium Seed and his crux."]
+			dependencies: ["000000000000014C"]
+			id: "68CD0AA87E19EE23"
+			tasks: [
+				{
+					id: "0466DE07948A28FB"
+					type: "item"
+					item: "mysticalagriculture:awakened_draconium_seeds"
+				}
+				{
+					id: "4EB4406F420660B1"
+					type: "item"
+					item: "mysticalagradditions:awakened_draconium_crux"
+				}
+			]
+			rewards: [{
+				id: "393A0A09D311CD3D"
+				type: "item"
+				item: "mysticalagriculture:awakened_draconium_essence"
+				count: 8
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.75d
+			description: ["Craft a Draconium Seed."]
+			dependencies: ["000000000000014A"]
+			id: "4A3105C5AEBBC9DE"
+			tasks: [{
+				id: "32881D7A7FB40530"
+				type: "item"
+				item: "mysticalagriculture:draconium_seeds"
+			}]
+			rewards: [{
+				id: "78B4CEF5B73C2289"
+				type: "item"
+				item: "mysticalagriculture:draconium_essence"
+				count: 8
+			}]
+		}
+		{
+			icon: "create:brass_hand"
+			x: -0.5d
+			y: -9.5d
+			shape: "circle"
+			description: [
+				"To begin to work with Mystical Agriculture, you're going to need several things."
+				"First, begin Powah to get your Energized Steel, needed to craft Infusion Altar and Pedestal."
+				"Second, You need some Mechanical Crafters from Create to craft those infusions Altar and Pedestal."
+				"{image:kubejs:textures/ftbquests/begin/mystical.png width:150 height:100 align:1}"
+				"Finaly you're going to need something to get Prosperity Ore. From Mining Laser, from Ore miner or Orchid."
+			]
+			dependencies: ["000000000000012D"]
+			id: "76FA61DEA07AE01A"
+			tasks: [{
+				id: "51B54285653ABBCB"
+				type: "checkmark"
+				title: "How to begin Mystical Agriculture ?"
+			}]
+			rewards: [{
+				id: "66A1AA745CAD06C0"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.25d
+			description: ["Craft a Jellyfish Jelly Seed."]
+			dependencies: ["0000000000000144"]
+			id: "1BFFF186B79C09BD"
+			tasks: [{
+				id: "3E7D5FB0CF427ABE"
+				type: "item"
+				item: "mysticalagriculture:jellyfish_jelly_seeds"
+			}]
+			rewards: [{
+				id: "29B5DFF67CD23458"
+				type: "item"
+				item: "mysticalagriculture:jellyfish_jelly_essence"
+				count: 8
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			description: ["Craft a Phantom Seed."]
+			dependencies: ["000000000000019E"]
+			id: "4C98F3CCC947C492"
+			tasks: [{
+				id: "5788BFFA81A16B8F"
+				type: "item"
+				item: "mysticalagriculture:phantom_seeds"
+			}]
+			rewards: [{
+				id: "69805CBD21EA2CD7"
+				type: "item"
+				item: "mysticalagriculture:phantom_essence"
+				count: 8
+			}]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"type": "cagedmobs:additional_loot_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "cagedmobs"
+		}
+	],
+	"entity": "minecraft:ender_dragon",
+	"results": [
+		{
+			"lightning": true,
+			"chance": 0.05,
+			"output": {
+				"item": "mysticalagradditions:dragon_scale"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		},
+		{
+			"lightning": true,
+			"chance": 0.05,
+			"output": {
+				"item": "tconstruct:dragon_scale"
+			},
+			"minAmount": 1,
+			"maxAmount": 1
+		}
+	]
+
+}

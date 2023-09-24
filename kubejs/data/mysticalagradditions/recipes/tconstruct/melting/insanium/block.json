@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "ingredient": {
+    "item": "mysticalagradditions:insanium_ingot_block"
+  },
+  "result": {
+    "fluid": "kubejs:molten_insanium",
+    "amount": 1296
+  },
+  "temperature": 1050,
+  "time": 300
+}

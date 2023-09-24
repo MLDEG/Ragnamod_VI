@@ -1,0 +1,20 @@
+{
+  "type": "cyclic:solidifier",
+  "inputTop": {
+    "item": "minecraft:honeycomb_block"
+  },
+  "inputMiddle": {
+    "item": "minecraft:honeycomb"
+  },
+  "inputBottom": {
+    "item": "minecraft:honeycomb_block"
+  },
+  "mix": {
+    "fluid": "resourcefulbees:honey",
+    "count": 8000
+  },
+  "result": {
+    "item": "minecraft:bee_nest",
+	"count": 1
+  }
+}

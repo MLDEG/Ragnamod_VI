@@ -1,0 +1,3438 @@
+{
+	id: "5F1828D807F8D85C"
+	group: ""
+	order_index: 31
+	filename: "extended_crafting"
+	title: "Extended Crafting"
+	icon: "extendedcrafting:ultimate_table"
+	subtitle: ["Big PP table."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Black Iron"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"To craft Black Iron you need a Pewter Ingot, a Black Lotus, a Nocturnal Powder and a Kyronite Interconnect in an Energizing Orb."
+				"This is the main ingredient to start Extended Crafting."
+			]
+			dependencies: ["28FAE67AF30700C8"]
+			size: 2.0d
+			id: "4F376C7EADD0619C"
+			tasks: [{
+				id: "31F3CF5C8DAAF8E1"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "111896C8E57CB827"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			description: ["The Basic Crafting Table is mainly used to craft Solar Panel from Environmental Energy."]
+			dependencies: ["57F3367A8CFAF22A"]
+			id: "5C965464AA01EDC2"
+			tasks: [{
+				id: "635FAEABB999EF21"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+			rewards: [{
+				id: "5162841CA5660B83"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			description: [
+				"You can automate the Basic Crafting Table with it."
+				"The Table will grab items in an inventory on top of it."
+			]
+			dependencies: [
+				"07CA1C4EB1E3DB56"
+				"5C965464AA01EDC2"
+				"2CE4199287C93A9C"
+			]
+			id: "04598CC602252D1B"
+			tasks: [{
+				id: "108559D39F2EC3FD"
+				type: "item"
+				item: "extendedcrafting:basic_auto_table"
+			}]
+			rewards: [{
+				id: "70AB90E000186077"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["Basic Component is used to craft the Basic Catalyst."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "2C32C7782C9E7C2E"
+			tasks: [{
+				id: "7D16E11E2F6E0CA0"
+				type: "item"
+				item: "extendedcrafting:basic_component"
+			}]
+			rewards: [{
+				id: "09756B10EA855E61"
+				type: "item"
+				item: "extendedcrafting:basic_component"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["Basic Catalyst is used to craft the Basic Crafting Table."]
+			dependencies: ["2C32C7782C9E7C2E"]
+			id: "57F3367A8CFAF22A"
+			tasks: [{
+				id: "410167C32E56A099"
+				type: "item"
+				item: "extendedcrafting:basic_catalyst"
+			}]
+			rewards: [{
+				id: "4EBBEDF67E021A16"
+				type: "item"
+				item: "extendedcrafting:basic_catalyst"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["The Advanced Crafting Table is mainly used to craft Solar Panel from Solar Flux."]
+			dependencies: ["6DF6AF043BB23CA8"]
+			id: "474281C4E572602E"
+			tasks: [{
+				id: "258F19721CC5F009"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [{
+				id: "2D120473A5026788"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: [
+				"You can automate the Advanced Crafting Table with it."
+				"The Table will grab items in an inventory on top of it."
+			]
+			dependencies: [
+				"07CA1C4EB1E3DB56"
+				"2CE4199287C93A9C"
+				"474281C4E572602E"
+			]
+			id: "0811F7EEF6D2B64C"
+			tasks: [{
+				id: "43665384924BBBD7"
+				type: "item"
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+			rewards: [{
+				id: "12FA0BD93953AB80"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["Advanced Component is used to craft the Advanced Catalyst."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "71D7790E92D711A0"
+			tasks: [{
+				id: "720F4FBF1E012EC6"
+				type: "item"
+				item: "extendedcrafting:advanced_component"
+			}]
+			rewards: [{
+				id: "1D3A98563726AAF3"
+				type: "item"
+				item: "extendedcrafting:advanced_component"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: ["Advanced Catalyst is used to craft the Advanced Crafting Table."]
+			dependencies: ["71D7790E92D711A0"]
+			id: "6DF6AF043BB23CA8"
+			tasks: [{
+				id: "7F454A0C3A9E0C63"
+				type: "item"
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+			rewards: [{
+				id: "223A17437D3CAA15"
+				type: "item"
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["The Elite Crafting Table is used to craft the Quarkotron controller and some creative items."]
+			dependencies: ["29A8494555E53416"]
+			id: "59B2F59D0C14B884"
+			tasks: [{
+				id: "1B984CC59CC102D3"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			rewards: [{
+				id: "00D52D7ABBB43AF7"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			description: [
+				"You can automate the Elite Crafting Table with it."
+				"The Table will grab items in an inventory on top of it."
+			]
+			dependencies: [
+				"07CA1C4EB1E3DB56"
+				"2CE4199287C93A9C"
+				"59B2F59D0C14B884"
+			]
+			id: "66EA51C9925F7818"
+			tasks: [{
+				id: "43662305A10B00A3"
+				type: "item"
+				item: "extendedcrafting:elite_auto_table"
+			}]
+			rewards: [{
+				id: "739056F8D9150EDE"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["Elite Component is used to craft the Elite Catalyst."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "5CE3ACAFBE790C28"
+			tasks: [{
+				id: "6FA10E4F47DD5FFF"
+				type: "item"
+				item: "extendedcrafting:elite_component"
+			}]
+			rewards: [{
+				id: "4CC4C8B709532362"
+				type: "item"
+				item: "extendedcrafting:elite_component"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["Elite Catalyst is used to craft the Elite Crafting Table."]
+			dependencies: ["5CE3ACAFBE790C28"]
+			id: "29A8494555E53416"
+			tasks: [{
+				id: "34886658095F5371"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+			rewards: [{
+				id: "45DB3FE57A798A47"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["The Ultimate Crafting Table is mainly used to craft creative items."]
+			dependencies: ["12FB7D4F819CC21A"]
+			id: "1D0B07D5A177B5ED"
+			tasks: [{
+				id: "5C4F10ED91DB720F"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [{
+				id: "097D5C2DE5F220D5"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			description: [
+				"You can automate the Ultimate Crafting Table with it."
+				"The Table will grab items in an inventory on top of it."
+			]
+			dependencies: [
+				"07CA1C4EB1E3DB56"
+				"1D0B07D5A177B5ED"
+				"2CE4199287C93A9C"
+			]
+			id: "211C47F2C232EDE6"
+			tasks: [{
+				id: "789AC134DAC1E3FE"
+				type: "item"
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+			rewards: [{
+				id: "4679494D6A77C806"
+				type: "loot"
+				table_id: 6279604713272709768L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["Ultimate Component is used to craft the Ultimate Catalyst."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "11535C5D96099177"
+			tasks: [{
+				id: "275CECE34C564116"
+				type: "item"
+				item: "extendedcrafting:ultimate_component"
+			}]
+			rewards: [{
+				id: "4CEE6307485A749D"
+				type: "item"
+				item: "extendedcrafting:ultimate_component"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["Ultimate Catalyst is used to craft the Ultimate Crafting Table."]
+			dependencies: ["11535C5D96099177"]
+			id: "12FB7D4F819CC21A"
+			tasks: [{
+				id: "65440D79F7B7404A"
+				type: "item"
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+			rewards: [{
+				id: "3925835E2094D431"
+				type: "item"
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["The Crystaltine Component is mainly used to craft the automation version of Extended Table."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "2CE4199287C93A9C"
+			tasks: [{
+				id: "553EDE3721C1478A"
+				type: "item"
+				item: "extendedcrafting:crystaltine_component"
+			}]
+			rewards: [{
+				id: "7DD84B82E40804E9"
+				type: "item"
+				item: "extendedcrafting:crystaltine_component"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: ["The Redstone Component is mainly used to craft the automation version of Extended Table."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "07CA1C4EB1E3DB56"
+			tasks: [{
+				id: "253E3EFC35CA567A"
+				type: "item"
+				item: "extendedcrafting:redstone_component"
+			}]
+			rewards: [{
+				id: "5B96C22C46107756"
+				type: "item"
+				item: "extendedcrafting:redstone_component"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"The Ender Crafter work with Ender Alternator, the more you have, the fastest it crafts."
+				"The max size is 7x7x7 with the Crafter at the center."
+			]
+			dependencies: ["28FAE67AF30700C8"]
+			id: "2A4B496451E1606F"
+			tasks: [
+				{
+					id: "28B13782024B5794"
+					type: "item"
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "028E459C0D94D192"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "553285228209A7A0"
+				type: "item"
+				item: "extendedcrafting:ender_alternator"
+				count: 12
+			}]
+		}
+		{
+			title: "Combination Crafting"
+			x: 6.5d
+			y: 0.0d
+			description: ["The Crafting Core, with the Pedestal, is used to craft the Creative Essence and other end game things."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "3F4C2EC234F74D74"
+			tasks: [
+				{
+					id: "0E685BE37225E3F5"
+					type: "item"
+					item: "extendedcrafting:crafting_core"
+				}
+				{
+					id: "5EE2382DAE7892EC"
+					type: "item"
+					item: "extendedcrafting:pedestal"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "2856453887E17F82"
+				type: "item"
+				item: "extendedcrafting:pedestal"
+				count: 12
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["The Quantum Compressor is only used to craft Singularities."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "01225FF9727AD15D"
+			tasks: [{
+				id: "2114C1ACAE565282"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [{
+				id: "4FFBEE170CFC9090"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			description: ["Combine all the Singularities !"]
+			hide_dependency_lines: true
+			dependencies: [
+				"2114C1ACAE565282"
+				"782FBDC32EF33337"
+				"1DAE8A3CE5E812E9"
+				"3F42FC5ABC429D28"
+				"018ABA4A4B066258"
+				"2F91A30165F5C4BE"
+				"5BF89E81675CF503"
+				"66B6DC4AE354AF51"
+				"051117F587AEC236"
+				"208522EF2F412894"
+				"5C16295E5A533782"
+				"548268CD13A4CC99"
+				"05DCCC22C53CEBC7"
+				"10AE9E1364A6DB8D"
+				"25C1C5AF45F46C8A"
+				"209B94B6F4FB3A1B"
+				"634BB8120E3C8DFC"
+				"7BAD757812562394"
+				"30F8735BE3784509"
+				"1096771051D646FF"
+				"3F624A8104F22A25"
+				"4C94217CB25A982B"
+				"008C21779EBE902B"
+				"66F1AA7B3A7CF993"
+				"576C6899EB4547AA"
+				"41F88D201EA6B7B7"
+				"65662E97FF074E7E"
+				"1917CE66057B0BD7"
+				"1A35AD5F7C0F6594"
+				"1BFBD774CF474C98"
+				"71C421C75CEEDA05"
+				"1BA3D7B309AA268C"
+				"6CFFD8750E70E66B"
+				"5409A0C1F4208408"
+				"64EB822E36D9F796"
+				"41A26A715F369CA6"
+				"376552C5A0BE0C23"
+				"245FCB2C279D3596"
+				"63031C72798D116C"
+				"5016730E26680E1C"
+				"6C7D6C479A4FF6B0"
+				"0E32702A23FA3551"
+				"08D8D3E60EF8AE24"
+				"108BD609A90F3072"
+				"3DAD4B5EBAE02065"
+				"0FFDB6F9F293BB46"
+				"2753BB4251C2430F"
+				"7993BC32CF61E25C"
+				"348DEB84AE07B2B6"
+				"44C18BB309EF0DE8"
+				"58D853FD2BA4BAFB"
+				"10A1DA763E04FD1A"
+				"756893D71E032563"
+				"06F69E1796EC69FD"
+				"44B8E68B6F353714"
+				"3884EB4E1E1883A1"
+				"3CA7E5EDE76E83FC"
+				"4E1D64349579E284"
+				"3108A05AC3DC3925"
+				"59458EAA815A8040"
+				"7BBC631BA0DDCD33"
+				"2E4B82C2CCE1FB5E"
+				"6DAABA0BFBA47EB5"
+				"28D2487542519276"
+				"6C3C21A18741F08C"
+				"78F46C60563BD1FC"
+				"22213C259D386391"
+				"5E74AF9E196C8337"
+				"77A299E3A5ABB8D4"
+				"500011D6EE89F0E5"
+				"600499F072B21574"
+				"06C6B97449AE7E36"
+				"780E464EFCA7D4CF"
+				"262075475AD5148D"
+				"521A1DE07B0EB586"
+				"501E4A828C3691E4"
+				"679A80F8A4AA067D"
+				"5DBF49AC80B15E68"
+				"6A36F18D8437B5A4"
+				"508D2F3B16540588"
+				"3B1C9B5E7844F873"
+				"027521DAD0D883BB"
+			]
+			id: "77B2A91BD9E59CB3"
+			tasks: [{
+				id: "4620538E5319E044"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "62F8F37D835A72B6"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			description: [
+				"A Miraculous Soup with a lot of vegetable and fruits."
+				""
+				"Tips, you can buy all the seeds and saplings in the market."
+			]
+			dependencies: ["28FAE67AF30700C8"]
+			id: "4937F2ACAF32F6BC"
+			tasks: [{
+				id: "3365174E36C9B091"
+				type: "item"
+				item: "kubejs:miraculous_soup"
+			}]
+			rewards: [{
+				id: "3588A0D705E4A259"
+				type: "item"
+				item: "kubejs:miraculous_soup"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: [
+				"Craft a skewer with all the meat !"
+				""
+				"But if you eat it, you're going to have Bloodthirst effect."
+			]
+			dependencies: ["28FAE67AF30700C8"]
+			id: "51A59478078205DB"
+			tasks: [{
+				id: "3D77427E388412CD"
+				type: "item"
+				item: "kubejs:ultimate_skewer"
+			}]
+			rewards: [{
+				id: "3DAAC69F0AB2CC9C"
+				type: "item"
+				item: "kubejs:ultimate_skewer"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: ["Collect and combine a lot of honeycomb."]
+			dependencies: ["28FAE67AF30700C8"]
+			id: "75B139ECC1945B83"
+			tasks: [{
+				id: "535F674FB4C03A37"
+				type: "item"
+				item: "kubejs:ultimate_comb"
+			}]
+			rewards: [{
+				id: "38A43D7827D740A9"
+				type: "item"
+				item: "kubejs:ultimate_comb"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"Like his name said, it's a sphere of all things."
+				"Combined all the ultimate items and a quarkonium block to get this  sphere."
+			]
+			dependencies: [
+				"211DE7106D6B6D96"
+				"75B139ECC1945B83"
+				"45FE575FFC250E33"
+				"51A59478078205DB"
+				"4937F2ACAF32F6BC"
+				"4EADD291B10F3476"
+				"77B2A91BD9E59CB3"
+			]
+			size: 2.0d
+			id: "09556A9AE232B5F9"
+			tasks: [{
+				id: "5F68BDEA99B0E0A7"
+				type: "item"
+				item: "kubejs:sphere"
+			}]
+			rewards: [{
+				id: "2BEFACE57B1C7657"
+				type: "item"
+				item: {
+					id: "botania:water_bowl"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:water"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: [
+				"The Creative Essence is used to craft creative things."
+				"Also used to craft the Transmutation Table or the Machinarium Ingot to start working on the Quarkotron."
+			]
+			dependencies: ["28FAE67AF30700C8"]
+			id: "6B724B21BEC259E8"
+			tasks: [{
+				id: "2F533F46B7A0E3CE"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+			rewards: [{
+				id: "3B0437CBD5AC17D3"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			description: ["Combine five ultimate Netherite in the Basic Crafting Table to get an Ultimate Netherite Lattice."]
+			dependencies: ["28FAE67AF30700C8"]
+			id: "45FE575FFC250E33"
+			tasks: [{
+				id: "7ED383919620E386"
+				type: "item"
+				item: "kubejs:ultimate_netherite_lattice"
+			}]
+			rewards: [{
+				id: "4F3D740C0609F31E"
+				type: "item"
+				item: "kubejs:ultimate_netherite_lattice"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: [
+				"Combine all the ingot, at least 81 of them."
+				""
+				"You can also craft a seed to collect this ingot."
+			]
+			dependencies: ["28FAE67AF30700C8"]
+			id: "211DE7106D6B6D96"
+			tasks: [{
+				id: "168CAFF6C20F4590"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [{
+				id: "5CB839A24BEA8E3B"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			title: "Quarkotron"
+			x: 4.0d
+			y: -3.0d
+			description: [
+				"The Quarkotron is a multiblock who can create a Pile of Quarkonium with power and a bit of time."
+				""
+				"You have also an Advanced Quarkotron who can duplicate Quarkonium, but you have, first, obtain at minimum a Pile of Quarkonium."
+				"{image:kubejs:textures/ftbquests/begin/quarkotron.png width:150 height:100 align:1}"
+			]
+			dependencies: ["7E922AD8B921E613"]
+			id: "24B49269256757AA"
+			tasks: [
+				{
+					id: "004CDDBFEDDFED0F"
+					type: "item"
+					item: "masterfulmachinery:quarkonium_controller"
+				}
+				{
+					id: "6643D99FF79F5A42"
+					type: "item"
+					item: "masterfulmachinery:quarkonium_quarkitem_port_items_output"
+				}
+				{
+					id: "1CE052835CE1C90B"
+					type: "item"
+					item: "masterfulmachinery:quarkonium_qfe_port_energy_input"
+				}
+			]
+			rewards: [{
+				id: "1CC527684C843EAF"
+				type: "item"
+				item: "masterfulmachinery:quarkonium_quarkitem_port_items_input"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			description: ["Collect a Pile of Quarkonium."]
+			dependencies: ["24B49269256757AA"]
+			id: "5B36D846A5857392"
+			tasks: [{
+				id: "376C7F26EF90613B"
+				type: "item"
+				item: "kubejs:pile_of_quarkonium"
+			}]
+			rewards: [{
+				id: "7DD9406590B6F48F"
+				type: "item"
+				item: "kubejs:pile_of_quarkonium"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			description: ["Craft a Quarkonium Nugget."]
+			dependencies: ["5B36D846A5857392"]
+			id: "398224CCB0E840EC"
+			tasks: [{
+				id: "36EAB1628B2333C4"
+				type: "item"
+				item: "kubejs:quarkonium_nugget"
+			}]
+			rewards: [{
+				id: "5BC107775C602123"
+				type: "item"
+				item: "kubejs:quarkonium_nugget"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			description: ["Craft a Quarkonium Ingot."]
+			dependencies: ["398224CCB0E840EC"]
+			id: "12A871B84E9DE25B"
+			tasks: [{
+				id: "18578008CF987475"
+				type: "item"
+				item: "kubejs:quarkonium_ingot"
+			}]
+			rewards: [{
+				id: "19D40F66663CC966"
+				type: "item"
+				item: "kubejs:quarkonium_ingot"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			description: ["Craft a Block of Quarkonium."]
+			dependencies: ["12A871B84E9DE25B"]
+			id: "4EADD291B10F3476"
+			tasks: [{
+				id: "0B4B1A6A0412B263"
+				type: "item"
+				item: "kubejs:quarkonium_block"
+			}]
+			rewards: [{
+				id: "6AED50518468B831"
+				type: "item"
+				item: "kubejs:quarkonium_block"
+			}]
+		}
+		{
+			title: "How do I begin Extended Crafting?"
+			icon: "create:brass_hand"
+			x: 0.0d
+			y: -3.0d
+			shape: "circle"
+			description: [
+				"To begin with Extended Crafting you need first to look how to make Black Iron. Yep, you're going to need several materials."
+				"{image:kubejs:textures/ftbquests/begin/powahpowah.png width:150 height:100 align:1}"
+				"You need to begin first Powah, Astral and Environmental Tech to get your Black Iron."
+			]
+			dependencies: ["28FAE67AF30700C8"]
+			id: "366A89D72C3624CE"
+			tasks: [{
+				id: "5146516F53D73173"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7D59ECDBBBB6C170"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+		{
+			title: "Machinarium Ingot"
+			x: 3.0d
+			y: -3.0d
+			description: ["Machinarium Ingot is used to craft the Machinarium Block for the Quarkotron."]
+			dependencies: ["6B724B21BEC259E8"]
+			id: "7E922AD8B921E613"
+			tasks: [{
+				id: "34A282BED80BD77C"
+				type: "item"
+				item: "kubejs:machinarium_ingot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "72B0FB818F799C5E"
+				type: "item"
+				item: "kubejs:machinarium_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: 11.25d
+			y: 2.0d
+			shape: "square"
+			description: ["Get a Cloggrum Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "027521DAD0D883BB"
+			tasks: [{
+				id: "66CDC539A9FD3420"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cloggrum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "72AC4101F2D4F720"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cloggrum"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: 1.0d
+			shape: "square"
+			description: ["Get an Aluminum Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "3B1C9B5E7844F873"
+			tasks: [{
+				id: "4642166EA11D1023"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E561D7437B1B53E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: 0.5d
+			shape: "square"
+			description: ["Get a Silver Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "6A36F18D8437B5A4"
+			tasks: [{
+				id: "782D990684FFA127"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00E4381F60F84415"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: -1.0d
+			shape: "square"
+			description: ["Get an Electrum Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "5DBF49AC80B15E68"
+			tasks: [{
+				id: "2D0468EDB44D255E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "26B6C1A6EBCB7225"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: 0.0d
+			shape: "square"
+			description: ["Get a Lapis Lazuli Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "245FCB2C279D3596"
+			tasks: [{
+				id: "26AB81AF96E30DAE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CB2E9F2B590C620"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: 1.5d
+			shape: "square"
+			description: ["Get an Endumium Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "376552C5A0BE0C23"
+			tasks: [{
+				id: "5BF865BE0EE6146B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:endumium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CF8083FEFE98F97"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:endumium"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: 0.5d
+			shape: "square"
+			description: ["Get a Niotic Crystal Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "66B6DC4AE354AF51"
+			tasks: [{
+				id: "0C1B93A174D8E46C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:niotic_crystal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B045ABECA5B1951"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:niotic_crystal"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.25d
+			y: 1.0d
+			shape: "square"
+			description: ["Get an Osmium Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "5BF89E81675CF503"
+			tasks: [{
+				id: "37CAEA54FF9C0FC6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:osmium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C6A5EA981EB4B8E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:osmium"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.25d
+			y: -0.5d
+			shape: "square"
+			description: ["Get an Uranium Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "782FBDC32EF33337"
+			tasks: [{
+				id: "5AEA2C59CDE2CDAD"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uranium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0DBC13E82035AE5A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uranium"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: 1.0d
+			shape: "square"
+			description: ["Get a Quartz Enriched Iron Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "1DAE8A3CE5E812E9"
+			tasks: [{
+				id: "799BBA839A1F58AC"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:quartz_enriched_iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "65E81A78313F4852"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:quartz_enriched_iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: -2.0d
+			shape: "square"
+			description: ["Get a Redstone Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "2F91A30165F5C4BE"
+			tasks: [{
+				id: "1B754A4C4FD85104"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "508BA6F09B81A6B4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: -0.5d
+			shape: "square"
+			description: ["Get a Terrasteel Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "051117F587AEC236"
+			tasks: [{
+				id: "2F47C3C51C3E73B4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:terrasteel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "044EEACD47983062"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:terrasteel"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: -1.5d
+			shape: "square"
+			description: ["Get a Blazing Crystal Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "41A26A715F369CA6"
+			tasks: [{
+				id: "1669964401645D67"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:blazing_crystal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7799337261A1D61D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:blazing_crystal"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.25d
+			y: -2.0d
+			shape: "square"
+			description: ["Get a Carminite Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "63031C72798D116C"
+			tasks: [{
+				id: "54601F8336CCFB0B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:carminite"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D97CB7CFF7C136C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:carminite"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.25d
+			y: 1.5d
+			shape: "square"
+			description: ["Get a Pig Iron Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "679A80F8A4AA067D"
+			tasks: [{
+				id: "49007D7C9E435BAB"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:pig_iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4738541A4F210D14"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:pig_iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.25d
+			y: 0.5d
+			shape: "square"
+			description: ["Get a Diamond Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "508D2F3B16540588"
+			tasks: [{
+				id: "5838C992FF5DFB2F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+			}]
+			rewards: [{
+				id: "776004695F9A2B0A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: 1.0d
+			shape: "square"
+			description: ["Get an Iron Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "501E4A828C3691E4"
+			tasks: [{
+				id: "7273DCD43B339C50"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F34ECD84E9E40FF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: 0.0d
+			shape: "square"
+			description: ["Get a Starmetal Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "521A1DE07B0EB586"
+			tasks: [{
+				id: "3EC2DCB171315AEB"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:starmetal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "00F7DF1C95D887BF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:starmetal"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: -0.5d
+			shape: "square"
+			description: ["Get a Steeleaf Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "3F42FC5ABC429D28"
+			tasks: [{
+				id: "41EA76FC72ABA00C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steeleaf"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A822FE7CA33AB93"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steeleaf"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: 0.0d
+			shape: "square"
+			description: ["Get a Cobalt Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "018ABA4A4B066258"
+			tasks: [{
+				id: "00C15A9007AF3F52"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cobalt"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4679E9D54D605F9F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cobalt"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: -1.0d
+			shape: "square"
+			description: ["Get a Nickel Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "208522EF2F412894"
+			tasks: [{
+				id: "7D3F3FF19896957D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7B03A80AD40F640A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: -1.5d
+			shape: "square"
+			description: ["Get a Tinker's Bronze Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "64EB822E36D9F796"
+			tasks: [{
+				id: "394E3E4ADEBA7813"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tinkers_bronze"
+					}
+				}
+			}]
+			rewards: [{
+				id: "031A0293AD2C39FC"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tinkers_bronze"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: 1.5d
+			shape: "square"
+			description: ["Get a Refined Obsidian Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "5016730E26680E1C"
+			tasks: [{
+				id: "2242D40F592B438E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_obsidian"
+					}
+				}
+			}]
+			rewards: [{
+				id: "164D6FD90593383B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_obsidian"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: -1.0d
+			shape: "square"
+			description: ["Get a Yellorium Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "600499F072B21574"
+			tasks: [{
+				id: "1B1AC921F6BECA46"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:yellorium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "38FBBEF1E842B979"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:yellorium"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: -2.0d
+			shape: "square"
+			description: ["Get a Fire Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "06C6B97449AE7E36"
+			tasks: [{
+				id: "524EB0CACE4E357F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:fire"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F87D7913E3DAEB5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:fire"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.25d
+			y: 2.0d
+			shape: "square"
+			description: ["Get a Steel Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "780E464EFCA7D4CF"
+			tasks: [{
+				id: "3D4077B924229C89"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "651026E30E796B1F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: -1.5d
+			shape: "square"
+			description: ["Get an Air Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "262075475AD5148D"
+			tasks: [{
+				id: "4450EC26C0A05410"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:air"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F0E26994233C2AF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:air"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: 1.5d
+			shape: "square"
+			description: ["Get a Fertilized Essence Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "548268CD13A4CC99"
+			tasks: [{
+				id: "50032439F2875EB2"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:fertilized_essence"
+					}
+				}
+			}]
+			rewards: [{
+				id: "582ECAC1D8CC1EAC"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:fertilized_essence"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: -0.5d
+			shape: "square"
+			description: ["Get an Emerald Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "05DCCC22C53CEBC7"
+			tasks: [{
+				id: "608566ACC471D2D2"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+			}]
+			rewards: [{
+				id: "139B016EE1096B4B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: 0.0d
+			shape: "square"
+			description: ["Get a Gobber Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "5C16295E5A533782"
+			tasks: [{
+				id: "5BB28650818DB655"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:gobber"
+					}
+				}
+			}]
+			rewards: [{
+				id: "34956CD1D4EBE818"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:gobber"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: -1.0d
+			shape: "square"
+			description: ["Get a Phantom Membrane Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "5409A0C1F4208408"
+			tasks: [{
+				id: "7B0F83F48FBE5458"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:phantom_membrane"
+					}
+				}
+			}]
+			rewards: [{
+				id: "25C0B22D479639E3"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:phantom_membrane"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: -2.0d
+			shape: "square"
+			description: ["Get an Amber Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "6C7D6C479A4FF6B0"
+			tasks: [{
+				id: "56C353777873120F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:amber"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2327BC5358D82D23"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:amber"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: -1.0d
+			shape: "square"
+			description: ["Get a Lumium Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "500011D6EE89F0E5"
+			tasks: [{
+				id: "6B1DC39385E89549"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lumium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "401C2919D93AA187"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lumium"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.25d
+			y: -1.0d
+			shape: "square"
+			description: ["Get a Cheese Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "10AE9E1364A6DB8D"
+			tasks: [{
+				id: "0D3AC31BFBF91216"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cheese"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C15F5E5AFEF2087"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cheese"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: -1.5d
+			shape: "square"
+			description: ["Get a Glowstone Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "25C1C5AF45F46C8A"
+			tasks: [{
+				id: "6E399F42EF43B63F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "20B63E62B02CF705"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: 1.5d
+			shape: "square"
+			description: ["Get a Source Gem Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "209B94B6F4FB3A1B"
+			tasks: [{
+				id: "4FE96E1FADD1E140"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:managem"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A75AB0D95DD82E8"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:managem"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: -0.5d
+			shape: "square"
+			description: ["Get a Queen's Slime Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "6CFFD8750E70E66B"
+			tasks: [{
+				id: "363F1C5F1E9AE310"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:queens_slime"
+					}
+				}
+			}]
+			rewards: [{
+				id: "34FA0F56A58FA6E9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:queens_slime"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: 0.0d
+			shape: "square"
+			description: ["Get a Mana Steel Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "0E32702A23FA3551"
+			tasks: [{
+				id: "385F71322D3469A7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:manasteel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2DA185484423DCFE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:manasteel"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: -2.0d
+			shape: "square"
+			description: ["Get a Copper Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "44C18BB309EF0DE8"
+			tasks: [{
+				id: "4FDCB97E6D5FE309"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E06616355AD4043"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.25d
+			y: -0.5d
+			shape: "square"
+			description: ["Get a Scute Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "756893D71E032563"
+			tasks: [{
+				id: "2E8564AF0D9694E6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:scute"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D24AFCAED798154"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:scute"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: 2.0d
+			shape: "square"
+			description: ["Get a Biotite Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "10A1DA763E04FD1A"
+			tasks: [{
+				id: "2F8B2D361D662715"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:biotite"
+					}
+				}
+			}]
+			rewards: [{
+				id: "119E6D58FB027A94"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:biotite"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: -2.0d
+			shape: "square"
+			description: ["Get a Signalum Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "3884EB4E1E1883A1"
+			tasks: [{
+				id: "44484F611D0A757B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:signalum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "46AEC3F6967FA9DB"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:signalum"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.25d
+			y: 2.0d
+			shape: "square"
+			description: ["Get a Hepatizon Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "30F8735BE3784509"
+			tasks: [{
+				id: "7B8808317CC94E92"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:hepatizon"
+					}
+				}
+			}]
+			rewards: [{
+				id: "58448441B564213D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:hepatizon"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.25d
+			y: -1.0d
+			shape: "square"
+			description: ["Get a Refined Glowstone Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "7BAD757812562394"
+			tasks: [{
+				id: "26C69CAB0E3C573F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_glowstone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D786A620EC229C4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_glowstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: 0.0d
+			shape: "square"
+			description: ["Get a Froststeel Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "634BB8120E3C8DFC"
+			tasks: [{
+				id: "137360F2C4785E44"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:froststeel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D27C790B3B398BC"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:froststeel"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: -0.5d
+			shape: "square"
+			description: ["Get a Spirited Crystal Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "1BA3D7B309AA268C"
+			tasks: [{
+				id: "648018A4F2A72411"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:spirited_crystal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "060BFD87A7024755"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:spirited_crystal"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.25d
+			y: -2.0d
+			shape: "square"
+			description: ["Get a Glycerol Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "08D8D3E60EF8AE24"
+			tasks: [{
+				id: "62B0108F3A4EBBE5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glycerol"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0CEC3CF47EE78BAF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glycerol"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.25d
+			y: 0.0d
+			shape: "square"
+			description: ["Get a Water Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "58D853FD2BA4BAFB"
+			tasks: [{
+				id: "133CDEFF085E2557"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:water"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5343F3661F36140A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:water"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: 2.0d
+			shape: "square"
+			description: ["Get an Ironwood Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "06F69E1796EC69FD"
+			tasks: [{
+				id: "4095A9BA458C2A4B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:ironwood"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C1BAE9B668A8524"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:ironwood"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.25d
+			y: -1.5d
+			shape: "square"
+			description: ["Get a Bronze Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "44B8E68B6F353714"
+			tasks: [{
+				id: "247A9110B4D7949F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D78EAFAB38EFFDE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: 1.0d
+			shape: "square"
+			description: ["Get an Invar Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "3CA7E5EDE76E83FC"
+			tasks: [{
+				id: "392CE66425E64F7F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+			}]
+			rewards: [{
+				id: "309C1FDABFCC2672"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: 0.5d
+			shape: "square"
+			description: ["Get a Slimesteel Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "1096771051D646FF"
+			tasks: [{
+				id: "7FE32D62CBCC6397"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:slimesteel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "528BB339A19A3D61"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:slimesteel"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: 2.0d
+			shape: "square"
+			description: ["Get a Tungsten Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "3F624A8104F22A25"
+			tasks: [{
+				id: "4F62ACAA955F8037"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tungsten"
+					}
+				}
+			}]
+			rewards: [{
+				id: "56EEE10443D0E36D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tungsten"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: 2.0d
+			shape: "square"
+			description: ["Get a Coal Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "4C94217CB25A982B"
+			tasks: [{
+				id: "7B597D4D04B04797"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "67817A66BC18252F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: 1.0d
+			shape: "square"
+			description: ["Get a Zinc Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "71C421C75CEEDA05"
+			tasks: [{
+				id: "51E8A4EAA9667D46"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:zinc"
+					}
+				}
+			}]
+			rewards: [{
+				id: "06009DCE1CC1AC21"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:zinc"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: 1.5d
+			shape: "square"
+			description: ["Get a Jelly Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "108BD609A90F3072"
+			tasks: [{
+				id: "14E6D2DDD2F5967B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:jelly"
+					}
+				}
+			}]
+			rewards: [{
+				id: "065E7296784FC427"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:jelly"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: -2.0d
+			shape: "square"
+			description: ["Get an Utherium Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "348DEB84AE07B2B6"
+			tasks: [{
+				id: "08B299273DFBB254"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:utherium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0BDBC794205B107B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:utherium"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: 0.5d
+			shape: "square"
+			description: ["Get a Platinum Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "3108A05AC3DC3925"
+			tasks: [{
+				id: "78601F4C8ED9AE96"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:platinum"
+					}
+				}
+			}]
+			rewards: [{
+				id: "30FA08DA276B2FB7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:platinum"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: -2.0d
+			shape: "square"
+			description: ["Get a Crystalized Amber Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "59458EAA815A8040"
+			tasks: [{
+				id: "28D385849DA43C5C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:crystalized_amber"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0270DDBEE3462AD0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:crystalized_amber"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.75d
+			y: -0.5d
+			shape: "square"
+			description: ["Get an Earth Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "4E1D64349579E284"
+			tasks: [{
+				id: "2482FE310D24C2D0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:earth"
+					}
+				}
+			}]
+			rewards: [{
+				id: "19051D886F5F87C4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:earth"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: -1.0d
+			shape: "square"
+			description: ["Get a Gold Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "5E74AF9E196C8337"
+			tasks: [{
+				id: "0C43C73076B8BFD1"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:gold"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E87D51F47533901"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:gold"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: -1.0d
+			shape: "square"
+			description: ["Get a Knightmetal Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "77A299E3A5ABB8D4"
+			tasks: [{
+				id: "0477323F00C4D501"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:knightmetal"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A2BDBC0D9C885CC"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:knightmetal"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: -1.5d
+			shape: "square"
+			description: ["Get an Arcane Gold Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "22213C259D386391"
+			tasks: [{
+				id: "567D84F4B4EF90F0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:arcane_gold"
+					}
+				}
+			}]
+			rewards: [{
+				id: "14EE4C4807C5EC1A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:arcane_gold"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: -1.5d
+			shape: "square"
+			description: ["Get an Aflsteel Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "576C6899EB4547AA"
+			tasks: [{
+				id: "0996133B48D7D895"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:alfsteel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "26445FD9B3E983E5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:alfsteel"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: 1.0d
+			shape: "square"
+			description: ["Get a Rose Gold Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "66F1AA7B3A7CF993"
+			tasks: [{
+				id: "7010007A4C545969"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:rose_gold"
+					}
+				}
+			}]
+			rewards: [{
+				id: "10A4228F2CFB7BBF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:rose_gold"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.25d
+			y: 0.0d
+			shape: "square"
+			description: ["Get an Ender Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "008C21779EBE902B"
+			tasks: [{
+				id: "6C7A853073E45E3B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:ender"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2225F4A7AACF41D2"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:ender"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: 0.0d
+			shape: "square"
+			description: ["Get an Enderium Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "1A35AD5F7C0F6594"
+			tasks: [{
+				id: "611CADC665FA1B92"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:enderium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "34FF62818DB541F7"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:enderium"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.25d
+			y: 0.5d
+			shape: "square"
+			description: ["Get an apatite Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "3DAD4B5EBAE02065"
+			tasks: [{
+				id: "36B6A0896690510E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:apatite"
+					}
+				}
+			}]
+			rewards: [{
+				id: "379F11337719DB29"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:apatite"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.75d
+			y: 1.5d
+			shape: "square"
+			description: ["Get a Stygian Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "7993BC32CF61E25C"
+			tasks: [{
+				id: "0448E494AC30D06A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:stygian"
+					}
+				}
+			}]
+			rewards: [{
+				id: "04972FF4B14A9EA8"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:stygian"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.25d
+			y: 1.0d
+			shape: "square"
+			description: ["Get a HDPE Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "7BBC631BA0DDCD33"
+			tasks: [{
+				id: "5EA3C8F26C768C68"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:hdpe"
+					}
+				}
+			}]
+			rewards: [{
+				id: "667092114ABEE88A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:hdpe"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: -1.5d
+			shape: "square"
+			description: ["Get a Constantan Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "2E4B82C2CCE1FB5E"
+			tasks: [{
+				id: "6AFF5E95C735D583"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:constantan"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5DC6C6FDB0B2F71E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:constantan"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: 2.0d
+			shape: "square"
+			description: ["Get a Netherite Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "6DAABA0BFBA47EB5"
+			tasks: [{
+				id: "4E94752B1E86833C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:netherite"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C006DEEFC49512C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:netherite"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: -0.5d
+			shape: "square"
+			description: ["Get an Uraninite Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "41F88D201EA6B7B7"
+			tasks: [{
+				id: "091684DF6462C27C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uraninite"
+					}
+				}
+			}]
+			rewards: [{
+				id: "458D7C95EBEAA183"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uraninite"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: 1.0d
+			shape: "square"
+			description: ["Get an Energized Steel Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "65662E97FF074E7E"
+			tasks: [{
+				id: "48C6801112AA7069"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:energized_steel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "221DA85194ED7A1F"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:energized_steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: 0.5d
+			shape: "square"
+			description: ["Get a Tin Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "1917CE66057B0BD7"
+			tasks: [{
+				id: "08BEED89AE17081C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+			}]
+			rewards: [{
+				id: "698485294A27F290"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.25d
+			y: -1.5d
+			shape: "square"
+			description: ["Get a Regalium Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "0FFDB6F9F293BB46"
+			tasks: [{
+				id: "01360E829D03B3D4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:regalium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B5F47BFC5D9A4BA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:regalium"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.25d
+			y: 0.5d
+			shape: "square"
+			description: ["Get a Dimensional Shard Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "1BFBD774CF474C98"
+			tasks: [{
+				id: "7D67EEDDBF7119E3"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dimensional_shard"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0CD36643E199C53B"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:dimensional_shard"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.25d
+			y: 1.5d
+			shape: "square"
+			description: ["Get an Elementium Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "2753BB4251C2430F"
+			tasks: [{
+				id: "125B24D77CD5F566"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:elementium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "05279AF586EA5A1E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:elementium"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: 2.0d
+			shape: "square"
+			description: ["Get a Fiery Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "78F46C60563BD1FC"
+			tasks: [{
+				id: "001A5088DD8CC109"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:fiery"
+					}
+				}
+			}]
+			rewards: [{
+				id: "744B1E0C11492B1A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:fiery"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.75d
+			y: 1.5d
+			shape: "square"
+			description: ["Get a Manyullyn Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "6C3C21A18741F08C"
+			tasks: [{
+				id: "68348AC6F8CE6A95"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:manyullyn"
+					}
+				}
+			}]
+			rewards: [{
+				id: "68AC552068EF1CF3"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:manyullyn"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.25d
+			y: 0.5d
+			shape: "square"
+			description: ["Get a Lead Singularity."]
+			hide_dependency_lines: true
+			dependencies: ["01225FF9727AD15D"]
+			size: 0.5d
+			id: "28D2487542519276"
+			tasks: [{
+				id: "714CF498E00538C8"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+			}]
+			rewards: [{
+				id: "44DDA070ACE32EA8"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+			}]
+		}
+	]
+}
