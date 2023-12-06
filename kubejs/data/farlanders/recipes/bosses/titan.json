@@ -1,5 +1,5 @@
 {
-        "type": "cagedmobs:mob_data",
+        "type": "cagedmobs:entity_data",
         "entity": "farlanders:titan",
         "samplerTier": 3,
         "environments": ["end"],

@@ -2906,12 +2906,12 @@
 				{
 					id: "40055A22C636A638"
 					type: "item"
-					item: "cagedmobs:mobcage"
+					item: "cagedmobs:mob_cage"
 				}
 				{
 					id: "01FF0DDBA0AD0066"
 					type: "item"
-					item: "cagedmobs:hoppingmobcage"
+					item: "cagedmobs:hopping_mob_cage"
 				}
 			]
 			rewards: [{
@@ -2930,23 +2930,23 @@
 				{
 					id: "7B333582B87B4903"
 					type: "item"
-					item: "cagedmobs:dnasampler"
+					item: "cagedmobs:dna_sampler"
 				}
 				{
 					id: "6035C7D4EE378822"
 					type: "item"
-					item: "cagedmobs:dnasamplerdiamond"
+					item: "cagedmobs:diamond_dna_sampler"
 				}
 				{
 					id: "37580AAF0DD27BA4"
 					type: "item"
-					item: "cagedmobs:dnasamplernetherite"
+					item: "cagedmobs:netherite_dna_sampler"
 				}
 			]
 			rewards: [{
 				id: "4E8A590AE782C3C1"
 				type: "item"
-				item: "cagedmobs:dnasamplerdiamond"
+				item: "cagedmobs:diamond_dna_sampler"
 			}]
 		}
 		{

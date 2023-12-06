@@ -1,5 +1,5 @@
 {
-    "type": "cagedmobs:mob_data",
+    "type": "cagedmobs:entity_data",
     "entity": "rftoolsdim:dimensional_blob_legendary",
     "samplerTier": 3,
     "environments": ["rftool"],

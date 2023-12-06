@@ -39,4 +39,4 @@
         "A": {"type": "compactcrafting:block","block": "dustrial_decor:industrial_iron_block"}, 
         "B": {"type": "compactcrafting:block","block": "betterendforge:thallasium_bars"}, 
         "X": {"type": "compactcrafting:block","block": "minecraft:air"}},
-    "outputs": [{"id": "cagedmobs:mobcage","Count": 1}]}
+    "outputs": [{"id": "cagedmobs:mob_cage","Count": 1}]}

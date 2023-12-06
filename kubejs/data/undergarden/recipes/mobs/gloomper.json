@@ -1,5 +1,5 @@
 {
-    "type": "cagedmobs:mob_data",
+    "type": "cagedmobs:entity_data",
     "entity": "undergarden:gloomper",
     "samplerTier": 2,
     "environments": ["undergarden"],
